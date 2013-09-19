@@ -1,21 +1,73 @@
-PhD Project --Reading Course
-============================
+PhD Project Overview
+===================
 
-Note: This README file is specific to the 'ReadingCourse' branch of my PhD repo, and should only be commited there. Each branch has it's own README file.
+Repository contains the complete work for PhD project. Each sub-project is contained in a branch. The master branch contains only files common to **all** of the individual projects. 
 
-Objectives:
-----------
-Write a literature review paper as a reading course with James. Eventually, it should be submitted as a publication. 
+### Important branches are as follows:
+
+* [ ] ReadingCourse (Not directly in PhD, but useful resource for it)
+* [ ] Visual WM and Covert Attention (Ch. 1)
+* [ ] Prisms, SWM and TE (Ch. 2)
+* [ ] Saccadic Adaptation (Ch. 3)
+* [ ] Case study with Saccadic Adaptation (Ch. 4)
+* [ ] Cerebellar case study (may not be used in Dissertation)
+* [ ] Dissertation (containing contributions from all of the above)
 
 
-Topic
------
-Something to do with spacial working memory and saccadic adaptation, or visuomotor adaptation in general. I will probably stand to gain the most from a lit review of S.A. However, I want to explore what little overlap there is in the existing literature between S.A. and the spatial attention and working memory literature. Most S.A. literature concentrates on the psychophysics and low-level neural mechanisms. I want to avoid this in order to make this project as useful as possible to my future thesis writeup. 
+## Tasklist for Completion
+
+### Fall
+
+Enrol in BIO680 and Reading Course \
+Start collecting "summaries" for TN-700
+
+* [X] September 6th  - Meet to discuss this schedule
+* [X] September 13th
+* [ ] September 20th - *Choose reading course topic, start reading.*
+* [ ] September 27th - Complete analysis of S.A. controls. (Ch. 3)
+\
+* [ ] October 5   - Have S.A. task ready for neglect patient
+* [ ] October 12  - *Start writing review paper*
+* [ ] October 19  - Complete analysis of SWM/TE (Ch.2)
+* [ ] October 26
+\
+* [ ] November 2
+* [ ] November 9  - **Complete draft of Ch. 2**
+* [ ] November 16
+* [ ] November 23 - *First draft of review paper to James*
+* [ ] November 30 - *Complete review paper*
+\
+* [ ] December 7
+* [ ] December 14 - **Complete draft of Ch.3**
+* [ ] December 21 - Complete analysis of Vis.W.M. (Ch.1)
+* [ ] December 28
 
 
-Notes
------
-Ongoing notes will be kept chronologically here.
+### Winter
+
+* [ ] January 4   - Single case should be collected by now
+* [ ] January 11  - **Complete draft of Ch. 1**
+* [ ] January 18
+* [ ] January 25  - Complete analysis of single case (Ch.4)
+\
+* [ ] February 1
+* [ ] February 8  - **Complete draft of Ch. 4**
+* [ ] February 15
+* [ ] February 22 - **Complete draft of Intro and Concl.**
+\
+* [ ] March 1     - **First draft of thesis to James**
+* [ ] March 8
+* [ ] March 15
+* [ ] March 22
+* [ ] March 29
+\
+* [ ] April 5     - **Draft to External**
+* [ ] April 12    - Complete TN-700 summaries (4 F, 4 brain day, 2 W)
+* [ ] April 19
+* [ ] April 26
+\
+* [ ] May 3       - **Anticipated Defence Date**
+
 
 ### September 19, 2013
 Literature created in Zotero under "Reading Course." I'll periodically export the collection in the folder 'bib' here. I'm not sure what software I will use to write this up with for now, so the 'bib' folder may end up with the list in a couple formats. 
