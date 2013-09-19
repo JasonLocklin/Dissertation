@@ -69,6 +69,15 @@ Start collecting "summaries" for TN-700
 * [ ] May 3       - **Anticipated Defence Date**
 
 
+
+Reading Course
+=============
+
+This branch is for completing the review paper for a reading course with James. The branch will either be renamed, or a new one created
+with a more descriptive name for preparing the paper for publication.
+
+Below is a chronological notebook/scratch pad. 
+
 ### September 19, 2013
 Literature created in Zotero under "Reading Course." I'll periodically export the collection in the folder 'bib' here. I'm not sure what software I will use to write this up with for now, so the 'bib' folder may end up with the list in a couple formats. 
 
