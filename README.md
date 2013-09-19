@@ -18,4 +18,6 @@ Notes
 Ongoing notes will be kept chronologically here.
 
 ### September 19, 2013
+Literature created in Zotero under "Reading Course." I'll periodically export the collection in the folder 'bib' here. I'm not sure what software I will use to write this up with for now, so the 'bib' folder may end up with the list in a couple formats. 
 
+Right now I need to come up with a concrete topic to talk to James about, so I'm just surveying the S.A. lit that I already have.
