@@ -72,22 +72,6 @@ Start collecting "summaries" for TN-700
 * [ ] April 12    - Complete TN-700 summaries (4 F, 4 brain day, 2 W)
 * [ ] April 19
 * [ ] April 26
+
 .
 * [ ] May 3       - **Anticipated Defence Date**
-
-
-
-
-Reading Course
-=============
-
-This branch is for completing the review paper for a reading course with James. The branch will either be renamed, or a new one created
-with a more descriptive name for preparing the paper for publication.
-
-Below is a chronological notebook/scratch pad. 
-
-### September 19, 2013
-Literature created in Zotero under "Reading Course." I'll periodically export the collection in the folder 'bib' here. I'm not sure what software I will use to write this up with for now, so the 'bib' folder may end up with the list in a couple formats. 
-
-Right now I need to come up with a concrete topic to talk to James about, so I'm just surveying the S.A. lit that I already have.
-
