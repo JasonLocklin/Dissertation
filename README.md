@@ -24,11 +24,11 @@ Start collecting "summaries" for TN-700
 
 * [X] September 6th  ~~- Meet to discuss this schedule~~
 * [X] September 13th
-* [ ] September 20th - *Choose reading course topic, start reading.*
-* [ ] September 27th - Complete analysis of S.A. controls. (Ch. 3)
+* [X] September 20th - *Choose reading course topic, start reading.*
+* [X] September 27th - 
 
 .
-* [ ] October 5   - Have S.A. task ready for neglect patient
+* [ ] October 5   - Complete analysis of S.A. controls. (Ch. 3) and prep S.A. task for neglect patient
 * [ ] October 12  - *Start writing review paper*
 * [ ] October 19  - Complete analysis of SWM/TE (Ch.2)
 * [ ] October 26
