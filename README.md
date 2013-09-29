@@ -3,7 +3,7 @@ PhD Project Overview
 
 Each sub-project is contained in a branch. The master branch contains only files common to **all** of the individual projects. 
 
-### Important branches:
+### Branches:
 
 * [ ] ReadingCourse (Not directly in PhD, but useful resource for it)
 * [ ] Visual WM and Covert Attention (Ch. 1)
@@ -24,8 +24,8 @@ Start collecting "summaries" for TN-700
 
 * [X] September 6th  ~~- Meet to discuss this schedule~~
 * [X] September 13th
-* [X] September 20th - *Choose reading course topic, start reading.*
-* [X] September 27th - 
+* [X] September 20th ~~Choose reading course topic, start reading.~~
+* [X] September 27th ~~Finish some prelim anlys and figs for VWM,Cov,Prisms(LB,SWM,TE),and SA for "5min thesis"~~
 
 .
 * [ ] October 5   - Complete analysis of S.A. controls. (Ch. 3) and prep S.A. task for neglect patient
