@@ -13,3 +13,4 @@ Right now I need to come up with a concrete topic to talk to James about, so I'm
 
 ### October 05, 2013
 James want's the more general topic of  "Saccadic adaptation influences on perception." I am still looking for as much clinically relevant studies like the VSS poster I emailed David Pelisson about. 
+This branch is issue #2
