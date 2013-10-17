@@ -15,3 +15,6 @@ Right now I need to come up with a concrete topic to talk to James about, so I'm
 James want's the more general topic of  "Saccadic adaptation influences on perception." I am still looking for as much clinically relevant studies like the VSS poster I emailed David Pelisson about. 
 This branch is issue #2.
 For an outline of of this paper, see 'outline.m'. 
+
+### October 17, 2013 
+Organized all S.A. papers into subfolders of the Zotero library. Folders are numbered to match sections in outline. Worked on populating outline with topics and suggested articles for those topics. Up to "Cerebellum" in zotero library.
