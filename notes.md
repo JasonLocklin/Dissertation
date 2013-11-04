@@ -18,3 +18,6 @@ For an outline of of this paper, see 'outline.m'.
 
 ### October 17, 2013 
 Organized all S.A. papers into subfolders of the Zotero library. Folders are numbered to match sections in outline. Worked on populating outline with topics and suggested articles for those topics. Up to "Cerebellum" in zotero library.
+
+## October 18, 2013 
+
