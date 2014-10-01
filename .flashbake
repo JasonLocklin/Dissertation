@@ -1,0 +1,8 @@
+#Plugins
+plugins:flashbake.plugins.weather:Weather
+weather_city:Kitchener
+
+
+#hot files
+*.md
+
