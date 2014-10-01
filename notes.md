@@ -66,7 +66,14 @@ CNS Brownbag in 11 days. Origionally planned on getting Neglect
 participant data collected for it, but it's too late now. 
 
 
+## 13.08.2014
+Working offline at cottage. When in town, online, do the following in order:
 
-
+- Get ipad to download attachments from zotero
+- Pull updates to notes.md and outline.md from work computer
+X Fix netbook zotero to sync over webdav.
+X proxy or ssh-vpn to U.W.
+X get as many pdfs from the SA collection into zotero as possible, 
+starting with the lesion studies. 
 
  

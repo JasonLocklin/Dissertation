@@ -5,7 +5,7 @@ Each sub-project is contained in a branch. The master branch contains only files
 
 ### Branches:
 
-* [ ] ReadingCourse (Not directly in PhD, but useful resource for it)
+* [ ] ReadingCourse (Will become intro for Ch 3-4)
 * [ ] Visual WM and Covert Attention (Ch. 1)
 * [ ] Prisms, SWM and TE (Ch. 2)
 * [ ] Saccadic Adaptation (Ch. 3)
