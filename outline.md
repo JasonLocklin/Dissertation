@@ -135,32 +135,47 @@ a complex, multi-level sysetem involving various neurals structures.
 Saccades triggered by exogenous cues, like a sudden movement or
 appearance of an object in the periphery are considered reactive
 saccades and are typically contrasted with voluntary saccades.
-Voluntary saccades are the type of normal eye movements performed based
-on the execution and monitoring of internal goals like searching for an
-object or monitoring the progress of a manual task. While this
-destinction doesn't appear to bear out in the cerebellum
-[@Schraa-Tam2009!], it does seem to explain a degree of functional
-specialization in the oculomotor areas of the cerebral cortex
-[@Johnston2008!, @Muri2009!]. As a result, it's valuable to keep in mind
-the destinction when comparing results from experiments which may be utilizing
-different saccade types, and when atempting to extrapolate mechanistic
-models based on simple reactive saccades to more naturalistic behaviour.
+Voluntary saccades are the type of normal eye movements performed
+based on the execution and monitoring of internal goals like
+searching for an object or monitoring the progress of a manual task.
+While this destinction doesn't appear to bear out in the cerebellum,
+it does seem to explain a degree of functional specialization in the
+oculomotor areas of the cerebral cortex [@Schraa-Tam2009,@Müri2008].
+As a result, it's valuable to keep in mind the destinction when
+comparing results from experiments which may be utilizing different
+saccade types, and when atempting to extrapolate mechanistic models
+based on simple reactive saccades to more naturalistic behaviour.
 
 Todo: expand above paragraph into multiple paragraphs with:
+* Cortical areas showing differential activation in humans [@Schraa-Tam2009].
+* @Müri2008 provides a review of leason and TMS studies investigating cortical
+dependants of volitional and reactive saccades.
+* Cortical areas showing differential activation in primates [@Johnston2008].
 * Cerebellar lesions may affect reactive saccades, but not
 self-generated saccades [@Straube1995].
-* In a study of patients
-with cerebellar lesions, @Panouillères found that while damage to
+* Seperate neural substrates in the human cerebellum for adaptation of
+reactive and voluntary saccades [@Alahyane2008].
+* @Panouillères2013 examined the cerebellar substrates of adaptive
+shortening by looking for dissasociations between reactive and volitional
+saccades among patients with damage to, or impaired input to (because of
+Wallenberg Syndrome), regions of the cerebellum. In a study of patients
+with cerebellar lesions, @Panouillères2013 found that while damage to
 the medio-posterior cerebellum does not differentially impair either
 reactive or volitional saccades, damage to supero-anterior regions showed
 specific deficits in the adaptation of voluntary saccades.
 
+#### Volitional vs. Reactive (Behavioral)
+* Other papers examining the differing mechanisms (but not neural substrates)
+between reactive and voluntary saccades [@Alahyane2007, @Collins2006,
+@Cotti2007, @Cotti2009, @Deubel1995, @Erkelens1993, @Fujita2002,
+@Zimmermann2009].
+
 #### Lengthening or shortening of saccades may involve distict mechanisms
 
 * Inward and Outward or lengthening and shortening adaptation, or
-backwar and forward adaptation may involve different mechanisms, and
-have different purposes. (fatigue). See @Catz2008, @Golla2008,
-@Hernandez2008!, @Kojima2004!, @Panouilleres2009!, @Panouilleres2012,
+backward and forward adaptation may involve different mechanisms, and
+have different purposes. (eg. fatigue). See @Catz2008, @Golla2008,
+@Hernandez2008!, @Kojima2004!, @Panouillères2009!, @Panouillères2012,
 @Zimmermann2009!,
 
 @Golla2008 tested controls and patients with cerebellar damage on a
@@ -170,6 +185,35 @@ adapted to the augmentation by increasing saccade durration, but not
 peak velocity. They adapted to inward adaptation, or reduction, by both
 parameters. In contrast, patients with damage to the oculomotor vermis
 TODO: Find a place for this paper and provide a better summary.
+
+
+Medio-posterior cerebellum (oculomotor vermis composed of lobules
+VI–VII and caudal part of the fastigial nucleus) contributes to
+backward adaptation of reactive saccades [@HoppFuchs2004!,
+@IwamotoKaku2010!, @Pelisson2010!; PrsaThier2011!; Tian2009!]. For
+example, patients with lesions of the cerebellar vermis [@Golla2008],
+or with a neurodegenerative desease which happens to primarily damage
+the Purkinje cells of the vermis [@Xu-Wilson2009!] are unresponsive to
+saccade shortening, reactive saccadic adaptation. TODO: Further evedence
+provided by [@Desmurget1998, @Jenkin-sonMiall2010!].
+
+It also requires mentioning that there is some evidence of
+involvement of other parts of the cerebellum in the adaptation of
+reactive saccades. @Panouillères2012 was able to modify reactive
+saccade adaptation with transcranial magnetic stimulation of the
+hemispheric lobule Crus I. Others have found further hints of
+hemispheric involvement [@Alahyane2008!, @Choi2008, @Straube2001!, @Broekhoven2009].
+
+TODO: neural substrates of reactive saccadde *lengthening*?
+
+Much less work has been done examining the neural substrates of the
+adaptation of volitional saccades. @Alahyane2008 examined deficits
+in both reactive and voluntary adapataion after lesions in both the medial
+and lateral parts of the cerebellum TODO: expand. @Gerardin2012! used
+neuroimaging to investigate both the cortical and cerebellar correlates
+of the two types of saccades. Interestingly, hemispheric lobules
+VIIb–VIIIa of the cerebellum were found to be activated during both types
+of saccades.
 
 
 
@@ -308,7 +352,7 @@ atrophy and cerebellar infarction [@Choi2008].
 #### Cerebellum
 
 The cerebellum is a key area for movement control and sensory-motor
-plasticity. A full analysis of what is known about the neural
+plasticity [@Glickstein2011!]. A full analysis of what is known about the neural
 substrates of saccadic adaptation in the cerebellum would be beyond the
 scope of this dissertation. However, the vast majority of neuroscience
 research investigating saccadic adaptation has investigeted, and
@@ -320,16 +364,16 @@ involement. For more extensive reviews, see @Iwamoto2010 and @Pelisson2010.
 
 Medial, posterior, cerebellum (vermis and fastigial nuclei) is thot to
 be central in the control of accuracy and adaptive calibration of
-saccadic eye movements [for reviews see: @Hopp2004!, @Pelisson2003!, @Pelisson2010!].
+saccadic eye movements [for reviews see: @Hopp2004, @Pelisson2003!, @Pelisson2010!].
 For example, repetitive transcranial magnetic stimulation of the
 medioposterior cerebellum has been shown to produce an inhibitory effect
 on saccadic adaptation [@Jenkinson2010!]. Evidence for the role of other
 areas of the cerebellum is much more spurratic and and difficult to
 glean a clear-cut role from. Deficits of saccadic adaptation observed in
 humans with cerebellar lesions suggest possible importance of lateral structures
-[@Alahyane2008!, @Choi2008!, @Golla2008!, Straube2001!]. Some electophysiological
+[@Alahyane2008!, @Choi2008, @Golla2008!, Straube2001!]. Some electophysiological
 studies [@Mano1991, @Ron1973] and imaging studies
-[@Dieterich2000!, @Hayakawa2002!, @Schraa-Tam2009!] have hinted at other parts
+[@Dieterich2000!, @Hayakawa2002!, @Schraa-Tam2009] have hinted at other parts
 of the cerrebellum being involved in the control of saccades TODO: expand above.
 
 In order to investigate the involvement of lateral cerebellum,
@@ -384,7 +428,7 @@ could, indeed, modify electrically evoked movements with saccadic
 adaptation if the electrical stimuli were very low current (near
 threshold), and when the velocity of electrically evoked saccades was
 simmilar to the visually guided saccades in the adaptation.
-TODO: this part needs to be updated re @Edelman above: Cell recordings off
+TODO: this part needs to be updated re @Edelman2002 above: Cell recordings off
 collicular motor cells also show a remarkable consistancy in the face
 of behavioral saccadic adaptation [@Goldberg1993; @Frens1997]. This
 result would indicate the parametric adaptation is being added after
@@ -393,7 +437,7 @@ debate in the literature without a satisfactory resolution
 [@Fitzgibbon1986; @Melis1996].
 
 * Cerebellum is also known to play a part in generation of goal-directed
-saccades [@Noda1991; Lewis1993]. (From Desmurget2000).
+saccades [@Noda1991; @Lewis1993]. (From Desmurget2000).
 
 
 
@@ -444,9 +488,11 @@ estimate of the earliest stages of vision, and the latest stages of
 perception and action systems that are involved in saccadic adaptation,
 providing a rough outline of the functional anatomy.
 
-
 * Separate neural substrates for reactive vs. voluntary saccades
 * Express vs. targeting saccades indicate earliest stage [@Hopp2002]
+* Adaptation of Express and targetting saccades transfer suggesting simmilar
+mechanisms, in contrast with memory-guided saccades, which do not transfer to
+adaptation or express saccades [@Hopp2010].
 
 ### Learning models comparison
 
@@ -489,7 +535,7 @@ strongly coupled to goal-direction actions Neggers2001GazeAnchoring.
   on perception. Purpose is to demonstrate SA and perception are
   related, as well as seaway to the next section.
 
-
+* Mislocalization [@Zimmermann2009].
 
 
 Lasting Perceptual Effects & Implications for Clinical Populations

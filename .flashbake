@@ -1,6 +1,6 @@
 #Plugins
 plugins:flashbake.plugins.weather:Weather
-weather_city:Kitchener
+#weather_city:/Kitchener
 
 
 #hot files
