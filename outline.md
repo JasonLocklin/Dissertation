@@ -202,14 +202,14 @@ involvement of other parts of the cerebellum in the adaptation of
 reactive saccades. @Panouillères2012 was able to modify reactive
 saccade adaptation with transcranial magnetic stimulation of the
 hemispheric lobule Crus I. Others have found further hints of
-hemispheric involvement [@Alahyane2008!, @Choi2008, @Straube2001!, @Broekhoven2009].
+hemispheric involvement [@Alahyane2008, @Choi2008, @Straube2001, @Broekhoven2009].
 
 TODO: neural substrates of reactive saccadde *lengthening*?
 
 Much less work has been done examining the neural substrates of the
 adaptation of volitional saccades. @Alahyane2008 examined deficits
 in both reactive and voluntary adapataion after lesions in both the medial
-and lateral parts of the cerebellum TODO: expand. @Gerardin2012! used
+and lateral parts of the cerebellum TODO: expand. @Gerardin2012 used
 neuroimaging to investigate both the cortical and cerebellar correlates
 of the two types of saccades. Interestingly, hemispheric lobules
 VIIb–VIIIa of the cerebellum were found to be activated during both types
@@ -219,7 +219,7 @@ of saccades.
 
 
 Functional Basis of Saccadic Adaptation
--------------------------------------
+---------------------------------------
 
 
 * Organizing by Types of Evidence:
@@ -352,7 +352,7 @@ atrophy and cerebellar infarction [@Choi2008].
 #### Cerebellum
 
 The cerebellum is a key area for movement control and sensory-motor
-plasticity [@Glickstein2011!]. A full analysis of what is known about the neural
+plasticity [@Glickstein2011]. A full analysis of what is known about the neural
 substrates of saccadic adaptation in the cerebellum would be beyond the
 scope of this dissertation. However, the vast majority of neuroscience
 research investigating saccadic adaptation has investigeted, and
@@ -362,19 +362,22 @@ parameters. As a result, this a dedicated section is necissary here to
 provide an overview of the state the current models of cerebellar
 involement. For more extensive reviews, see @Iwamoto2010 and @Pelisson2010.
 
-Medial, posterior, cerebellum (vermis and fastigial nuclei) is thot to
+Medial, posterior, cerebellum (vermis and fastigial nuclei) is thought to
 be central in the control of accuracy and adaptive calibration of
-saccadic eye movements [for reviews see: @Hopp2004, @Pelisson2003!, @Pelisson2010!].
+saccadic eye movements [for reviews see: @Hopp2004, @Pélisson2003, @Pélisson2010].
 For example, repetitive transcranial magnetic stimulation of the
 medioposterior cerebellum has been shown to produce an inhibitory effect
-on saccadic adaptation [@Jenkinson2010!]. Evidence for the role of other
-areas of the cerebellum is much more spurratic and and difficult to
+on saccadic adaptation [@Jenkinson2010]. Evidence for the role of other
+areas of the cerebellum is much more sporadic and and difficult to
 glean a clear-cut role from. Deficits of saccadic adaptation observed in
 humans with cerebellar lesions suggest possible importance of lateral structures
-[@Alahyane2008!, @Choi2008, @Golla2008!, Straube2001!]. Some electophysiological
+[@Alahyane2008, @Choi2008, @Golla2008, Straube2001]. Some electophysiological
 studies [@Mano1991, @Ron1973] and imaging studies
 [@Dieterich2000!, @Hayakawa2002!, @Schraa-Tam2009] have hinted at other parts
 of the cerrebellum being involved in the control of saccades TODO: expand above.
+
+* Medial/lateral is to reactive/scanning in two lesion patients [@Alahyane2008]
+* Inward/Outward adaptation and fatigue (14 patients)[@Golla2008].
 
 In order to investigate the involvement of lateral cerebellum,
 @Panouillères2012 found that TMS over the human left Crus I of the
