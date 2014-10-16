@@ -68,7 +68,7 @@ Unilateral Neglect or other related disorders.
 
 
 
-### Volitional and Reactive Saccades are Distinct 
+### Volitional and Reactive Saccades are Distinct
 
 Saccades, generally, can be subdivided into two types based on
 function. Humans and most other visual animals respond to sudden
@@ -88,9 +88,9 @@ systems. As such, unlike reactive saccades, these voluntary saccades
 are very likely to involve move extensive functional brain areas, and
 exhibit somewhat different characteristics. Besides different functional
 brain structures, volitional and reactive saccades, also called targetting
-and express saccades, respectively in the literature, present different 
+and express saccades, respectively in the literature, present different
 behavioral characteristics. For example, reactive saccades exhibit
-very short latencies when compared with volitional saccades [tk]. 
+very short latencies when compared with volitional saccades [tk].
 
 
 #### Different Systems.
@@ -110,7 +110,7 @@ saccade types, and when atempting to extrapolate mechanistic models
 based on simple reactive saccades to more naturalistic behaviour.
 
 Cerebellum is also known to play a part in generation of goal-directed
-saccades [@Noda1991!; @Lewis1993!]. (From Desmurget2000).
+saccades [@Noda1991, @Lewis1992].
 
 The superior colliculus is known to be critically involved in
 generating goal-directed saccades [@Sparks1990; @Guitton1991].
@@ -217,10 +217,11 @@ The population response of Purkinje cells in the cerebellum seems
 to encode or influence the duration of normal and gain-increased
 saccades, but not gain-decreased saccades[@Catz2008].
 
-Saccadic augmentation and reduction  may involve distinct, in part at
-least, mechanisms, and have different purposes, See
-@Catz2008, @Golla2008, @Hernandez2008!, @Kojima2004!,
-@Panouillères2009!, @Panouillères2012, @Zimmermann2009!.
+Saccadic augmentation and reduction  may involve distinct, in part
+at least, mechanisms, and have different purposes, See @Catz2008,
+@Golla2008, @Hernandez2008, @Panouillères2009, @Panouillères2012,
+@Zimmermann2009!. @Panouillères2009 goes on to describe TODO: describe,
+and supporting that idea, @Panouillères2012 performed a TMS study that...
 
 @Golla2008 tested controls and patients with cerebellar damage on a
 saccadic adaptation task involving both augmented and shortened
@@ -238,7 +239,7 @@ While variants of the standard target-purturbation based paradigm are
 the base of research investigating saccadic adaptation, much of the
 information about the structural functionality maintaining saccadic
 accuracy come from the effects of lesions or other neural dysfunction,
-and animal research. 
+and animal research.
 
 Because saccadic adaptation is an important low-level function of
 mammilian visual systems -which all have imperfect ability to produce
@@ -388,7 +389,7 @@ VII, commonly called the posterior, or oculomotor vermis, is probably
 the best studied and well known contributor to the control of saccadic
 eye movements. Purkinje cells in this area are sensitive to eye
 position and, as a population, encode saccade parameters like saccade
-timing and direction [@Thier2002]. 
+timing and direction [@Thier2002].
 
 
 Medio-posterior cerebellum (oculomotor vermis
@@ -485,7 +486,7 @@ that parametric adaptation occuring downstream of the colliculus.
 Some evidence that more than the superior colliculus / cerebellum
 loop are available. Cortical frontal eye fields may be involved in
 saccadic adaptation [@Frens1994!; @Noto1999!]...
- 
+
 [paralell pathways] @Melis1996 used a target-jump paradigm to
 adaptively modify electrically stimulated saccades (superior
 colliculus). After adaptation, only a partial transfer to visually
@@ -584,13 +585,13 @@ error signals influence dynamics (peak velocity) [@Straube1995], and
 what does this tell us about saccadic regulation [@Ethier2008]
 
 Prediction based error signal [@Wong2012]
-  
+
 
 
 Perceptual Effects of Saccadic Adaptation
 -------------------------------------
 
-### Transiant modifications of spatial perception occurs around saccade 
+### Transiant modifications of spatial perception occurs around saccade
 
 Saccades are a motor action that has the potential for the strongest
 influence on perception. Eye movements are continually responsible for
@@ -609,6 +610,13 @@ strongly coupled to goal-direction actions Neggers2001GazeAnchoring.
   related, as well as seaway to the next section.
 
 * Mislocalization [@Zimmermann2009].
+
+@Hernandez2008 found that saccade lengthening (but not shortening)
+transfered to pointing gestures to flashed targets. They try to account
+for the effect as a combination of retinal location, sensorimotor
+transform of retinal-to-extraocular muscles (of an encoded saccade), and
+eye position. They postulate that the saccade lengthening adaptation
+modifies TODO:understand this paper.
 
 * Importantly, are the effects transient or lasting? [@Alahyane2005]
 
