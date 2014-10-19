@@ -14,22 +14,25 @@ control systems.
 
 
 [accuracy is maintained through adaptation] Any motor system must
-incorporate a realistic expectation of inaccuracy, and perform in way
-that minimises consequences. Because on-line feedback is not available
-in this particular case, the visual motor system is forced to rely on
-information gleaned after-the-fact, or, in other words, "error
-signals," to maintain effective control mechanism parameters[]. There
-exists a rich, half-century of investigation into this short-term
-parametric adaptation of saccades, or simply "saccadic adaptation,"
-based on the origional paradigm developed by [@mclaughlin1967].
-Saccaddic adaptation tasks mimick and amplify oculomotor processes that
-occur naturally and on a continual basis in humans. For example,
-neuromuscular changes, such as a paresis of ocular muscles, or the
-wearing of magnifying glasses, result in some saccadic error, and the
-neuroplasticity underlying saccadic adaptation permit correction so
-that vision is not impaired. These types of purturbations can be
-monocular or binocular [@Erkelens1989] and can effect saccadic accuracy
-in various dimensions[].
+incorporate a realistic expectation of inaccuracy, and perform in
+way that minimises consequences. Because on-line feedback is not
+available in this particular case, the visual motor system is forced
+to rely on information gleaned after-the-fact, or, in other words,
+"error signals," to maintain effective control mechanism parameters
+[]. There exists a rich, half-century of investigation into this
+short-term parametric adaptation of saccades, or simply "saccadic
+adaptation," based on the origional paradigm developed by
+@mclaughlin1967. Saccaddic adaptation tasks mimick and amplify
+oculomotor processes that occur naturally and on a continual basis
+in humans. For example, neuromuscular changes, such as a changes in
+the strength and funciton paresis of ocular muscles due to paresis,
+injury [@Kommerell1976Adaptive programming!], or aging
+[@warabi1984Effect of aging!], or the wearing of magnifying glasses
+[tk], result in some saccadic error, and the neuroplasticity
+underlying saccadic adaptation permit correction so that vision is
+not impaired. These types of purturbations can be monocular or
+binocular [@Erkelens1989] and can effect saccadic accuracy in
+various dimensions[].
 
 [SA is motoric, but also perception -compare with prisms] From the
 earliest discussion, saccadic adaptation has been compared to prism
@@ -219,8 +222,8 @@ saccades, but not gain-decreased saccades[@Catz2008].
 
 Saccadic augmentation and reduction  may involve distinct, in part
 at least, mechanisms, and have different purposes, See @Catz2008,
-@Golla2008, @Hernandez2008, @Panouillères2009, @Panouillères2012,
-@Zimmermann2009!. @Panouillères2009 goes on to describe TODO: describe,
+@Golla2008, @Hernandez2008, @Panouillères2009, @Panouillères2012.
+@Panouillères2009 goes on to describe TODO: describe,
 and supporting that idea, @Panouillères2012 performed a TMS study that...
 
 @Golla2008 tested controls and patients with cerebellar damage on a
@@ -336,7 +339,7 @@ clear-cut role from. Deficits of saccadic adaptation observed in humans
 with cerebellar lesions suggest possible importance of lateral
 structures [@Alahyane2008, @Choi2008, @Golla2008, Straube2001]. Some
 electophysiological studies [@Mano1991, @Ron1973] and imaging studies
-[@Dieterich2000!, @Hayakawa2002!, @Schraa-Tam2009] have hinted at other
+[@Dieterich2000, @Schraa-Tam2009] have hinted at other
 parts of the cerrebellum being involved in the control of saccades
 
 
@@ -668,3 +671,18 @@ cerebellar degeneration, but generally, the task may be an unexamined
 
 
 [current project]
+
+
+
+Scratch
+--------
+@Hopp2014: a slide in post-saccadic eye position has been induced by exponen-
+tial motion of a full-field stimulus at the end of a saccade
+(e.g., Optican and Miles, 1985; Deubel, 1991; Kapoula et al.,
+1987).
+
+@Hopp2014: SA can be induced by the wearing of
+specialized prisms (Henson, 1978) or anisotropic glasses
+(Lemij and Collewijn, 1991; Albano and Marrero, 1995;
+Erkelens et al., 1989; Oohira et al., 1991; Bush et al., 1994;
+Averbuch-Heller et al., 1999).
