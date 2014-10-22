@@ -637,6 +637,22 @@ like saccadic adaptation, than previously though.
 * 2 basic types of enduring effects. Attention and motor transfer.
 
 
+Immediately prior to the initiation of an eyemovement, visual
+attention is directed to the next location, this phenominon is
+otherwise known as the pressacadeic attention shift
+[@Deubel1996,@Hoffman1995]. It's plausible, then, that saccadic
+adaptation would have caryon effects on the deployment of attention.
+Unfortunately, this potential interaction between attention and
+saccadic adaptation is unclear and poorly studied. @Ditterich2000
+examined this presaccadic attention shift before and after saccadic
+adaptation, and was unable to induce a change in the presaccadic
+attention shift location.
+
+Interestingly, @McFadden2002! found that they could directly adapt
+attentional deployment by tk, and that the adaptation carried over to
+saccades. TODO: finish.
+
+
 
 Saccadic Adaptation for Patients with Perceptual Biases
 -------------------------------------------------
@@ -676,13 +692,30 @@ cerebellar degeneration, but generally, the task may be an unexamined
 
 Scratch
 --------
-@Hopp2014: a slide in post-saccadic eye position has been induced by exponen-
+@Hopp2004: a slide in post-saccadic eye position has been induced by exponen-
 tial motion of a full-field stimulus at the end of a saccade
 (e.g., Optican and Miles, 1985; Deubel, 1991; Kapoula et al.,
 1987).
 
-@Hopp2014: SA can be induced by the wearing of
+@Hopp2004: SA can be induced by the wearing of
 specialized prisms (Henson, 1978) or anisotropic glasses
 (Lemij and Collewijn, 1991; Albano and Marrero, 1995;
 Erkelens et al., 1989; Oohira et al., 1991; Bush et al., 1994;
 Averbuch-Heller et al., 1999).
+
+@Hopp2004: By analogy with such SC “motor fields”, Frens and
+van Opstal (1997) named the spatial property of saccadic
+adaptation an “adaptation field.”
+
+@Hopp2004: In both monkeys and humans, a spot target that moves across
+a stationary background, whether a random dot pattern, a
+combination of squares and circles, or a color photo, in-
+duces robust adaptation if the spot target alone undergoes
+an adaptation step (Deubel, 1995a; Ditterich et al., 1999;
+Robinson et al., 2000). Furthermore, in humans, adapta-
+tion to a spot target with or without a background present
+is statistically the same (Ditterich et al., 1999)
+
+@Hopp2004: the focus of attention itself does
+not seem to shift with saccadic adaptation. In the experi-
+ments of Ditterich et al. (2000a)...
