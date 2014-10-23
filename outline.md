@@ -637,20 +637,31 @@ like saccadic adaptation, than previously though.
 * 2 basic types of enduring effects. Attention and motor transfer.
 
 
-Immediately prior to the initiation of an eyemovement, visual
-attention is directed to the next location, this phenominon is
-otherwise known as the pressacadeic attention shift
-[@Deubel1996,@Hoffman1995]. It's plausible, then, that saccadic
-adaptation would have caryon effects on the deployment of attention.
-Unfortunately, this potential interaction between attention and
-saccadic adaptation is unclear and poorly studied. @Ditterich2000
-examined this presaccadic attention shift before and after saccadic
-adaptation, and was unable to induce a change in the presaccadic
-attention shift location.
+[Attention and Saccades are linked, but SA?] Immediately prior to
+the initiation of an eyemovement, visual attention is directed to
+the intended location. This phenominon, first described in other
+terms by @Crovitz1962, is now known as the pressacadeic attention
+shift [@Deubel1996,@Hoffman1995]. While the attentional system has
+long been convincingly described as destinct from the saccadic motor
+system [@Posner1980,@Koch1985,@Clark1999], it does not appear to be
+possible to make eye movements without experiencing an associated
+attentional shift [@Deubel1996,@Kowler1995], fundamentally linking
+the two. It's plausible, then, that saccadic adaptation would have
+cary-on effects on the deployment of attention. Unfortunately, this
+potential interaction between attention and saccadic adaptation is
+unclear and poorly studied. @Ditterich2000 examined this presaccadic
+attention shift before and after saccadic adaptation, and was unable
+to induce a change in the presaccadic attention shift location.
+(FIXME: not sure if I need to nod to premotor theory ^)
 
-Interestingly, @McFadden2002! found that they could directly adapt
-attentional deployment by tk, and that the adaptation carried over to
-saccades. TODO: finish.
+[]Interestingly, @McFadden2002 found that they could directly adapt
+attentional deployment in the absense of any eye movement. They cued
+attention to a peripheral location, and then purturbed the cue back
+toward fixation at a time interval estimated to coincide with an
+attentional shift. They found that attentional shifts became
+gradually reduced. They also found that when the participant was
+allowed to make eye movements, the adaptation had transfered to
+saccades as well [@McFadden2002]. FIXME: and this is important why?
 
 
 
