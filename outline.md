@@ -19,7 +19,7 @@ way that minimises consequences. Because on-line feedback is not
 available in this particular case, the visual motor system is forced
 to rely on information gleaned after-the-fact, or, in other words,
 "error signals," to maintain effective control mechanism parameters
-[]. There exists a rich, half-century of investigation into this
+[tk]. There exists a rich, half-century of investigation into this
 short-term parametric adaptation of saccades, or simply "saccadic
 adaptation," based on the origional paradigm developed by
 @mclaughlin1967. Saccaddic adaptation tasks mimick and amplify
@@ -32,7 +32,7 @@ injury [@Kommerell1976Adaptive programming!], or aging
 underlying saccadic adaptation permit correction so that vision is
 not impaired. These types of purturbations can be monocular or
 binocular [@Erkelens1989] and can effect saccadic accuracy in
-various dimensions[].
+various dimensions[tk].
 
 [SA is motoric, but also perception -compare with prisms] From the
 earliest discussion, saccadic adaptation has been compared to prism
@@ -60,7 +60,7 @@ relatively simple "error signal" into a type of universal saccadic
 There is, in fact, more than one type of error signal that the brain
 could make use of, from both motor afferent signals and the visual
 system, as well as several possible parametric ways of changing saccade
-amplitude []. This complex set of features make saccadic adaptation an
+amplitude [tk]. This complex set of features make saccadic adaptation an
 interesting way to investigate functional plasticity mechanisms in the
 brain, and provides a clear contrast with prisms, for which the
 updating mechanisms are not functionally equivelant. This comparable,
@@ -145,30 +145,33 @@ Saccadic Adaptation Paradigm and Established Results
 
 [position and direction specificity] Some of the most reliable
 characteristics found when investigating saccadic adaptation are
-position and direction specificity. When saccades are adapted to
-targets restricted to a particular location in retinal (2D) space, the
-effects do not transfer to saccades made to distant locations
-[@Miller1981; @Frens1994; Noto1999; @Alahyane2004; @Alahyane2003].
-Interestingly, the same lack of transfer can be found from one point to
-another in 3D peripersonal space [@Chaturvedi1997]. Others have found
-that when addapted in one meridian, there is little transfer to others
-[Lemij1992]. There also seems to be strict independence of horizontal
-and vertical adaptation [@Watanabe2003]. Adaptation of a particular
-saccade amplitude do not generalize to other amplitudes [@Miller1981;
-@Frens1994; @Albano1996; @Straube1997]. And, perhapse the most reliable
-and long-observed specificity is directional. When, for example,
-leftward saccades are augmented or reduced with saccadic adaptation,
-rightward saccades are uneffected, regardless of the spatial position
-overlap [@Deubel1986; @Frens1994; @Albano1996].
+direction and magnitude specificity. While adaptation seems to
+generalize to any starting eye position, only saccades simmilar to
+the trained vector direction and magnitude show effects
+[@Miller1981;@Frens1994;Noto1999;@Alahyane2004;@Alahyane2003].
+Interestingly, the same lack of transfer can be found from one point
+to another at a different depth in 3D peripersonal space
+[@Chaturvedi1997]. Others have found that when addapted in one
+meridian, there is limited transfer to others [Lemij1992]. There
+also seems to be nearly strict independence of horizontal and
+vertical adaptation [@Watanabe2003]. Adaptation of a particular
+saccade amplitude do not generalize to other amplitudes
+[@Miller1981;@Frens1994;@Albano1996;@Straube1997]. And, perhapse the
+most reliable and long-observed specificity is directional. When,
+for example, leftward saccades are augmented or reduced with
+saccadic adaptation, rightward saccades are uneffected, regardless
+of the spatial position overlap [@Deubel1986;@Frens1994;@Albano1996].
 
 
 [Rather than cartesian specificity, spatial reference frames] The
-different dimensions of adaptation described above can be re-phrased in
-terms of spatial reference frames. Particular locations in retinal
-space could be considered orbitocentric or retinocentric, depending on
-whether starting postion matters, while directional effects, or
-differences between saccade reduction and augmentation can be thought
-of as oculocentric.
+different dimensions of adaptation described above can be re-phrased
+in terms of spatial reference frames. Particular locations in
+retinal space could be considered orbitocentric or retinocentric,
+depending on whether starting postion matters, while directional
+effects, or differences between saccade reduction and augmentation
+can be thought of as oculocentric. Saccadic adaptation seems to
+function in a way that is primarily retina-referenced, rather than
+an orbitocentric [@Albano1996]
 
 @Albano1996 had participants observe targets as they were displaced
 horizontally across a computer scree, and indicate whenever the target
@@ -316,7 +319,7 @@ ineffective or delayed use of sensory feedback, as it is reduced or
 absent when patients point to targets with their eyes closed
 [@Day1998].
 
-[including SA] Further, cerebellar damage seems to cause
+[including in SA] Further, cerebellar damage seems to cause
 a variety of oculomotor deficits, including dysmetria of saccadic eye
 movements, and Nystagmus, an involentary eye movement consisting of
 slow drift and fast resetting phases, as well as an abnormal
@@ -327,7 +330,7 @@ the cerebellum (Oculomotor cerebellar vermis, fastigial nuclei) can
 nearly eliminate the ability to adapt saccades [@Optican1980;
 @Goldberg1993; @Takagi1998; @Barash1999]
 
-[Certain areas in particular] Medial, posterior, cerebellum (vermis
+[Certain regions in particular] Medial, posterior, cerebellum (vermis
 and fastigial nuclei) is thought to be central in the control of
 accuracy and adaptive calibration of saccadic eye movements [for
 reviews see: @Hopp2004, @Pélisson2003, @Pélisson2010]. For example,
@@ -612,7 +615,17 @@ strongly coupled to goal-direction actions Neggers2001GazeAnchoring.
   on perception. Purpose is to demonstrate SA and perception are
   related, as well as seaway to the next section.
 
-* Mislocalization [@Zimmermann2009].
+
+One way the effects of saccadic adaptation on perception may be measured
+is by testing for mislocalization of targets in the adapted
+field. In an early such task, @Mack1978 found that when a vertical gain
+was added to horizontal saccades by purturbing lateral targets upward,
+participants became decensitized to upward motion and sensitized
+to downward motion. In other words, their threshold for detecting upward
+motion was increased, and downward motion, decreased [@Mack1978].
+
+* Mislocalization [@Zimmermann2009] and other recent studies.
+
 
 @Hernandez2008 found that saccade lengthening (but not shortening)
 transfered to pointing gestures to flashed targets. They try to account
