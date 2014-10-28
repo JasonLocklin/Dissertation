@@ -26,8 +26,8 @@ adaptation," based on the origional paradigm developed by
 oculomotor processes that occur naturally and on a continual basis
 in humans. For example, neuromuscular changes, such as a changes in
 the strength and funciton paresis of ocular muscles due to paresis,
-injury [@Kommerell1976Adaptive programming!], or aging
-[@warabi1984Effect of aging!], or the wearing of magnifying glasses
+injury [@Kommerell1976], or aging
+[@warabi1984], or the wearing of magnifying glasses
 [tk], result in some saccadic error, and the neuroplasticity
 underlying saccadic adaptation permit correction so that vision is
 not impaired. These types of purturbations can be monocular or
@@ -398,15 +398,16 @@ position and, as a population, encode saccade parameters like saccade
 timing and direction [@Thier2002].
 
 
-Medio-posterior cerebellum (oculomotor vermis
-and caudal part of the fastigial nucleus) contributes to
-backward adaptation of reactive saccades [@HoppFuchs2004!,
-@IwamotoKaku2010!, @Pelisson2010!; PrsaThier2011!; Tian2009!]. For
-example, patients with lesions of the cerebellar vermis [@Golla2008],
-or with a neurodegenerative desease which happens to primarily damage
-the Purkinje cells of the vermis [@Xu-Wilson2009!] are unresponsive to
-saccade shortening, reactive saccadic adaptation. TODO: Further evedence
-provided by [@Desmurget1998, @Jenkin-sonMiall2010!].
+Medio-posterior cerebellum (oculomotor vermis and caudal part of the
+fastigial nucleus) contributes to backward adaptation of reactive
+saccades
+[@HoppFuchs2004,@IwamotoKaku2010,@Pélisson2010,PrsaThier2011,Tian2009]
+. For example, patients with lesions of the cerebellar vermis
+[@Golla2008], or with a neurodegenerative desease which happens to
+primarily damage the Purkinje cells of the vermis [@Xu-Wilson2009]
+are unresponsive to saccade shortening, reactive saccadic
+adaptation. TODO: Further evedence provided by
+[@Desmurget1998,@Jenkinson2010].
 
 It also requires mentioning that there is some evidence of
 involvement of other parts of the cerebellum in the adaptation of
@@ -491,7 +492,7 @@ that parametric adaptation occuring downstream of the colliculus.
 
 Some evidence that more than the superior colliculus / cerebellum
 loop are available. Cortical frontal eye fields may be involved in
-saccadic adaptation [@Frens1994!; @Noto1999!]...
+saccadic adaptation [@Frens1994; @Noto1999]...
 
 [paralell pathways] @Melis1996 used a target-jump paradigm to
 adaptively modify electrically stimulated saccades (superior
