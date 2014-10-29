@@ -196,9 +196,26 @@ or under-shooting of saccades relative to the targets, and over the
 course of training, inducing hypometria or hypermetria of saccades,
 even later, in the absense of further target purturbations. Most
 saccadic adaptation research involves only one type, but experiments
-comparing the two have found important differences in both the
-neural structure and behavioral presentation of the two types of
-adaptation [tk select from below paragraphs].
+comparing the two have found  that saccadic augmentation and
+reduction may involve distinct, or at least partially destinct,
+mechanisms, exhibit different behavioral characteristics, and serve
+somewhat different functions [@Catz2008, @Golla2008, @Hernandez2008,
+@Panouillères2009, @Panouillères2012].
+
+
+
+@Panouillères2009 adapted participants either forward or backward,
+and had them perform antisaccades toward the adapted location. While
+most participants adapted to their assigned conditions (5 of 19 in
+the forward did not),
+
+ TODO: describe,
+and supporting that idea, @Panouillères2012 performed a TMS study that...
+
+
+The population response of Purkinje cells in the cerebellum seems
+to encode or influence the duration of normal and gain-increased
+saccades, but not gain-decreased saccades[@Catz2008].
 
 [Why? Shortening is fatigue and may be special] There are a variety
 of reasons for oculomotor systems to become more error-prone. One
@@ -216,36 +233,42 @@ be accounted for by uncomponsated fatigue. Backward purturbations
 remove the error signal that engages anti-fatigue adaptation, and as
 a result, saccades may shorten as a result of fatigue rather than
 any particular active adaptive mechanisms. Beyond that, for whatever
-reason, normal saccades are hypometric [tk] . As a result, backward
+reason, normal saccades are hypometric [tk]. As a result, backward
 adaptation is unique in that occurs with target purturbations that
 either reduce the "error" in foviating the target stimulus [tk], or
 actually reverse the typical error signal by producing a hypermetric
 saccade.
 
-
-
-[Behavioral difference between shortening and lengthening]
-
-[Structural differences]
-
-Saccadic augmentation and reduction  may involve distinct, in part
-at least, mechanisms, and have different purposes, See @Catz2008,
-@Golla2008, @Hernandez2008, @Panouillères2009, @Panouillères2012.
-@Panouillères2009 goes on to describe TODO: describe,
-and supporting that idea, @Panouillères2012 performed a TMS study that...
-
+[Vermal patients don't compensate for fatigue, or adapt to SA]
 @Golla2008 tested controls and patients with cerebellar damage on a
 saccadic adaptation task involving both augmented and shortened
-saccades. The controls, and two patients with an intact oculomotor vermis,
-but large, unilateral hemispheric lesions,
-adapted to the augmentation by increasing saccade durration, but not
-peak velocity. They adapted to inward adaptation, or reduction, by both
-parameters. In contrast, patients with damage to the oculomotor vermis
+saccades. The controls, and two patients with an intact oculomotor
+vermis, but large, unilateral hemispheric lesions, adapted to the
+augmentation by increasing saccade durration, but not peak velocity.
+They adapted to inward adaptation, in a different manner by
+exhibiting changes both parameters. In contrast, patients with
+damage to the oculomotor vermis exhibited a complete extinction of
+outward adaptation, and a partal loss of inward adaptation.
+Tellingly, they were also unable to reliably saccade to un-purturbed
+targets over time as well. They exhibited a lack of resiliance when
+asked to saccade to fixed targets repeatedly. Their saccades to
+these steady-state targets decreased in duration, producing saccades
+which were more and more hypometric as the task went on [@Golla2008]
+. This does not appear to the result of an unprocessed error, as
+these poorer and poorer saccades were followed by a necissary
+increase in corrective saccades [@Golla2008]. Instead, when taken
+together, the selective, partial retention of inward adaptation and
+the gradual shortening of saccades to static targets indicate that
+rather than active adaptation, these participants are simply failing
+to adequately compensate for fatigue of some sort.
 
 
-The population response of Purkinje cells in the cerebellum seems
-to encode or influence the duration of normal and gain-increased
-saccades, but not gain-decreased saccades[@Catz2008].
+
+
+
+[Further behavioral or structural differences between +-gain]
+
+
 
 
 
