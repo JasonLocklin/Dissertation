@@ -19,20 +19,19 @@ way that minimises consequences. Because on-line feedback is not
 available in this particular case, the visual motor system is forced
 to rely on information gleaned after-the-fact, or, in other words,
 "error signals," to maintain effective control mechanism parameters
-[tk]. There exists a rich, half-century of investigation into this
-short-term parametric adaptation of saccades, or simply "saccadic
-adaptation," based on the origional paradigm developed by
+[@Wong2010]. There exists a rich, half-century of investigation into
+this short-term parametric adaptation of saccades, or simply
+"saccadic adaptation," based on the origional paradigm developed by
 @mclaughlin1967. Saccaddic adaptation tasks mimick and amplify
 oculomotor processes that occur naturally and on a continual basis
 in humans. For example, neuromuscular changes, such as a changes in
 the strength and funciton paresis of ocular muscles due to paresis,
-injury [@Kommerell1976], or aging
-[@warabi1984], or the wearing of magnifying glasses
-[tk], result in some saccadic error, and the neuroplasticity
-underlying saccadic adaptation permit correction so that vision is
-not impaired. These types of purturbations can be monocular or
-binocular [@Erkelens1989] and can effect saccadic accuracy in
-various dimensions[tk].
+injury [@Kommerell1976], or aging [@warabi1984], or the wearing of
+magnifying glasses [@Erkelens1989], result in some saccadic error,
+and the neuroplasticity underlying saccadic adaptation permit
+correction so that vision is not impaired. These types of
+purturbations can be monocular or binocular [@Erkelens1989] and can
+effect saccadic accuracy in various dimensions[@Chaturvedi1997].
 
 [SA is motoric, but also perception -compare with prisms] From the
 earliest discussion, saccadic adaptation has been compared to prism
@@ -58,16 +57,17 @@ assume that saccadic adaptation occurs by the integration of a
 relatively simple "error signal" into a type of universal saccadic
 "gain" parameter. Ultimately, this does not appear to be the case.
 There is, in fact, more than one type of error signal that the brain
-could make use of, from both motor afferent signals and the visual
-system, as well as several possible parametric ways of changing saccade
-amplitude [tk]. This complex set of features make saccadic adaptation an
-interesting way to investigate functional plasticity mechanisms in the
-brain, and provides a clear contrast with prisms, for which the
-updating mechanisms are not functionally equivelant. This comparable,
-but functionally different response to saccadic relative to prism
-adaptation may provide a profitable avenue for investigating, or even
-ameliorating the assymetrical attention problems in people with
-Unilateral Neglect or other related disorders.
+could make use of, from motor afferent signals and the visual
+system, as well as several possible parametric ways of changing
+saccade amplitude [@Lappe2009]. This complex set of features make
+saccadic adaptation an interesting way to investigate functional
+plasticity mechanisms in the brain, and provides a clear contrast
+with prisms, for which the updating mechanisms are not functionally
+equivelant. This comparable, but functionally different response to
+saccadic relative to prism adaptation may provide a profitable
+avenue for investigating, or even ameliorating the assymetrical
+attention problems in people with Unilateral Neglect or other
+related disorders.
 
 
 
@@ -83,17 +83,19 @@ universal drive to orients accuratly and quickly toward such stimuli,
 with little top-down interference.
 
 In contrast, self-directed investigation of an environment by
-goal-directed, internally initiated saccades, such as in visual search,
-requires a somewhat different strategy. Such saccades are, by
-definition, going to involve a greater degree of entanglement with
-conscious goal-monitoring mechanisms, and other high-level cognitive
-systems. As such, unlike reactive saccades, these voluntary saccades
-are very likely to involve move extensive functional brain areas, and
-exhibit somewhat different characteristics. Besides different functional
-brain structures, volitional and reactive saccades, also called targetting
-and express saccades, respectively in the literature, present different
+goal-directed, internally initiated saccades, such as in visual
+search, requires a somewhat different strategy. Such saccades are,
+by definition, going to involve a greater degree of entanglement
+with conscious goal-monitoring mechanisms, and other high-level
+cognitive systems. As such, unlike reactive saccades, these
+voluntary saccades are very likely to involve move extensive
+functional brain areas, and exhibit somewhat different
+characteristics. Besides different functional brain structures,
+volitional and reactive saccades, also called targetting and express
+saccades, respectively in the literature, present different
 behavioral characteristics. For example, reactive saccades exhibit
-very short latencies when compared with volitional saccades [tk].
+very short latencies when compared with volitional saccades
+[@Alahyane2007].
 
 
 #### Different Systems.
@@ -112,11 +114,6 @@ comparing results from experiments which may be utilizing different
 saccade types, and when atempting to extrapolate mechanistic models
 based on simple reactive saccades to more naturalistic behaviour.
 
-Cerebellum is also known to play a part in generation of goal-directed
-saccades [@Noda1991, @Lewis1992].
-
-The superior colliculus is known to be critically involved in
-generating goal-directed saccades [@Sparks1990; @Guitton1991].
 
 
 #### Divergent Characteristics
@@ -187,41 +184,49 @@ beginning of the trial. The resulting data
 
 #### Augmentation and reduction are probably uniquely specialized.
 
-[+-gain is important distinction]Probably the most extensively studied
-dichotomy(?) of saccade adaptation is the difference between tasks that
-lengthen or shorten saccades. Over the storried history of research
-into the distinction, it has been referred to as augmentation and
-reduction, outward and inward adaptation, forward and backward
-adaptation, as well as potentiation and depression. Regardless of the
-terminology, the systematic intrasaccadic perterbation is nevertheless
-designed to cause either over-shooting or under-shooting of saccades
-relative to the targets, and over the course of training, inducing
-hypometria or hypermetria of saccades, even in the absense of target
-purturbations. Most saccadic adaptation research involves only one
-type, but experiments comparing the two have found important
-differences in both the neural structure and behavioral presentation of
-the two types of adaptation.
+[+-gain is important distinction]Probably the most extensively
+studied dichotomy(?) of saccade adaptation is the difference between
+tasks that lengthen or shorten saccades. Over the storried history
+of research into the distinction, it has been referred to as
+augmentation and reduction, outward and inward adaptation, forward
+and backward adaptation, as well as potentiation and depression.
+Regardless of the terminology, the systematic intrasaccadic
+perterbation is nevertheless designed to cause either over-shooting
+or under-shooting of saccades relative to the targets, and over the
+course of training, inducing hypometria or hypermetria of saccades,
+even later, in the absense of further target purturbations. Most
+saccadic adaptation research involves only one type, but experiments
+comparing the two have found important differences in both the
+neural structure and behavioral presentation of the two types of
+adaptation [tk select from below paragraphs].
 
-[Why? Shortening is fatigue and may be special] There are a variety of
-reasons for oculomotor systems to become more error-prone. One
-particular, natural, cause, is both likely to be both ever-present and
-unidirectional in the error it produces. Muscular fatigue is presumably
-a major contributor to an organism's need for adaptive mechanisms.
-Unlike, for example, damage to a particular muscle, or other
-biomechanical changes, fatigue is always going to reduce saccadic
-amplitude, regardless of the direction of the saccade. It stands to
-reason that a "fatigue coping" system, because it is going to be
-continually engaged, may be different in some ways than the mechanisms
-for lengthening, or augmenting, saccades over time.
+[Why? Shortening is fatigue and may be special] There are a variety
+of reasons for oculomotor systems to become more error-prone. One
+particular, natural, cause, is both likely to be both ever-present
+and unidirectional in the error it produces. Muscular fatigue is
+presumably a major contributor to an organism's need for adaptive
+mechanisms. Unlike, for example, damage to a particular muscle, or
+other biomechanical changes, fatigue is always going to reduce
+saccadic amplitude, regardless of the direction of the saccade. It
+stands to reason that a "fatigue coping" system, because it is going
+to be continually engaged, may be different in some ways than the
+mechanisms for lengthening, or augmenting, saccades over time. In
+fact, its possible that part or even all of saccadic reduction could
+be accounted for by uncomponsated fatigue. Backward purturbations
+remove the error signal that engages anti-fatigue adaptation, and as
+a result, saccades may shorten as a result of fatigue rather than
+any particular active adaptive mechanisms. Beyond that, for whatever
+reason, normal saccades are hypometric [tk] . As a result, backward
+adaptation is unique in that occurs with target purturbations that
+either reduce the "error" in foviating the target stimulus [tk], or
+actually reverse the typical error signal by producing a hypermetric
+saccade.
+
 
 
 [Behavioral difference between shortening and lengthening]
 
 [Structural differences]
-
-The population response of Purkinje cells in the cerebellum seems
-to encode or influence the duration of normal and gain-increased
-saccades, but not gain-decreased saccades[@Catz2008].
 
 Saccadic augmentation and reduction  may involve distinct, in part
 at least, mechanisms, and have different purposes, See @Catz2008,
@@ -231,10 +236,20 @@ and supporting that idea, @Panouillères2012 performed a TMS study that...
 
 @Golla2008 tested controls and patients with cerebellar damage on a
 saccadic adaptation task involving both augmented and shortened
-saccades. The controls, and patients with an intact oculomotor vermis
+saccades. The controls, and two patients with an intact oculomotor vermis,
+but large, unilateral hemispheric lesions,
 adapted to the augmentation by increasing saccade durration, but not
 peak velocity. They adapted to inward adaptation, or reduction, by both
 parameters. In contrast, patients with damage to the oculomotor vermis
+
+
+The population response of Purkinje cells in the cerebellum seems
+to encode or influence the duration of normal and gain-increased
+saccades, but not gain-decreased saccades[@Catz2008].
+
+
+
+
 
 
 
@@ -359,7 +374,7 @@ brief, it may serve as a "predictive forward model" builder for motor
 control [@Maill1998], or provide the input to build such models if they
 happen to be located elsewhere in the cortex. Alternatively, the more
 classical description of cerrebellar function is that of error-based
-learning [@Marr1969; @Albus] origionally described a computational
+learning [@Marr1969;@Albus] origionally described a computational
 model of error-based learning in the cerebellar cortex, and that idea
 of error-based learning has been adopted as a central notion in
 research into the cerebellum to date.  Unfortunately, the Marr/Albus
@@ -376,7 +391,7 @@ capable of providing the impetus for a lasting parametric adaptation
 adaptation, both in terms of corrections to movements while wearing
 prisms, and any aftereffects [@Martin1996]. Simmilar results have been
 found with adapting pointing movements to a force field or
-purturbations produced by a robot arm [@Maschke2004; @Smith2005], gait
+purturbations produced by a robot arm [@Maschke2004;@Smith2005], gait
 adaptation to a split-belt treadmill [@Morton2006], and reaching under
 novel visuomotor transformations [@Tseng2007]. Saccadic adaptation is
 thus one of many sensorimotor adaptations that seem to require the
@@ -414,7 +429,8 @@ involvement of other parts of the cerebellum in the adaptation of
 reactive saccades. @Panouillères2012 was able to modify reactive
 saccade adaptation with transcranial magnetic stimulation of the
 hemispheric lobule Crus I. Others have found further hints of
-hemispheric involvement [@Alahyane2008, @Choi2008, @Straube2001, @Broekhoven2009].
+hemispheric involvement
+[@Alahyane2008,@Choi2008,@Straube2001,@Broekhoven2009].
 
 
 In order to investigate the involvement of lateral cerebellum,
@@ -425,14 +441,15 @@ both reduced the effectiveness of saccade-shortening adaptation (for
 saccades moving contralateral to the stimulation), and augmented
 saccade-lengthening adaptation (for saccades in both directions)
 [@Panouillères2012]. In addition to afirming lateral cerrebelum in
-saccadic adaptation, this provides further evidence for unique neural
-methanisms of saccadic depression and potentiation, and hints at an
-antagonistic relationship between the two. Interestingly, the authors
-also found that TMS immediately at saccade-onset, rather than after a delay,
-induced hypometria in that same saccade, to a small degree, but
-consistantly in both directions. However, saccades with 30 or 60ms delayed TMS were
-not measurably effected, and all three conditions lead to the after-effects
-described above. TODO: reorder paragraph above?
+saccadic adaptation, this provides further evidence for unique
+neural methanisms of saccadic depression and potentiation, and hints
+at an antagonistic relationship between the two. Interestingly, the
+authors also found that TMS immediately at saccade-onset, rather
+than after a delay, induced hypometria in that same saccade, to a
+small degree, but consistantly in both directions. However, saccades
+with 30 or 60ms delayed TMS were not measurably effected, and all
+three conditions lead to the after-effects described above. TODO:
+reorder paragraph above?
 
 
 
@@ -441,12 +458,12 @@ TODO: neural substrates of reactive saccadde *lengthening*?
 
 Much less work has been done examining the neural substrates of the
 adaptation of volitional saccades. @Alahyane2008 examined deficits
-in both reactive and voluntary adapataion after lesions in both the medial
-and lateral parts of the cerebellum TODO: expand. @Gerardin2012 used
-neuroimaging to investigate both the cortical and cerebellar correlates
-of the two types of saccades. Interestingly, hemispheric lobules
-VIIb–VIIIa of the cerebellum were found to be activated during both types
-of saccades.
+in both reactive and voluntary adapataion after lesions in both the
+medial and lateral parts of the cerebellum TODO: expand.
+@Gerardin2012 used neuroimaging to investigate both the cortical and
+cerebellar correlates of the two types of saccades. Interestingly,
+hemispheric lobules VIIb–VIIIa of the cerebellum were found to be
+activated during both types of saccades.
 
 * Medial/lateral is to reactive/scanning in two lesion patients [@Alahyane2008]
 * Inward/Outward adaptation and fatigue (14 patients)[@Golla2008].
@@ -460,8 +477,10 @@ of saccades.
 [SC is central to saccades] Because saccades can be generated by
 electrical stimulation of the superior colliculus [@Fitzgibbon1986],
 and because it is well connected with both the oculomotor vermis and
-areas of the cortex which seem related to eye movement control [tk],
-the superior colliculus is a plausible locus of saccadic adaptation.
+areas of the cortex which seem related to eye movement control and
+saccadic adaptation [@Johnston2008], the superior colliculus is a
+possible locus of saccadic adaptation, or at minimum, a contributing
+player in a network of structures performing the adaptation.
 
 [but adapted parameter is post SC] If the adaptable "gain" parameter is
 applied to saccadic movement execution after being generated in the
@@ -586,7 +605,8 @@ other models.
 
 * tDCS suggests cerebellum may produce short-term modifications of
 forward models, with the neocortex storing longer-lasting memories
-[@Galea2011!]
+[@Galea2011].
+TODO: This^ paper is important for model updating generally.
 
 error signals influence dynamics (peak velocity) [@Straube1995], and
 what does this tell us about saccadic regulation [@Ethier2008]
@@ -715,8 +735,12 @@ cerebellar degeneration, but generally, the task may be an unexamined
 
 
 
-Scratch
---------
+Scratch Notes
+-------------
+Both the Cerebellum [@Noda1991, @Lewis1992] and the superior colliculus
+[@Sparks1990; @Guitton1991] are known to be critical for the generation
+of goal-directed saccades.
+
 @Hopp2004: a slide in post-saccadic eye position has been induced by exponen-
 tial motion of a full-field stimulus at the end of a saccade
 (e.g., Optican and Miles, 1985; Deubel, 1991; Kapoula et al.,
@@ -744,3 +768,6 @@ is statistically the same (Ditterich et al., 1999)
 @Hopp2004: the focus of attention itself does
 not seem to shift with saccadic adaptation. In the experi-
 ments of Ditterich et al. (2000a)...
+
+
+
