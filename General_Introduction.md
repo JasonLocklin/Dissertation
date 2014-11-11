@@ -1,3 +1,7 @@
+TODO: Find origional citations for first paragraph.
+TODO: Pull references for citations ending with a !
+TODO: Remove (or hide from output) paragraph headers
+
 Introduction 
 ------------
 
