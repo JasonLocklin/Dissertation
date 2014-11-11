@@ -5,12 +5,12 @@ Unilateral spatial neglect is a disorder that can result from damage
 to the right inferior parietal cortex, a lesion that commonly caused
 by right posterior cerebral artery infarction [tk]. Hereafter,
 specifically referred to simply as "neglect," the disorder causes a
-heterogenous collection of deficits that can be generally
+heterogeneous collection of deficits that can be generally
 categorized as an inability to respond to information on the
 contralesional side. People with the disorder are spatially biased
-away from contralesional space in their search behavior [tk],
+away from contralesional space in their search behaviour [tk],
 grooming and eating [tk], drawing [tk], posture [tk], and perceptual
-judgement of spatial extent [e.g., line bisection; ] among other
+judgment of spatial extent [e.g., line bisection; ] among other
 things. The disorder is, as can be expected from the list of
 symptoms, debilitating, and the risk of bumping into objects [tk]
 can affect mobility. Less than half of patents show improvements
@@ -20,7 +20,7 @@ fully recover [Farnè2004@!].
 [Disorder of Spatial-attention] Most theoretical accounts of the
 neglect syndrome describe it as either a deficit of the deployment
 of spatial attention, or one of awareness. More specifically, either
-an inaiblity to report, respond, or orient attention toward stimuli
+an inability to report, respond, or orient attention toward stimuli
 in left space
 [@DriverMattingley1998!,@HalliganVallar2003!,@HeilmanValenstein1993!]
 , or a general loss of environmental awareness that can at it's
@@ -31,7 +31,7 @@ the deficits displayed on the clinical tests of neglect. For
 example, object cancellation (a visual search task) and figure
 copying (a free-hand drawing task) are believably influenced by the
 testee's ability to deploy attention across the page. Where
-attention cannot be directed, mistakes or ommissions are are made.
+attention cannot be directed, mistakes or omissions are are made.
 Even for something like the "line-bisection task," where the patient
 is asked to medially bisect a horizontal line, an inability to
 attend to an endpoint is very plausibly affect performance.
@@ -39,13 +39,13 @@ attend to an endpoint is very plausibly affect performance.
 [disengage deficit account] To be more precise about what is meant
 by spatial bias, it could be that attention is preferentially
 oriented toward ipsilesional space, or, it could be that once there,
-neglect patients have dificulty disengaging their attention away
+neglect patients have difficulty disengaging their attention away
 from that ipsilesional space. This distinction is more obvious in a
-different, but related and often comorbid disorder called
+different, but related and often co-morbid disorder called
 extinction. When a person with extinction is cued to stimuli in
 either ipsilesional or contralesional space, they are able to orient
 and report the stimuli. However, when stimuli are presented on both
-sides, he is only able to report the stimuli on the ipselesional
+sides, he is only able to report the stimuli on the ipsilesional
 side [see @Milner1997! and @Rafal1996! for review]. In a similar
 vein, when engaged in a covert orienting task, neglect patients show
 the strongest deficits not in orienting toward contralesional
@@ -53,59 +53,59 @@ targets generally, but only following cues to ipsilateral space,
 from which they would have had to then disengage away from in order
 to orient to the contralateral targets effectively [see
 @BartolomeoChokron2002! and @LosierKlein2001! for reviews].
-Simmilarily, in a visual search task, performance in contralateral
-space is driven by the number of ipsilesional distractors
+Similarly, in a visual search task, performance in contralateral
+space is driven by the number of ipsilesional distracts
 [@EglinKnight1989!]. This coincides with a general body of research
 that supports the notion that a crucial function of the inferior
 parietal cortex is to disengage attention from it's current focus
-and reorint toward a new location [for a review, see
+and reorient toward a new location [for a review, see
 @CorbettaShulman2002!]
 
-[Prisms do lot's of things] As a heterogenious disorder involving
-quite widely-encompasing behavioral systems, rehabilitation
+[Prisms do lot's of things] As a heterogeneous disorder involving
+quite widely-encompassing behavioural systems, rehabilitation
 strategies with neglect have met with varied success [@Danckert2006]
-. Chaloric stimulation, where water, often ice-cold, is sprayed in
+. Caloric stimulation, where water, often ice-cold, is sprayed in
 the patient's ear canal, or vibration stimulation on the patient's
 neck, quickly orients the patient's torso, head, eyes, and attention
-to the stimulated side, reducing several of the behavioral deficits
+to the stimulated side, reducing several of the behavioural deficits
 for a short time
 [@AdairHeilman2003!,@KarnathHartje1993!,@KarnathDichgans1996!,@Rubens1
 985!]. Unfortunately, these exercises are aversive and their
-short-term effects prevent them from being usefull as treatments. A
+short-term effects prevent them from being useful as treatments. A
 much more promising rehabilitation technique based on prismatic
-glasses was developed by @Rossetti1998/Rossi, KheyfetsReding1990.
-When patients with neglect are adapted to a rightward visual shift
-and the glasses removed, the after-effects on several behavioral
-measures are profound, and last considerably longer than the
-adaptation time
+glasses was developed[<- appropriate word?] by @Rossetti1998 [and?
+RossiKheyfetsReding1990!]. When patients with neglect are adapted to
+a rightward visual shift and the glasses removed, the after-effects
+on several behavioural measures are profound, and last considerably
+longer than the adaptation time
 [@FarnèRossetti2002!,@Frassinetti2002!,@Pisella2002!,@Rossetti1998!]
-. Judgement of straight-ahead and line bisection became closer to
-true center [@Danckert2006], object cancellation, and figure copying
+. Judgment of straight-ahead and line bisection became closer to
+true centre [@Danckert2006], object cancellation, and figure copying
 improves [@Rosetti1998!], and exploratory eye movements become less
 biased
 [@Danckert2006,@Ferber2003!,@Rode2001!,@Rode1998!,@Tilikete2001!].
 
 [Failures of prisms] Despite the long list of findings that prisms
 ameliorate neglect symptoms, more recent randomized control trials
-have failed to show prisms as an efficatious rehabilitation
+have failed to show prisms as an efficacious rehabilitation
 treatment [@Nys2008!,@Turton2009!]. Additionally, when an effort to
 examine attention and perception more directly, the ameliorative
 effects seem to become somewhat less clear. Some direct measures of
 attentional biases have been shown to be effected by prisms, such as
 covert shifts of attention [@Striemer2007,Nijboer2008!], and
-extinction [@Serino2007!], while other, perhapse more realistic
+extinction [@Serino2007!], while other, perhaps more realistic
 measures of attention, like a serial visual search task that
 measures attention, have failed to show an effect [@Morris2004!].
-Similarily, while the fact that prisms cause patients to begin
+Similarly, while the fact that prisms cause patients to begin
 voluntarily making eye movements into their neglected hemifield has
-been well established, perceptual judgements can remain just as
+been well established, perceptual judgments can remain just as
 biased as before [@Dijkerman2003!,@Ferber2003!]. This appears to be
-demonstrating a dissasociation between occulomotor "looking" and
+demonstrating a disassociation between occulomotor "looking" and
 perceptual "seeing," with prisms restoring the former but not the
 latter [@Danckert2010].
 
-[Speculation on action/perception dissasociation in prisms] In the
-past, @Danckert2010 has argued that the apparent dissasociation
+[Speculation on action/perception disassociation in prisms] In the
+past, @Danckert2010 has argued that the apparent disassociation
 between the effects of prism adaptation on action and perceptual
 deficits can be accounted for if prisms act on circuits of the
 dorsal visual stream -specifically the superior parietal lobule and
@@ -116,7 +116,7 @@ in part by severely reducing the brain's ability to integrate dorsal
 and ventral stream processing [@Danckert2010]. In the same respect,
 the damage limits the ability of a superior parietal technique, like
 prisms, from influencing areas in the ventral system responsible for
-higher level perceptual judgements.  Here, we discuss 3 experiments
+higher level perceptual judgments.  Here, we discuss 3 experiments
 and a case study chosen to examine this duality between the
 reactive, motor action system, and perceptual
 representation/awareness in neglect.
@@ -132,7 +132,7 @@ the world. This chapter contributes to the growing evidence that
 prisms fail to influence domains of processing important for the
 construction of perceptual representations. Chapter 3 develops a
 procedure for using saccadic adaptation to explore the possibility
-that modifying eye position sense would lead to more generalised
+that modifying eye position sense would lead to more generalized
 improvements in both action and perception. This preliminary work
 was conducted in healthy controls. Chapter 4 presents data from a
 single case of a neglect patient undergoing the saccadic adaptation
