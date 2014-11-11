@@ -1,30 +1,34 @@
-**­Exp. Ch 3: Can saccadic adaptation lead to improvements in both
-action and perception?**
+# Can saccadic adaptation improveme both action and perception?
 
-The previous chapter showed that prism adaptation failed to improve
-performance on SWM and temporal estimation tasks. The suggestion here is
-that prisms influence dorsal stream functioning and that both these
-tasks rely, at least to some extent, on ventral stream processes.
 
-Prism adaptation by design influences both visual and proprioceptive
-frames of reference\
-(Redding and Wallace refs - 2006). In fact, depending on the specifics
-of the adaptation protocol, the bulk of the influence of prisms is seen
-on proprioceptive tasks (refs).
 
-\
-\
 
-After-effects tend to be about 40% of the shift; vision account for
-around 10% of the after-effects and proprioception the rest. [don’t use
-actual numbers – “Depending on the procedure employed, the bulk of the
-after-effect is seen in a proprioceptive reference frame. Might need to
-address what we did – concurrent feedback? So that procedure does not
-bias towards proprioceptive changes as dramatically as terminal feedback
-but could still be biased in that direction]
+The previous chapter demonstrates that prism adaptation fails to improve
+performance on both spatial working memory and temporal estimation 
+tasks. This can be explained by the dorsal-ventral dissassociation. These tasks
+were chosen because of their perceptual nature. If prisms influence dorsal
+stream functioning [tk] and these tasks are dominantly ventral stream, it
+follows that these tasks and ones like them will not be substantially
+remediated by prisms in neglect.
 
-\
-\
+
+Prism adaptation by design influences both visual and proprioceptive frames of
+reference\ (Redding and Wallace refs - 2006). In fact, depending on the
+specifics of the adaptation protocol, the bulk of the influence of prisms is
+seen on proprioceptive tasks (refs).
+
+
+
+
+After-effects tend to be about 40% of the shift; vision account for around 10%
+of the after-effects and proprioception the rest. [don’t use actual numbers –
+“Depending on the procedure employed, the bulk of the after-effect is seen in a
+proprioceptive reference frame. Might need to address what we did – concurrent
+feedback? So that procedure does not bias towards proprioceptive changes as
+dramatically as terminal feedback but could still be biased in that direction]
+
+
+
 
 [Prism adaptation and unilateral neglect: review and
 analysis.](http://www.ncbi.nlm.nih.gov/pubmed/15907951)
@@ -40,65 +44,60 @@ method.](http://www.ncbi.nlm.nih.gov/pubmed/15820548)
 
 Neurosci Biobehav Rev. 2005 May;29(3):431-44.
 
-\
-\
 
-[Long-lasting aftereffect of a single prism adaptation: shifts in vision
-and proprioception are
-independent.](http://www.ncbi.nlm.nih.gov/pubmed/16552560)
+
+
+[Long-lasting aftereffect of a single prism adaptation: shifts in vision and
+proprioception are independent.](http://www.ncbi.nlm.nih.gov/pubmed/16552560)
 
 **Hatada** Y, **Rossetti** Y, Miall RC.
 
 Exp Brain Res. 2006 Aug;173(3):415-24. 
 
-\
-\
 
-Why would changes in a proprioceptive frame of reference lead to after
-effects influencing visual perceptual representations?
 
-Saccadic adaptation offers an alternative approach to rehabilitating
-neglect that may overcome some of the shortcomings of prism adapation.
 
-\
-\
+Why would changes in a proprioceptive frame of reference lead to after effects
+influencing visual perceptual representations?
+
+Saccadic adaptation offers an alternative approach to rehabilitating neglect
+that may overcome some of the shortcomings of prism adapation.
+
+\ \
 
 [describe saccade adaptation procedure and classic results]
 
-\
-\
+\ \
 
-Saccadic adaptation operates in a retinocentric co-ordinate reference
-frame (refs).
+Saccadic adaptation operates in a retinocentric co-ordinate reference frame
+(refs).
 
 Inducing changes in a retinocentric frame of reference could potentially
-influence a broader range of behaviours important for both attention and
-the accurate construction of perceptual representations.
+influence a broader range of behaviours important for both attention and the
+accurate construction of perceptual representations.
 
-\
-\
+\ \
 
 **the accurate construction of perceptual representations**
 
-\
-\
 
-Saccades are precise motor movements that are usually programmed to move
-the eyes to foviate a specific target. Saccadic suppression, and the
-speed limitations of retinal cells, prevent visual information from
-reaching the brain during the movement [@Matin1982], and thus the brain
-from making on-line motor corrections, and yet, the eyes land reliably
-close to the target most of the time. This ability to execute a
-pre-programmed motor movement with extreme precision, reliably, and
-maintain that ability over a lifetime, despite operating, essentially
-"blind," is a testament to one or more highly capable underlying control
-systems.
+
+
+Saccades are precise motor movements that are usually programmed to move the
+eyes to foviate a specific target. Saccadic suppression, and the speed
+limitations of retinal cells, prevent visual information from reaching the
+brain during the movement [@Matin1982], and thus the brain from making on-line
+motor corrections, and yet, the eyes land reliably close to the target most of
+the time. This ability to execute a pre-programmed motor movement with extreme
+precision, reliably, and maintain that ability over a lifetime, despite
+operating, essentially "blind," is a testament to one or more highly capable
+underlying control systems.
 
 **Could condense the above to a sentence.**
 
-[accuracy is maintained through adaptation] Any motor system must
-incorporate a realistic expectation of inaccuracy, and perform in way
-that minimizes consequences. Because on-line feedback is not available
+[accuracy is maintained through adaptation] Any motor system must incorporate a
+realistic expectation of inaccuracy, and perform in way that minimizes
+consequences. Because on-line feedback is not available
 in this particular case, the visual motor system is forced to rely on
 information gleaned after-the-fact, or, in other words, "error signals,"
 to maintain effective control mechanism parameters [@Wong2010]. There
