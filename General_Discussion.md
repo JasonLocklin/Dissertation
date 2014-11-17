@@ -1,6 +1,19 @@
 
+Eye movements are strongly coupled to goal-direction actions
+[@Neggers2001GazeAnchoring!].
 
-\
+
+\*Duration of effects? [@Alahyane2005] 
+
+[By nature, saccades influence perception] Saccades are the motor action
+that has the potential for the strongest influence on visual perception.
+Eye movements are continually responsible for the content of what is fed
+to the perceptual streams, as they direct our gaze and dictate where and
+when we acquire the visual information which provides the pieces with
+which we construct our internal representation of the visual world. In a
+complementary way, saccades have the ability to *mask* large changes in
+the visual scene through saccadic suppression, producing a perceptual
+system that is, in a way, forever subservient to action systems.  \
 
 [SA involves a complicated set of mechanisms] It would be easy to assume
 that saccadic adaptation occurs by the integration of a relatively
