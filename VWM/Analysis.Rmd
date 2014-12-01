@@ -1,0 +1,53 @@
+---
+title: "Visual Working Memory Analysis"
+author: "Jason Locklin <jalockli@uwaterloo.ca>"
+date: "12/1/2014"
+output: html_document
+---
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+
+The data file I recieved is a complicated excel file with lots of information. I
+reduced it to a simple table manually and saved to a csv file for reading into 
+R. 
+
+```{r}
+vwm <- read.csv("Data/vwm_data.csv", 
+                colClasses=c("factor","factor", rep("numeric", 12)))
+```
+
+
+The data needs to be tidied to a convenient format (see Wickham, 2014).
+
+```{r}
+library(reshape2)
+d <- melt(vwm, id.vars=c("Subj_Group", "Subj_ID"))
+d = data.frame(c(d[1:2], colsplit(d$variable, "_item[s]?.", c("Number_of_Items","variable")), d[4]))
+head(d)
+```
+
+
+A quick summary of the data for each group.
+```{r}
+acast(d, Subj_Group ~ variable ~ Number_of_Items , fun=mean)
+```
+
+Sanity check:
+
+1. Looking at precision, Patients generally do worse than Older Controls, who
+generally do worse than Young adults. Each group generally does worse as more 
+targets are added.
+
+2. pTarget: Patents are averaging lower probabilities of selecting the target 
+color even in the case of no distractors. Distractors may be effective in the 
+healthy groups, but they do quite well.
+
+3. The healthy groups seem to rarely select a distractor color, and seem to be 
+guessing when they get it wrong. The Patients might be selecting distractor 
+colors as often as they guess, indicating a possible lack of binding color to 
+spatial location.
+
+
+
+
