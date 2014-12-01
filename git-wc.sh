@@ -14,3 +14,6 @@ DIF=`expr $ADD - $REM`
 TOT=`expr $ADD + $REM`
 ##wc outline.md
 echo "New words: $ADD, Removed words: $REM, Net change: $DIF, Total change: $TOT"
+echo " "
+echo "VCS Status:"
+git status

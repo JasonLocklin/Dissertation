@@ -1,5 +1,4 @@
-**Exp Ch. 2: Prism adaptation does not improve deficits in spatial
-working memory or temporal estimation.**
+# Prism adaptation does not improve deficits in spatial working memory or temporal estimation.
 
 The previous chapter demonstrated….
 

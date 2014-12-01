@@ -2,6 +2,13 @@
 Eye movements are strongly coupled to goal-direction actions
 [@Neggers2001GazeAnchoring!].
 
+In visual search tasks, patients make just as many leftward eye
+movemenst as rightward, indicating that it's a difference in saccade
+magnitude rather than number that produces the spatial bias in fixation
+location (Niemeier, M. & Karnath, H. O. Exploratory saccades show no
+direction-specific deficit in neglect. Neurology 54, 515–518 (2000).
+42. Husain, M. et al. Impaired spatial working memory across saccades
+contributes to abnormal search in parietal neglect.)
 
 \*Duration of effects? [@Alahyane2005] 
 
