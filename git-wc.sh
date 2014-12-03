@@ -16,4 +16,12 @@ TOT=`expr $ADD + $REM`
 echo "New words: $ADD, Removed words: $REM, Net change: $DIF, Total change: $TOT"
 echo " "
 echo "VCS Status:"
-git status
+git status | grep -v "("
+
+echo "Notes:"
+grep -r -i "TODO:" * 
+grep -r -i "FIXME:" *
+
+echo "Lines containing 'tk'"
+grep -Icr "tk" * | grep -v ":0"
+
