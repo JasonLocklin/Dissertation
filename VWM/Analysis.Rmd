@@ -2,19 +2,27 @@
 title: "Visual Working Memory Analysis"
 author: "Jason Locklin <jalockli@uwaterloo.ca>"
 date: "12/1/2014"
-output: html_document
+output:
+  html_document:
+    fig_caption: yes
+    keep_md: yes
+    toc: yes
 ---
 
 This is an R Markdown document generated in R Studio. Markdown is a simple 
 formatting syntax for authoring HTML, PDF, and MS Word documents. For more 
 details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
+### Data Import and Formating
 
 The data file I recieved is a complicated excel file with lots of information. I
 reduced it to a simple table manually and saved to a csv file for reading into 
 R. 
 
 ```{r}
+library(reshape2) #For "Tidying" data into useful format
+library(plyr)     #For transforming data before plots and analysis
+library(ggplot2)  #For producing figures
 vwm <- read.csv("Data/vwm_data.csv", 
                 colClasses=c("factor","factor", rep("numeric", 12)))
 ```
@@ -23,7 +31,6 @@ vwm <- read.csv("Data/vwm_data.csv",
 The data needs to be tidied to a convenient format (see Wickham, 2014).
 
 ```{r}
-library(reshape2)
 d <- melt(vwm, id.vars=c("Subj_Group", "Subj_ID"))
 d = data.frame(c(d[1:2], colsplit(d$variable, "_item[s]?.", c("Number_of_Items","variable")), d[4]))
 head(d)
@@ -62,6 +69,66 @@ spatial location.
    
 
 ### Are the patients able to encode and recall colour? 
+
+Just looking at the "one target" case, were patients able to reliably report the
+colour of the target.
+
+
+Create summary data:
+```{r}
+simple <- d[d$variable == "precision" & d$Number_of_Items =="one",]
+
+cdata <- ddply(simple, c("Subj_Group", "variable"), summarise,
+               N    = length(value),
+               Mean = mean(value),
+               sd   = sd(value),
+               se   = sd / sqrt(N) )
+head(cdata)
+```
+
+
+
+Create a plot of means, and a seperate point plot to see outliers:
+```{r }
+p <- ggplot(cdata, aes(x = Subj_Group, y = Mean)) 
+p + geom_bar(stat = "identity", width=0.5) +
+    geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2) + 
+    xlab("") +
+    ylab("Precision (SE)") + 
+    ggtitle("Response Precision for Single Target Condition") +
+    scale_y_continuous(breaks=0:20*4) +
+    theme_gray()
+
+ggplot(simple, aes(x = Subj_Group, y = value))  + geom_jitter(position = position_jitter(width = .1))
+```
+
+Both older groups seem to have a single extreme case, and in both cases, that 
+point will drastically increase the mean precision of the group. However, 
+removing those two points would not make the Patient group unique. At best, it 
+would make the two older groups different from the Young Adults (they would be
+less precise). There is no point in further analysis of this point as I'm not
+concerned with differences due only to aging.
+
+
+Perform an ANOVA anyway:
+```{r}
+fit <- aov(value ~ Subj_Group, data=simple) 
+layout(matrix(c(1,2,3,4),2,2)) # optional layout
+plot(fit) # diagnostic plots
+```
+
+Anova table:
+```{r}
+summary(fit)
+TukeyHSD(fit)
+```
+
+
+#### Looking at probability of target selection, a derivative of precision.
+
+
+
+
 
 #### Is there a deficit of colour WM?
 
