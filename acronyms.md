@@ -2,4 +2,6 @@
 
 TODO: Ensure below acronyms are introduced first, then used consistantly
 
-Working Memory (WM)
+Working Memory (WM) 
+
+Positron Emition Tomography (PET)

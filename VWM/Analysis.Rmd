@@ -5,7 +5,9 @@ date: "12/1/2014"
 output: html_document
 ---
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This is an R Markdown document generated in R Studio. Markdown is a simple 
+formatting syntax for authoring HTML, PDF, and MS Word documents. For more 
+details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 
 The data file I recieved is a complicated excel file with lots of information. I
@@ -33,7 +35,7 @@ A quick summary of the data for each group.
 acast(d, Subj_Group ~ variable ~ Number_of_Items , fun=mean)
 ```
 
-Sanity check:
+#### What it looks like:
 
 1. Looking at precision, Patients generally do worse than Older Controls, who
 generally do worse than Young adults. Each group generally does worse as more 
@@ -47,6 +49,30 @@ healthy groups, but they do quite well.
 guessing when they get it wrong. The Patients might be selecting distractor 
 colors as often as they guess, indicating a possible lack of binding color to 
 spatial location.
+
+### Research Questions:
+
+1. Are the patients able to encode and recall colour? 
+2. Is there a deficit of colour WM?
+3. Are the patients able to bind/recall location and colour of two targets?
+4. What about 3?
+5. Again, is there a deficit of this binding?
+6. Are the patients mis-binding color/location in the 2/3 condition? or are they
+   forgetting the stimuli entirely? (i.e., guessing or NonTarget selection).
+   
+
+### Are the patients able to encode and recall colour? 
+
+#### Is there a deficit of colour WM?
+
+### Are the patients able to bind/recall location and colour of two targets?
+
+#### What about 3?
+
+#### Again, is there a deficit of this binding?
+
+### Are the patients mis-binding color/location in the 2/3 condition? or are they
+   forgetting the stimuli entirely? (i.e., guessing or NonTarget selection).
 
 
 
