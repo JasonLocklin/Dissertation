@@ -1,5 +1,5 @@
 ---
-title: "Visual Working Memory Analysis"
+title: "Visual Working Memory and COVAT Analysis"
 author: "Jason Locklin <jalockli@uwaterloo.ca>"
 date: "12/1/2014"
 output:
@@ -13,7 +13,7 @@ This is an R Markdown document generated in R Studio. Markdown is a simple
 formatting syntax for authoring HTML, PDF, and MS Word documents. For more 
 details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-### Data Import and Formating
+### VWM Data Import and Formating
 
 The data file I recieved is a complicated excel file with lots of information. I
 reduced it to a simple table manually and saved to a csv file for reading into 
@@ -68,7 +68,7 @@ spatial location.
    forgetting the stimuli entirely? (i.e., guessing or NonTarget selection).
    
 
-### Are the patients able to encode and recall colour? 
+### Are the patients able to encode and recall colour? A deficit?
 
 Just looking at the "one target" case, were patients able to reliably report the
 colour of the target.
@@ -110,7 +110,48 @@ less precise). There is no point in further analysis of this point as I'm not
 concerned with differences due only to aging.
 
 
-Perform an ANOVA anyway:
+
+
+
+#### Looking at probability of target selection, a derivative of precision.
+
+Create summary data:
+```{r}
+simple <- d[d$variable == "pTarget" & d$Number_of_Items =="one",]
+
+cdata <- ddply(simple, c("Subj_Group", "variable"), summarise,
+               N    = length(value),
+               Mean = mean(value),
+               sd   = sd(value),
+               se   = sd / sqrt(N) )
+head(cdata)
+```
+
+Create a plot of means, and a seperate point plot to see outliers:
+```{r fig.height=3}
+p <- ggplot(cdata, aes(x = Subj_Group, y = Mean)) 
+p <- p + geom_bar(stat = "identity", width=0.5) +
+    geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2) + 
+    xlab("") +
+    ylab("Probability (SE)") + 
+    ggtitle("Probability of Correct Target Selection for Single Target Condition") 
+
+p + theme_gray()
+```
+
+Trying out some other styles. Choose one:
+```{r fig.width=7, fig.height=3}
+p + theme_bw()
+p + theme_linedraw()
+p + theme_light()
+p + theme_minimal()
+p + theme_classic()
+
+
+ggplot(simple, aes(x = Subj_Group, y = value))  + geom_jitter(position = position_jitter(width = .1))
+```
+
+Perform an ANOVA:
 ```{r}
 fit <- aov(value ~ Subj_Group, data=simple) 
 layout(matrix(c(1,2,3,4),2,2)) # optional layout
@@ -124,23 +165,303 @@ TukeyHSD(fit)
 ```
 
 
-#### Looking at probability of target selection, a derivative of precision.
+### Are the patients able to bind/recall location and colour?
+
+The two and three target conditions are really a different experiment from the 
+single target case. The participant needs to bind the locations of the targets 
+with the colour of each, and when presented with the cue, recall which color
+was at that location. Failure can occur because 1. The color for that location 
+cannot be recalled (Guessing), or 2. The color from another location was 
+miss-recalled at that location (PNonTarget).
+
+"Guessing", "pNonTarget", and "pTarget" add to 1, so are dependant/represent
+2 degrees of freedom.
+
+The omnibus model effectively has 3 Groups, two conditions, two outcomes. 
+However, the two outcomes are effectively answers to two different questions, 
+so I will not bother with a mulitvariate ANOVA.
+
+#### Q. 1: Do the groups differ in how often they mis-bind colour and location
+(I.e., probability of non-target colour)
+
+Create summary data:
+```{r}
+simple <- d[d$variable == "pNonTarget" & d$Number_of_Items !="one",]
+
+cdata <- ddply(simple, c("Subj_Group", "Number_of_Items","variable"), summarise,
+               N    = length(value),
+               Mean = mean(value),
+               sd   = sd(value),
+               se   = sd / sqrt(N) )
+cdata
+```
+
+Create a plot of means, and a seperate point plot to see outliers:
+```{r fig.height=3}
+p <- ggplot(cdata, aes(x = Subj_Group, y = Mean, fill = Number_of_Items)) 
+p <- p + geom_bar(stat = "identity", width=0.5,position=position_dodge(.6)) +
+    geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2, position=position_dodge(.6)) + 
+    xlab("") +
+    ylab("Probability of Guessing (SE)") + 
+    ggtitle("Mis-Binding Likelyhoods for Multi-Target Conditions") 
+
+p + theme_gray()
+```
+
+Plot the points (scatterplot)
+```{r}
+p <- ggplot(simple, aes(x = Subj_Group, y = value, fill = Number_of_Items))  
+p + geom_jitter(position = position_jitter(width = .1))
+```
+
+This data is quite strikingly skewed. Plot histograms (density plot) to see:
+```{r}
+ggplot(simple, aes(x = value,  fill = Subj_Group)) + geom_density(alpha=I(.5),)
+```
+
+The patient data has a uniform distribution (over the limited range of 0-1 
+probaility), while the two healthy groups are effectively at "floor". Because of
+this, it looks like it's impossile to transform the data into a sufficiently normal
+distribution. Taking the quad-root seems to produce the best result, but it's 
+still not good enough:
+
+```{r}
+ggplot(simple, aes(x = (value)^(1/4),  fill = Subj_Group)) + geom_density(alpha=I(.5),)
+```
+
+
+Because of these extreme distributions, the best way to model this would be with 
+a non-parametric test. Unfortunately, non-parametric tests of hierarchical data
+(the between-subject grouping factor X the within-subject num-targets factor),
+are not well established (at least in the frequentist world). Perhapse this data
+would best be analized with a bayesian model. For now, there are two simple solutions,
+treat the two conditions seperately (and use a bonferonni correction *if* only
+one condition is significant), or collapse the data across both conditions and 
+lose any ability to compare the 2 and 3 target conditions.
+
+Two target condition:
+```{r}
+simple <- d[d$variable == "pNonTarget" & d$Number_of_Items =="two",]
+summary(aov(value^(1/4)~Subj_Group, data=simple)) #Transformed data
+kruskal.test(value ~ Subj_Group, data=simple)     #Non-parametric test
+```
+
+Three target condition:
+```{r}
+simple <- d[d$variable == "pNonTarget" & d$Number_of_Items =="three",]
+summary(aov(value^(1/4)~Subj_Group, data=simple)) #Transformed data
+kruskal.test(value ~ Subj_Group, data=simple)     #Non-parametric test
+```
+
+Not useful.
+
+Collapsing across the two conditions:
+```{r}
+simple <- d[d$variable == "pNonTarget" & d$Number_of_Items !="one",]
+simple <- dcast(simple, Subj_Group + Subj_ID ~ variable, fun=mean) #take mean of 2 pts 
+fit <- aov(pNonTarget^(1/4)~Subj_Group, data=simple)  #Transformed data
+summary(fit)
+kruskal.test(pNonTarget ~ Subj_Group, data=simple)     #Non-parametric test
+```
+
+Both the tranformed-data ANOVA, and non-parametric test are significant when 
+collapse the two conditions. Next, making the necissary multiple comparisons:
+
+
+```{r}
+TukeyHSD(fit) # Tukey of the transformed data (two-tail)
+```
 
 
 
+For a non-parametric set of contrasts, I use the nparcomp package. Here I do 
+non-parametric version of single-sided Tukey contrasts. I use single sided tests
+because of the a priori assumption that both neglect and age will, if anything, 
+make people
+less accurate (i.e., the Young controls will be best, and the Patient group will
+be worst). Using a single-tailed version regains some of the power lost by 
+using a non-parametric test.
+
+Note I run a Tukey test first, just to pull out the contrast matrix
+and flip the necissary values to meet the a priori claim. Then I run a second
+model with these "costom" contrasts. This is just because the software
+does not allow me to specifiy the order of the directional contrasts in the 
+Tukey test, and by chance, two of the contrasts are in the wrong direction.
+
+```{r}
+library(nparcomp)
+fit <- nparcomp(pNonTarget ~ Subj_Group, data=simple,asy.method = "mult.t",
+            type = "Tukey",alternative = "greater", 
+            plot.simci = TRUE, info = TRUE)
+ContMatrix <- fit$Contrast * c(1,-1,-1) 
+fit <- nparcomp(pNonTarget ~ Subj_Group, data=simple,asy.method = "mult.t",
+            type="UserDefined",alternative = "greater", 
+            contrast.matrix = ContMatrix,
+            plot.simci = TRUE, info = TRUE)
+
+summary(fit)
+```
+
+Now we see the patient group is significantly worse (higher probability of 
+selecting non-target colour) than both control groups. The older control is not
+worse than the Young controls. In other words, no evidence that age is a factor,
+but strong evidence that neglect is.
+
+Re-plotting these means for publication:
+
+```{r fig.height=3}
+cdata <- ddply(simple, .(Subj_Group), summarise,
+               N    = length(pNonTarget),
+               Mean = mean(pNonTarget),
+               sd   = sd(pNonTarget),
+               se   = sd / sqrt(N) )
+
+p <- ggplot(cdata, aes(x = Subj_Group, y=Mean)) 
+p <- p + geom_bar(stat = "identity", width=0.5,position=position_dodge(.6)) +
+    geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2, position=position_dodge(.6)) + 
+    xlab("") +
+    ylab("Probability of Selection (SE)") + 
+    ggtitle("Non-Target Colour Selection") 
+
+p + theme_gray()
+```
+
+TODO: Should add bars and stars indicating that Patient differs statistically
+from the other two groups, but they do not significantly differ from each other.
 
 
-#### Is there a deficit of colour WM?
 
-### Are the patients able to bind/recall location and colour of two targets?
+### Q2: Do they fail to recall target colours entirely?
 
-#### What about 3?
+Create summary data:
+```{r}
+simple <- d[d$variable == "guessing" & d$Number_of_Items !="one",]
 
-#### Again, is there a deficit of this binding?
+cdata <- ddply(simple, c("Subj_Group", "Number_of_Items","variable"), summarise,
+               N    = length(value),
+               Mean = mean(value),
+               sd   = sd(value),
+               se   = sd / sqrt(N) )
+cdata
+```
 
-### Are the patients mis-binding color/location in the 2/3 condition? or are they
-   forgetting the stimuli entirely? (i.e., guessing or NonTarget selection).
+Create a plot of means, and a seperate point plot to see outliers:
+```{r fig.height=3}
+p <- ggplot(cdata, aes(x = Subj_Group, y = Mean, fill = Number_of_Items)) 
+p <- p + geom_bar(stat = "identity", width=0.5,position=position_dodge(.6)) +
+    geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2, position=position_dodge(.6)) + 
+    xlab("") +
+    ylab("Probability of Guessing (SE)") + 
+    ggtitle("Guessing Likelyhoods for Multi-Target Conditions") 
+
+p + theme_gray()
+```
+
+Plot the points (scatterplot)
+```{r}
+p <- ggplot(simple, aes(x = Subj_Group, y = value, fill = Number_of_Items))  
+p + geom_jitter(position = position_jitter(width = .1))
+```
+
+The data is far less skewed than what we saw with pNonTArget. 
+Plot histograms (actually a density plot) to see:
+```{r}
+ggplot(simple, aes(x = value,  fill = Subj_Group)) + geom_density(alpha=I(.5),)
+```
 
 
+A square-root transform completely eliminates the skew, though the lack of tails
+causes the data to remain extremely non-normal:
+```{r}
+ggplot(simple, aes(x = (value)^(1/2),  fill = Subj_Group)) + geom_density(alpha=I(.5),)
+```
 
 
+Again, non-parametric testing would be safest.
+
+Two target condition:
+```{r}
+simple <- d[d$variable == "guessing" & d$Number_of_Items =="two",]
+summary(aov(value^(1/2)~Subj_Group, data=simple)) #Transformed data
+kruskal.test(value ~ Subj_Group, data=simple)     #Non-parametric test
+```
+
+Three target condition:
+```{r}
+simple <- d[d$variable == "guessing" & d$Number_of_Items =="three",]
+summary(aov(value^(1/2)~Subj_Group, data=simple)) #Transformed data
+kruskal.test(value ~ Subj_Group, data=simple)     #Non-parametric test
+```
+
+Again, not useful.
+
+Collapsing across the two conditions:
+```{r}
+simple <- d[d$variable == "guessing" & d$Number_of_Items !="one",]
+simple <- dcast(simple, Subj_Group + Subj_ID ~ variable, fun=mean) #take mean of 2 pts 
+fit <- aov(guessing^(1/2)~Subj_Group, data=simple)  #Transformed data
+summary(fit)
+kruskal.test(guessing ~ Subj_Group, data=simple)     #Non-parametric test
+```
+
+As suspected from the plots, the groups don't seem to differ at all at the 
+likelyhood of guessing. Just for completeness, here is the exact same multicomparison
+analysis as was done with pNonTarget above:
+
+```{r}
+TukeyHSD(fit) # Tukey of the transformed data (two-tail)
+library(nparcomp)
+fit <- nparcomp(guessing ~ Subj_Group, data=simple,asy.method = "mult.t",
+            type = "Tukey",alternative = "greater", 
+            plot.simci = TRUE, info = TRUE)
+ContMatrix <- fit$Contrast * c(1,-1,-1) 
+fit <- nparcomp(guessing ~ Subj_Group, data=simple,asy.method = "mult.t",
+            type="UserDefined",alternative = "greater", 
+            contrast.matrix = ContMatrix,
+            plot.simci = TRUE, info = TRUE)
+
+summary(fit)
+```
+
+And a plot of the means:
+
+```{r fig.height=3}
+cdata <- ddply(simple, .(Subj_Group), summarise,
+               N    = length(guessing),
+               Mean = mean(guessing),
+               sd   = sd(guessing),
+               se   = sd / sqrt(N) )
+
+p <- ggplot(cdata, aes(x = Subj_Group, y=Mean)) 
+p <- p + geom_bar(stat = "identity", width=0.5,position=position_dodge(.6)) +
+    geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2, position=position_dodge(.6)) + 
+    xlab("") +
+    ylab("Probability of Guessing (SE)") + 
+    ggtitle("Guessing Colour Selection") 
+
+p + theme_gray()
+```
+
+From the above we could suspect there may be an age effect, even though I havn't
+found statistical justification. From the plots, I suspect it's possible to 
+pull out an age effect. What is obvious, though, is that there doesn't appear to
+be a striking influence of neglect, like with pNonTarget.
+
+To demonstrate the lack of a difference numerically:
+
+```{r}
+c<- t.test(guessing~ Subj_Group, data=simple[simple$Subj_Group != "Young Adult",])
+
+c<- t.test(simple[simple$Subj_Group == "Older Control",]$guessing)$conf.int
+c
+c[2]-c[1]
+```
+
+The *maximum* difference between the two groups, based on a 95 percent confidence
+interval, is 0.11, while the CI for the population of older controls it's self 
+is more than twice that. *If* there is a real effect of neglect on the probability
+of guessing, it is going to be dwarfed by inter-subject variability. 
+
+I could do a more detailed power analysis here if necissary.
+
+### COVAT data import
