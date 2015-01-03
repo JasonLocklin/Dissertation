@@ -211,7 +211,7 @@ p <- ggplot(cdata, aes(x = Subj_Group, y = Mean, fill = Number_of_Items))
 p <- p + geom_bar(stat = "identity", width=0.5,position=position_dodge(.6)) +
     geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2, position=position_dodge(.6)) + 
     xlab("") +
-    ylab("Probability of Guessing (SE)") + 
+    ylab("Probability of Non-Target selection (SE)") + 
     ggtitle("Mis-Binding Likelyhoods for Multi-Target Conditions") 
 
 p + theme_gray()
@@ -741,6 +741,7 @@ copying variable is not useful statistically, and only the other two are used.
 C.TESTS <- read.csv("Data/demographics_data.csv")
 C.TESTS$Subject <- factor(C.TESTS$Subject)
 names(C.TESTS) <- .(Subject, Group, Age, Sex, Handedness, Stars, Copying, Bisection)
+t.test(Age ~ Group, data=C.TESTS)
 TESTS_P <- C.TESTS[C.TESTS$Group == "Patient",][,c(1,6,8)]
 ```
 
@@ -786,4 +787,13 @@ origional plot.)
 ezCor(COR[,c(4,5,6,7)])
 ```
 
+I suspect that because of the lack of data points for all but 5 participants
+in the COVAT task, I will be restricted to individual comparisons rather than
+group contrasts.
+
+
+```{r}
+summary(COR)
+COR
+```
 
