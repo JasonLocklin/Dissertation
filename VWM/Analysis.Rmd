@@ -9,6 +9,7 @@ output:
     toc: yes
 ---
 
+
 This is an R Markdown document generated in R Studio. Markdown is a simple 
 formatting syntax for authoring HTML, PDF, and MS Word documents. For more 
 details on using R Markdown see <http://rmarkdown.rstudio.com>.
@@ -344,6 +345,7 @@ VWM_P <- simple[simple$Subj_Group == "Patient",][,2:3]
 names(VWM_P) <- .(Subject, value)
 VWM_P$variable <- "VWM_Multi"
 VWM_P <- rbind(VWM_SINGLE_P, VWM_P)
+VWM_P$value <- round(VWM_P$value, 4)
 ```
 
 
@@ -683,9 +685,8 @@ ezPlot(CES_short, wid = .(Subject), dv = .(value),
 ```
 
 
-Post hoc tests need to be performed in the context of the non-significant 
-ANOVA. Single-tailed tests are performed because it is assumed neglect patients
-will be more laterally biased (re: Striemer2007).
+Post hoc tests. Single-tailed tests are performed because it is assumed neglect 
+patients will be more laterally biased (re: Striemer2007).
 
 ```{r}
 t.test(.~Group, alternative="less",
@@ -696,20 +697,57 @@ t.test(.~Group, alternative="less",
 Again, Nonzero for group?
 
 ```{r}
-q <- dcast(CES_short, Subject ~ ., subset=.(Group=="Patient"),   mean)
+q <- dcast(CES_short, Subject ~ ., subset=.(Group=="Patient"), mean)
 t.test(q[2], alternative="greater")
-
 ```
-Huh, significant. Perhapse the leftward CES is, indeed, a more sensitive measure
-of the neglect attention defict. Note that this would not reach significance if
+Huh, significant. Note that this would not reach significance if
 all the means were compared and some correction for multiple comparisons made.
 It can be argued, though, that this is a particularily key contrast, and can be
 done on it's own. Regardless, working from a group of 5 is not going to be sufficient
 for most group-level statistics.
 
-Future work: Single case study statistics could be made comparing each of the 5 individuals 
-to the normative group. It's quite obvious from the plots that several of the 
-Patients would score significantly outside of the normal range.
+Healthy Group:
+```{r}
+qh <- dcast(CES_short, Subject ~ ., subset=.(Group=="Older Control"),   mean)
+t.test(qh[2], alternative="greater")
+```
+
+Now, for describing the individuals, calculate z-scores and plot the individual
+patients over the expected distribution of healthy performance.
+```{r}
+m = mean(qh[["."]])
+sd = sd(qh[["."]])
+names(q) <- .(Subject, CES)
+c <- ggplot(q, aes(factor(Subject), y=CES))
+
+# By default, uses stat="bin", which gives the count in each category
+c + geom_hline(aes(yintercept=m)) + 
+  geom_hline(aes(yintercept=m), size=sd, alpha=0.5) +
+  geom_hline(aes(yintercept=m), size=2*sd, alpha=0.25) +
+  geom_bar(stat = "identity", width=0.5) +
+  ggtitle("Patient CES") + ylab("Sec") + xlab("Patients")
+
+```
+
+The black line is the mean, the dark band is one standard deviation, the lighter
+band is 2 standard deviations. It seems like 2 of the patients are well outside 
+of normal performance while the other three are solidly within it. 
+
+#### Simple rightward RT as a proxy.
+```{r}
+names(covat)
+covat$srt <- covat$R_V_50 + covat$R_IV_50 + covat$R_V_150 + covat$R_IV_150
+
+t.test(data=covat, srt ~ Group)
+
+ezCor(data.frame(covat$CES.L_50, covat$CES.L_150, covat$srt), label_size = 5)
+
+```
+
+The groups are not even remotely different on this measure. Further, 
+it doesn't even marginally correlate with either CES value (both groups). 
+Probably not useful as a "proxy" of CES.
+
 
 
 #### Prepare for contrasting the effects with Clinical/VWM measurse
@@ -744,7 +782,7 @@ names(C.TESTS) <- .(Subject, Group, Age, Sex, Handedness, Stars, Copying, Bisect
 t.test(Age ~ Group, data=C.TESTS)
 TESTS_P <- C.TESTS[C.TESTS$Group == "Patient",][,c(1,6,8)]
 ```
-
+The two groups did not significantly differ with respect to age
 
 ### Correlation between VWM performance and Covat performance
 
@@ -764,8 +802,8 @@ The following numeric variables are compared:
 High level overview:
 ```{r}
 COR <- dcast(BOUND, Subject ~ variable + .)
-COR <- cbind(COR, TESTS_P, by="Subject")[,c(1:5,7,8)]
-ezCor(COR[,c(2:7)])
+COR <- cbind(COR, TESTS_P, by="Subject", label_size = 5)[,c(1:5,7,8)]
+ezCor(COR[,c(2:7)], label_size = 5)
 ```
 
 The NAs are a problem to deal with. Just looking at the 
@@ -776,7 +814,7 @@ is removing the most neglecting individuals, and will seriously hamper
 any correlation calculation.
 
 ```{r}
-ezCor(COR[!is.na(COR$aa),][,c(2:7)])
+ezCor(COR[!is.na(COR$aa),][,c(2:7)], label_size = 5)
 ```
 
 
@@ -784,7 +822,7 @@ Now, just for completeness, Looking at the VWM + Clinical tests for everyone in
 the Patient group (this is exactly the same as the bottom for values from the 
 origional plot.)
 ```{r}
-ezCor(COR[,c(4,5,6,7)])
+ezCor(COR[,c(4,5,6,7)], label_size = 5)
 ```
 
 I suspect that because of the lack of data points for all but 5 participants
@@ -794,6 +832,11 @@ group contrasts.
 
 ```{r}
 summary(COR)
-COR
+```
+
+
+```{r}
+COR[order(COR$Bisection),]
+
 ```
 
