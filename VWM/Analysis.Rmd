@@ -780,7 +780,7 @@ C.TESTS <- read.csv("Data/demographics_data.csv")
 C.TESTS$Subject <- factor(C.TESTS$Subject)
 names(C.TESTS) <- .(Subject, Group, Age, Sex, Handedness, Stars, Copying, Bisection)
 t.test(Age ~ Group, data=C.TESTS)
-TESTS_P <- C.TESTS[C.TESTS$Group == "Patient",][,c(1,6,8)]
+TESTS_P <- C.TESTS[C.TESTS$Group == "Patient",][,c(1,6,7,8)]
 ```
 The two groups did not significantly differ with respect to age
 
@@ -802,8 +802,8 @@ The following numeric variables are compared:
 High level overview:
 ```{r}
 COR <- dcast(BOUND, Subject ~ variable + .)
-COR <- cbind(COR, TESTS_P, by="Subject", label_size = 5)[,c(1:5,7,8)]
-ezCor(COR[,c(2:7)], label_size = 5)
+COR <- cbind(COR, TESTS_P, by="Subject", label_size = 5)[,c(1:5,7,8,9)]
+ezCor(COR[,c(2:6,8)], label_size = 5)
 ```
 
 The NAs are a problem to deal with. Just looking at the 
@@ -814,7 +814,7 @@ is removing the most neglecting individuals, and will seriously hamper
 any correlation calculation.
 
 ```{r}
-ezCor(COR[!is.na(COR$aa),][,c(2:7)], label_size = 5)
+ezCor(COR[!is.na(COR$aa),][,c(2:6,8)], label_size = 5)
 ```
 
 
@@ -822,7 +822,7 @@ Now, just for completeness, Looking at the VWM + Clinical tests for everyone in
 the Patient group (this is exactly the same as the bottom for values from the 
 origional plot.)
 ```{r}
-ezCor(COR[,c(4,5,6,7)], label_size = 5)
+ezCor(COR[,c(4,5,6,8)], label_size = 5)
 ```
 
 I suspect that because of the lack of data points for all but 5 participants
@@ -836,7 +836,10 @@ summary(COR)
 
 
 ```{r}
-COR[order(COR$Bisection),]
 
+library(gridExtra)
+#pdf("Neglect_means.pdf", height=11, width=8.5)
+grid.table(COR[order(COR$Bisection),])
+#dev.off()
 ```
 
