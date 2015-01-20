@@ -6,3 +6,7 @@
 *.html
 *.Rproj
 *.komodoproject
+Data
+Analysis.md
+Analysis_files
+Analysis.html
