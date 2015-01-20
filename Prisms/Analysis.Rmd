@@ -1,0 +1,392 @@
+---
+title: "Spatial WM and Tempral Estimation with Prisms in Neglect"
+author: "Jason Locklin <jalockli@uwaterloo.ca>"
+output:
+  html_document:
+    fig_caption: yes
+    keep_md: yes
+    toc: yes
+---
+
+
+Basic Analysis
+========================================================
+
+This documents the analysis. 
+
+## Loading the data and libraries
+
+```{r}
+library(plyr)
+library(ggplot2)
+TE  <- read.csv("Data/TE.tsv", sep="\t")
+SWM <- read.csv("Data/SWM.csv")
+NT  <- read.csv("Data/Neglect_tests.csv", na.strings="")
+LB  <- read.csv("Data/Line_Bisection_task.csv", sep="\t")
+```
+
+### Looking at TE first
+
+```{r}
+summary(TE)
+```
+
+Fixing the factors and simplifying (note that TrialDuration is both a factor 
+and quantitative variable, going with factor for ease of plotting):
+```{r}
+TE$Subject <- factor(TE$Subject)
+TE$Session <- factor(TE$Session)
+TE$Block <- factor(TE$Block)
+TE$TrialDuration <- factor(TE$TrialDuration)
+TE <- data.frame(TE$Subject, TE$Session, TE$SessionDate, TE$Block, 
+                 TE$Response.RESP, TE$TrialDuration)
+names(TE) <- c("Subject", "Session", "Date", "Block", "Response", "TrialDuration")
+TE$Prisms <- factor( as.numeric(TE$Session) > 1)
+levels(TE$Prisms) <- c("pre", "post")
+```
+
+And now:
+```{r}
+summary(TE)
+```
+
+### Spatial Working Memory (SWM)
+```{r}
+summary(SWM)
+```
+
+RT was entered by the experimentor, so is not useful in analysis. Extremely long 
+RT trials should be removed, though, because they were likely a result of the 
+participant taking a break or chatting with the experimentor. RTs of more than
+6 seconds are very unlikely to have been trials where the participant provided a
+attended response. 
+```{r}
+quantile(SWM$RT, probs = c(0.75, 0.85, 0.90, 0.925, 0.95, 0.975, 0.99))
+SWM <- SWM[SWM$RT < 6000,]
+```
+
+
+
+Data frame Cleanup:
+```{r}
+levels(SWM$Pre.Post) <- c("post", "pre", "pre", "pre")
+SWM <- data.frame(SWM$Subject, SWM$Pre.Post, SWM$Trial.., SWM$Key, SWM$Trial.Type)
+names(SWM) <- c("Subject", "Prisms", "Trial", "Resp", "Trial.Type")
+```
+
+We need to calculate another factor indicating whether each trial is a True 
+positive, a false positive, a true negative, or a false negative.
+```{r}
+Resp.Type <- rep("NONE", length(SWM$Resp))
+Resp.Type[SWM$Resp == "SP" & SWM$Trial.Type == "Valid"]   <- "TP"
+Resp.Type[SWM$Resp == "CR" & SWM$Trial.Type == "Valid"]   <- "FN"
+Resp.Type[SWM$Resp == "SP" & SWM$Trial.Type == "Invalid"] <- "FP"
+Resp.Type[SWM$Resp == "CR" & SWM$Trial.Type == "Invalid"] <- "TN"
+SWM$Resp.Type <- factor(Resp.Type)
+SWM$Hit <- factor(Resp.Type == "TP")
+SWM$FalseAlarm <- factor(Resp.Type == "FP")
+rm(Resp.Type)
+```
+
+The final result:
+```{r}
+summary(SWM)
+```
+
+### Line Bisection
+```{r}
+summary(LB)
+```
+
+Setting the correct factors and better names:
+```{r}
+LB$sj <- factor(LB$sj)
+LB$sess <- factor(LB$sess)
+LB$prisms <- factor(LB$prisms)
+levels(LB$prisms) <- c("pre","post")
+names(LB) <- c("Subject", "Session", "Prisms", "Percent_Error")
+summary(LB)
+```
+
+**Note that session numbers won't line up with other datasets as some participants
+did multiple pre-prisms line bisection tasks.
+
+
+
+### Other Neglect Tests
+
+```{r}
+summary(NT)
+```
+
+```{r}
+NT$Subject <- factor(NT$Subject)
+NT$Session <- factor(NT$Session)
+levels(NT$Star_Prisms) <- c("no", "no", "yes")
+NT$Star_Prisms[is.na(NT$Star_L_Omissions) & is.na(NT$Star_R_Omissions)] <- NA
+NT$Bell_Prisms[is.na(NT$Bell_L_omissions) & is.na(NT$Bell_R_Omissions)] <- NA
+NT$Bell_L_omissions <- as.numeric(as.character(NT$Bell_L_omissions))
+NT$Bell_R_Omissions <- as.numeric(as.character(NT$Bell_R_Omissions))
+```
+
+## Plotting TE
+
+TE: For each SJ, for each Session, for each Duration, median response bias.
+      *Note:* create a "Prisms" factor from Session Number. 
+
+Table of values for group:
+
+```{r}
+ddply(TE, .(Prisms, TrialDuration), summarize, 
+      mean = round( mean(Response, na.rm=TRUE), 0),
+      sd =  round( sd(Response, na.rm=TRUE), 0))
+```
+
+As we expected, participants massively underestimate time intervals. The 
+underestimation seems to be proportional to the trial duration in some way though.
+* Note the high variance in the pre/5second block -check for issues in the data.
+* Everywhere else, the sd is close-to or less than the response.
+* There is no obvious change in means after prisms, but the increased variance may
+  indicate differing responses among participants.
+
+Considering just those 5 second trials:
+```{r}
+ddply(TE[TE$TrialDuration==5,], .(Subject, Session, Prisms), summarize, 
+      mean = round( mean(Response, na.rm=TRUE), 0),
+      sd =  round( sd(Response, na.rm=TRUE), 0))
+```
+
+The high variance is coming entirely from participant 171.
+```{r}
+ddply(TE[TE$Subject==171,], .(Session, Prisms, TrialDuration), summarize, 
+      mean = round( mean(Response, na.rm=TRUE), 0),
+      sd =  round( sd(Response, na.rm=TRUE), 0))
+TE[TE$Subject==171 & TE$TrialDuration == 5 & TE$Session == 1,]
+```
+
+The participant's dataset looks completely reasonable, with the particular 
+exception of 5 second trials in the pre-prisms phase. Looking at the four trials
+concerned, a single response of 99 seems to have been entered. I belive the 
+experimentor entered 99 to indicate a no-response. Looking for other '99's, and
+removing them:
+```{r}
+TE[TE$Response == 99,]
+TE <- TE[TE$Response != 99 & !is.na(TE$Response),]
+```
+
+Now, looking at the dataset again, it looks better:
+```{r}
+ddply(TE, .(Prisms, TrialDuration), summarize, 
+      mean = round( mean(Response, na.rm=TRUE), 0),
+      sd =  round( sd(Response, na.rm=TRUE), 0))
+```
+
+I suspect that the participant bias is linearly proportional to trial durration,
+
+```{r TE_full, fig.width=12, cache=FALSE}
+TE2 <- ddply(TE[as.numeric(TE$Session) < 3 ,], .(Subject, Session, Prisms, TrialDuration), 
+             summarize, Response = round( median(Response, na.rm=TRUE), 0) )
+TE2$TrialDuration <- as.numeric(as.character(TE2$TrialDuration)) #switch to numeric
+TE2$Session <- factor(TE2$Session) #Fix levels
+
+p <- ggplot(data = TE2, aes(x = TrialDuration, 
+                           y = Response, group = Subject))
+
+p +  geom_line() + scale_x_continuous(breaks=c(5,15,30,60)) +
+  scale_y_continuous(breaks=c(5,15,30,60)) +
+  stat_smooth(aes(group = 1), method = "glm", formula = y ~ log(x)) + 
+  facet_grid(. ~ Prisms) 
+```
+
+Wow. Subject 27 was not at all like the others -performing aproximately 
+accurately. Note that the blue line and associated band are a t-based aproximation
+of the true mean and a 95 percent confidence interval around that. 
+
+Let's look at it without him:
+
+```{r TE_zoom, fig.width=12, cache=FALSE}
+TE2 <- ddply(TE[as.numeric(TE$Session) < 3 & TE$Subject != "27",],
+             .(Subject, Session, Prisms, TrialDuration), 
+             summarize, Response = round( median(Response, na.rm=TRUE), 0) )
+TE2$TrialDuration <- as.numeric(as.character(TE2$TrialDuration)) #switch to numeric
+TE2$Session <- factor(TE2$Session) #Fix levels
+
+p <- ggplot(data = TE2, aes(x = TrialDuration, 
+                           y = Response, group = Subject))
+
+p +  geom_line() + scale_x_continuous(breaks=c(5,15,30,60)) +
+  scale_y_continuous(breaks=c(5,15,30,60)) +
+  stat_smooth(aes(group = 1), method = "glm", formula = y ~ log(x)) + 
+  facet_grid(. ~ Prisms) 
+```
+
+The general trend seems to be somewhat of a quadratic relationship between
+response and trial duration, but looking at the individual participant lines,
+a linear aproximation wouldn't be terrible -if we wanted to keep it simple and 
+talk about response bias as a percent of total trial time.
+
+```{r TE_proportion, fig.width=12, cache=FALSE}
+TE$PercentBias <- round(((TE$Response - as.numeric(as.character(TE$TrialDuration))) 
+                                    / as.numeric(as.character(TE$TrialDuration))
+                         )*100, 0)
+TE2 <- ddply(TE, .(Subject, Session, Prisms), summarize, 
+      Percent = round( mean(PercentBias, na.rm=TRUE), 0),
+      sd =  round( sd(PercentBias, na.rm=TRUE), 0))
+TE2
+
+p <- qplot(data = TE2, x=Session, y=Percent, geom="bar", stat="identity", 
+       fill=Prisms, width = 0.8) + facet_wrap(~ Subject)
+p + scale_fill_brewer(type="qual", palette=3)
+rm(p, TE2)
+```
+
+So, all partipants start with an underestimate across the board, but change is
+heterogenious. Should probably add some sort of error bars, but will have to think
+about the best way to calculate them considering the data.
+
+
+## Plotting SWM
+
+* SWM: For each SJ, for each Prisms, calculate some measure of Signal detection.
+
+Table of responses:
+```{r}
+ddply(SWM, .(Subject, Prisms), summarise, 
+      True_Positives = sum(as.numeric(Resp.Type == "TP")  ),
+      False_Positives = sum(as.numeric(Resp.Type == "FP")  ),
+      True_Negatives = sum(as.numeric(Resp.Type == "TN")  ),
+      False_Negatives = sum(as.numeric(Resp.Type == "FN")  ) )
+```
+All participants made more True than False responses, both before and after
+prisms, and for valid and invalid trials. They must have been paying at attention
+to some degree.
+
+
+```{r}
+SWM2 <- ddply(SWM, .(Subject, Prisms), summarise, 
+      Hits = sum(as.numeric(Hit) - 1 ),
+      FalseAlarms = sum(as.numeric(FalseAlarm) -1),
+      H_minus_F = (sum(as.numeric(Hit) - 1 )/60)*100 - 
+        (sum(as.numeric(FalseAlarm) -1)/60)*100 )
+SWM2$Prisms <- relevel(SWM2$Prisms, "pre") # Needed for automatic x-axis order
+SWM2
+```
+
+Should problably look at some other signal detection measures, and what has 
+been used in the previous papers. For now, using those simple ones.
+
+Plotting Hits minus false alarms:
+```{r VWM_H-Fa, fig.width=12, cache=FALSE}
+qplot(data = SWM2, x=Prisms, y=H_minus_F, geom="bar", stat="identity", 
+        width = 0.8, ylim=c(0,100), ylab = "Hits minus false alarms") + 
+        facet_wrap(~ Subject) +
+        geom_abline(aes(intercept=72.5, slope=0),  size=1, alpha=0.5) +
+        geom_abline(aes(intercept=79.4, slope=0), size=1, alpha=0.5)
+
+```
+
+Plotting Hits:
+```{r Hits, fig.width=12, cache=FALSE}
+qplot(data = SWM2, x=Prisms, y=Hits, geom="bar", stat="identity", 
+        width = 0.8) + facet_wrap(~ Subject)
+```
+
+Plotting false alarms:
+```{r Fa, fig.width=12, cache=FALSE}
+qplot(data = SWM2, x=Prisms, y=FalseAlarms, geom="bar", stat="identity", 
+        width = 0.8) + facet_wrap(~ Subject)
+rm(SWM2)
+```
+
+Everyone's sample mean Hits - false alarm rate increased, though only two are 
+likely significant in any way. Because of the low numbers of False postivies 
+(false alarms), this variable is likely unreliable -making the Hits-False alarms
+metric non-ideal. Will have to look for something else in SDT.
+
+## Plotting Line Bisection
+
+This, in combination with the other neglect tests, gives an idea of who was 
+neglecting, and who 
+
+Table of means:
+```{r}
+ddply(LB, .(Subject, Session, Prisms), summarise, 
+      PercentError = round(mean(Percent_Error),2),
+      sd = round(sd(Percent_Error), 2))
+
+```
+
+Everything but Sj 408, session 2 looks fine. Looking at those trials:
+```{r}
+LB[LB$Subject=="408" & LB$Session=="2",]
+```
+I checked the paper records, and yes, this participant did drastically *left-shift*
+their responses on many of the trials. Not sure what to make of that. Participant
+did show extreme neglect on both cancellation tasks, with slight improvement post
+prisms. Figure drawing was fine.
+
+Now to plot:
+```{r Line_bisection, fig.width=12, cache=FALSE}
+LB2 <- ddply(LB, .(Subject, Session, Prisms), summarise, 
+      PercentError = round(median(Percent_Error),2),
+      sd = round(sd(Percent_Error), 2))
+#LB2$Prisms <- relevel(LB2$Prisms, "post") # Needed for automatic x-axis order
+LB2$Session <- as.numeric(as.character(LB2$Session))
+p <- qplot(data = LB2, x=Session, y=PercentError, geom="bar", stat="identity", 
+       fill=Prisms, width = 0.8) + facet_wrap(~ Subject)
+p + scale_fill_brewer(type="qual", palette=3)  + 
+  coord_flip() + scale_x_reverse() + geom_abline(aes(intercept=0, slope=0))
+rm(LB2, p)
+```
+
+This mess probably needs to be combined with the other tests to get anything.
+
+
+## Now the other neurological tests
+
+### Star
+```{r Star, fig.width=12, cache=FALSE}
+NT$Star_L_Omissions <- -(NT$Star_L_Omissions)
+
+ggplot(data = subset(NT, !is.na(Star_Prisms)), aes(x=Session, alpha=Star_Prisms )) + 
+  geom_bar(data=NT, aes(y=Star_L_Omissions), stat="identity", color="grey20", fill = "red")  +
+  geom_bar(data=NT, aes(y=Star_R_Omissions), stat="identity", color="grey20", fill = "blue") +
+  coord_flip() + facet_wrap(~ Subject)
+                
+```
+Looks like 3 participants don't have post prisms star data entered. Check into this.
+
+
+### Bell
+```{r Bell, fig.width=12, cache=FALSE}
+#NT$Bell_L_omissions <- -(NT$Bell_L_omissions)
+NT$Bell_L_omissions <- -(NT$Bell_L_omissions)
+ggplot(data = subset(NT, !is.na(Bell_Prisms)), aes(x=Session, alpha=Bell_Prisms )) + 
+  geom_bar(data=NT, aes(y=Bell_L_omissions), stat="identity", color="grey20", fill = "red")  +
+  geom_bar(data=NT, aes(y=Bell_R_Omissions), stat="identity", color="grey20", fill = "blue") +
+  coord_flip() + facet_wrap(~ Subject)
+                
+```
+
+These figures are probably just useful for deciding categories. They are pretty
+ugly. We could catagorize as Neglecting/Non-Neglecting, and/or Improved/no-improvement.
+This would be simply a cutoff for calculating groups, not a statistical test.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
