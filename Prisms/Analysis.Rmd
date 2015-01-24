@@ -144,8 +144,11 @@ ddply(TE, .(Prisms, TrialDuration), summarize,
 
 As we expected, participants massively underestimate time intervals. The 
 underestimation seems to be proportional to the trial duration in some way though.
+
 * Note the high variance in the pre/5second block -check for issues in the data.
+
 * Everywhere else, the sd is close-to or less than the response.
+
 * There is no obvious change in means after prisms, but the increased variance may
   indicate differing responses among participants.
 
@@ -341,6 +344,7 @@ rm(LB2, p)
 
 This mess probably needs to be combined with the other tests to get anything.
 
+TODO: Sort above figure so it's always pre before post.
 
 ## Now the other neurological tests
 
@@ -372,8 +376,10 @@ These figures are probably just useful for deciding categories. They are pretty
 ugly. We could catagorize as Neglecting/Non-Neglecting, and/or Improved/no-improvement.
 This would be simply a cutoff for calculating groups, not a statistical test.
 
+Note: zero's don't show up on above plots.
 
-
+1. Take median values for pre and post bells and stars.
+2. Create table of clinical measures.
 
 
 
