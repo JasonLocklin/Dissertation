@@ -198,7 +198,7 @@ p <- ggplot(data = TE2, aes(x = TrialDuration,
 p +  geom_line() + scale_x_continuous(breaks=c(5,15,30,60)) +
   scale_y_continuous(breaks=c(5,15,30,60)) +
   stat_smooth(aes(group = 1), method = "glm", formula = y ~ log(x)) + 
-  facet_grid(. ~ Prisms) 
+  facet_grid(. ~ Prisms) + ggtitle("Temporal Estimation")
 ```
 
 Wow. Subject 27 was not at all like the others -performing aproximately 
@@ -247,6 +247,74 @@ So, all partipants start with an underestimate across the board, but change is
 heterogenious. Should probably add some sort of error bars, but will have to think
 about the best way to calculate them considering the data.
 
+## Analysing TE
+
+All analysis should be done with, and without subject 27, as this participant
+was not neglecting and obviously distinct.
+
+
+```{r}
+TE2 <- ddply(TE,
+             .(Subject, Prisms, TrialDuration), 
+             summarize, Response = round( median(Response, na.rm=TRUE), 0) )
+TE2$TrialDuration <- as.numeric(as.character(TE2$TrialDuration)) #switch to numeric
+require(tidyr)
+
+# Anova: resp ~ Prisms + Duration
+# Duration is really a random variable.
+require(ez)
+model <- ezANOVA(TE2, wid=Subject,
+        dv=.(Response), within=.(Prisms), within_covariates=TrialDuration)
+print(model)
+
+#without ANCOVA
+TE2$TrialDuration <- factor(TE2$TrialDuration)
+model <- ezANOVA(TE2, wid=Subject,
+        dv=.(Response), within=.(Prisms, TrialDuration))
+print(model)
+
+TE3 <- spread(TE2, Prisms, Response)
+for(i in c(5,15,30,60) ){ 
+  print(i)
+  tmp <- TE3[TE3$TrialDuration == i,]
+  print( t.test(tmp$pre, tmp$post, paired=TRUE) )
+  }
+
+
+
+
+```
+
+
+Now the Above, without participant 27
+```{r}
+TE2 <- ddply(TE[TE$Subject != "27",],
+             .(Subject, Prisms, TrialDuration), 
+             summarize, Response = round( median(Response, na.rm=TRUE), 0) )
+TE2$TrialDuration <- as.numeric(as.character(TE2$TrialDuration)) #switch to numeric
+require(tidyr)
+
+# Anova: resp ~ Prisms + Duration
+# Duration is really a random variable.
+require(ez)
+model <- ezANOVA(TE2, wid=Subject,
+        dv=.(Response), within=.(Prisms), within_covariates=TrialDuration)
+print(model)
+
+#without ANCOVA
+TE2$TrialDuration <- factor(TE2$TrialDuration)
+model <- ezANOVA(TE2, wid=Subject,
+        dv=.(Response), within=.(Prisms, TrialDuration))
+print(model)
+
+TE3 <- spread(TE2, Prisms, Response)
+for(i in c(5,15,30,60) ){ 
+  print(i)
+  tmp <- TE3[TE3$TrialDuration == i,]
+  print( t.test(tmp$pre, tmp$post, paired=TRUE) )
+  }
+```
+
 
 ## Plotting SWM
 
@@ -283,9 +351,11 @@ Plotting Hits minus false alarms:
 qplot(data = SWM2, x=Prisms, y=H_minus_F, geom="bar", stat="identity", 
         width = 0.8, ylim=c(0,100), ylab = "Hits minus false alarms") + 
         facet_wrap(~ Subject) +
-        geom_abline(aes(intercept=72.5, slope=0),  size=1, alpha=0.5) +
-        geom_abline(aes(intercept=79.4, slope=0), size=1, alpha=0.5)
-
+        geom_abline(aes(intercept=79, slope=0), size=1, alpha=0.9) +
+        geom_abline(aes(intercept=79, slope=0), size=2*8.7, alpha=0.2) +
+        geom_abline(aes(intercept=89, slope=0),  size=1, alpha=0.9) +
+        geom_abline(aes(intercept=89, slope=0),  size=2*6.1, alpha=0.8) +
+        ggtitle("Spatial Working Memory Test") + xlab("")
 ```
 
 Plotting Hits:
@@ -298,13 +368,43 @@ Plotting false alarms:
 ```{r Fa, fig.width=12, cache=FALSE}
 qplot(data = SWM2, x=Prisms, y=FalseAlarms, geom="bar", stat="identity", 
         width = 0.8) + facet_wrap(~ Subject)
-rm(SWM2)
 ```
 
 Everyone's sample mean Hits - false alarm rate increased, though only two are 
 likely significant in any way. Because of the low numbers of False postivies 
 (false alarms), this variable is likely unreliable -making the Hits-False alarms
 metric non-ideal. Will have to look for something else in SDT.
+
+## SWM tests
+```{r}
+library(dplyr)
+library(tidyr)
+wide <- spread(SWM2[,c(1,2,5)], Prisms, H_minus_F)
+t.test(wide$pre, wide$post, paired=TRUE, alternative= "less")
+summary(wide)
+rm(wide)
+```
+
+As a group, the patients do improve statistically significantly (provided a 
+one-sided test is used). However, as can be seen in the figures, this improvement
+comes nowhere close to returning to healthy performance. 
+
+Calculate z scores for each cell. 
+```{r}
+SWM2$h <- 79
+SWM2$h_SD <-8.7
+SWM2$rbd <- 89
+SWM2$rbd_SD <- 6.1
+SWM2$h_z <- abs(SWM2$H_minus_F - SWM2$h) / SWM2$h_SD
+SWM2$rbd_z <- abs(SWM2$H_minus_F - SWM2$rbd) / SWM2$rbd_SD
+SWM2[,c(1,2,10,11)][SWM2$Prisms=="post",]
+summary(SWM2[,c(1,2,10,11)][SWM2$Prisms=="post",][SWM2$Subject != 27,])
+```
+
+
+
+
+
 
 ## Plotting Line Bisection
 
@@ -328,6 +428,8 @@ their responses on many of the trials. Not sure what to make of that. Participan
 did show extreme neglect on both cancellation tasks, with slight improvement post
 prisms. Figure drawing was fine.
 
+
+
 Now to plot:
 ```{r Line_bisection, fig.width=12, cache=FALSE}
 LB2 <- ddply(LB, .(Subject, Session, Prisms), summarise, 
@@ -339,12 +441,61 @@ p <- qplot(data = LB2, x=Session, y=PercentError, geom="bar", stat="identity",
        fill=Prisms, width = 0.8) + facet_wrap(~ Subject)
 p + scale_fill_brewer(type="qual", palette=3)  + 
   coord_flip() + scale_x_reverse() + geom_abline(aes(intercept=0, slope=0))
-rm(LB2, p)
 ```
 
-This mess probably needs to be combined with the other tests to get anything.
 
-TODO: Sort above figure so it's always pre before post.
+note on Partipant 95. Don't use session 3, as computer tasks weren't run, or
+session 1 as it's old. Note that session 2 and 4 was actually pre first, they 
+just got numbered backward.
+
+Participant 163, session 3 was only partial (no SWM), so use only 4.
+
+Use most recent pre prisms session
+
+```{r}
+LB2$Session <- as.numeric(LB2$Session)
+s <- LB2$Subject == "95" & ( LB2$Session == 2 | LB2$Session ==4)
+s <- s | LB2$Subject == "27" & LB2$Session > 1
+s <- s | LB2$Subject == "97" & LB2$Session > 1
+s <- s | LB2$Subject == "163" & ( LB2$Session == 2 | LB2$Session ==4)
+s <- s | LB2$Subject == "171" & (LB2$Session > 2)
+s <- s | LB2$Subject == "408"
+LB2 <- LB2[s,]
+
+LB2$Session <- as.numeric(as.character(LB2$Session))
+p <- qplot(data = LB2, x=as.numeric(Prisms), y=PercentError, geom="bar", stat="identity", 
+       fill=Prisms, width = 0.8) + facet_wrap(~ Subject)
+p + scale_fill_brewer(type="qual", palette=3)  + 
+  coord_flip() + scale_x_reverse()  +
+  ylab("") + theme(axis.text.y = element_blank()) + ggtitle("Line Biasection Bias") +
+  xlab("Percent of Line")+ geom_abline(aes(intercept=0, slope=0))
+
+```
+
+```{r}
+LB3 <- spread(LB2[c(1,3,4)], Prisms, PercentError)
+t.test(LB3$pre, LB3$post, paired=TRUE, alternative="greater")
+t.test(LB3$pre[2:6], LB3$post[2:6], paired=TRUE, alternative="greater")
+```
+
+Individual:
+```{r}
+LB$Session <- as.numeric(LB$Session)
+s <- LB$Subject == "95" & ( LB$Session == 2 | LB$Session ==4)
+s <- s | LB$Subject == "27" & LB$Session > 1
+s <- s | LB$Subject == "97" & LB$Session > 1
+s <- s | LB$Subject == "163" & ( LB$Session == 2 | LB$Session ==4)
+s <- s | LB$Subject == "171" & (LB$Session > 2)
+s <- s | LB$Subject == "408"
+LB4 <- LB[s,]
+for(i in levels(LB$Subject)) {
+  print(i)
+  print(t.test(LB4$Percent_Error[LB4$Subject == i] ~ LB4$Prisms[LB4$Subject == i]))
+  }
+
+
+```
+
 
 ## Now the other neurological tests
 
@@ -380,6 +531,49 @@ Note: zero's don't show up on above plots.
 
 1. Take median values for pre and post bells and stars.
 2. Create table of clinical measures.
+
+```{r}
+#Select only those sessions applicable (sorry for readability)
+NT2 <- NT[c(4,2,7,8,9,10,15,17,23,25,31,32),c(1,7,10,12,13)]
+names(NT2) <- .(Patient, Stars, Bells, Prisms, Drawing)
+NT2$Stars <- -round(NT2$Stars)
+NT2$Bells <- -round(NT2$Bells)
+
+tmp <- spread(NT2[,c(1,2,4)], Prisms, Stars)
+t.test(tmp$no[2:6], tmp$yes[2:6], paired=TRUE)
+print(tmp)
+
+p1 <- ggplot(NT2, aes(x = Patient, y = Stars, fill=Prisms)) +
+    geom_bar(position="dodge", stat="identity", width=0.4) +
+    theme(legend.position = "none") +
+    xlab("No bar shows up for zero") +
+    ylab("% targets missed") + 
+    ggtitle("Terrible plot of Stars data") +
+    scale_y_continuous(breaks=0:20*4) +
+    theme_gray()
+
+
+tmp <- spread(NT2[,c(1,3,4)], Prisms, Bells)
+t.test(tmp$no[2:6], tmp$yes[2:6], paired=TRUE)
+print(tmp)
+
+p2 <- ggplot(NT2, aes(x = Patient, y = Bells, fill=Prisms)) +
+    geom_bar(position="dodge", stat="identity", width=0.4) +
+    xlab("") +
+    ylab("") + 
+    ggtitle("Terrible plot of Bells data") +
+    scale_y_continuous(breaks=0:20*4) +
+    theme_gray()
+source("multiplot.r")
+multiplot(p1, p2, cols=2)
+
+spread(NT2[,c(1,4,5)], Prisms, Drawing)
+```
+
+
+### Clinical Table
+
+
 
 
 
