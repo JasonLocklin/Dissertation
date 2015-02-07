@@ -1,14 +1,18 @@
-Methods 
-=======
+Method
+======
 
-### Participants The covert orienting task was performed by two groups,
-a group of eight neurological patients who showed symptoms of neglect in
-pre-testing (3 male, 2 left handed, mean age of 66), and a control group
-(3 male, handedness untested, mean age of 74). The two groups were not
-strictly age-matched, but did not significantly differ with respect to
-age ($t(12.5) = 1.8$, $\text{p} > 0.05$). The visual working memory task
-was performed by these same two groups plus an additional control group
-of healthy young adults. FIXME: demographics missing.  
+### Participants 
+
+The covert orienting task was performed by two groups, a group of eight
+neurological patients who showed symptoms of neglect in pre-testing (3
+male, 2 left handed, mean age of 66), and a control group (3 male,
+handedness untested, mean age of 74). The two groups were not strictly
+age-matched, but did not significantly differ with respect to age
+($t(12.5) = 1.8$, $\text{p} > 0.05$). The visual working memory task was
+performed by these same two groups plus an additional control group of
+healthy young adults. 
+
+FIXME:  demographics missing. 
 
 Patients were also tested on for signs of neglect using three standard
 clinical tests: line bisection, star cancellation, and figure copying.
@@ -79,14 +83,25 @@ Further, for each trial, the probability that the response represented
 an attempt at selecting the correct target colour ($P_T$), one of the
 distractor target colours ($P_{NT}$, in the two and three target
 conditions), or simply a guess ($P_G$), was calculated with the
-distribution-based model described in @Emrich2012.  The values add to
-one, so in the one-target case, the probability of guessing is simply
-the inverse of the probability of correct target selection.
+distribution-based model described in @Emrich2012 and @Bayes2009 (see
+figure tk).  For each trial, the physical distance between the patient's
+response and the locations on the colour bar that would match each of
+the initial target colours was recorded. Using these distance measures a
+probabalistic model is computed that produces two or three estimates.
+First, a probability that the participant indicated the correct target
+colour, $P_T$,  by the magnitude of the location on a gausian
+distribution centered around the exact target colour.  If the trial type
+included more than one initial box, then a the probability the response
+is to a non-target, $P_{NT}$, is calculated in the same way. Lastly, the
+probability the patient guessed randomly is simply remainder (i.e., $P_G
+= 1 - (P_T - P_{NT})$. To compute an estimate of the precision of target
+responses, the $SD$ of the probability model used to compute the above
+three components was also recorded. This provides a measure of the
+spatial response precision of only those trials where the patient
+sucessfully recalls and reports a taret colour (i.e., $P_T$ and
+$P_{NT}$). 
 
-FIXME: Was response precision calculated based on all trials, or only trials
-likely to be correct target selection? I assume the former. But should check.
 
-FIXME: I can give an explanation of the calculations if necissary.
 
 For the covert orienting task, response times were recorded and means
 were calculated for each trial category for each participant. Cue-effect
@@ -109,10 +124,6 @@ of freedom for unequal variance was used.
 
 Results  
 =======
-
-FIXME: There's no clinical measures results as I summarize those stats
-under "participants". If more analysis is needed it will be moved here. 
-
 
 ### Visual Working Memory
 
