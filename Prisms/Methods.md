@@ -126,10 +126,9 @@ sensitivity metric was calculated for each patient, pre- and
 post-prisms, by subtracting false-positives from true-positives
 (i.e., "hits" - "false alarms"). Normative performance in healthy
 individuals from pre-existing research with this task was used to
-provide context to these values.
+provide context to these values [@Ferber2006].
 
 The temporal estimation task analyzed the time interval estimates
 the patients reported. For each patient, a mean of reported times
 was calculated for each time interval, both for pre and post
-prisms data. An ANOVA, and direct comparisons of the means for
-each time interval were performed to examine the effect of prisms.
+prisms data. 

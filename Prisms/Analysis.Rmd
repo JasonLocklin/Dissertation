@@ -223,6 +223,22 @@ p +  geom_line() + scale_x_continuous(breaks=c(5,15,30,60)) +
   facet_grid(. ~ Prisms) 
 ```
 
+Running on log transform:
+```{r TE_log, fig.width=12, cache=FALSE}
+TE2 <- ddply(TE[as.numeric(TE$Session) < 3 & TE$Subject != "27",],
+             .(Subject, Session, Prisms, TrialDuration), 
+             summarize, Response = round( median(Response, na.rm=TRUE), 0) )
+TE2$TrialDuration <- as.numeric(as.character(TE2$TrialDuration)) #switch to numeric
+TE2$Session <- factor(TE2$Session) #Fix levels
+
+p <- ggplot(data = TE2, aes(x = log(TrialDuration), 
+                           y = log(Response), group = Subject))
+
+p +  geom_line() +
+  stat_smooth(aes(group = 1), method = "glm", formula = y ~ log(x)) + 
+  facet_grid(. ~ Prisms) 
+```
+
 The general trend seems to be somewhat of a quadratic relationship between
 response and trial duration, but looking at the individual participant lines,
 a linear aproximation wouldn't be terrible -if we wanted to keep it simple and 
@@ -246,6 +262,25 @@ rm(p, TE2)
 So, all partipants start with an underestimate across the board, but change is
 heterogenious. Should probably add some sort of error bars, but will have to think
 about the best way to calculate them considering the data.
+
+
+
+Alternatively, log transform the data and compute lm() for each participant
+to get a slope measure. 
+
+```{r TE_Slope}
+TE2 <- ddply(TE, .(Subject, Session, Prisms), summarize, 
+      slope = lm(log(Response) ~ log(as.numeric(as.character(TrialDuration)))
+                 )[['coefficients']][[2]])
+TE2
+
+p <- qplot(data = TE2, x=Session, y=slope, geom="bar", stat="identity", 
+       fill=Prisms, width = 0.8) + facet_wrap(~ Subject)
+p + scale_fill_brewer(type="qual", palette=3)
+rm(p, TE2)
+```
+
+
 
 ## Analysing TE
 
