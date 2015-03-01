@@ -11,7 +11,7 @@ metric along with expected range (2 standard deviations from the
 means) of the neurologically intact and non-neglecting right brain
 damaged participants from @Ferber2006. While the patient who did
 not demonstrating neglect on the clinical tasks at time of testing
-(27) performed simmilar to the non-neglecting data, the
+(27) performed similar to the non-neglecting data, the
 remainder's baseline performance was at least 3 standard
 deviations outside what was observed in either group.
 

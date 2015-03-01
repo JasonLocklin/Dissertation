@@ -71,7 +71,7 @@ previously occupied by a target. A total of 120 trials constituted
 a single session.  In 50% of trials, the circle appeared in the
 same position as one of the preceding squares.
 
-TODO: Figure [fig:Prisms] goes about here. Diagramatic outline of
+TODO: Figure [fig:Prisms] goes about here. Diagrammatic outline of
 the SWM and TE tasks.
 
 
