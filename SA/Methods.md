@@ -3,7 +3,7 @@ Method
 
 ### Participants
 
-A total of 59 individuals (33 female, 3 left hand dominant, age:
+A total of 46 individuals (33 female, 3 left hand dominant, age:
 $mean=tk$, $sd=tk$), were recruited from the University of
 Waterloo undergraduate student body through the Research
 Experiences Group. 
@@ -29,7 +29,7 @@ instructed to point to them as they appeared. The landmark and
 line bisection tasks were performed first, to measure baseline
 performance, and then up to four blocks of of the three tasks
 (saccadic adaptation, bisection, and landmark), each beginning
-with saccadic adaptation, were performed (tk participants opted to
+with saccadic adaptation, were performed (10 participants opted to
 end the experiment after 3 blocks due to time constraints). The
 order that the landmark and line-bisection tasks were presented
 was randomized from one participant to the next, but remained
