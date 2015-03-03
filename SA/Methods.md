@@ -41,10 +41,10 @@ consistent from block to block.
 Each trial of the line bisection task began with a black screen.
 The participant was asked to place their finger on the keyboard
 space-bar. While the key was depressed, after a jittered time
-interval (approximately 0.5 seconds), a horizontal 25 degrees
-(20cm) by 0.3 degrees white bar appeared on the screen. The line
+interval (approximately 0.5 seconds), a horizontal 25º
+(20cm) by 0.3º white bar appeared on the screen. The line
 was always centred, but was vertically jittered from trial to
-trial by up to 6.6 degrees. When the line appeared, the
+trial by up to 6.6º. When the line appeared, the
 participant was instructed touch the bar where they perceived the
 centre-most point was, as "quickly as possible." However, the line
 remained on screen for 1700ms, or until a touch-response was
@@ -54,16 +54,16 @@ screen replace the target line and the participant was required to
 return their finger to the space-bar in order to proceed to the
 next trial. A block of line bisection consisted of 10 trials.
 
-Each trial of the landmark task began with a red fixation mark 1.3
-degrees tall by 0.3 degrees that appeared near the centre of the
-screen (jittered vertically by 6.6 degrees from trial to trial).
-After 0.5 seconds, a horizontal, white bar of the same dimensions
-as used with the line bisection task appeared behind the red mark
-and remained on-screen for 1700ms. The red mark was still clearly
-visible, and the participant was asked to indicate with the
-computer arrow-keys whether the mark was to the right or left of
-the centre of the white bar. The following trial, the tick mark
-would fall slightly further from the end reported, changed in
+Each trial of the landmark task began with a red fixation mark
+1.3º tall by 0.3º that appeared near the centre of
+the screen (jittered vertically by 6.6º from trial to
+trial).  After 0.5 seconds, a horizontal, white bar of the same
+dimensions as used with the line bisection task appeared behind
+the red mark and remained on-screen for 1700ms. The red mark was
+still clearly visible, and the participant was asked to indicate
+with the computer arrow-keys whether the mark was to the right or
+left of the centre of the white bar. The following trial, the tick
+mark would fall slightly further from the end reported, changed in
 progressively smaller steps from trial to trial (i.e., a staircase
 procedure).  This allowed a precise estimation of the subjective
 point of equality via a staircase method using up to 20 trials
@@ -77,24 +77,23 @@ of trial progression and full experimental sequence (two-panel).
 #### Saccadic Adaptation
 
 To the participant, saccadic adaptation appeared to involve
-visually following a 2 degree black square as it appeared at
-various places around the grey screen for a period of time
-(black-on-grey was chosen instead of the white-on-black for the
-other two tasks because of the lingering phosphorescence of the
-CRT screen when a white-on-black target disappears). Their
-instructions were simply to follow the dots with your eyes.
-Underlying this, however, were 100 trials involving central
-fixation (250ms), followed by a target in the left half of the
-screen (100ms, jittered by 50ms), then a target 300 (+-30) degrees
-to the right of the previous one. When an eye-movement toward the
-second target was detected (by passing a threshold of distance
-between the two), the target was perturbed back toward the initial
-target by 30% (100 degrees), simulating an overshoot, and intended
-to reduce saccade amplitude over over time (i.e., hypometria; see
-figure [fig:SA] for an overview).  One in 5 trials were "test
-trials," where the target was not perturbed, but simply
-disappeared. These trials were intended to allow analysis of
-changes to the saccade length induced by adaptation without the
+visually following a 2º black square as it appeared at various
+places around the grey screen for a period of time (black-on-grey
+was chosen instead of the white-on-black for the other two tasks
+because of the lingering phosphorescence of the CRT screen when a
+white-on-black target disappears). Their instructions were simply
+to follow the dots with your eyes.  Underlying this, however, were
+100 trials involving central fixation (250ms), followed by a
+target in the left half of the screen (100ms, jittered by 50ms),
+then a target 300 (+-30)º to the right of the previous one. When
+an eye-movement toward the second target was detected (by passing
+a threshold of distance between the two), the target was perturbed
+back toward the initial target by 30% (100º), simulating an
+overshoot, and intended to reduce saccade amplitude over over time
+(i.e., hypometria; see figure [fig:SA] for an overview).  One in 5
+trials were "test trials," where the target was not perturbed, but
+simply disappeared. These trials were intended to allow analysis
+of changes to the saccade length induced by adaptation without the
 potential that the saccade was somehow updated mid-flight to the
 new location.
 
@@ -144,8 +143,8 @@ chosen instead of the more commonly used average, as it
 accentuates sudden bursts of speed, therefore making saccade
 detection easier. A saccade was defined as regions where the
 rolling maximum met a threshold greater than the median trial
-speed plus an experimentally determined parameter (1500
-degrees/second). The analysis of a typical trial is presented
+speed plus an experimentally determined parameter
+(1500º/second). The analysis of a typical trial is presented
 graphically in figure [fig:Saccade_detection].
 
 TODO: Figure [fig:Saccade_detection] goes about here. Depicts the
@@ -184,11 +183,11 @@ a single participant who had demonstrated symptoms of neglect was
 recruited from the Neurological Patient Database (University of
 Waterloo). The parameters of the task were eased in anticipation
 of the needs of the participant. For the saccadic adaptation, the
-target was larger (6x6 degrees). The initial target was always to
-a target in the right half of the screen (100 to 300 degrees right
-of mid-line, 300 degrees above or below the horizon), rather than
+target was larger (6x6º). The initial target was always to
+a target in the right half of the screen (100 to 300º right
+of mid-line, 300º above or below the horizon), rather than
 left as in the normative sample above. It was followed, by a
-second target 300 degrees left of this initial position. When a
+second target 300º left of this initial position. When a
 leftward saccade was detected, this target was perturbed further
 leftward, with the intent of simulating an undershoot, with the
 intent of augmenting saccade length over time. A leftward increase

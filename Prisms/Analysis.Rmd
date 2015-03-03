@@ -270,9 +270,21 @@ to get a slope measure.
 
 ```{r TE_Slope}
 TE2 <- ddply(TE, .(Subject, Session, Prisms), summarize, 
-      slope = lm(log(Response) ~ log(as.numeric(as.character(TrialDuration)))
-                 )[['coefficients']][[2]])
+      r_squared = summary(lm(log(Response) ~ log(as.numeric(as.character(TrialDuration)))
+                 ))$r.squared
+      )
+summary(TE2)
+
+#Worst case is 408 pre prisms
+t <- TE[TE$Subject == '408' & TE$Session == '1',]
+summary(lm(log(t$Response) ~ log(as.numeric(as.character(t$TrialDuration)))))
+
+TE2 <- ddply(TE, .(Subject, Session, Prisms), summarize, 
+      slope = summary(lm(log(Response) ~ log(as.numeric(as.character(TrialDuration)))
+                 ))$coefficients[2,1]
+      )
 TE2
+
 
 p <- qplot(data = TE2, x=Session, y=slope, geom="bar", stat="identity", 
        fill=Prisms, width = 0.8) + facet_wrap(~ Subject)

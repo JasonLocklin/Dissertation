@@ -90,7 +90,7 @@ head(cdata, n=3)
 
 
 Create a plot of means, and a seperate point plot to see outliers:
-```{r }
+```{r VWM_Precision}
 p <- ggplot(cdata, aes(x = Subj_Group, y = Mean)) 
 p + geom_bar(stat = "identity", width=0.5) +
     geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2) + 
@@ -99,7 +99,9 @@ p + geom_bar(stat = "identity", width=0.5) +
     ggtitle("Response Precision for Single Target Condition") +
     scale_y_continuous(breaks=0:20*4) +
     theme_gray()
+```
 
+```{r}
 ggplot(simple, aes(x = Subj_Group, y = value))  + geom_jitter(position = position_jitter(width = .1))
 ```
 
@@ -110,6 +112,11 @@ would make the two older groups different from the Young Adults (they would be
 less precise). There is no point in further analysis of this point as I'm not
 concerned with differences due only to aging.
 
+ANOVA
+```{r}
+fit <- aov(value ~ Subj_Group, data=simple) 
+summary(fit)
+```
 
 
 
@@ -129,7 +136,7 @@ head(cdata, n=3)
 ```
 
 Create a plot of means, and a seperate point plot to see outliers:
-```{r fig.height=3}
+```{r VWM_1Target}
 p <- ggplot(cdata, aes(x = Subj_Group, y = Mean)) 
 p <- p + geom_bar(stat = "identity", width=0.5) +
     geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2) + 
@@ -137,17 +144,16 @@ p <- p + geom_bar(stat = "identity", width=0.5) +
     ylab("Probability (SE)") + 
     ggtitle("Probability of Correct Target Selection for Single Target Condition") 
 
-p + theme_gray()
+p + theme_classic()
 ```
 
 Trying out some other styles. Choose one:
 ```{r fig.width=7, fig.height=3}
-p + theme_bw()
-p + theme_linedraw()
-p + theme_light()
-p + theme_minimal()
-p + theme_classic()
-
+#p + theme_bw()
+#p + theme_linedraw()
+#p + theme_light()
+#p + theme_minimal()
+# p + theme_classic()
 
 ggplot(simple, aes(x = Subj_Group, y = value))  + geom_jitter(position = position_jitter(width = .1))
 ```
@@ -836,10 +842,17 @@ summary(COR)
 
 
 ```{r}
+require(gridExtra)
 
-library(gridExtra)
-#pdf("Neglect_means.pdf", height=11, width=8.5)
-grid.table(COR[order(COR$Bisection),])
+tbl <- COR[order(COR$Bisection),]
+tbl$Bisection <- round(tbl$Bisection,1)
+tbl$Stars <- round(tbl$Stars)
+tbl$VWM_Single <- round(tbl$VWM_Single,2)
+tbl$VWM_Multi <- round(tbl$VWM_Multi, 2)
+
+tbl <- tbl[-3]
+names(tbl) <- .(Subject,CES(L),VWM(Multi),d,e,f,g)
+grid.table(tbl[-1])
 #dev.off()
 ```
 

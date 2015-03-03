@@ -77,8 +77,8 @@ somewhat different [@Catz2008, @Golla2008, @Hernandez2008,
 reference frame. That is to say, the starting eye position is
 irrelevant, but only the vector direction of the eye movement
 [@Catz2008, @Golla2008, @Hernandez2008, @Panouillères2009,
-@Panouillères2012]. For example, if rightward saccades of 10
-degrees are reduced by saccadic adaptation, other similar
+@Panouillères2012]. For example, if rightward saccades of
+10º are reduced by saccadic adaptation, other similar
 rightward saccades will be hypometric, regardless of the eye or
 head position. Congruent with a retinocentric vector-based
 representation, adaptation of saccades of a given length will
@@ -88,11 +88,11 @@ horizontal and vertical adaptation are also independent of
 one-another [@Watanabe2003]. Perhaps most indicative of a purely
 retinotopic reference frame, adaptation of saccades of one
 direction do not influence saccades of the opposite direction,
-regardless of spatial overlap
-[@Deubel1986; @Frens1994; @Albano1996]. Inducing changes in a
-retinocentric frame of reference could potentially influence a
-broader range of behaviours important for both attention and the
-accurate construction of perceptual representations.
+regardless of spatial overlap [@Deubel1986; @Frens1994;
+@Albano1996]. Inducing changes in a retinocentric frame of
+reference could potentially influence a broader range of
+behaviours important for both attention and the accurate
+construction of perceptual representations.
 
 [Perception] There is also several lines of research that indicate
 that saccadic adaptation can influence perception. For example,
@@ -127,44 +127,3 @@ gaze abnormalities [@Desestret2013]. Despite the dearth of
 research, the clinical application of saccadic adaptation on
 disorders like neglect is under-examined.
 
-Experiment 1 - Saccadic Adaptation and Judgment of Centre (normative)
-=====================================================================
-
-As described in the previous chapter, perceptual and motoric
-judgments of centre, in the form of the line bisection and
-landmark tasks, provide a simple, yet clear demonstration of the
-dissociative effects of prisms in neglect. In order to examine the
-potential of saccadic adaptation, the performance of a group of
-healthy participants on these tasks were measured over several
-sessions of saccadic adaptation.
-
-Methods
--------
-
-Results and Discussion
-----------------------
-
-Experiment 2 - Case Study Examining Saccadic Adaptation in Neglect
-==================================================================
-
-An experimental trial of saccadic adaptation with a neglect
-patient was performed in order to gauge the feasibility of using
-the task with this population, and to look for potential
-indicators of efficacy.
-
-Methods
--------
-
-[brief description of patient and protocol; brief description of
-results; could you make a figure that has eye traces for controls
-vs. eye traces for Brian?]
-
-Results and Discussion
-----------------------
-
-Qualitative description of case study: Launch the argument here
-that failures (in SA and PA) are due to techniques that influence
-reflexive, reactive mechanisms. Another point to make here is that
-neglect patients never say there’s anything unusual about the
-prisms – that is, they are not aware of the shift despite adapting
-to it – more evidence that the effects are implicit.

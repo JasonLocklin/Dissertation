@@ -6,13 +6,17 @@ Method
 The covert orienting task was performed by two groups, a group of
 eight neurological patients who showed symptoms of neglect in
 pre-testing (3 male, 2 left handed, mean age of 66, see table
-[tbl:VWM] for more details), and a healthy older control group (3 male,
-handedness untested, mean age of 74).  The two groups were not
-strictly age-matched, but did not significantly differ with
-respect to age ($t(12.5) = 1.8$, $\text{p} = 0.10$).  The visual
-working memory task was performed by these same two groups plus an
-additional control group of 9 healthy young adults (tk female,
-mean age of tk).
+[tbl:VWM] for more details), and a healthy older control group (3
+male, handedness untested, mean age of 74). The study was approved
+by all relevant hospital and institutional ethics review boards.
+The two groups were not strictly age-matched, but did not
+significantly differ with respect to age ($t(12.5) = 1.8$,
+$\text{p} = 0.10$).  All patients were tested at least tk months
+post-stroke. The visual working memory task was performed by these
+same two groups plus an additional control group of 9 healthy
+young adults (tk female, mean age of tk).
+
+FIXME: Recruitment pool(s)?
 
 
 Patients were also tested for signs of neglect using three
@@ -83,20 +87,20 @@ as the visual working memory task described above. It was
 programmed and run in Superlab (Cedrus Software). Participants
 were presented with 100 trials, outlined in figure [fig:CH1-task].
 A single trial sequence consisted of a fixation cross with
-peripheral landmarks (empty green circles 12 degrees to right and
-left of centre, each subtending 2 degrees). This stimulus was
-followed by the appearance of a peripheral cue (1050-1550ms),
-which consisted of the brightening of one landmark.  After an SOA
-of 50 or 150ms, targets, which consisted of red circles presented
-within the landmark, appeared either at the cued location (valid
-trials) or at the opposite location (invalid trials; Figure
-[fig:Ch1-task).  Cues were non-informative (i.e., 50% of cued
-trials were valid and 50% were invalid trials).  There were also
-no-cue trials in which the target appeared without any preceeding
-cue. Targets appeared equally often on the left and right sides.
-Participants maintained fixation throughout the task. This was
-monitored by the experimenter and verbal feedback was given
-periodically to encourage participants to maintain fixation.
+peripheral landmarks (empty green circles 12º to right and left of
+centre, each subtending 2º). This stimulus was followed by the
+appearance of a peripheral cue (1050-1550ms), which consisted of
+the brightening of one landmark.  After an SOA of 50 or 150ms,
+targets, which consisted of red circles presented within the
+landmark, appeared either at the cued location (valid trials) or
+at the opposite location (invalid trials; Figure [fig:Ch1-task).
+Cues were non-informative (i.e., 50% of cued trials were valid and
+50% were invalid trials).  There were also no-cue trials in which
+the target appeared without any preceeding cue. Targets appeared
+equally often on the left and right sides.  Participants
+maintained fixation throughout the task. This was monitored by the
+experimenter and verbal feedback was given periodically to
+encourage participants to maintain fixation.
 
 
 ### Data Analysis
