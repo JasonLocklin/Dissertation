@@ -1,5 +1,5 @@
 Results
-=======
+-------
 
 ### Saccadic Adaptation
 
@@ -42,15 +42,15 @@ TODO: [tbl:Adaptation] goes about here. Data below:
 
 Data for table tk:\
 Test Trials:\
-1 \$t( 30 ) = -2.53 \$, \$\text{p} = 0.017 \$\
-2 \$t( 24 ) = -1.8 \$, \$\text{p} = 0.084 \$\
-3 \$t( 19 ) = -2.58 \$, \$\text{p} = 0.018 \$\
-4 \$t( 21 ) = -3.07 \$, \$\text{p} = 0.006 \$\
+1 $t( 30 ) = -2.53 $, $\text{p} = 0.017 $\
+2 $t( 24 ) = -1.8 $, $\text{p} = 0.084 $\
+3 $t( 19 ) = -2.58 $, $\text{p} = 0.018 $\
+4 $t( 21 ) = -3.07 $, $\text{p} = 0.006 $\
 All Trials:\
-1 \$t( 36 ) = -4.62 \$, \$\text{p} = 0 \$\
-2 \$t( 35 ) = -6.17 \$, \$\text{p} = 0 \$\
-3 \$t( 34 ) = -6.76 \$, \$\text{p} = 0 \$\
-4 \$t( 27 ) = -5.88 \$, \$\text{p} = 0 \$
+1 $t( 36 ) = -4.62 $, $\text{p} = 0 $\
+2 $t( 35 ) = -6.17 $, $\text{p} = 0 $\
+3 $t( 34 ) = -6.76 $, $\text{p} = 0 $\
+4 $t( 27 ) = -5.88 $, $\text{p} = 0 $
 
 ### Landmark and Line bisection
 
@@ -79,8 +79,8 @@ participant was excluded from line bisection because they pointed
 to the end of the line, rather than center, after the first block.
 When the change scores were averaged across blocks, neither line
 bisection, nor landmark task performance showed evidence of change
-post-adaptation ( \$t( 35 ) = -0.55 \$, $\text{p} = 0.583$, and
-\$t( 36 ) = -0.88 \$, \$\text{p} = 0.384 \$ respectively ).  Based
+post-adaptation ( $t( 35 ) = -0.55 $, $\text{p} = 0.583$, and
+$t( 36 ) = -0.88 $, $\text{p} = 0.384 $ respectively ).  Based
 on the sample variance and sample size, a power analysis revealed
 that the experiment would have had a 95% chance of detecting a
 post-adaptation change in the landmark task as small as 0.1º
