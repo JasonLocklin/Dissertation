@@ -1,5 +1,5 @@
 Method
-======
+------
 
 ### Participants
 

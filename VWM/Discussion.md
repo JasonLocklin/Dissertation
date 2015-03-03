@@ -1,5 +1,5 @@
 Discussion
-==========
+----------
 
 [VWM single] The response precision data indicates that the
 patients were able to perform the basic task of indicating a

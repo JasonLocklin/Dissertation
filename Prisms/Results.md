@@ -1,5 +1,5 @@
 Results
-=======
+-------
 
 ### Spatial Working Memory Task
 

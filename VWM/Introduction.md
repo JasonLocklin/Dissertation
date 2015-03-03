@@ -1,4 +1,4 @@
-Exploring the relationship between visual working memory and attentionin neglect.
+Exploring the relationship between visual working memory and attention in neglect.
 ==================================================================================
 
 As already discussed, most of the traditional models of neglect
