@@ -32,7 +32,7 @@ of the patients responded within the range of performance observed
 in the two control groups.
 
 FIXME: No, this is just based on the single target condition. This
-test is only here to rule out the possiblility that effects of
+test is only here to rule out the possibility that effects of
 neglect, found later, are *not* the simple result of a lost
 motoric ability to point accurately. I suspect that a mixed
 effects Anova would be a less robust way to answer this question,
@@ -84,7 +84,7 @@ outcomes produced a highly skewed and non-normal distribution that even
 with data transformations, was not sufficiently normal for parametric
 analysis to be appropriate. The means of the three groups and two
 target conditions can be seen in figure [fig:VWM_MTarget_G]. As an
-attempt to analyse the data, the two target conditions were
+attempt to analyze the data, the two target conditions were
 collapsed to produce means for a more generic "multi-target"
 performance metric.
 
@@ -119,7 +119,7 @@ young adults).  The two healthy groups did not significantly
 differ from one another ($t(8) = 0.54$, $\text{p} = 0.6$).
 
 TODO: Figure [fig:VWM_MTarget_NT] goes about here. Figure depicts
-non-target probablity means for the three groups. Might include
+non-target probability means for the three groups. Might include
 visual indication of the two conditions that contribute to each
 mean. 
 

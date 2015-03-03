@@ -22,12 +22,12 @@ adaptation paradigm had successfully shortened saccades, and 3 of
 
 
 [non-test trials] While test trials provide a measure of degree of
-adaptation in the absense of any responses to target perturbations
+adaptation in the absence of any responses to target perturbations
 mid-flight, the sparsity of data when using only these trials
 limits the potential power and reliability of further statistical
 analysis.  Further, the average change in saccadic length
 (including all all blocks) is -69%, which is more than double the
-actual target purturbation (30%), and includes an exceptionally
+actual target perturbation (30%), and includes an exceptionally
 large 95% confidence interval ranging from -100% to -7%.
 Alternatively, if all trials are included instead of just
 test-trials, the overall mean saccadic change is -18% (95% CI of
@@ -64,7 +64,7 @@ of saccadic adaptation on landmark and line bisection, change
 scores were computed from the initial, pre-adaptation sessions of
 the two tasks, to the remaining post-adaptation sessions. One
 participant was excluded from line bisection because they pointed
-to the end of the line, rather than center, after the first block.
+to the end of the line, rather than centre, after the first block.
 When the change scores were averaged across blocks, neither line
 bisection, nor landmark task performance showed evidence of change
 post-adaptation ( $t( 35 ) = -0.55$, $\text{p} = 0.583$, and $t(
@@ -102,7 +102,7 @@ $r = -0.06$, $t(34) = -0.39$, $\text{p} = 0.7$ respectively )
 [Saccades not toward target but central fixation] The neglect
 patient made saccades normally to the first target in the
 adaptation task (rightward), however, the patient was never able
-to aquire the second target. After the first target disappeared,
+to acquire the second target. After the first target disappeared,
 the patient always returned to the centre of the screen,
 anticipating the central fixation which would begin the next
 trial. The trial would time-out and the fixation would then

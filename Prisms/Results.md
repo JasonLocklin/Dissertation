@@ -54,12 +54,11 @@ was computed in order to yield a measure of the relationship
 figure [fig:TE], the relationship was not recti-linear (first
 order), so linear models were computed based on log-transformed
 time. When this was done, linear models fit very well (13 models,
-$r^2$: first quartile $=0.80$, median $=0.87$, third quartile
-$=0.92$). The worst case model was, nevertheless, still
-significant ($F(1,14)=12.4$, $\text{p}< 0.01$, $r^2=0.47$),
-indicating that despite their poor performance, patients'
-responses were, in fact, reliably influenced by the true trial
-intervals.
+$r^2$: first quartile =0.80, median =0.87, third quartile =0.92).
+The worst case model was, nevertheless, still significant
+($F(1,14)=12.4$, $\text{p}< 0.01$, $r^2=0.47$), indicating that
+despite their poor performance, patients' responses were, in fact,
+reliably influenced by the true trial intervals.
 
 TODO: Figure [fig:TE] goes about here. Figure depicts both
 line-plots of reported interval vs. true interval, and barplots

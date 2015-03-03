@@ -27,7 +27,7 @@ tend to have difficulties with sustained attention
 [@Robertson1995], even when operating in a non-spatial modality
 [@Roberson1997]. The attentional blink, a measure of temporal,
 selective attention is exaggerated in neglect. When presented with
-a rapid series of stimuli with two embedded targets sparated by
+a rapid series of stimuli with two embedded targets separated by
 varying temporal intervals, neglect patients require up to three
 times as much time between them in order to identify both
 correctly [@Husain1997]. In addition to these non-lateralized

@@ -71,7 +71,7 @@ point of equality via a staircase method using up to 20 trials
 Again, the stimuli remained on screen until a response was
 registered (see figure [fig:Landmark]).
 
-TODO: Figure [fig:Landmark] goes about here. Diagramatic depiction
+TODO: Figure [fig:Landmark] goes about here. Diagrammatic depiction
 of trial progression and full experimental sequence (two-panel).
 
 #### Saccadic Adaptation
@@ -97,7 +97,7 @@ of changes to the saccade length induced by adaptation without the
 potential that the saccade was somehow updated mid-flight to the
 new location.
 
-TODO: Figure [fig:SA] goes about here. Diagramatic depiction of
+TODO: Figure [fig:SA] goes about here. Diagrammatic depiction of
 saccadic adaptation trial.
 
 
@@ -122,7 +122,7 @@ it disappeared and the second target appeared. At this point,
 until the end of the trial (approximately 2s). This allowed later
 analysis of the initial saccade toward the second target, and any
 corrective saccades to the perturbed location afterword. Rather
-than rely on the real-time saccade detection exectuted by
+than rely on the real-time saccade detection executed by
 Eyelink's own program, an algorithm was developed that matched
 human performance when viewing the eye-position data graphically
 and manually identifying the precise start and finish of each
@@ -134,7 +134,7 @@ adaptive gain effects, was critical to robust analysis.
 Duplicate samples were removed and eye movement speed was then
 calculated as the sample-to-sample position change (unsigned).
 This speed data was smoothed by convolution with a "hanning"
-window (a hanning window resembles a gaussian distribution, but
+window (a hanning window resembles a Gaussian distribution, but
 lacks the long tails, so makes a good smoothing filter, $w(n) =
 0.5\; \left(1 - \cos \left ( \frac{2 \pi n}{N-1} \right)
 \right)$). Saccades were detected by first convolving a "rolling

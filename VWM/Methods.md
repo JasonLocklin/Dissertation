@@ -37,7 +37,7 @@ and cancellation tasks (see table [tbl:VWM]). Only one did not
 show neglect on any task.
 
 TODO: Table [tbl:VWM] goes about here. Demographic, clinical, VWM,
-and Covat summary results of the neurological patient group.
+and COVAT summary results of the neurological patient group.
 
 ### Apparatus and Procedure
 
@@ -76,7 +76,7 @@ recall the colour of the target that had been presented at that
 particular location (Figure [fig:Ch1-task]).
 
 TODO: Figure [fig:Ch1-task] goes about here. Figure depicts both
-VWM and COVAT tasks diagramatically. Task makes clear that there
+VWM and COVAT tasks diagrammatically. Task makes clear that there
 may be 1, 2 or 3 targets on the VWM task.
 
 #### Covert Orienting of Attention Task
@@ -96,7 +96,7 @@ landmark, appeared either at the cued location (valid trials) or
 at the opposite location (invalid trials; Figure [fig:Ch1-task).
 Cues were non-informative (i.e., 50% of cued trials were valid and
 50% were invalid trials).  There were also no-cue trials in which
-the target appeared without any preceeding cue. Targets appeared
+the target appeared without any preceding cue. Targets appeared
 equally often on the left and right sides.  Participants
 maintained fixation throughout the task. This was monitored by the
 experimenter and verbal feedback was given periodically to
@@ -111,14 +111,14 @@ calculated: the probability that the response represented an
 attempt at selecting the correct target colour ($P_T$), one of the
 distractor target colours ($P_{NT}$, in the two and three target
 conditions), or simply represented a random guess ($P_G$), was
-calculated with the probabalistic model described in @Emrich2012
+calculated with the probabilistic model described in @Emrich2012
 and @Bayes2009 (see figure [fig:Emrich2012]).  
 
 For each trial, these measures were calculated based on the
 physical location of the participant's response relative to the
-true target colors.  First, a probability that the participant
+true target colours.  First, a probability that the participant
 indicated the correct target colour, $P_T$, by the magnitude of
-the location on a gausian distribution centered around the exact
+the location on a Gaussian distribution centred around the exact
 target colour. If the trial type included more than one initial
 box, then the probability the response is to a non-target,
 $P_{NT}$, is calculated in the same way. Lastly, the probability
@@ -128,8 +128,8 @@ the remainder (i.e., $P_G = 1 - (P_T + P_{NT})$. To compute an
 estimate of the precision of target responses, the $SD$ of the
 probability model used to compute the above three components was
 also recorded. This provides a measure of the spatial response
-precision of those trials where the patient sucessfully recalls
-and reports a taret colour (i.e., $P_T$ and $P_{NT}$).
+precision of those trials where the patient successfully recalls
+and reports a target colour (i.e., $P_T$ and $P_{NT}$).
 
 TODO: Figure [fig:Emrich2012] goes about here. If we use this, we
 need permission to reprint it (right half of figure in
@@ -159,7 +159,7 @@ Since means were calculated, cutoffs should probably be stated.
 
 
 Significance was defined as $p < 0.05$ throughout this entire
-document.  Where independant samples $t$ tests are used, unless
+document.  Where independent samples $t$ tests are used, unless
 otherwise specified, the Welch approximation of the degrees of
 freedom for unequal variance was used.
 

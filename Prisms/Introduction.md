@@ -70,7 +70,7 @@ Participants performing a covert orienting task while undergoing
 fMRI imaging exhibited significantly attenuated activity in
 undamaged areas of visual cortex, posterior parietal cortex
 (particularly the intraparietal sulcus and superior parietal
-lubule), and dorsolateral prefrontal cortex [@Corbetta2005].
+lobule), and dorsolateral prefrontal cortex [@Corbetta2005].
 
 [Hypothesis] The effects of prisms appear to be highly specific to
 the dorsal, spatial attention deficits in neglect, and yet, as

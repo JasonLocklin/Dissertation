@@ -37,10 +37,10 @@ multi-target condition, binding errors appear to be the
 overwhelming source of failures. While the single-target condition
 is effectively tuned to detect guessing (as that's the only type
 of error), the multi-target conditions simply provides less
-oportunity to detect guessing, both in terms of space on the
+opportunity to detect guessing, both in terms of space on the
 colour bar that results in coding a response as a guess, 
 and in terms of response frequency, given the three
-possible outcome probabilitites.
+possible outcome probabilities.
 
 Additionally, it should not be
 automatically discounted that a difference in the healthy control groups
@@ -60,7 +60,7 @@ are many potential explanations for this, the most obvious being
 an increase in binding failures (tk Binding errors citation:
 Treisman, Behrmann or Humphreys and Riddoch).
 When more than one target is presented, colour information must be
-associated with spatial arangement in memory. If all of the colours
+associated with spatial arrangement in memory. If all of the colours
 are effectively encoded and recalled, but a failure to bind 
 the colours to spatial location occurs, participants will select 
 a distractor colour 50\% of the time in the two-target condition,
