@@ -1,5 +1,5 @@
-Discussion 
-==========
+General Discussion 
+=================
 
 [Deficits in Neglect go beyond attention] The inability to orient
 spatial attention to left visual space has long been considered

@@ -14,17 +14,17 @@ The disorder is, as can be expected from the list of symptoms,
 debilitating, and is associated with poor rehabilitative outcome.
 Less than half of patents show improvements in the weeks after a
 neglect inducing stroke, and a small minority fully recover
-[Farnè2004@!].
+[Farnè2004@].
 
 [Disorder of Spatial-attention] Most theoretical accounts of the
 neglect syndrome describe it as either a deficit of the deployment
 of spatial attention, or one of awareness. More specifically,
 either an inability to report, respond, or orient attention toward
 stimuli in left space [@DriverMattingley1998
-!,@HalliganVallar2003!,@HeilmanValenstein1993!] , or a general
+,@HalliganVallar2003,@HeilmanValenstein1993] , or a general
 loss of environmental awareness that can at it's most extreme,
 cause a person to act as if the entire contralesional half of
-their world has ceased to exist [@Mesulam1981 !]. The
+their world has ceased to exist [@Mesulam1981 ]. The
 spatial-attention based model does a good job of explaining many
 of the deficits displayed on the clinical tests of neglect. For
 example, object cancellation (a variant of the visual search task)
@@ -55,14 +55,14 @@ locations respectively; Psoner, 1980). On this task, neglect
 patients are disproportionately slower to respond to left sided
 targets following a right sided cue – as if they have trouble
 disengaging from the cue when presented in right space [see
-@BartolomeoChokron2002 ! and @LosierKlein2001! for reviews].
+@BartolomeoChokron2002  and @LosierKlein2001 for reviews].
 Similarly, in a visual search task, performance in contralateral
 space is driven by the number of ipsilesional distractors
-[@EglinKnight1989 !]. This coincides with a general body of
+[@EglinKnight1989 ]. This coincides with a general body of
 research that supports the notion that a crucial function of the
 inferior parietal cortex is to disengage attention from the
 current focus and reorient toward a new, salient location [for a
-review, see @CorbettaShulman2002 !]
+review, see @CorbettaShulman2002 ].
 
 [Prisms do lot's of things] Given the debilitating nature of the
 disorder a broad range of rehabilitation protocols have been
@@ -74,38 +74,38 @@ patient's ear canal, and neck muscle vibration, quickly orients
 the patient's torso, head, eyes, and attention to the stimulated
 side, reducing several of the behavioural deficits for a short
 time (\~20 minutes) [@AdairHeilman2003
-!,@KarnathHartje1993!,@KarnathDichgans1996!,@Rubens1 985!].
+,@KarnathHartje1993,@KarnathDichgans1996,@Rubens1 985].
 Unfortunately, these exercises are aversive and their short-term
 effects prevent them from being useful as treatments. A much more
 promising rehabilitation technique based on prismatic glasses has
 recently been shown to have broader, and more lasting effects in
-neglect [@Rossetti1998; RossiKheyfetsReding1990!]. When patients
+neglect [@Rossetti1998; RossiKheyfetsReding1990]. When patients
 with neglect are adapted to a rightward visual shift and the
 glasses removed, the after-effects on several behavioural measures
 are profound, and last considerably longer than the adaptation
 time [@FarnèRossetti2002
-!,@Frassinetti2002!,@Pisella2002!,@Rossetti1998!] . Judgment of
+,@Frassinetti2002,@Pisella2002,@Rossetti1998] . Judgment of
 straight-ahead and line bisection became closer to true centre
 [@Danckert2006], object cancellation, and figure copying improves
-[@Rosetti1998 !], exploratory eye movements demonstrate a
-reduction in rightward bias [@Danckert2006,@Ferber2003!,,], visual
-imagery [@Rode2001 !,@Rode1998!], and posture [@Tilikete2001 !].
+[@Rosetti1998 ], exploratory eye movements demonstrate a
+reduction in rightward bias [@Danckert2006,@Ferber2003,,], visual
+imagery [@Rode2001 ,@Rode1998], and posture [@Tilikete2001 ].
 
 [Failures of prisms] Despite the long list of behaviours prisms
 have been shown to ameliorate, more recent randomized control
 trials have failed to show prisms as an efficacious rehabilitation
-treatment [@Nys2008 !,@Turton2009!]. Additionally, when an effort
+treatment [@Nys2008 ,@Turton2009]. Additionally, when an effort
 is made to examine attention and perception more directly, the
 ameliorative effects seem to become somewhat less clear. Some
 direct measures of attentional biases have been shown to be
 affected by prisms, such as covert shifts of attention
-[@Striemer2007,Nijboer2008!], and extinction [@Serino2007 !],
+[@Striemer2007,Nijboer2008], and extinction [@Serino2007 ],
 while other, perhaps more realistic measures of attention, such as
 a serial visual search task, have failed to show an effect
-[@Morris2004 !]. Similarly, while several studies have shown that
+[@Morris2004 ]. Similarly, while several studies have shown that
 prisms induce a shift in voluntarily eye movements towards
 previously neglected space, perceptual judgments can remain just
-as biased as before [@Dijkerman2003 !,@Ferber2003!]. This appears
+as biased as before [@Dijkerman2003 ,@Ferber2003]. This appears
 to be demonstrating a disassociation between occulomotor "looking"
 and perceptual "seeing," with prisms restoring the former but not
 the latter [@Danckert2010].

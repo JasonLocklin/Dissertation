@@ -1,5 +1,5 @@
 Discussion
-==========
+----------
 
 [prisms influenced "dorsal"] As discussed above, prisms have
 repeatedly been found to influence deficits putatively associated
