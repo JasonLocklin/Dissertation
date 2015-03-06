@@ -6,42 +6,41 @@ damage to the right inferior parietal or superior temporal cortex
 [tk]. Hereafter, specifically referred to simply as "neglect," the
 disorder causes a heterogeneous collection of deficits that can be
 generally categorized as an inability to respond to information on
-the contralesional side. People with the disorder are spatially
-biased away from contralesional space in their search behaviour
-[tk], grooming and eating [tk], drawing [tk], posture [tk], and
-perceptual judgment of spatial extent [e.g., line bisection; ].
-The disorder is, as can be expected from the list of symptoms,
-debilitating, and is associated with poor rehabilitative outcome.
-Less than half of patents show improvements in the weeks after a
-neglect inducing stroke, and a small minority fully recover
-[Farnè2004@].
+the contralesional side of space. People with the disorder are
+spatially biased away from contralesional space in their search
+behaviour [tk], grooming and eating [tk], drawing [tk], posture
+[tk], and perceptual judgment of spatial extent [e.g., line
+bisection; tk].  The disorder is, as can be expected from the list
+of symptoms, debilitating, and is associated with poor
+rehabilitative outcome [@Cassidy1998, @Ringman2004].  Less than
+half of patents show improvements in the weeks after a neglect
+inducing stroke, and a small minority fully recover [Farnè2004@].
 
 [Disorder of Spatial-attention] Most theoretical accounts of the
 neglect syndrome describe it as either a deficit of the deployment
-of spatial attention, or one of awareness. More specifically,
-either an inability to report, respond, or orient attention toward
-stimuli in left space [@DriverMattingley1998
-,@HalliganVallar2003,@HeilmanValenstein1993] , or a general
-loss of environmental awareness that can at it's most extreme,
-cause a person to act as if the entire contralesional half of
-their world has ceased to exist [@Mesulam1981 ]. The
-spatial-attention based model does a good job of explaining many
-of the deficits displayed on the clinical tests of neglect. For
-example, object cancellation (a variant of the visual search task)
-and figure copying (a free-hand drawing task) are believably
-influenced by the patient’s ability to deploy attention across the
-page. Where attention cannot be directed, mistakes or omissions
-are are made. Even for something like the line-bisection task – in
-which the patient is asked to place a mark at the perceived
-midpoint of a horizontal line – an inability to attend to an
-endpoint is a plausible explanation for impaired performance
-[i.e., typically marks are placed a long way to the right of true
-centre; @tk].
+of spatial attention, or one of impaired awareness. More
+specifically, either an inability to report, respond, or orient
+attention toward stimuli in left space [@DriverMattingley1998
+,@HalliganVallar2003,@HeilmanValenstein1993] , or a general loss
+of environmental awareness that can at it's most extreme, cause a
+person to act as if the entire contralesional half of their world
+has ceased to exist [@Mesulam1981 ]. The spatial-attention based
+model does a good job of explaining many of the deficits displayed
+on clinical tests of neglect. For example, object cancellation (a
+variant of the visual search task) and figure copying (a free-hand
+drawing task) are believably influenced by the patient’s ability
+to deploy attention across the page. Where attention cannot be
+directed, mistakes or omissions are made. Even for something like
+the line-bisection task – in which the patient is asked to place a
+mark at the perceived midpoint of a horizontal line – an inability
+to attend to an endpoint is a plausible explanation for impaired
+performance [i.e., typically marks are placed a long way to the
+right of true centre; @tk].
 
 [disengage deficit account] Attentional accounts of neglect
 typically invoke two kinds of impairment; first, an ipsilesional
 bias such that attention is preferentially oriented toward right
-space, and second, a reorienting deficits such that neglect
+space, and second, a reorienting deficit such that neglect
 patients have difficulty disengaging attention from stimuli in
 right space in order to reorient towards the left. The so-called
 ‘disengage deficit’ was first posited as an explanation of the
@@ -59,10 +58,10 @@ from the cue when presented in right space [see
 Similarly, in a visual search task, performance in contralateral
 space is driven by the number of ipsilesional distractors
 [@EglinKnight1989]. This coincides with a general body of research
-that supports the notion that a crucial function of the inferior
-parietal cortex is to disengage attention from the current focus
-and reorient toward a new, salient location [for a review, see
-@CorbettaShulman2002 ].
+that supports the notion that a crucial function of the right
+inferior parietal cortex is to disengage attention from the
+current focus and reorient toward a new, salient location [for a
+review, see @CorbettaShulman2002 and @CorbettaShulman2011].
 
 [Prisms do lot's of things] Given the debilitating nature of the
 disorder a broad range of rehabilitation protocols have been
@@ -85,20 +84,21 @@ glasses removed, the after-effects on several behavioural measures
 are profound, and last considerably longer than the adaptation
 time [@FarnèRossetti2002
 ,@Frassinetti2002,@Pisella2002,@Rossetti1998]. Judgment of
-straight-ahead and line bisection became closer to true centre
+straight-ahead and line bisection become closer to true centre
 [@Danckert2006], object cancellation, and figure copying improves
 [@Rosetti1998 ], exploratory eye movements demonstrate a reduction
-in rightward bias [@Danckert2006,@Ferber2003,,], visual imagery
-[@Rode2001 ,@Rode1998], and posture [@Tilikete2001 ].
+in rightward bias [@Danckert2006,@Ferber2003], and even visual
+imagery [@Rode2001 ,@Rode1998], and posture [@Tilikete2001] are
+improved by the technique.
 
 [Failures of prisms] Despite the long list of behaviours prisms
-have been shown to ameliorate, more recent randomized control
+have been shown to ameliorate, more recent randomized controlled
 trials have failed to show prisms as an efficacious rehabilitation
-treatment [@Nys2008 ,@Turton2009]. Additionally, when an effort
-is made to examine attention and perception more directly, the
-ameliorative effects seem to become somewhat less clear. Some
-direct measures of attentional biases have been shown to be
-affected by prisms, such as covert shifts of attention
+treatment [@Nys2008 ,@Turton2009]. Additionally, when an effort is
+made to examine attention and perception more directly, the
+ameliorative effects seem to be somewhat less clear. Some direct
+measures of attentional biases have been shown to be affected by
+prisms, such as covert shifts of attention
 [@Striemer2007,Nijboer2008], and extinction [@Serino2007], while
 other, perhaps more realistic measures of attention, such as a
 serial visual search task, have failed to show an effect
@@ -106,37 +106,36 @@ serial visual search task, have failed to show an effect
 prisms induce a shift in voluntarily eye movements towards
 previously neglected space, perceptual judgments can remain just
 as biased as before [@Dijkerman2003 ,@Ferber2003]. This appears to
-be demonstrating a disassociation between occulomotor "looking"
-and perceptual "seeing," with prisms restoring the former but not
-the latter [@Danckert2010].
+be demonstrating a dissociation between occulomotor "looking" and
+perceptual "seeing," with prisms restoring the former but not the
+latter [@Danckert2010].
 
 [Speculation on action/perception disassociation in prisms] The
 dissociation between after effects that influence actions and
 those that influence perception invokes the dual visual pathways
-hypothesis of Goodale and Milner [@tk]. Information from primary
-visual cortex (V1) projects to two streams, one projecting to the
-superior, posterior parietal cortex that is important for the
-visual guidance of action (the so-called dorsal ‘how’ pathway) and
-another that projects from V1 to inferotemporal cortex and is
-important for perceptual processing [the so-called ventral ‘what’
-pathway; tk]. Prisms have been shown to primarily influence
-processing within the dorsal stream [tk fMRI refs; neglect
-recovery refs of Luaute et al and Corbetta and gang; Clower 1996
-PET paper and 2000’s retroviral tracing in monkeys]. In this
-framework, prisms will primarily influence behaviours supported by
-the the superior parietal lobule and inferior parietal sulcus,
-areas well within the dorsal stream that are typically undamaged
-in neglect.  Instead, damage to the inferior parietal/superior
-temporal gyrus leads not only to the neglect syndrome, but also
-severely reduces (or even eliminates) the brain's ability to
-integrate dorsal and ventral stream processing [@Danckert2010]. In
-the same respect, the damage limits the ability of a
-rehabilitative technique such as prisms, that operates primarily
-on the dorsal stream,from influencing areas in the ventral system
-responsible for higher level perceptual judgments. This thesis
-outlines three experiments and a case study chosen to examine this
-duality between the reactive, motor action system, and perceptual
-representation/awareness in neglect.
+hypothesis of Goodale and Milner [@Milner2006vba]. Information
+from primary visual cortex (V1) projects to two streams, one
+projecting to the superior, posterior parietal cortex that is
+important for the visual guidance of action (the so-called dorsal
+‘how’ pathway) and another that projects from V1 to inferotemporal
+cortex and is important for perceptual processing [the so-called
+ventral ‘what’ pathway; @Milner2006vba]. Prisms have been shown to
+primarily influence processing within the dorsal stream [fMRI refs
+tk; Luaute2006, Corbetta and gang; @Clower1996 2000’s retroviral
+tracing in monkeys].  In this framework, prisms will primarily
+influence behaviours supported by the the superior parietal lobule
+and infraparietal sulcus, areas well within the dorsal stream that
+are typically undamaged in neglect.  Instead, damage to the
+inferior parietal/superior temporal gyrus leads not only to the
+neglect syndrome, but also severely reduces (or even eliminates)
+the brain's ability to integrate dorsal and ventral stream
+processing [@Danckert2010]. In the same respect, the damage limits
+the ability of a rehabilitative technique such as prisms, that
+operates primarily on the dorsal stream,from influencing areas in
+the ventral system responsible for higher level perceptual
+judgments. This thesis outlines three experiments and a case study
+chosen to examine this duality between the reactive, motor action
+system, and perceptual representation/awareness in neglect.
 
 [Chapter overview] Chapter 1 explores the relationship between
 visual working memory and spatial attention. It examines the
@@ -164,10 +163,10 @@ of attention, but can be characterized by a failure to build
 accurate perceptual representations of the world. Prisms appear to
 have an effect on the spatial action systems, having such a strong
 effect in part *because* of the lack of awareness [@Danckert2010];
-however, they don't seem to change the deficits of perceptual
+however, they do not seem to change the deficits of perceptual
 representation. Deficits of perceptual representation, as well as
 being central to the disorder, also represent a major contributor
-to the debilitating nature of neglect. Concentrating on the
-deficits of perceptual representation has the potential of making
+to the debilitating nature of neglect. Concentrating on deficits
+of perceptual representation has the potential of making
 substantial steps forward in understanding the disorder and
 producing more effective rehabilitation efforts.
