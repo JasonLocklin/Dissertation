@@ -1,24 +1,26 @@
 Exploring the relationship between visual working memory and attention in neglect.
 ==================================================================================
 
-As already discussed, most of the traditional models of neglect
-describe the disorder as a deficit of spatial attention. A
-disorder driven by a disengagement deficit, or difficulty with
-disengaging attention away from right-space stimuli [Posner1984],
-an attentional ‘stickiness’ that results from disruption to
-inferior parietal cortex - a region known to be important for
-effective attentional disengagement and re-orienting
+As discussed, most traditional models of neglect describe the
+disorder as a deficit of spatial attention. A disorder driven by a
+difficulty in disengaging attention away from right-space stimuli
+[Posner1984], an attentional ‘stickiness’ that results from
+disruption to inferior parietal cortex -- a region known to be
+important for effective attentional disengagement and re-orienting
 [@Corbetta2002]. This anchoring of neglect as an attentional
 disorder, however, colours performance deficits observed with
-other tasks. Tasks which are not direct measures of attention, and
-for which performance may be degraded for other reasons. For
-example, lateralized performance on object cancellation tasks
-could be couched as an effect of the spatial attention deficit,
-however, the revisiting behaviours observed on the "good" side
-[@Husain2001,@Patron2006] may indicate something more nuanced is
+other tasks -- Tasks which are not direct measures of attention,
+and for which performance may be degraded for other reasons. For
+example, lateralized failures on object cancellation tasks (i.e.,
+omissions of left-sided targets) could be couched as a consequence
+of a spatial attention deficit. However, revisiting behaviour
+(i.e., re-cancelling old targets as if they were new), commonly
+observed on the non-neglected, "good" side
+[@Husain2001,@Patron2006], suggest something more nuanced is
 occurring. Even eliminating targets as they are cancelled, thereby
-removing their potential to capture attention, improves but does
-not fully remediate neglect performance on the task [@Mark2012]. 
+removing their potential to re-capture attention, improves but
+does not fully remediate revisiting behaviour on the task
+[@Mark2012]. 
 
 In fact, a great deal of research over the past few decades has
 highlighted aspects of neglect that clearly go beyond spatially
@@ -29,7 +31,7 @@ tend to have difficulties with sustained attention
 selective attention is exaggerated in neglect. When presented with
 a rapid series of stimuli with two embedded targets separated by
 varying temporal intervals, neglect patients require up to three
-times as much time between them in order to identify both
+times as much time between targets in order to identify both
 correctly [@Husain1997]. In addition to these non-lateralized
 attention deficits, recent work has highlighted deficits of
 spatial working memory for stimuli in central or right, putatively
@@ -61,18 +63,18 @@ is non-aversive, and because it has been shown to produce effects
 lasting much longer than the treatment duration [tk].
 Unfortunately, while prism adaptation produces striking changes in
 spatial attention [tk], there is a small, but increasing set of
-neglect deficits that are not improved [tk]. Many of these could
-be described as perceptual tasks, like deficits on the landmark
-task [tk], and facial-emotion judgment [tk]. It may be the case
-then that prisms operate on neural systems important for the
-deployment of attention, but have little to no effect on those
-mechanisms needed to form accurate perceptual representations.
+neglect deficits that are not improved [tk]. Many of these
+findings make use of perceptual tasks, such as the landmark [tk],
+and chimeric faces tasks[tk]. It may be the case then that prisms
+operate on neural systems important for the deployment of
+attention, but have little to no effect on those mechanisms needed
+to form accurate perceptual representations.
 
 Part of the deficit involved in maintaining accurate perceptual
 representations may be driven by working memory impairments. As
 mentioned earlier, neglect patients have deficits of spatial
 working memory in "non-neglected," right or central space [tk].
-In this context, it's important to clarify the relationship
+In this context, it is important to clarify the relationship
 between spatial working memory and spatial attention.  The two
 systems appear to be independent and functionally unique,
 generally residing in ventral and dorsal visual systems,
@@ -81,23 +83,24 @@ interaction [@Awh2001].  Specifically, in healthy people,
 mechanisms of spatial attention provide a rehearsal-like function
 to maintain information held in working memory [@Awh2001]. 
 
-This arguably creates three possible causes of the working memory
+This arguably creates three possible causes of working memory
 problems in neglect. First, they could be a direct result of
 spatial attention deficits. This seems less-likely as patients
 maintain the ability to orient to rightward and central targets
 effectively, however, we can not rule out the possibility that
 subtle pathological orienting deficits exist for central and right
-space that in turn impact upon WM. If this was the case, though,
-we might expect perceptual deficits to improve along with
-attention deficits and this does not appear to be the case [tk].
-Second, the ability to utilize spatial attention for rehearsal may
-be disrupted in neglect by a dorsal-ventral disconnect arising
-from the neglect-inducing lesion. This would imply that ventral
-processing may not be directly impaired in neglect, but that the
-spatial working memory deficit comes from the ventral system's
-inability to recruit attentional mechanisms to support rehearsal
-processes [tk Awh]. Third, the working memory deficits may be
-independent of the spatial attention deficits. 
+space that in turn impact upon working memory. If this was the
+case, though, we might expect perceptual deficits to improve along
+with attention deficits and this does not appear to be the case
+[tk].  Second, the ability to utilize spatial attention for
+rehearsal may be disrupted in neglect via a disconnection of the
+dorsal and ventral streams arising from the neglect-inducing
+lesion.  This would imply that ventral processing may not be
+directly impaired in neglect, but that the spatial working memory
+deficit comes from the ventral system's inability to recruit
+attentional mechanisms to support rehearsal processes [tk Awh].
+Third, working memory deficits may be fully independent of spatial
+attention deficits. 
 
 To test this possibility, a new version of the working memory task
 was created to minimize the possible reliance on spatial attention
