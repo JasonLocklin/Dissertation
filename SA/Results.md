@@ -3,33 +3,31 @@ Results
 
 ### Saccadic Adaptation
 
-[SA worked -test trials] The experimental blocks of saccadic
-adaptation were split up into thirds, and the first third of the
-first experimental block was used as a pseudo-baseline to compare
-with the final thirds of each of the blocks. The median saccade
-length of the test trials belonging to that first third were
-subtracted from the medians of each block's final third test
-trials. Because so many trials were removed for poor data quality,
-many participant's had individual blocks lacking sufficient
-test-trial data to perform this calculation. Out of the 41
-participants, between 11 and 22 of them did not have at least 2
-acceptable test trials (out of a maximum of 6) from which to
-calculate adaptation. Nevertheless, one-sample t-tests of the
+[SA worked -test trials] The median saccade length of the test
+trials belonging to the first third of the first block of
+adaptation trials (i.e., what is being used here as a baseline
+measure) were subtracted from the medians of each block's final
+third test trials. Because so many trials were removed for poor
+data quality, many participant's had individual blocks lacking
+sufficient test-trial data to perform this calculation.  Out of
+the 41 participants, between 11 and 22 of them did not have at
+least 2 acceptable test trials (out of a maximum of 6) from which
+to calculate adaptation.  Nevertheless, one-sample t-tests of the
 remaining participant blocks were used to determine whether the
 adaptation paradigm had successfully shortened saccades, and 3 of
 4 blocks showed significant change from baseline (see table
 [tbl:Adaptation]).
 
 
-[non-test trials] While test trials provide a measure of degree of
-adaptation in the absence of any responses to target perturbations
-mid-flight, the sparsity of data when using only these trials
-limits the potential power and reliability of further statistical
-analysis.  Further, the average change in saccadic length
-(including all all blocks) is -69%, which is more than double the
-actual target perturbation (30%), and includes an exceptionally
-large 95% confidence interval ranging from -100% to -7%.
-Alternatively, if all trials are included instead of just
+[non-test trials] While test trials provide a measure of the
+degree of adaptation in the absence of any responses to target
+perturbations mid-flight, the sparsity of data when using only
+these trials limits the potential power and reliability of further
+statistical analysis.  Further, the average change in saccadic
+length (including all all blocks) was -69%, which is more than
+double the actual target perturbation (30%), and includes an
+exceptionally large 95% confidence interval ranging from -100% to
+-7%.  Alternatively, if all trials are included instead of just
 test-trials, the overall mean saccadic change is -18% (95% CI of
 (-0.22, -0.13)). This change represents 60% of the perturbation
 distance, which is in line with the typical effect size that has
@@ -63,12 +61,12 @@ correlated ($r = -0.2$, $t(47) = -1.57$, $\text{p}=0.12$).
 of saccadic adaptation on landmark and line bisection, change
 scores were computed from the initial, pre-adaptation sessions of
 the two tasks, to the remaining post-adaptation sessions. One
-participant was excluded from line bisection because they pointed
+participant was excluded from line bisection task as they pointed
 to the end of the line, rather than centre, after the first block.
 When the change scores were averaged across blocks, neither line
 bisection, nor landmark task performance showed evidence of change
 post-adaptation ( $t( 35 ) = -0.55$, $\text{p} = 0.583$, and $t(
-36 ) = -0.88$, $\text{p} = 0.384$ respectively ).  Based on the
+36 ) = -0.88$, $\text{p} = 0.384$ respectively).  Based on the
 sample variance and sample size, a power analysis revealed that
 the experiment would have had a 95% chance of detecting a
 post-adaptation change in the landmark task as small as 0.1º
@@ -101,8 +99,8 @@ $r = -0.06$, $t(34) = -0.39$, $\text{p} = 0.7$ respectively )
 
 [Saccades not toward target but central fixation] The neglect
 patient made saccades normally to the first target in the
-adaptation task (rightward), however, the patient was never able
-to acquire the second target. After the first target disappeared,
+adaptation task (rightward), however, he was never able to acquire
+the second,leftward target. After the first target disappeared,
 the patient always returned to the centre of the screen,
 anticipating the central fixation which would begin the next
 trial. The trial would time-out and the fixation would then
