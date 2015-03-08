@@ -133,9 +133,10 @@ processing [@Danckert2010]. In the same respect, the damage limits
 the ability of a rehabilitative technique such as prisms, that
 operates primarily on the dorsal stream,from influencing areas in
 the ventral system responsible for higher level perceptual
-judgments. This thesis outlines three experiments and a case study
-chosen to examine this duality between the reactive, motor action
-system, and perceptual representation/awareness in neglect.
+judgments. This thesis outlines three experiments (and a
+supplimental case study to the third experiment) chosen to examine
+this duality between the reactive, motor action system, and
+perceptual representation/awareness in neglect.
 
 [Chapter overview] Chapter 1 explores the relationship between
 visual working memory and spatial attention. It examines the
@@ -151,10 +152,10 @@ representations. Chapter 3 develops a procedure for using saccadic
 adaptation to explore the possibility that modifying eye position
 sense would lead to more generalized improvements in both action
 and perception. This preliminary work was conducted in healthy
-controls. Chapter 4 presents data from a single case study of a
-neglect patient undergoing the saccadic adaptation procedure. The
-failures to adapt in this patient points to future directions of
-research to address both volitional and reactive saccadic eye
+controls. Chapter 3 also includes data from a single case study of
+a neglect patient undergoing the saccadic adaptation procedure.
+The failures to adapt in this patient points to future directions
+of research to address both volitional and reactive saccadic eye
 movements.
 
 [Conclude, summarize project] The evidence presented in this

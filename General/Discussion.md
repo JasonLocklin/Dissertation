@@ -19,27 +19,28 @@ or single-domain, models.
 In chapter 1, patients with neglect demonstrated complex deficits
 in visual working memory. Namely, when compared with controls,
 they failed to successfully recall and report the colour of
-stimuli after a delay. They also mis-reported colours when asked
-to recall stimuli from a given location, instead reporting colours
-of stimuli from other, competing, locations (figure [fig:tk]).
-While the first appears to demonstrate a simple deficit of visual
-working memory, the latter probably represents a somewhat more
-complex problem of binding visual information (colour and
-location) in working memory.  The experiment also supports the
-notion that these working memory deficits are not likely to be
-down-stream effects of more basic spatial attention deficits.  The
-severity of the visual working memory deficits from one patient to
-the next did not correlate with the magnitude of deficits observed
-on covert orienting, but appeared to be relatively independent. 
+stimuli after a delay (figure [fig:VWM_1Target]). They also
+mis-reported colours when asked to recall stimuli from a given
+location, instead reporting colours of stimuli from other,
+competing, locations (figure [fig:VWM_MTarget]).  While the first
+deficit appears to demonstrate a simple problem of visual working
+memory, the latter probably represents a somewhat more complex
+problem of binding visual information (colour and location) in
+working memory.  The experiment also supports the notion that
+these working memory deficits are not likely to be down-stream
+effects of more basic spatial attention deficits.  The severity of
+the visual working memory deficits from one patient to the next
+did not correlate with the magnitude of deficits observed on
+covert orienting, but appeared to be relatively independent. 
 
 
 
 [Prisms are limited] Thus far, one of the most promising
 treatments for rehabilitating neglect has been prism adaptation
-[tk].  The reason prism adaptation has appeared so successful,
-however, may have been a result of the fact that much of the
-research has been restricted to tests that effectively measure
-deficits of spatial attention. Besides the popular covert
+[tk].  The reason prism adaptation has appeared to be so
+successful, however, may have been a result of the fact that much
+of the research has been restricted to tests that effectively
+measure deficits of spatial attention. Besides the popular covert
 orienting task, researchers have often used clinical
 paper-and-pencil tests such as object cancellation, figure drawing
 or copying [@Wilson1987, tkmodernreview], tasks that are, by their
@@ -50,7 +51,7 @@ ventral-stream dependant processing spatial working memory and
 temporal estimations tasks that would presumably not be improved
 by remediation of spatial attention in the dorsal stream, the
 apparent target of prisms [@Danckert2008, @Clower1996].  The
-experiment replicated finding that prisms produced a change in
+experiment replicated findings that prisms produced a change in
 line bisection performance, a deficit that is likely driven, at
 least in part, by an inability to orient leftward, though the
 effect was far from clear-cut.  However, when examining the
@@ -63,20 +64,20 @@ on these two tasks both before and after prism adaptation (figure
 
 
 
-[SA failed as a replacement. ] It was speculated that an
-alternative treatment of neglect might be saccadic adaptation, a
-task not that different from prism adaptation, but one that has
-been demonstrated to produce subtle changes in perception for
-healthy individuals [@tk]. Chapter 3 began with an examination of
-healthy performance on the landmark and line bisection tasks.  The
-two tasks have been used before in neglect research as they
-comprise largely similar perceptual properties but likely rely
-heavily on distinct visual systems [@tk].  Healthy participants
-typically demonstrate very small biases, compared with neglect
-patients, on these tasks. It was therefore suspected that if
-saccadic adaptation produced changes in perception of spatial
-extent and spatial attention, it may show up as small changes on
-the landmark and line bisection tasks, respectively.
+[SA failed as a replacement. ] It was speculated that saccadic
+adaptation may represent a viable alternative treatment of
+neglect. Although the task is not that different from prism
+adaptation, it has been demonstrated to produce subtle changes in
+perception for healthy individuals [@tk]. Chapter 3 began with an
+examination of healthy performance on the landmark and line
+bisection tasks.  The two tasks have been used before in neglect
+research as they comprise largely similar perceptual properties
+but likely rely heavily on distinct visual systems [@tk].  Healthy
+participants typically demonstrate very small biases, compared
+with neglect patients, on these tasks. It was therefore suspected
+that if saccadic adaptation produced changes in perception of
+spatial extent and spatial attention, it may show up as small
+changes on the landmark and line bisection tasks, respectively.
 Unfortunately, though the participants demonstrated adequate
 saccadic adaptation, the effect did not appear to influence either
 task.  At the same time, a single case study attempting saccadic
