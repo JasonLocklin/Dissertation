@@ -7,7 +7,7 @@ with dorsal visual stream processing. Here, we replicate past
 findings that prisms effect the bias present when neglect patients
 perform the line bisection [tk], a task that involves a motoric
 reporting of centre and is associated with dorsal brain activation
-[tk]. While the perception of the line it's self, it could be
+[tk]. While the perception of the line it is self, it could be
 argued, may also involve some ventral stream perceptual
 processing, past research involving a related perceptual task, the
 landmark task, suggests that the neglect-induced bias observed in
@@ -28,23 +28,24 @@ that is most informative.
 being spatial in nature, is designed to test for the  more
 ventrally-oriented working memory deficits, and relies on stimuli
 in central and right space, rather than left space, where spatial
-attention defects occur.  The locations of the targets need to not
-only be perceived, but recalled again after a delay, and that
-delay putatively causes the task to rely heavily on ventral,
+attention defects predominate.  The locations of the targets need
+to not only be perceived, but recalled again after a delay, and
+that delay putatively causes the task to rely heavily on ventral,
 working memory systems [tk].  When the patients performed the
 spatial working memory task after prism adaptation, they did show
 statistically significant improvement as a group, but that
 improvement, for the most part, would not be considered clinically
 significant. That is to say that the change left all four
 neglecting patients with large deficits relative to typical
-control performance, with three of those four performing far
-outside of what would be expected to be observed in that control
+control performance, with three of those four performing well
+outside of what would be expected to be observed in the control
 population.
 
 [TE also not improved] Like the spatial working memory results,
 neglect patients displayed severe deficits on the temporal
 estimation task. While responses did seem to be influenced by the
-actual trial duration, the five patients who showed clinical signs
+actual trial duration (i.e., larger estimates made for longer
+interval durations), the five patients who showed clinical signs
 of neglect massively underestimated the durations both before and
 after prisms. In this case, it appears prisms had no measurable
 effect on the deficit.

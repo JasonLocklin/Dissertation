@@ -3,17 +3,17 @@ Results
 
 ### Spatial Working Memory Task
 
-In congruence with previous research using this spatial working
-memory task [@Ferber2006, @Striemer2013], all of the patients who
-were showing clinical signs of neglect performed very poorly.
-Figure [fig:SWM] plots the patient mean "hits minus false alarms"
-metric along with expected range (2 standard deviations from the
-means) of the neurologically intact and non-neglecting right brain
-damaged participants from @Ferber2006. While the patient who did
-not demonstrating neglect on the clinical tasks at time of testing
-(27) performed similar to the non-neglecting data, the
-remainder's baseline performance was at least 3 standard
-deviations outside what was observed in either group.
+Replicating previous research using this spatial working memory
+task [@Ferber2006, @Striemer2013], all of the patients who were
+showing clinical signs of neglect performed very poorly.  Figure
+[fig:SWM] plots the patient mean accuracy along with expected
+range (2 standard deviations from the means) of the neurologically
+intact and non-neglecting right brain damaged participants from
+@Ferber2006. While the patient who did not demonstrate neglect on
+the clinical tasks at time of testing (27) performed similarly to
+the non-neglecting group, the remaining patients baseline
+performance was at least 3 standard deviations outside what was
+observed in either group.
 
 TODO: Figure [fig:SWM] goes about here. Depicts pre and post-prism
 SWM performance for all participants, with normative regions.
@@ -31,26 +31,27 @@ non-neglecting right brain damaged patients previously examined on
 this test (z-scores between 3.4 and 7.2). When compared with
 performance of the more variable, neurologically intact
 right-brain damaged individuals (the lighter region in figure
-[fig:SWM]), patient 171 does cross into a region statistically
+[fig:SWM]), Patient 171 does cross into a region statistically
 indistinguishable from normative performance ($z=1.2$), but the
 others remain well outside ($3.1 < z < 5.0$).
 
-### Temporal Estimation Task
+### Temporal Estimation Task 
 
 As can be observed in figure [fig:TE], the five patients who
 showed clinical signs of neglect massively underestimated the time
-intervals (Patient 27 underestimated to some degree pre-prisms,
-and responded very accurately post-prisms). As a result, analysis
+intervals. In contrast, Patient 27, the non-neglecting patient,
+underestimated to some degree pre-prisms, and responded very
+accurately post-prisms (Figure [fig:TE]). As a result, analysis
 was done both with and without including Patient 27, and results
-did not differ. What is presented here is the data excluding
-patient 27. An analysis of covariance was performed, with prism
+did not differ.  What is presented here is the data excluding
+Patient 27.  An analysis of covariance was performed, with prism
 condition as a fixed factor and trial duration as a random
 covariate, and there was no indication of an influence of prisms
-on time interval reporting ($F(1,4)= 0.79$, $\text{p}=0.4$).
+on time interval estimation ($F(1,4)= 0.79$, $\text{p}=0.4$). 
 
 For each participant and condition, a linear model (least squares)
 was computed in order to yield a measure of the relationship
-(slope) between time interval and reports. As can be seen in
+(slope) between time intervals and estimations. As can be seen in
 figure [fig:TE], the relationship was not recti-linear (first
 order), so linear models were computed based on log-transformed
 time. When this was done, linear models fit very well (13 models,
@@ -69,12 +70,12 @@ that more clearly depict performance change pre- to post prisms
 
 As a group, the neglecting patients showed a significant change in
 line bisection bias after prism adaptation in the direction
-traditionally seen in the research, when a one-sided test is used
-(patient 27 removed, $t(4)=2.6$, $\text{p} = 0.03$).  Individual t
+traditionally seen in the research, when a one-sided test was used
+(Patient 27 removed, $t(4)=2.6$, $\text{p} = 0.03$).  Individual t
 tests on the sets of line bisections for each patient demonstrated
 a relatively consistent effect across individuals. As can be seen
 in figure [fig:LB_Prisms], the changes were nearly-universally
-leftward excepting patient 27, the non-neglecting patient.
+leftward excepting Patient 27, the non-neglecting patient.
 
 
 TODO: Figure [fig:LB_Prisms] goes about here. Figure caption will
@@ -84,7 +85,8 @@ change post prisms except 163 and 408 (with the latter not quite
 reaching significance due to extreme trial-to-trial variability). 
 
 
-As a group, the neglecting patients did not improve on either bell
-($t(4)=0.6$, $\text{p}=0.5$), or star cancellation ($t(4)=1.7$,
-$\text{p}=0.2$), and, as can be seen in table [tbl:Prisms], only
-one patient showed improvement on figure copying (Patient 171).
+As a group, the neglecting patients did not improve on either
+bells ($t(4)=0.6$, $\text{p}=0.5$), or star cancellation
+($t(4)=1.7$, $\text{p}=0.2$), and, as can be seen in table
+[tbl:Prisms], only one patient showed improvement on figure
+copying (Patient 171).
