@@ -841,18 +841,41 @@ summary(COR)
 ```
 
 
-```{r}
+## Demographics and Clinical table (tbl:VWM)
+
+
+
+```{r tbl:VWM}
 require(gridExtra)
+dem <- read.csv('../Patients.csv')
+names(dem)[1] <- 'Subject'
+dem <- dem[dem$Chapter == 'VWM',]
+dem <- dem[-7] #date of injury
+dem <- dem[-6] #date tested
+dem <- dem[-2] #chapter
+dem <- dem[1:4] #chapter
+
 
 tbl <- COR[order(COR$Bisection),]
 tbl$Bisection <- round(tbl$Bisection,1)
 tbl$Stars <- round(tbl$Stars)
 tbl$VWM_Single <- round(tbl$VWM_Single,2)
 tbl$VWM_Multi <- round(tbl$VWM_Multi, 2)
-
 tbl <- tbl[-3]
-names(tbl) <- .(Subject,CES(L),VWM(Multi),d,e,f,g)
-grid.table(tbl[-1])
-#dev.off()
+
+tbl <- merge(dem, tbl, by="Subject")
+
+
+names(tbl) <- c('Subject','Age','Sex','Handedness','CES',
+                'VWM(1)','VWM(2/3)','Stars','Copying','Bisection')
+tbl <- tbl[order(tbl$CES),]
+rownames(tbl) <- tbl$Subject
+tbl <- tbl[-1]
+
+grid.table(tbl)
+
+pdf("tbl:VWM.pdf", paper='USr')
+grid.table(tbl, sub="tbl:VWM")
+dev.off()
 ```
 
