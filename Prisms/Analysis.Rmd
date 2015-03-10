@@ -281,9 +281,9 @@ summary(lm(log(t$Response) ~ log(as.numeric(as.character(t$TrialDuration)))))
 
 TE2 <- ddply(TE, .(Subject, Session, Prisms), summarize, 
       slope = summary(lm(log(Response) ~ log(as.numeric(as.character(TrialDuration)))
-                 ))$coefficients[2,1]
-      )
+                 ))$coefficients[2,1] )
 TE2
+TE_tbl <- TE2
 
 
 p <- qplot(data = TE2, x=Session, y=slope, geom="bar", stat="identity", 
@@ -619,11 +619,72 @@ spread(NT2[,c(1,4,5)], Prisms, Drawing)
 
 
 ### Clinical Table
+### Clinical Table
+
+```{r tbl:Prisms}
+dem <- read.csv('../Patients.csv')
+names(dem)[1] <- 'Subject'
+dem <- dem[dem$Chapter == 'Prisms',]
+dem <- dem[-7] #date of injury
+dem <- dem[-6] #date tested
+dem <- dem[-2] #chapter
+dem <- dem[1:4] #chapter
 
 
+NT2$Drawing <- factor(NT2$Drawing)
+levels(NT2$Drawing) <- c('-','+')
+levels(NT2$Prisms) <- c('Pre','Post')
 
+require(reshape2)
+clin <- dcast(melt(NT2, id.vars=c('Patient', 'Prisms')), 
+              Patient ~ Prisms + variable)
 
+names(clin)  <- c("Subject", "Star(pre)","Bell(pre)","Draw(pre)", 
+                  "Star(post)", "Bell(post)", "Draw(post)")
+clin <- clin[c(1,2,5,3,6,4,7)]
 
+  # Line Bisection
+names(LB)[4] <- 'value'
+LB_m <- dcast(LB, Subject ~ Prisms, fun=mean )
+LB_m$pre <- round(LB_m$pre,1)
+LB_m$post <- round(LB_m$post,1)
+names(LB_m) <- c('Subject', 'LB(pre)','LB(post)')
+                  
+  # TE
+names(TE_tbl)[4] <- 'value'
+TE_tbl <- dcast(TE_tbl, Subject ~ Prisms, mean)
+TE_tbl$pre <- round(TE_tbl$pre,1)
+TE_tbl$post <- round(TE_tbl$post,1)
+names(TE_tbl) <- c('Subject','TE(pre)','TE(post)')
+
+  # SWM
+      
+SWM_tbl <- SWM2[c(1,2,5)]
+names(SWM_tbl)[3] <- 'value'
+SWM_tbl$value <- round(SWM_tbl$value) 
+SWM_tbl <- dcast(SWM_tbl, Subject ~ Prisms, mean)
+names(SWM_tbl) <- c('Subject','SWM(pre)','SWM(post)')
+
+#Now combine
+tbl  <- merge(dem, clin, by='Subject')
+tbl2 <- merge(LB_m, TE_tbl, by='Subject')
+tbl2 <- merge(tbl2, SWM_tbl, by='Subject', all.x=TRUE)
+tbl2 <- tbl2[order(tbl2$Subject),]
+tbl <- tbl[order(tbl$Subject),]
+rownames(tbl)<- seq(1,6)
+rownames(tbl2)<- seq(1,6)
+tbl <- tbl[order(tbl2[['LB(pre)']]),]
+tbl2 <- tbl2[order(tbl2[['LB(pre)']]),]
+rownames(tbl) <-tbl$Subject
+rownames(tbl2) <- tbl2$Subject
+tbl <- tbl[-1]
+tbl2 <- tbl2[-1]
+
+require(gridExtra)
+pdf("tbl:Prisms.pdf", paper='USr', width=11)
+grid.arrange(tableGrob(tbl), tableGrob(tbl2), nrow=2, sub="tbl:Prisms(a and b)", clip=FALSE)
+dev.off()
+```
 
 
 
