@@ -14,6 +14,7 @@ mv p.md Manuscript.md
 #mv p.md Manuscript.md
 
 
-pandoc -o Locklin_Manuscript_W2015.docx Manuscript.md
-pandoc -o Locklin_Manuscript_W2015.pdf Manuscript.md
+pandoc -SN -o Locklin_Manuscript_W2015.docx Manuscript.md
+pandoc -SN -o Locklin_Manuscript_W2015.pdf Manuscript.md
 
+pdftk VWM/tbl\:VWM.pdf Prisms/tbl\:Prisms.pdf SA/tbl\:SA.pdf cat output tables.pdf
