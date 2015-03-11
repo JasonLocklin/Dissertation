@@ -3,37 +3,42 @@ Method
 
 ### Participants 
 
-The covert orienting task was performed by two groups, a group of
-eight neurological patients who showed symptoms of neglect in
-pre-testing (3 male, 2 left handed, mean age of 66, see table
-[tbl:VWM] for more details), and a healthy older control group (3
-male, handedness untested, mean age of 74). The study was approved
-by all relevant hospital and institutional ethics review boards.
-The two groups were not strictly age-matched, but did not
-significantly differ with respect to age ($t(12.5) = 1.8$,
-$\text{p} = 0.10$).  All patients were tested at least tk months
-post-stroke. The visual working memory task was performed by these
-same two groups plus an additional control group of 9 healthy
-young adults (tk female, mean age of tk).
-
-FIXME: Recruitment pool(s)?
-
+We had patients and controls perform a standard covert orienting
+task and a visual working memory task (both described below). The
+covert orienting task was performed by two groups, a group of
+eight neurological patients, recruited from the Neurological
+Patient Database (Funded through the Heart and Stroke Foundation
+of Ontario, https://uwaterloo.ca/neurological-patient-database/),
+who showed symptoms of neglect in pre-testing (3 male, 2 left
+handed, mean age of 66, see table [tbl:VWM] for more details), and
+a healthy older control group recruited from the University of
+Waterloo's Research on Aging Participant pool (3 male, handedness
+untested, mean age of 74).  All of the neurological patients were 
+at least 9 months
+post injury. The study was approved by the
+University of Waterloo's Office of Research Ethics, and the
+Tri-Hospital Research Ethics board.  The two groups were not
+strictly age-matched, but did not significantly differ with
+respect to age ($t(12.5) = 1.8$, $\text{p} = 0.10$).  All patients
+were tested at least tk months post-stroke. The visual working
+memory task was performed by these same two groups plus an
+additional control group of 9 healthy young adults recruited from
+the University of Waterloo's Research Experience Group, and were
+remediated with course credit (tk female, mean age of tk).
 
 Patients were also tested for signs of neglect using three
 standard clinical tests: line bisection, star cancellation, and
-figure copying [@Wilson1987]. Figure copying was codded
-qualitatively as having or lacking signs of neglect. The other two
-tasks are inherently quantitative by nature, and included for
-analysis as such, but cutoffs were used to signify the presence of
-neglect. The participant's bisection marks were recorded as
-deviation from centre as a percentage of the total line's length.
+figure copying [@Wilson1987]. Figure copying was coded
+qualitatively as having or lacking signs of neglect. For the
+bisection task, participant's bisection marks were recorded as
+deviations from centre as a percentage of total line length.
 Impaired performance was defined as a bias of greater than 5% of
 line-length. For star cancellation, the percentage of missed
 targets on the left side of the page was recorded, and impaired
-performance was defined as \> 10% of targets. Three of the
-patients scored as impaired on all the tasks, and these
+performance was defined as \> 10% omission of left-sided targets.
+Three of the patients scored as impaired on all tasks, and these
 participants also scored highest quantitatively on the bisection
-and cancellation tasks (see table [tbl:VWM]). Only one did not
+and cancellation tasks (see table [tbl:VWM]).  Only one did not
 show neglect on any task.
 
 TODO: Table [tbl:VWM] goes about here. Demographic, clinical, VWM,
@@ -59,21 +64,21 @@ presented vertically aligned on the right side for 500ms. Targets
 could appear in one of 16 different locations in the vertical
 column. Following target presentation there was a delay of 1000ms,
 followed by the appearance of the vertical colour bar and probe
-stimuli. The probes occupied the same locations occupied by the
+stimuli. The probes occupied the *same locations* occupied by the
 targets but were unfilled (i.e., probes did not contain any colour
 information; Figure [fig:CH1-task]). One of the probes was
-highlighted by by a bolded outline, and participants were asked to
+highlighted by a bolded outline, and participants were asked to
 indicate, by external mouse input, the colour of the target
 indicated by the bolded probe location (Figure [fig:Ch1-task).
 Unlimited time was given, and the participant could make changes
-to their response an unlimited number of times until satisfied
-they had accurately indicated the target colour. Note that in the
-single target condition, there would only be one outline, and the
-task was essentially to remember the colour of the target. In the
-two and three target conditions, only one of the two or three
-probes was highlighted, and the participant would be required to
-recall the colour of the target that had been presented at that
-particular location (Figure [fig:Ch1-task]).
+to their response an unlimited number of times until they were
+satisfied they had accurately indicated the target colour.  Note
+that in the single target condition, there would only be one
+outline, and the task was essentially to remember the colour of
+the target. In the two and three target conditions, only one of
+the two or three probes was highlighted, and the participant would
+be required to recall the colour of the target that had been
+presented at that particular location (Figure [fig:Ch1-task]).
 
 TODO: Figure [fig:Ch1-task] goes about here. Figure depicts both
 VWM and COVAT tasks diagrammatically. Task makes clear that there
@@ -120,22 +125,21 @@ true target colours.  First, a probability that the participant
 indicated the correct target colour, $P_T$, by the magnitude of
 the location on a Gaussian distribution centred around the exact
 target colour. If the trial type included more than one initial
-box, then the probability the response is to a non-target,
-$P_{NT}$, is calculated in the same way. Lastly, the probability
-the patient guessed randomly is based on a flat distribution, but
-the above distributions were chosen so that this was effectively
-the remainder (i.e., $P_G = 1 - (P_T + P_{NT})$. To compute an
+box, then the probability the response to a non-target, $P_{NT}$,
+is calculated in the same way. Lastly, the probability the patient
+guessed randomly is based on a flat distribution, but the above
+distributions were chosen so that this was effectively the
+remainder (i.e., $P_G = 1 - (P_T + P_{NT})$. To compute an
 estimate of the precision of target responses, the $SD$ of the
 probability model used to compute the above three components was
 also recorded. This provides a measure of the spatial response
 precision of those trials where the patient successfully recalls
 and reports a target colour (i.e., $P_T$ and $P_{NT}$).
 
-TODO: Figure [fig:Emrich2012] goes about here. If we use this, we
-need permission to reprint it (right half of figure in
-@Emrich2012).  Figure graphically depicts the three probability
-distributions used to calculate the three values. I'll combine
-this with an image of the target and colour bar I also have.
+TODO: Figure [fig:Emrich2012] goes about here. Figure graphically
+depicts the three probability distributions used to calculate the
+three values. I'll combine this with an image of the target and
+colour bar I also have.
 
 For the covert orienting task, response times were recorded and
 means were calculated for each trial category for each
@@ -158,10 +162,10 @@ Since means were calculated, cutoffs should probably be stated.
 
 
 
-Significance was defined as $p < 0.05$ throughout this entire
-document.  Where independent samples $t$ tests are used, unless
-otherwise specified, the Welch approximation of the degrees of
-freedom for unequal variance was used.
+Significance was defined as $p < 0.05$ throughout the thesis.
+Where independent samples $t$ tests are used, unless otherwise
+specified, the Welch approximation of the degrees of freedom for
+unequal variance was used.
 
 
 
