@@ -91,6 +91,21 @@ head(cdata, n=3)
 
 Create a plot of means, and a seperate point plot to see outliers:
 ```{r VWM_Precision}
+p <- ggplot(cdata, aes(x = Subj_Group, y = Mean)) +
+    geom_bar(stat = "identity", width=0.5) +
+    geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2) + 
+    xlab("") +
+    ylab("Precision (SE)") + 
+    ggtitle("Response Precision for Single Target Condition") +
+    theme_gray()
+p
+
+pdf("fig:VWM_Precision.pdf", paper='USr', width=11)
+p
+dev.off()
+```
+
+```{r}
 p <- ggplot(cdata, aes(x = Subj_Group, y = Mean)) 
 p + geom_bar(stat = "identity", width=0.5) +
     geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2) + 
@@ -98,12 +113,12 @@ p + geom_bar(stat = "identity", width=0.5) +
     ylab("Precision (SE)") + 
     ggtitle("Response Precision for Single Target Condition") +
     scale_y_continuous(breaks=0:20*4) +
-    theme_gray()
+    theme_gray() +
+    geom_jitter(data=simple, aes(x = Subj_Group, y = value), position = position_jitter(width = .1))
 ```
 
-```{r}
-ggplot(simple, aes(x = Subj_Group, y = value))  + geom_jitter(position = position_jitter(width = .1))
-```
+
+
 
 Both older groups seem to have a single extreme case, and in both cases, that 
 point will drastically increase the mean precision of the group. However, 
@@ -144,7 +159,11 @@ p <- p + geom_bar(stat = "identity", width=0.5) +
     ylab("Probability (SE)") + 
     ggtitle("Probability of Correct Target Selection for Single Target Condition") 
 
-p + theme_classic()
+p + theme_gray()
+
+pdf("fig:VWM_1Target.pdf", paper='USr', width=11)
+p + theme_gray()
+dev.off()
 ```
 
 Trying out some other styles. Choose one:
@@ -326,20 +345,38 @@ but strong evidence that neglect is.
 Re-plotting these means for publication:
 
 ```{r fig.height=3}
-cdata <- ddply(simple, .(Subj_Group), summarise,
-               N    = length(pNonTarget),
-               Mean = mean(pNonTarget),
-               sd   = sd(pNonTarget),
+spl <- d[d$variable == "pNonTarget" & d$Number_of_Items !="one",]
+cdata <- ddply(spl, c("Subj_Group", "Number_of_Items","variable"), summarise,
+               N    = length(value),
+               Mean = mean(value),
+               sd   = sd(value),
+               se   = sd / sqrt(N) )
+names(cdata)[2] <- "Items"
+mdata <- ddply(spl, c("Subj_Group", "variable"), summarise,
+               N    = length(value),
+               Mean = mean(value),
+               sd   = sd(value),
                se   = sd / sqrt(N) )
 
-p <- ggplot(cdata, aes(x = Subj_Group, y=Mean)) 
-p <- p + geom_bar(stat = "identity", width=0.5,position=position_dodge(.6)) +
-    geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2, position=position_dodge(.6)) + 
+
+p <- ggplot() 
+p <- p + 
+    geom_bar(data=mdata, aes(x = Subj_Group, y = Mean), stat = "identity", 
+                  width=0.7,position=position_dodge(0)) +
+    geom_errorbar(data=mdata, 
+                  aes(x = Subj_Group, ymin=Mean-se, ymax=Mean+se), width=.1, 
+                  position=position_dodge(.6)) + 
+    geom_bar(data = cdata, aes(x = Subj_Group, y = Mean, fill = Items), 
+                  stat = "identity", width=.1, position=position_dodge(0.8), 
+             alpha=0.3) + 
     xlab("") +
-    ylab("Probability of Selection (SE)") + 
-    ggtitle("Non-Target Colour Selection") 
+    ylab("Probability of Non-Target Selection (SE)") + 
+    ggtitle("Non-Target Selection Likelyhoodss") 
 
 p + theme_gray()
+
+pn <- p #for later
+
 ```
 
 TODO: Should add bars and stars indicating that Patient differs statistically
@@ -367,19 +404,51 @@ cdata <- ddply(simple, c("Subj_Group", "Number_of_Items","variable"), summarise,
                sd   = sd(value),
                se   = sd / sqrt(N) )
 cdata
+names(cdata)[2] <- "Items"
+
+mdata <- ddply(simple, c("Subj_Group", "variable"), summarise,
+               N    = length(value),
+               Mean = mean(value),
+               sd   = sd(value),
+               se   = sd / sqrt(N) )
+mdata
+
 ```
 
 Create a plot of means, and a seperate point plot to see outliers:
 ```{r fig.height=3}
-p <- ggplot(cdata, aes(x = Subj_Group, y = Mean, fill = Number_of_Items)) 
-p <- p + geom_bar(stat = "identity", width=0.5,position=position_dodge(.6)) +
-    geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2, position=position_dodge(.6)) + 
+p <- ggplot() 
+p <- p + 
+    geom_bar(data=mdata, aes(x = Subj_Group, y = Mean), stat = "identity", 
+                  width=0.7,position=position_dodge(0)) +
+    geom_errorbar(data=mdata, 
+                  aes(x = Subj_Group, ymin=Mean-se, ymax=Mean+se), width=.1, 
+                  position=position_dodge(.6)) + 
+    geom_bar(data = cdata, aes(x = Subj_Group, y = Mean, fill = Items), 
+                  stat = "identity", width=.1, position=position_dodge(0.8), 
+             alpha=0.3) + 
     xlab("") +
     ylab("Probability of Guessing (SE)") + 
     ggtitle("Guessing Likelyhoods for Multi-Target Conditions") 
 
 p + theme_gray()
+pg <- p #For use later
 ```
+
+Make double figure:
+```{r fig:VWM_MTarget}
+require(grid)
+pdf("fig:VWM_MTarget.pdf", paper='USr', width=11)
+pushViewport(viewport(layout = grid.layout(1, 2)))
+print(pg + theme_gray() + theme(legend.position = 'none'), 
+      vp = viewport(layout.pos.row = 1, layout.pos.col = 1))
+print(pn + theme_gray() + theme(legend.position = c(0.9,0.9)), 
+      vp = viewport(layout.pos.row = 1, layout.pos.col = 2))
+dev.off()
+```
+
+
+
 
 Plot the points (scatterplot)
 ```{r}
@@ -727,12 +796,16 @@ names(q) <- .(Subject, CES)
 c <- ggplot(q, aes(factor(Subject), y=CES))
 
 # By default, uses stat="bin", which gives the count in each category
-c + geom_hline(aes(yintercept=m)) + 
+c <- c + geom_hline(aes(yintercept=m)) + 
   geom_hline(aes(yintercept=m), size=sd, alpha=0.5) +
   geom_hline(aes(yintercept=m), size=2*sd, alpha=0.25) +
   geom_bar(stat = "identity", width=0.5) +
-  ggtitle("Patient CES") + ylab("Sec") + xlab("Patients")
+  ggtitle("Patient Leftward Cue Effect Size (CES)") + ylab("Seconds") + xlab("Patients")
 
+c
+pdf("fig:VWM_COVAT.pdf", paper='USr', width=11)
+c
+dev.off()
 ```
 
 The black line is the mean, the dark band is one standard deviation, the lighter
@@ -874,8 +947,8 @@ tbl <- tbl[-1]
 
 grid.table(tbl)
 
-pdf("tbl:VWM.pdf", paper='USr')
-grid.table(tbl, sub="tbl:VWM")
+pdf("tbl:VWM.pdf", paper='USr', width=11)
+grid.arrange(tableGrob(tbl), sub="tbl:VWM", clip=FALSE)
 dev.off()
 ```
 

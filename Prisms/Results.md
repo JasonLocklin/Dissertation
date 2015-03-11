@@ -82,7 +82,9 @@ TODO: Figure [fig:LB_Prisms] goes about here. Figure caption will
 include all of the individual t-tests and differences on the plot
 will be indicated with stars. All patients showed significant
 change post prisms except 163 and 408 (with the latter not quite
-reaching significance due to extreme trial-to-trial variability). 
+reaching significance due to extreme trial-to-trial variability).
+With a Bonferonni correction for 5 tests, 27 also becomes
+non-significant. 
 
 
 As a group, the neglecting patients did not improve on either

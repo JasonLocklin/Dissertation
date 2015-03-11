@@ -195,10 +195,12 @@ TE2$Session <- factor(TE2$Session) #Fix levels
 p <- ggplot(data = TE2, aes(x = TrialDuration, 
                            y = Response, group = Subject))
 
-p +  geom_line() + scale_x_continuous(breaks=c(5,15,30,60)) +
+p <- p +  geom_line() + scale_x_continuous(breaks=c(5,15,30,60)) +
   scale_y_continuous(breaks=c(5,15,30,60)) +
   stat_smooth(aes(group = 1), method = "glm", formula = y ~ log(x)) + 
-  facet_grid(. ~ Prisms) + ggtitle("Temporal Estimation")
+  facet_grid(. ~ Prisms) + ggtitle("Temporal Estimation Across Intervals")
+p
+pl <- p # for the figure later.
 ```
 
 Wow. Subject 27 was not at all like the others -performing aproximately 
@@ -287,9 +289,20 @@ TE_tbl <- TE2
 
 
 p <- qplot(data = TE2, x=Session, y=slope, geom="bar", stat="identity", 
-       fill=Prisms, width = 0.8) + facet_wrap(~ Subject)
-p + scale_fill_brewer(type="qual", palette=3)
-rm(p, TE2)
+       fill=Prisms, width = 0.8) + facet_wrap(~ Subject) + 
+       scale_fill_grey(start=0.2, end =0.5) +
+      ggtitle("Individual Temporal Estimation Accuracy")
+```
+
+Now, create the figure:
+```{r}
+require(grid)
+pdf("fig:TE.pdf", paper='USr', width=11)
+pushViewport(viewport(layout = grid.layout(1, 2)))
+print(p, vp = viewport(layout.pos.row = 1, layout.pos.col = 1))
+print(pl, vp = viewport(layout.pos.row = 1, layout.pos.col = 2))
+dev.off()
+
 ```
 
 
@@ -395,14 +408,22 @@ been used in the previous papers. For now, using those simple ones.
 
 Plotting Hits minus false alarms:
 ```{r VWM_H-Fa, fig.width=12, cache=FALSE}
-qplot(data = SWM2, x=Prisms, y=H_minus_F, geom="bar", stat="identity", 
-        width = 0.8, ylim=c(0,100), ylab = "Hits minus false alarms") + 
-        facet_wrap(~ Subject) +
+p <- qplot(data = SWM2, x=Prisms, y=H_minus_F, geom="bar", stat="identity", 
+        width = 0.8, ylim=c(0,100), ylab = "Hits minus false alarms", 
+        xlab = "Participant. Dark gray bar = RBD controls and 
+light gray bar = healthy controls (Ferber, 2006).") + 
+        facet_wrap(~ Subject) +  
         geom_abline(aes(intercept=79, slope=0), size=1, alpha=0.9) +
         geom_abline(aes(intercept=79, slope=0), size=2*8.7, alpha=0.2) +
         geom_abline(aes(intercept=89, slope=0),  size=1, alpha=0.9) +
         geom_abline(aes(intercept=89, slope=0),  size=2*6.1, alpha=0.8) +
-        ggtitle("Spatial Working Memory Test") + xlab("")
+        ggtitle("Spatial Working Memory Test") 
+
+p
+
+pdf("fig:SWM.pdf", paper='USr', width=11)
+p
+dev.off()
 ```
 
 Plotting Hits:
@@ -510,13 +531,24 @@ s <- s | LB2$Subject == "408"
 LB2 <- LB2[s,]
 
 LB2$Session <- as.numeric(as.character(LB2$Session))
-p <- qplot(data = LB2, x=as.numeric(Prisms), y=PercentError, geom="bar", stat="identity", 
-       fill=Prisms, width = 0.8) + facet_wrap(~ Subject)
-p + scale_fill_brewer(type="qual", palette=3)  + 
-  coord_flip() + scale_x_reverse()  +
-  ylab("") + theme(axis.text.y = element_blank()) + ggtitle("Line Biasection Bias") +
-  xlab("Percent of Line")+ geom_abline(aes(intercept=0, slope=0))
 
+sign <- data.frame(rep(1.5,12), rep(2,12), c("","","*","*","*","*","","","*","*","",""))
+LB2$x <- rep(1.55,12)
+LB2$y <- rep(2,12)
+LB2$sign <- c("","","*","*","*","*","","","*","*","","")
+p <- qplot(data = LB2, x=as.numeric(Prisms), y=PercentError, geom="bar", stat="identity", 
+       fill=Prisms, width = 0.8) + facet_wrap(~ Subject) +
+     scale_fill_grey(start=0.2, end =0.5)  + 
+    coord_flip() + scale_x_reverse()  +
+    ylab("") + theme(axis.text.y = element_blank()) + ggtitle("Line Biasection Bias") +
+    xlab("Percent of Line")+ geom_abline(aes(intercept=0, slope=0)) +
+    geom_text(aes(x, y, label=sign, group=NULL), alpha=0.7, size=10)
+
+p
+
+pdf("fig:LB_Prisms.pdf", paper='USr', width=11)
+p
+dev.off()
 ```
 
 ```{r}
