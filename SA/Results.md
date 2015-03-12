@@ -15,8 +15,8 @@ least 2 acceptable test trials (out of a maximum of 6) from which
 to calculate adaptation.  Nevertheless, one-sample t-tests of the
 remaining participant blocks were used to determine whether the
 adaptation paradigm had successfully shortened saccades, and 3 of
-4 blocks showed significant change from baseline (see table
-[tbl:Adaptation]).
+4 blocks showed significant change from baseline (see Figure
+[fig:Adaptation]).
 
 
 [non-test trials] While test trials provide a measure of the
@@ -36,7 +36,16 @@ on all trials, rather than just test trials, are taken to provide
 a more reasonable measure of the effect, and is used in the
 remainder of this analysis.
 
-TODO: [tbl:Adaptation] goes about here. Data below:
+TODO: [fig:Adaptation] goes about here. Caption: Figure depicts
+the mean degree of adaptation observed in each block. Panel (a) is
+based on only test trials (i.e., those trials where no target
+purturbation is displayed), while panel (b) is calculated from all
+available trials, including non-test trials. For (a), blocks 1, 3,
+and 4 produced significant group change in saccade length ($ $),
+while block 2 did not reach significance ($ $). Sparcity of data
+for test trials required further analysis with all trials in order
+to quantify the degree of adaptation reliably. All four blocks of
+(b) demonstrated significant adaptation ($ $). 
 
 
 ### Landmark and Line bisection
