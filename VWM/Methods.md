@@ -20,7 +20,7 @@ University of Waterloo's Office of Research Ethics, and the
 Tri-Hospital Research Ethics board.  The two groups were not
 strictly age-matched, but did not significantly differ with
 respect to age ($t(12.5) = 1.8$, $\text{p} = 0.10$).  All patients
-were tested at least tk months post-stroke. The visual working
+were tested at least 9 months post-stroke. The visual working
 memory task was performed by these same two groups plus an
 additional control group of 9 healthy young adults recruited from
 the University of Waterloo's Research Experience Group, and were

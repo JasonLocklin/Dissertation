@@ -16,7 +16,7 @@ cerebellar damage. The remaining six patients completed the task.
 The group had a mean age of tk (), and 4 were right handed. The
 study was approved by the University of Waterloo's Office of
 Research Ethics, and the Tri-Hospital Research Ethics board. All
-patients were tested at least tk months post-stroke.  One
+patients were tested at least 19 months post-stroke.  One
 participant was not able to perform the spatial working memory
 task (giving a single response to all trials), and was therefore
 removed from that component of the analysis.
