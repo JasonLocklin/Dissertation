@@ -41,8 +41,25 @@ participants also scored highest quantitatively on the bisection
 and cancellation tasks (see table [tbl:VWM]).  Only one did not
 show neglect on any task.
 
-TODO: Table [tbl:VWM] goes about here. Demographic, clinical, VWM,
-and COVAT summary results of the neurological patient group.
+TODO: Table [tbl:VWM] goes about here. Caption: Table presents
+demographic data, measures of attention (CES) and visual working
+memory, as well as performance on the three clinical measures of
+neglect by the patient group (described in Results). "CES"
+indicates the leftward cue-effect-size on the COVAT test, with
+larger numbers indicating more difficulty re-orienting leftward
+when attention is initially cued to non-neglected, right space.
+"VWM(1)" is the average probability a patient guesses the target
+colour in the single target condition, with incread values
+indicating a deficit.  "VWM(2/3)" is the average probability a
+patient selects one of the distractor colours, with increasing
+values indicating a color-location binding deficit. Values for
+"Stars" are coded as the percentage of leftward stimuli missed on
+the Star Cancellation task. Neglect observed in figure copying is
+coded as a "+" under "Copying." Line bisection performance is
+recorded as the bias, in terms of percentage of line length, with
+positive values indicating rightward bias, under "Bisection."
+
+
 
 ### Apparatus and Procedure
 
@@ -80,9 +97,10 @@ the two or three probes was highlighted, and the participant would
 be required to recall the colour of the target that had been
 presented at that particular location (Figure [fig:Ch1-task]).
 
-TODO: Figure [fig:Ch1-task] goes about here. Figure depicts both
-VWM and COVAT tasks diagrammatically. Task makes clear that there
-may be 1, 2 or 3 targets on the VWM task.
+TODO: Figure [fig:Ch1-task] goes about here. Caption: Figure
+depicts both VWM (above) and COVAT (below) tasks. The three-target
+condition of VWM is depicted. 
+
 
 #### Covert Orienting of Attention Task
 
@@ -136,10 +154,10 @@ also recorded. This provides a measure of the spatial response
 precision of those trials where the patient successfully recalls
 and reports a target colour (i.e., $P_T$ and $P_{NT}$).
 
-TODO: Figure [fig:Emrich2012] goes about here. Figure graphically
+TODO: Figure [fig:Emrich2012] goes about here. Caption: Figure 
 depicts the three probability distributions used to calculate the
-three values. I'll combine this with an image of the target and
-colour bar I also have.
+three values. 
+
 
 For the covert orienting task, response times were recorded and
 means were calculated for each trial category for each

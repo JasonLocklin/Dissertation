@@ -29,7 +29,11 @@ effect of age rather than neglect (Figure [fig:VWM_Precision]).
 It is also worth noting that all of the patients responded within
 the range of performance observed in the two control groups.
 
-TODO: Figure[fig:VWM_Precision] goes about here.
+TODO: Figure[fig:VWM_Precision] goes about here. Caption: Figure
+depicts the precision of responses (coded as $1/SD$ of the
+response distribution, so higher values indicate better
+performance).  The groups do not statistically differ in their
+ability to manually indicate their response precisely. 
 
 [pTarget] Because the single target condition has no non-targets,
 and therefore no $P_{NT}$ (i.e., $P_{T} = (1 - P_{G})$), there is
@@ -48,9 +52,11 @@ control group were significantly different from patients
 $\overline{M}_{\text{diff}} = 0.19$, $\text{p} < 0.001$,
 respectively).  
 
-TODO: Figure [fig:VWM_1Target] goes about here. Figure depicts the
-guessing probability for the three groups, with the two healthy
-groups obviously at ceiling.
+TODO: Figure [fig:VWM_1Target] goes about here. Caption: Figure
+depicts the probability of correct target selection for the single
+target condition (i.e., the inverse of the probability of
+guessing).  The two healthy groups perform at ceiling, with the
+patient group responding less reliably.
 
 #### Two and Three Target Conditions
 
@@ -108,11 +114,14 @@ older controls, and $t(8) = 3.9$, $\text{p} < 0.05$, $d=tk$, for
 young adults).  The two healthy groups did not significantly
 differ from one another ($t(8) = 0.54$, $\text{p} = 0.6$).
 
-TODO: Figure [fig:VWM_MTarget] goes about here. Figure depicts
-non-target probability means and guessing probability means (2
-pannels) for the three groups.  Might include visual indication of
-the two conditions that contribute to each mean. 
-
+TODO: Figure [fig:VWM_MTarget] goes about here. Caption: Figure
+depicts non-target probability means (right) and guessing
+probability means (left) for the multi-target conditions (2 and 3
+targets).  Overlayed on the collapsed means are the contributing
+means in the 2 (blue) and 3 (red) target conditions. While the
+groups did not differ statistically when guessing, patients
+selected non-target colours more frequently than the two healthy
+groups. 
 
 ### Covert Orienting Task
 
@@ -163,10 +172,13 @@ indeed, a lateralized deficit ($CES_R$ of -22 and 11 for 50 and
 negative values indicate faster invalid trials).  
 
 
-TODO: Figure [fig:COVAT] goes about here. Depicts left CES of each
-of the 5 patients. I'd include right CES as contrast, but don't
-think it makes sense as right invalid trials would include a left
-cue that was (probably) missed. 
+TODO: Figure [fig:COVAT] goes about here. Caption: Figure depicts
+left CES of each of the 5 patients that were able to perform the
+COVAT. Larger values indicate difficulty re-orienting leftward
+after a rightward attentional cue. Dark and lighter horizontal
+bands are overlayed that indicate 1 and 2 standard deviations
+around the mean normative performance of the older controls. 
+
 
 ### Comparing Visual Working Memory and Covert Orienting 
 

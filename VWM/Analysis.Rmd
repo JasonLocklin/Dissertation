@@ -95,7 +95,7 @@ p <- ggplot(cdata, aes(x = Subj_Group, y = Mean)) +
     geom_bar(stat = "identity", width=0.5) +
     geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2) + 
     xlab("") +
-    ylab("Precision (SE)") + 
+    ylab("Precision (1/SD)") + 
     ggtitle("Response Precision for Single Target Condition") +
     theme_gray()
 p
@@ -789,7 +789,7 @@ t.test(qh[2], alternative="greater")
 
 Now, for describing the individuals, calculate z-scores and plot the individual
 patients over the expected distribution of healthy performance.
-```{r}
+```{r fig:COVAT}
 m = mean(qh[["."]])
 sd = sd(qh[["."]])
 names(q) <- .(Subject, CES)
@@ -803,7 +803,7 @@ c <- c + geom_hline(aes(yintercept=m)) +
   ggtitle("Patient Leftward Cue Effect Size (CES)") + ylab("Seconds") + xlab("Patients")
 
 c
-pdf("fig:VWM_COVAT.pdf", paper='USr', width=11)
+pdf("fig:COVAT.pdf", paper='USr', width=11)
 c
 dev.off()
 ```

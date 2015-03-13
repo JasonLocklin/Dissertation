@@ -8,15 +8,21 @@ task [@Ferber2006, @Striemer2013], all of the patients who were
 showing clinical signs of neglect performed very poorly.  Figure
 [fig:SWM] plots the patient mean accuracy along with expected
 range (2 standard deviations from the means) of the neurologically
-intact and non-neglecting right brain damaged participants from
+intact, and non-neglecting right brain damaged participants from
 @Ferber2006. While the patient who did not demonstrate neglect on
 the clinical tasks at time of testing (27) performed similarly to
 the non-neglecting group, the remaining patients baseline
 performance was at least 3 standard deviations outside what was
 observed in either group.
 
-TODO: Figure [fig:SWM] goes about here. Depicts pre and post-prism
-SWM performance for all participants, with normative regions.
+TODO: Figure [fig:SWM] goes about here. Caption: Figure depicts
+pre and post-prism SWM performance for all participants. Overlaid
+are means and bands of 2 standard deviations of neurologically
+intact (light band), and non-neglecting right brain damaged (dark
+band) controls from previous research utilizing the same task
+[@Ferber2006].
+
+
 
 As a group, SWM performance does statistically improve when a
 one-sided test is used (presuming prisms would not decrease
@@ -55,16 +61,22 @@ was computed in order to yield a measure of the relationship
 figure [fig:TE], the relationship was not recti-linear (first
 order), so linear models were computed based on log-transformed
 time. When this was done, linear models fit very well (13 models,
-$r^2$: first quartile =0.80, median =0.87, third quartile =0.92).
+$r^2$: first quartile $=0.80$, median $=0.87$, third quartile $=0.92$).
 The worst case model was, nevertheless, still significant
 ($F(1,14)=12.4$, $\text{p}< 0.01$, $r^2=0.47$), indicating that
 despite their poor performance, patients' responses were, in fact,
 reliably influenced by the true trial intervals.
 
-TODO: Figure [fig:TE] goes about here. Figure depicts both
-line-plots of reported interval vs. true interval, and barplots
-that more clearly depict performance change pre- to post prisms
-(slope of log-time). 
+TODO: Figure [fig:TE] goes about here. Caption: Figure depicts
+both line-plots of reported interval vs. true interval (right),
+and barplots that depict performance change pre- and post-prisms,
+calculated as the slope of a linear model of estimated and actual
+time intervals. One patient repeated the post-adaptation task, and
+both results are included here. Patient 27, the patient that did
+not show clinical signs of neglect at time of testing, can be seen
+to exhibit a slope of near 1 (left), indicating that estimated
+time intervals increase in proportion to actual intervals, and
+this can be seen at right, as a nearly diagonal line.
 
 ### Line bisection
 
@@ -72,19 +84,32 @@ As a group, the neglecting patients showed a significant change in
 line bisection bias after prism adaptation in the direction
 traditionally seen in the research, when a one-sided test was used
 (Patient 27 removed, $t(4)=2.6$, $\text{p} = 0.03$).  Individual t
-tests on the sets of line bisections for each patient demonstrated
+tests on the sets of line bisections for each patient, with a bonferonni
+adjusted criteria ($\alpha = 0.008$), demonstrated
 a relatively consistent effect across individuals. As can be seen
 in figure [fig:LB_Prisms], the changes were nearly-universally
 leftward excepting Patient 27, the non-neglecting patient.
+Patient's 95, 97, and 171 demonstrated significant leftward shifts
+in bias post-prisms (
+$t(16)=3.3$, $\text{p} < 0.008$, 
+$t(17)=4.1$, $\text{p} < 0.001$,
+$t(18)=3.2$, $\text{p} < 0.008$, respectively). 
+Patient 27 demonstrates a
+direction of change opposite to what is expected, and what the
+rest of the participants show, but this change is non-significant
+with the bonferonni adjusted criteria (
+$\alpha = 0.008$, $t(18)=-2.70$, $\text{p} = 0.015$). 
+Patient 408 produced the largest average difference in bias, but was also
+highly variable, and as a result, did not demonstrate statistically
+significant change ($t(12)=1.9$, $\text{p} = 0.08$). 
+Patient 163 clearly did not show
+measurable change post-prisms ($t(10)=1.2$, $\text{p} = 0.3$). 
 
 
-TODO: Figure [fig:LB_Prisms] goes about here. Figure caption will
-include all of the individual t-tests and differences on the plot
-will be indicated with stars. All patients showed significant
-change post prisms except 163 and 408 (with the latter not quite
-reaching significance due to extreme trial-to-trial variability).
-With a Bonferonni correction for 5 tests, 27 also becomes
-non-significant. 
+TODO: Figure [fig:LB_Prisms] goes about here. Caption: Figure
+depicts each individual's average line bisection performance pre-
+and post-prisms. Bars indicate the direction of bias, with values
+encoded as percentage of line length. 
 
 
 As a group, the neglecting patients did not improve on either

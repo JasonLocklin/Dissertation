@@ -12,18 +12,31 @@ https://uwaterloo.ca/neurological-patient-database/).  One patient
 patients were unable to return for the second phase of the
 experiment because of extenuating circumstances, and a third
 participant was removed from the study because of extensive
-cerebellar damage. The remaining six, (tk male, tk female)
-patients completed the task.  The group had a mean age of tk (),
-and tk were right handed. The study was approved by the University
-of Waterloo's Office of Research Ethics, and the Tri-Hospital
-Research Ethics board. All patients were tested at least tk months
-post-stroke.  One participant was not able to perform the spatial
-working memory task (giving a single response to all trials), and
-was therefore removed from that component of the analysis.
+cerebellar damage. The remaining six patients completed the task.
+The group had a mean age of tk (), and 4 were right handed. The
+study was approved by the University of Waterloo's Office of
+Research Ethics, and the Tri-Hospital Research Ethics board. All
+patients were tested at least tk months post-stroke.  One
+participant was not able to perform the spatial working memory
+task (giving a single response to all trials), and was therefore
+removed from that component of the analysis.
 
-TODO: [tbl:Prisms] goes about here. Table includes demographics,
-stroke info, clinical measures, pre- and post-prisms z-scores on
-the two tasks. 
+TODO: [tbl:Prisms] goes about here. Caption: Table (a), above,
+includes demographic information for the patients, as well as
+performance on star cancellation, bell cancellation, and figure
+copying, all before and after prism adaptation (See Results for
+analysis).  For star and bell cancellation, values indicate the
+percentage of left-sided targets omitted. For figure copying, a
+"+" indicates the presense of neglect. Table (b), below, includes
+performance on the line bisection (LB), temporal estimation (TE),
+and spatial working memory (SWM) tasks. Line bisection is recorded
+as percentage of line length, with positive values indicating
+rightward bias. TE values represent the slope of a linear model of
+the log-log transformed real and estimated time intervals. A value
+of 1 indicates would indicate estimates that increase in
+proportion to actual time intervals. SWM values indicate accuracy
+based on hits minus false alarms.
+
 
 
 ### Apparatus and Procedure
@@ -73,9 +86,13 @@ previously occupied by a target. A total of 120 trials constituted
 a single session.  In 50% of trials, the circle appeared in the
 same position as one of the preceding squares.
 
-TODO: Figure [fig:Prisms] goes about here. Diagrammatic outline of
-the SWM and TE tasks.
-
+TODO: Figure [fig:Prisms] goes about here. Caption: Figure upper
+panel (a) depicts one trial of the temporal estimation task. The
+numbers were randomly selected and displayed at random times
+(though, not at the very beginning or end of the trial). The lower
+panel (b) depicts the spatial working memory task. The trial
+depicted is a "valid" trial, as the probe (circle) is in the same
+location as one of the initial three targets (squares).
 
 #### Temporal Estimation Task
 

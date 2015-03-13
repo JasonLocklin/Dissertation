@@ -196,7 +196,7 @@ p <- ggplot(data = TE2, aes(x = TrialDuration,
                            y = Response, group = Subject))
 
 p <- p +  geom_line() + scale_x_continuous(breaks=c(5,15,30,60)) +
-  scale_y_continuous(breaks=c(5,15,30,60)) +
+  scale_y_continuous(breaks=c(5,15,30,60)) + ylab("Estimate") +
   stat_smooth(aes(group = 1), method = "glm", formula = y ~ log(x)) + 
   facet_grid(. ~ Prisms) + ggtitle("Temporal Estimation Across Intervals")
 p
@@ -410,13 +410,13 @@ Plotting Hits minus false alarms:
 ```{r VWM_H-Fa, fig.width=12, cache=FALSE}
 p <- qplot(data = SWM2, x=Prisms, y=H_minus_F, geom="bar", stat="identity", 
         width = 0.8, ylim=c(0,100), ylab = "Hits minus false alarms", 
-        xlab = "Participant. Dark gray bar = RBD controls and 
+        xlab = "Dark gray bar = RBD controls and 
 light gray bar = healthy controls (Ferber, 2006).") + 
         facet_wrap(~ Subject) +  
         geom_abline(aes(intercept=79, slope=0), size=1, alpha=0.9) +
-        geom_abline(aes(intercept=79, slope=0), size=2*8.7, alpha=0.2) +
+        geom_abline(aes(intercept=79, slope=0), size=2*8.7, alpha=0.1) +
         geom_abline(aes(intercept=89, slope=0),  size=1, alpha=0.9) +
-        geom_abline(aes(intercept=89, slope=0),  size=2*6.1, alpha=0.8) +
+        geom_abline(aes(intercept=89, slope=0),  size=2*6.1, alpha=0.7) +
         ggtitle("Spatial Working Memory Test") 
 
 p
@@ -671,8 +671,8 @@ require(reshape2)
 clin <- dcast(melt(NT2, id.vars=c('Patient', 'Prisms')), 
               Patient ~ Prisms + variable)
 
-names(clin)  <- c("Subject", "Star(pre)","Bell(pre)","Draw(pre)", 
-                  "Star(post)", "Bell(post)", "Draw(post)")
+names(clin)  <- c("Subject", "Star(pre)","Bell(pre)","Copy(pre)", 
+                  "Star(post)", "Bell(post)", "Copy(post)")
 clin <- clin[c(1,2,5,3,6,4,7)]
 
   # Line Bisection

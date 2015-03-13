@@ -41,11 +41,25 @@ the mean degree of adaptation observed in each block. Panel (a) is
 based on only test trials (i.e., those trials where no target
 purturbation is displayed), while panel (b) is calculated from all
 available trials, including non-test trials. For (a), blocks 1, 3,
-and 4 produced significant group change in saccade length ($ $),
-while block 2 did not reach significance ($ $). Sparcity of data
+and 4 produced significant group change in saccade length (
+$t( 30 ) = -2.53$, $\text{p} < 0.05$, 
+$t( 19 ) = -2.58$, $\text{p} < 0.05$, 
+and $t( 21 ) = -3.07$, $\text{p} < 0.01$, respectively),
+while block 2 did not reach significance (
+$t( 24 ) = -1.8$, $\text{p} = 0.084$). Sparcity of data
 for test trials required further analysis with all trials in order
 to quantify the degree of adaptation reliably. All four blocks of
-(b) demonstrated significant adaptation ($ $). 
+(b) demonstrated significant adaptation (
+$t( 36 ) = -4.62$, $\text{p} < 0.001$,
+$t( 35 ) = -6.17$, $\text{p} < 0.001$,
+$t( 34 ) = -6.76$, $\text{p} < 0.001$, and 
+$t( 27 ) = -5.88$, $\text{p} < 0.001$, respectively
+). A correction for
+family-wise error was not applied, as the blocks should be
+considered a type of replication.  The likelyhood of one of the
+four test-trial tests producing an erronously significant result,
+by chance, is 0.2. However, the likelyhood of 3 erronous in 4
+tests results, as above, would be 0.0001. 
 
 
 ### Landmark and Line bisection
@@ -74,8 +88,8 @@ participant was excluded from line bisection task as they pointed
 to the end of the line, rather than centre, after the first block.
 When the change scores were averaged across blocks, neither line
 bisection, nor landmark task performance showed evidence of change
-post-adaptation ( $t( 35 ) = -0.55$, $\text{p} = 0.583$, and $t(
-36 ) = -0.88$, $\text{p} = 0.384$ respectively).  Based on the
+post-adaptation ( $t( 35 ) = -0.55$, $\text{p} = 0.583$, and 
+$t(36 ) = -0.88$, $\text{p} = 0.384$ respectively).  Based on the
 sample variance and sample size, a power analysis revealed that
 the experiment would have had a 95% chance of detecting a
 post-adaptation change in the landmark task as small as 0.1º
