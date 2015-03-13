@@ -277,8 +277,8 @@ TE2 <- ddply(TE, .(Subject, Session, Prisms), summarize,
       )
 summary(TE2)
 
-#Worst case is 408 pre prisms
-t <- TE[TE$Subject == '408' & TE$Session == '1',]
+#Worst case is 10 pre prisms
+t <- TE[TE$Subject == '10' & TE$Session == '1',]
 summary(lm(log(t$Response) ~ log(as.numeric(as.character(t$TrialDuration)))))
 
 TE2 <- ddply(TE, .(Subject, Session, Prisms), summarize, 
@@ -487,9 +487,9 @@ ddply(LB, .(Subject, Session, Prisms), summarise,
 
 ```
 
-Everything but Sj 408, session 2 looks fine. Looking at those trials:
+Everything but Sj 10, session 2 looks fine. Looking at those trials:
 ```{r}
-LB[LB$Subject=="408" & LB$Session=="2",]
+LB[LB$Subject=="10" & LB$Session=="2",]
 ```
 I checked the paper records, and yes, this participant did drastically *left-shift*
 their responses on many of the trials. Not sure what to make of that. Participant
@@ -527,7 +527,7 @@ s <- s | LB2$Subject == "27" & LB2$Session > 1
 s <- s | LB2$Subject == "97" & LB2$Session > 1
 s <- s | LB2$Subject == "163" & ( LB2$Session == 2 | LB2$Session ==4)
 s <- s | LB2$Subject == "171" & (LB2$Session > 2)
-s <- s | LB2$Subject == "408"
+s <- s | LB2$Subject == "10"
 LB2 <- LB2[s,]
 
 LB2$Session <- as.numeric(as.character(LB2$Session))
@@ -565,7 +565,7 @@ s <- s | LB$Subject == "27" & LB$Session > 1
 s <- s | LB$Subject == "97" & LB$Session > 1
 s <- s | LB$Subject == "163" & ( LB$Session == 2 | LB$Session ==4)
 s <- s | LB$Subject == "171" & (LB$Session > 2)
-s <- s | LB$Subject == "408"
+s <- s | LB$Subject == "10"
 LB4 <- LB[s,]
 for(i in levels(LB$Subject)) {
   print(i)
