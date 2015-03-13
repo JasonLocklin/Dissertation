@@ -53,61 +53,66 @@ that, despite the fact that lateralized attentional deficits seem
 to represent a cornerstone feature of the neglect syndrome, they,
 alone, fail to compose a complete picture of the disorder.
 
-Furthermore, recent attempts at rehabilitating neglect have shown that
-while spatial attention can be improved, a range of perceptual
-biases remain unaltered. As noted earlier, several aversive and
-invasive treatments intended to trigger attentional re-orienting
-to left space have been tried, with little clinical effectiveness.
-The most promising treatment has been prism adaptation, because it
-is non-aversive, and because it has been shown to produce effects
-lasting much longer than the treatment duration [tk].
+Furthermore, recent attempts at rehabilitating neglect have shown
+that while spatial attention can be improved, a range of
+perceptual biases remain unaltered. As noted earlier, several
+aversive and invasive treatments intended to trigger attentional
+re-orienting to left space have been tried, with little clinical
+effectiveness.  The most promising treatment has been prism
+adaptation, because it is non-aversive, and because it has been
+shown to produce effects lasting much longer than the treatment
+duration [@Rossetti1998, @Farne2002, @Frassinetti2002].
 Unfortunately, while prism adaptation produces striking changes in
-spatial attention [tk], there is a small, but increasing set of
-neglect deficits that are not improved [tk]. Many of these
-findings make use of perceptual tasks, such as the landmark [tk],
-and chimeric faces tasks[tk]. It may be the case then that prisms
-operate on neural systems important for the deployment of
+spatial attention [@Striemer2007, @Nijboer2008], there is a small,
+but increasing set of neglect deficits that are not improved
+[@Rousseaux2006, @Striemer2010tpd].  Many of these findings make
+use of perceptual tasks, such the perceptual judgement of spatial
+extent [@Dijkerman2003, @Striemer2010dpm], and chimeric faces
+tasks[@Ferber2003, @Sarri2006].  It may be the case then that
+prisms operate on neural systems important for the deployment of
 attention, but have little to no effect on those mechanisms needed
 to form accurate perceptual representations.
 
 Part of the deficit involved in maintaining accurate perceptual
 representations may be driven by working memory impairments. As
 mentioned earlier, neglect patients have deficits of spatial
-working memory in "non-neglected," right or central space [tk].
-In this context, it is important to clarify the relationship
-between spatial working memory and spatial attention.  The two
-systems appear to be independent and functionally unique,
-generally residing in ventral and dorsal visual systems,
-respectively, although there is some functional overlap and mutual
-interaction [@Awh2001].  Specifically, in healthy people,
-mechanisms of spatial attention provide a rehearsal-like function
-to maintain information held in working memory [@Awh2001]. 
+working memory generally, even in "non-neglected," right or
+central space [@Husain2001, @Danckert2006].  In this context, it
+is important to clarify the relationship between spatial working
+memory and spatial attention.  The two systems appear to be
+independent and functionally unique, generally residing in ventral
+and dorsal visual systems, respectively, although there is some
+functional overlap and mutual interaction [@Awh2001].
+Specifically, in healthy people, mechanisms of spatial attention
+provide a rehearsal-like function to maintain information held in
+working memory [@Awh2001]. 
 
 This arguably creates three possible causes of working memory
 problems in neglect. First, they could be a direct result of
-spatial attention deficits. This seems less-likely as patients
+spatial attention deficits. This seems less-likely, as patients
 maintain the ability to orient to rightward and central targets
-effectively, however, we can not rule out the possibility that
+effectively. However, we can not rule out the possibility that
 subtle pathological orienting deficits exist for central and right
 space that in turn impact upon working memory. If this was the
-case, though, we might expect perceptual deficits to improve along
-with attention deficits and this does not appear to be the case
-[tk].  Second, the ability to utilize spatial attention for
-rehearsal may be disrupted in neglect via a disconnection of the
-dorsal and ventral streams arising from the neglect-inducing
-lesion.  This would imply that ventral processing may not be
-directly impaired in neglect, but that the spatial working memory
-deficit comes from the ventral system's inability to recruit
-attentional mechanisms to support rehearsal processes [tk Awh].
-Third, working memory deficits may be fully independent of spatial
-attention deficits. 
+case, though, we might expect perceptual deficits to improve as a
+result of improvement in attention deficits, and this does not
+appear to be the case [@Rousseaux2006, @Striemer2010tpd,
+@Striemer2010dpm, @Ferber2003, @Sarri2006].  Second, the ability
+to utilize spatial attention for rehearsal may be disrupted in
+neglect via a disconnection of the dorsal and ventral streams
+arising from the neglect-inducing lesion.  This would imply that
+ventral processing may not be directly impaired in neglect, but
+that the spatial working memory deficit comes from the ventral
+system's inability to recruit attentional mechanisms to support
+rehearsal processes described above.  Third, working memory
+deficits may be fully independent of spatial attention deficits. 
 
-To test this possibility, a new version of the working memory task
-was created to minimize the possible reliance on spatial attention
-rehearsal mechanisms. Rather than asking participants to remember
-and recall the spatial locations of targets, memory for target
-colour was tested.  Placing the primary requirement of the task on
-colour processing dramatically reduced reliance on spatial
+To test this last possibility, a new version of the working memory
+task was created to minimize the possible reliance on spatial
+attention rehearsal mechanisms. Rather than asking participants to
+remember and recall the spatial locations of targets, memory for
+target colour was tested.  Placing the primary requirement of the
+task on colour processing dramatically reduced reliance on spatial
 attention and placed any rehearsal mechanism requirements within
 the ventral stream, eliminating the likelihood that the measured
 deficits would be the result of the hypothesized disconnection
