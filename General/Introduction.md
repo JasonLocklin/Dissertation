@@ -69,14 +69,15 @@ and @CorbettaShulman2011].
 
 [Prisms do lot's of things] Given the debilitating nature of the
 disorder a broad range of rehabilitation protocols have been
-attempted [tk]. Perhaps because of the heterogeneity of the
-symptom profile in neglect, most rehabilitation strategies have
-met with varied success [@Danckert2006] . Both caloric
-stimulation, in which water, often ice-cold, is injected into the
-patient's ear canal, and neck muscle vibration, quickly orients
-the patient's torso, head, eyes, and attention to the stimulated
-side, reducing several of the behavioural deficits for a short
-time [\~20 minutes; @AdairHeilman2003
+attempted [for a review, see @Luaute2006]. Perhaps because of the
+heterogeneity of the symptom profile in neglect, most
+rehabilitation strategies have met with varied success
+[@Danckert2006] . Both caloric stimulation, in which water, often
+ice-cold, is injected into the patient's ear canal, and neck
+muscle vibration, quickly orients the patient's torso, head, eyes,
+and attention to the stimulated side, reducing several of the
+behavioural deficits for a short time [\~20 minutes;
+@AdairHeilman2003
 ,@KarnathHartje1993,@KarnathDichgans1996,@Rubens1985].
 Unfortunately, these exercises are aversive and their short-term
 effects prevent them from being useful as treatments. A much more
@@ -124,23 +125,22 @@ important for the visual guidance of action (the so-called dorsal
 ‘how’ pathway) and another that projects from V1 to inferotemporal
 cortex and is important for perceptual processing [the so-called
 ventral ‘what’ pathway; @Milner2006vba]. Prisms have been shown to
-primarily influence processing within the dorsal stream [fMRI refs
-tk; Luaute2006, Corbetta and gang; @Clower1996 2000’s retroviral
-tracing in monkeys].  In this framework, prisms will primarily
-influence behaviours supported by the the superior parietal lobule
-and infraparietal sulcus, areas well within the dorsal stream that
-are typically undamaged in neglect.  Instead, damage to the
-inferior parietal/superior temporal gyrus leads not only to the
-neglect syndrome, but also severely reduces (or even eliminates)
-the brain's ability to integrate dorsal and ventral stream
-processing [@Danckert2010]. In the same respect, the damage limits
-the ability of a rehabilitative technique such as prisms, that
-operates primarily on the dorsal stream,from influencing areas in
-the ventral system responsible for higher level perceptual
-judgments. This thesis outlines three experiments (and a
-supplimental case study to the third experiment) chosen to examine
-this duality between the reactive, motor action system, and
-perceptual representation/awareness in neglect.
+primarily influence processing within the dorsal stream [
+@Luaute2006, @Corbetta2005, @Clower1996.  In this framework,
+prisms will primarily influence behaviours supported by the the
+superior parietal lobule and infraparietal sulcus, areas well
+within the dorsal stream that are typically undamaged in neglect.
+Instead, damage to the inferior parietal/superior temporal gyrus
+leads not only to the neglect syndrome, but also severely reduces
+(or even eliminates) the brain's ability to integrate dorsal and
+ventral stream processing [@Danckert2010]. In the same respect,
+the damage limits the ability of a rehabilitative technique such
+as prisms, that operates primarily on the dorsal stream,from
+influencing areas in the ventral system responsible for higher
+level perceptual judgments. This thesis outlines three experiments
+(and a supplimental case study to the third experiment) chosen to
+examine this duality between the reactive, motor action system,
+and perceptual representation/awareness in neglect.
 
 [Chapter overview] Chapter 1 explores the relationship between
 visual working memory and spatial attention. It examines the
