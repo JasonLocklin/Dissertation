@@ -72,7 +72,7 @@ task indicated a rightward bias such that participants placed the
 mark 0.24º (0.18cm) to the right of true centre ($t( 48) = 5.6$,
 $\text{p} < 0.01$). Such a rightward bias indicated that
 participants perceived the left half of the line to be larger, as
-has been shown in prior work [tk pseudo neglect ref].
+has been shown in prior work [Pseudo-neglect; @Bowers1980].
 Interestingly, all participants performed very accurately on these
 two tasks, with the worst performance still less than a centimetre
 from centre (0.8º and 1.0º for line bisection and landmark,

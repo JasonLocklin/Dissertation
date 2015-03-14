@@ -25,10 +25,10 @@ the literature.
 Performance on the landmark and line bisection tasks was precise,
 and the experiment was sensitive enough to detect the small
 pseudo-neglect observed in healthy individuals in previous
-research [tk].  Saccadic adaptation, however, did not produce a
-measurable change in landmark or line bisection performance, even
-though the experiment had sufficient statistical power to detect
-very small changes. 
+research [@Bowers1980, @Bradshaw1986, @Scarisbrick1987].  Saccadic
+adaptation, however, did not produce a measurable change in
+landmark or line bisection performance, even though the experiment
+had sufficient statistical power to detect very small changes. 
 
 The case study made clear that special experimental
 considerations, beyond what is typically made for prism

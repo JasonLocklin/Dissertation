@@ -5,23 +5,23 @@ Discussion
 repeatedly been found to influence deficits putatively associated
 with dorsal visual stream processing. Here, we replicate past
 findings that prisms effect the bias present when neglect patients
-perform the line bisection [tk], a task that involves a motoric
-reporting of centre and is associated with dorsal brain activation
-[tk]. While the perception of the line it is self, it could be
-argued, may also involve some ventral stream perceptual
-processing, past research involving a related perceptual task, the
-landmark task, suggests that the neglect-induced bias observed in
-line bisection probably represents a relatively clear indicator of
-a dorsal deficit within the disorder
-[tklandmarklinebisectiondanckert]. The findings here strongly
-suggest that, in at least some of the neglecting patients, prisms
-did appear to bring about a shift in bisection toward the
-neglected field. Due to the characteristics of the treatment and
-sample-size limitations, an experimental design that would have
-eliminated possible practice-effects was not possible. However,
-keeping in mind that limitation, it is the pattern of response
-between this "dorsal" task and the other, more perceptual, tasks
-that is most informative.
+perform the line bisection [@Rossetti1998, @Striemer2010dpm], a
+task that involves a motoric reporting of centre and is associated
+with dorsal brain activation [@Foxe2003, @Weiss2000, @Çiçek2009].
+While the perception of the line it is self, it could be argued,
+may also involve some ventral stream perceptual processing, past
+research involving a related perceptual task, the landmark task,
+suggests that the neglect-induced bias observed in line bisection
+probably represents a relatively clear indicator of a dorsal
+deficit within the disorder [@Striemer2010]. The findings here
+strongly suggest that, in at least some of the neglecting
+patients, prisms did appear to bring about a shift in bisection
+toward the neglected field. Due to the characteristics of the
+treatment and sample-size limitations, an experimental design that
+would have eliminated possible practice-effects was not possible.
+However, keeping in mind that limitation, it is the pattern of
+response between this "dorsal" task and the other, more
+perceptual, tasks that is most informative.
 
 
 [SWM not remediated] The spatial working memory task, despite
@@ -31,9 +31,9 @@ in central and right space, rather than left space, where spatial
 attention defects predominate.  The locations of the targets need
 to not only be perceived, but recalled again after a delay, and
 that delay putatively causes the task to rely heavily on ventral,
-working memory systems [tk].  When the patients performed the
-spatial working memory task after prism adaptation, they did show
-statistically significant improvement as a group, but that
+working memory systems [@Ferber2006].  When the patients performed
+the spatial working memory task after prism adaptation, they did
+show statistically significant improvement as a group, but that
 improvement, for the most part, would not be considered clinically
 significant. That is to say that the change left all four
 neglecting patients with large deficits relative to typical

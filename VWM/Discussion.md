@@ -59,14 +59,14 @@ non-targets in multi-target conditions (Figure [fig:VWM_MTarget]).
 There are many potential explanations for this, the most obvious
 being an increase in failures of binding color and location in
 working memory, a cross-domain cognitive process that has been
-shown difficult for parietal patients to perform (@Humphreys2009,
-@Treisman2002).  When more than one target is presented, colour
-information must be explicitly associated with spatial location in
-memory.  If all of the colours are effectively encoded and
-recalled, but a failure to bind the colours to spatial location
-occurs, participants will select a distractor colour 50\% of the
-time in the two-target condition, and 66\% of the time in the
-three-target condition. 
+shown degraded in parietal and neglect patiends (@Humphreys2009,
+@Treisman2002, @Pisella2004).  When more than one target is
+presented, colour information must be explicitly associated with
+spatial location in memory.  If all of the colours are effectively
+encoded and recalled, but a failure to bind the colours to spatial
+location occurs, participants will select a distractor colour 50\%
+of the time in the two-target condition, and 66\% of the time in
+the three-target condition. 
 
 The other event that can lead to this type of error is a simple
 failure to recall the complete set of stimuli colours. If the

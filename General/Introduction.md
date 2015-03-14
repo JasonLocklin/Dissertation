@@ -3,18 +3,21 @@ Introduction
 
 Unilateral spatial neglect is a disorder commonly resulting from
 damage to the right inferior parietal or superior temporal cortex
-[tk]. Hereafter, specifically referred to simply as "neglect," the
-disorder causes a heterogeneous collection of deficits that can be
-generally categorized as an inability to respond to information on
-the contralesional side of space. People with the disorder are
-spatially biased away from contralesional space in their search
-behaviour [tk], grooming and eating [tk], drawing [tk], posture
-[tk], and perceptual judgment of spatial extent [e.g., line
-bisection; tk].  The disorder is, as can be expected from the list
-of symptoms, debilitating, and is associated with poor
-rehabilitative outcome [@Cassidy1998, @Ringman2004].  Less than
-half of patents show improvements in the weeks after a neglect
-inducing stroke, and a small minority fully recover [Farnè2004@].
+[@Vallar1986, @Karnath2001, @Karnath2012, @Mort2003, @Buxbaum2004,
+@Verdon2010].  Hereafter, specifically referred to simply as
+"neglect," the disorder causes a heterogeneous collection of
+deficits that can be generally categorized as an inability to
+respond to information on the contralesional side of space. People
+with the disorder are spatially biased away from contralesional
+space in their search behaviour [@Husain2001, @Wojciulik2001],
+grooming and eating [@Halligan2003, @Kerkhoff2001], drawing
+[@Halligan1989], posture [@Rode1997], and perceptual judgment of
+spatial extent [@Dijkerman2003, @Striemer2010dpm].  The disorder
+is, as can be expected from the list of symptoms, debilitating,
+and is associated with poor rehabilitative outcome [@Cassidy1998,
+@Ringman2004].  Less than half of patents show improvements in the
+weeks after a neglect inducing stroke, and a small minority fully
+recover [Farnè2004@].
 
 [Disorder of Spatial-attention] Most theoretical accounts of the
 neglect syndrome describe it as either a deficit of the deployment
@@ -35,33 +38,34 @@ the line-bisection task – in which the patient is asked to place a
 mark at the perceived midpoint of a horizontal line – an inability
 to attend to an endpoint is a plausible explanation for impaired
 performance [i.e., typically marks are placed a long way to the
-right of true centre; @tk].
+right of true centre; @].
 
 [disengage deficit account] Attentional accounts of neglect
 typically invoke two kinds of impairment; first, an ipsilesional
 bias such that attention is preferentially oriented toward right
 space, and second, a reorienting deficit such that neglect
 patients have difficulty disengaging attention from stimuli in
-right space in order to reorient towards the left. The so-called
-‘disengage deficit’ was first posited as an explanation of the
-related phenomenon of extinction – the failure to report a
-contralesional stimulus when presented simultaneously with an
-ipsilesional stimulus [@tk]. @Posner1984 examined this further
-using a covert orienting task in which participants must detect
+right space in order to reorient towards the left. Origionally
+associated with the related phenomenon of extinction -- the
+failure to report a contralesional stimulus when presentd
+simultaniously with an ipsilesional stimulus -- the 'disengage
+deficit' describes a general attentional "stickiness" where-by
+rightward stimuli attract and capture attention to the exclusion
+of leftward stimuli [for a review, see @Losier2001].  @Posner1984
+used a covert orienting task in which participants must detect
 peripheral targets that can be validly or invalidly cued [i.e.,
 cue and target presented at the same or opposite locations
 respectively; @Posner1980]. On this task, neglect patients are
 disproportionately slower to respond to left sided targets
-following a right sided cue – as if they have trouble disengaging
-from the cue when presented in right space [see
-@BartolomeoChokron2002  and @LosierKlein2001 for reviews].
-Similarly, in a visual search task, performance in contralateral
-space is driven by the number of ipsilesional distractors
-[@EglinKnight1989]. This coincides with a general body of research
-that supports the notion that a crucial function of the right
-inferior parietal cortex is to disengage attention from the
-current focus and reorient toward a new, salient location [for a
-review, see @CorbettaShulman2002 and @CorbettaShulman2011].
+following a right sided cue -- as if they have trouble disengaging
+from the cue when presented in right space.  Similarly, in a
+visual search task, performance in contralateral space is driven
+by the number of ipsilesional distractors [@EglinKnight1989]. This
+coincides with a general body of research that supports the notion
+that a crucial function of the right inferior parietal cortex is
+to disengage attention from the current focus and reorient toward
+a new, salient location [for a review, see @CorbettaShulman2002
+and @CorbettaShulman2011].
 
 [Prisms do lot's of things] Given the debilitating nature of the
 disorder a broad range of rehabilitation protocols have been
