@@ -172,12 +172,6 @@ left invalid target). The rightward CES was calculated in the
 inverse way – RTs to validly cued left targets were subtracted
 from invalidly cued right targets.
 
-FIXME: Chris wrote the following in his 2007 paper, is that what
-was done here? "For controls, RTs were discarded if they were <150
-ms or more than two SDs above the participant’s overall mean. For
-patients, RTs were discarded if they were <150 ms or >1000 ms."
-Since means were calculated, cutoffs should probably be stated.
-
 
 
 Significance was defined as $p < 0.05$ throughout the thesis.
