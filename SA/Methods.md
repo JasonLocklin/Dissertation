@@ -3,11 +3,11 @@ Method
 
 ### Participants
 
-A total of 46 individuals (33 female, 3 left hand dominant, age:
-$mean=tk$, $sd=tk$), were recruited from the University of
-Waterloo undergraduate student body through the Research
-Experiences Group, and was approved by the University of Waterloo
-Office of Research Ethics.
+A total of 46 individuals (33 female, 3 left hand dominant, age
+cohorts: 16-18y $=6$, 18-20y $=30$, 21-25y $=10$), were recruited
+from the University of Waterloo undergraduate student body through
+the Research Experiences Group, and was approved by the University
+of Waterloo Office of Research Ethics.
 
 ### Apparatus and Procedure
 
@@ -75,7 +75,7 @@ until a response was registered (see figure [fig:Landmark]).
 TODO: Figure [fig:Landmark] goes about here. Caption: Figure
 depicts two trials of the landmark task. Initial trials have
 obvious bias, and the participant responds by indicating whether
-the mark was right or left of center. The stimuli bias was
+the mark was right or left of centre. The stimuli bias was
 adjusted with a staircase method to identify the location at which
 the participant is unable to judge the bias and guesses randomly.
 
@@ -107,7 +107,7 @@ TODO: Figure [fig:SA] goes about here.  Caption: Figure depicts
 saccadic adaptation trials for both experiments. The upper portion
 depicts the on-screen stimuli presented during an individual
 trial, while the lower portion depicts expected eye movement
-relative to target onset and purturbations. The case study
+relative to target onset and perturbations. The case study
 (described later) utilized the same timing, but involved different
 initial target direction, saccade direction, and involved saccadic
 augmentation, rather than reduction. 
@@ -153,23 +153,23 @@ detected by first convolving a "rolling maximum," with a window of
 10 speed samples.  A rolling maximum was chosen instead of the
 more commonly used average, as it accentuates sudden bursts of
 speed, eliminating long rise times, therefore making saccade onset
-and duration detection easier and more consistant from saccade to
+and duration detection easier and more consistent from saccade to
 saccade.  A saccade was defined as regions where the rolling
 maximum met a threshold greater than the median trial speed plus
 an experimentally determined parameter (1500º/second).  The
 analysis of a typical trial is presented graphically in figure
 [fig:Saccade].
 
-TODO: Figure [fig:Saccade] goes about here.  
-Caption: Figure depicts typical eye movements over a single trial.
-Top panel depicts eye movement speed over the course of the trial,
-while the bottom pannel depicts horizontal position relative to
-the target positions. The rolling maximum broadens the speed curve
-for a saccade so that a threshold function reliably captures the
+TODO: Figure [fig:Saccade] goes about here.  Caption: Figure
+depicts typical eye movements over a single trial.  Top panel
+depicts eye movement speed over the course of the trial, while the
+bottom panel depicts horizontal position relative to the target
+positions. The rolling maximum broadens the speed curve for a
+saccade so that a threshold function reliably captures the
 complete displacement of the saccade. This trial shows partial
 adaptation, as the initial saccade falls short of the target, but
 still far enough that a corrective saccade is required to bring
-the eyes to the purturbed location. Individual trials were then
+the eyes to the perturbed location. Individual trials were then
 removed from the analysis if the data was not of sufficient
 quality to calculate a reliable first-saccade length. These
 criteria and parameters were determined by plotting randomly

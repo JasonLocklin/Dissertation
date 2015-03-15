@@ -12,14 +12,14 @@ https://uwaterloo.ca/neurological-patient-database/).  One patient
 patients were unable to return for the second phase of the
 experiment because of extenuating circumstances, and a third
 participant was removed from the study because of extensive
-cerebellar damage. The remaining six patients completed the task.
-The group had a mean age of tk (), and 4 were right handed. The
-study was approved by the University of Waterloo's Office of
-Research Ethics, and the Tri-Hospital Research Ethics board. All
-patients were tested at least 19 months post-stroke.  One
-participant was not able to perform the spatial working memory
-task (giving a single response to all trials), and was therefore
-removed from that component of the analysis.
+cerebellar damage. See table [tbl:Prisms] for demographic data on
+the remaining patients. The study was approved by the University
+of Waterloo's Office of Research Ethics, and the Tri-Hospital
+Research Ethics board.  All patients were tested at least 19
+months post-stroke.  One participant was not able to perform the
+spatial working memory task (giving a single response to all
+trials), and was therefore removed from that component of the
+analysis.
 
 TODO: [tbl:Prisms] goes about here. Caption: Table (a), above,
 includes demographic information for the patients, as well as
@@ -27,7 +27,7 @@ performance on star cancellation, bell cancellation, and figure
 copying, all before and after prism adaptation (See Results for
 analysis).  For star and bell cancellation, values indicate the
 percentage of left-sided targets omitted. For figure copying, a
-"+" indicates the presense of neglect. Table (b), below, includes
+"+" indicates the presence of neglect. Table (b), below, includes
 performance on the line bisection (LB), temporal estimation (TE),
 and spatial working memory (SWM) tasks. Line bisection is recorded
 as percentage of line length, with positive values indicating

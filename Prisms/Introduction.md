@@ -30,7 +30,7 @@ is the perceptual judgment of stimulus identity that determines
 progress in the search, for instance. While patients do not seem
 to have trouble discerning the stimulus types used in visual
 search, eye-tracking research has demonstrated that even young,
-healthy, individuals can ocassionally fixate, or even interact
+healthy, individuals can occasionally fixate, or even interact
 with targets, but still fail to identify them [@Rich2008,
 @Solman2011], so reduced perceptual judgment can play a role in
 diminished search performance.  That diminished performance could

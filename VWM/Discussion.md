@@ -57,9 +57,9 @@ performance is near perfect and not highly variable.
 [VWM Multiple -mis-binding] Patients were more likely to select
 non-targets in multi-target conditions (Figure [fig:VWM_MTarget]).
 There are many potential explanations for this, the most obvious
-being an increase in failures of binding color and location in
+being an increase in failures of binding colour and location in
 working memory, a cross-domain cognitive process that has been
-shown degraded in parietal and neglect patiends (@Humphreys2009,
+shown degraded in parietal and neglect patients (@Humphreys2009,
 @Treisman2002, @Pisella2004).  When more than one target is
 presented, colour information must be explicitly associated with
 spatial location in memory.  If all of the colours are effectively
@@ -98,7 +98,7 @@ appear before eye movement could be initiated), but this may have
 limited the experiments sensitivity for measuring cue effect
 sizes. Also, patients were asked to perform only 100 trials to
 avoid undue fatigue, but this may have limited the power of the
-experiment, as other research has utilized considerably more [eg.,
+experiment, as other research has utilized considerably more [e.g.,
 @Posner1984, @Morrow1988, @Danckert1997].
 
 

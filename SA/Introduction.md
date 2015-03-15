@@ -25,20 +25,23 @@ perceptual, effects, and the degree to which each of these is
 present is contentious [@Redding2005, @Herlihey2012].
 
 [Saccadic adaptation as an alternative] Another visuomotor
-adaptation procedure, called saccadic adaptation, offers a
-potential alternative approach to rehabilitating neglect that may
-overcome some of the shortcomings of prism adaptation. This is
-because saccades straddle the perceptual and motor systems in a
-highly unique way. Saccadic adaptation is a form of sensory
-adaptation, because it changes input to the visual system. At the
-same time saccadic adaptation is also motor adaptation, as it is
-fundamentally the parameters of motor action execution, not
-sensitivity, that is adapted. Unlike prisms, which shift the
-ocular position of "straight ahead," realigning both visuomotor
-and limb-proprioceptive reference frames, saccadic adaptation
-changes the saccade motor plan, directly biasing eye movements,
-and thus providing a different, and perhaps more direct way of
-influencing visual perceptual representations.
+adaptation procedure, called saccadic adaptation, -- a task that
+changes saccade length by jumping targets forward or backward as a
+saccade is made, inducing an artificial dysmetria
+[@McLaughlin1967] -- offers a potential alternative approach to
+rehabilitating neglect that may overcome some of the shortcomings
+of prism adaptation. This is because saccades straddle the
+perceptual and motor systems in a highly unique way.  Saccadic
+adaptation is a form of sensory adaptation, because it changes
+input to the visual system. At the same time saccadic adaptation
+is also motor adaptation, as it is fundamentally the parameters of
+motor action execution, not sensitivity, that is adapted. Unlike
+prisms, which shift the ocular position of "straight ahead,"
+realigning both visuomotor and limb-proprioceptive reference
+frames, saccadic adaptation changes the saccade motor plan,
+directly biasing eye movements, and thus providing a different,
+and perhaps more direct way of influencing visual perceptual
+representations.
 
 There are other differences between the two tasks that may make
 saccadic adaptation more useful as a rehabilitation tool in
@@ -71,7 +74,8 @@ are configured such that saccades seem to over-shoot their target,
 then adapted saccades will become shorter over time
 [@mclaughlin1967].  The same can be done to lengthen saccades,
 though the mechanisms may be somewhat different [@Catz2008,
-@Golla2008, @Hernandez2008, @Panouillères2009, @Panouillères2012].
+@Golla2008, @Hernandez2008, @Panouillères2009, @Panouillères2012,
+@Hopp2004].
 
 [Retinotopic] Saccadic adaptation operates in a retinocentric
 reference frame. That is to say, the starting eye position is

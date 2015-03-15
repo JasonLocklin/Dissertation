@@ -7,7 +7,7 @@ and line bisection performance, it was critical to establish that
 participants are, in fact, adapting saccade magnitudes.
 Performance on the first third of the first session was used as a
 pseudo-baseline, as very little, if any adaptation is expected in
-the first 30 trials of saccadic adaptation [tk]. If this
+the first 30 trials of saccadic adaptation [@hopp2004]. If this
 assumption is incorrect, this would only make identifying an
 effect more difficult.
 
@@ -36,7 +36,7 @@ adaptation, need to be made with saccadic adaptation for the task
 to work with neglect patients. The design of the stimuli used here
 was either insufficient in saliency, or involved too large a
 leftward eccentricity to effectively elicit a leftward saccade to
-aquire the second target.  Further research attempting saccadic
+acquire the second target.  Further research attempting saccadic
 adaptation may require either a new experimental configuration, or
 locating a patient who is only showing weak signs of neglect.
 These potential constraints on saccadic adaptation highlight the

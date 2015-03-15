@@ -66,7 +66,7 @@ Unfortunately, while prism adaptation produces striking changes in
 spatial attention [@Striemer2007, @Nijboer2008], there is a small,
 but increasing set of neglect deficits that are not improved
 [@Rousseaux2006, @Striemer2010tpd].  Many of these findings make
-use of perceptual tasks, such the perceptual judgement of spatial
+use of perceptual tasks, such the perceptual judgment of spatial
 extent [@Dijkerman2003, @Striemer2010dpm], and chimeric faces
 tasks[@Ferber2003, @Sarri2006].  It may be the case then that
 prisms operate on neural systems important for the deployment of

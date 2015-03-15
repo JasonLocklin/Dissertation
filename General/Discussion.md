@@ -37,19 +37,19 @@ covert orienting, but appeared to be relatively independent.
 
 [Prisms are limited] Thus far, one of the most promising
 treatments for rehabilitating neglect has been prism adaptation
-[tk].  The reason prism adaptation has appeared to be so
+[@Luaute2006].  The reason prism adaptation has appeared to be so
 successful, however, may have been a result of the fact that much
 of the research has been restricted to tests that effectively
 measure deficits of spatial attention. Besides the popular covert
 orienting task, researchers have often used clinical
 paper-and-pencil tests such as object cancellation, figure drawing
-or copying [@Wilson1987, tkmodernreview], tasks that are, by their
-very nature, sensitive to an inability to orient to the left.
-Chapter 2 investigated whether or not prism adaptation would
-produce a measurable effect on tasks thought to measure
-ventral-stream dependant processing spatial working memory and
-temporal estimations tasks that would presumably not be improved
-by remediation of spatial attention in the dorsal stream, the
+or copying [@Wilson1987], tasks that are, by their very nature,
+sensitive to an inability to orient to the left.  Chapter 2
+investigated whether or not prism adaptation would produce a
+measurable effect on tasks thought to measure ventral-stream
+dependant processing spatial working memory and temporal
+estimations tasks that would presumably not be improved by
+remediation of spatial attention in the dorsal stream, the
 apparent target of prisms [@Danckert2008, @Clower1996].  The
 experiment replicated findings that prisms produced a change in
 line bisection performance, a deficit that is likely driven, at
@@ -60,7 +60,7 @@ estimation, two tasks presumably un-affected by deficits of
 leftward orienting, prisms appeared to lack any significant
 rehabilitative function.  Patients demonstrated extreme deficits
 on these two tasks both before and after prism adaptation (figure
-[fig:tk]).
+[fig:SWM] and [fig:TE]).
 
 
 
@@ -68,16 +68,18 @@ on these two tasks both before and after prism adaptation (figure
 adaptation may represent a viable alternative treatment of
 neglect. Although the task is not that different from prism
 adaptation, it has been demonstrated to produce subtle changes in
-perception for healthy individuals [@tk]. Chapter 3 began with an
-examination of healthy performance on the landmark and line
-bisection tasks.  The two tasks have been used before in neglect
-research as they comprise largely similar perceptual properties
-but likely rely heavily on distinct visual systems [@tk].  Healthy
-participants typically demonstrate very small biases, compared
-with neglect patients, on these tasks. It was therefore suspected
-that if saccadic adaptation produced changes in perception of
-spatial extent and spatial attention, it may show up as small
-changes on the landmark and line bisection tasks, respectively.
+perception for healthy individuals [@Mack1978, @Awater2005,
+@George2008, @Bruno2007, @Zimmermann2009, @Dore-Mazars2005,
+@Collins2006, @Garaas2008].  Chapter 3 began with an examination
+of healthy performance on the landmark and line bisection tasks.
+The two tasks have been used before in neglect research as they
+comprise largely similar perceptual properties but may rely on
+distinct visual systems [@Striemer2010].  Healthy participants
+typically demonstrate very small biases, compared with neglect
+patients, on these tasks. It was therefore suspected that if
+saccadic adaptation produced changes in perception of spatial
+extent and spatial attention, it may show up as small changes on
+the landmark and line bisection tasks, respectively.
 Unfortunately, though the participants demonstrated adequate
 saccadic adaptation, the effect did not appear to influence either
 task.  At the same time, a single case study attempting saccadic

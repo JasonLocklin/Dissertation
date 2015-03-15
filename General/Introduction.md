@@ -45,10 +45,10 @@ typically invoke two kinds of impairment; first, an ipsilesional
 bias such that attention is preferentially oriented toward right
 space, and second, a reorienting deficit such that neglect
 patients have difficulty disengaging attention from stimuli in
-right space in order to reorient towards the left. Origionally
+right space in order to reorient towards the left. Originally
 associated with the related phenomenon of extinction -- the
-failure to report a contralesional stimulus when presentd
-simultaniously with an ipsilesional stimulus -- the 'disengage
+failure to report a contralesional stimulus when presented
+simultaneously with an ipsilesional stimulus -- the 'disengage
 deficit' describes a general attentional "stickiness" where-by
 rightward stimuli attract and capture attention to the exclusion
 of leftward stimuli [for a review, see @Losier2001].  @Posner1984
@@ -138,7 +138,7 @@ the damage limits the ability of a rehabilitative technique such
 as prisms, that operates primarily on the dorsal stream,from
 influencing areas in the ventral system responsible for higher
 level perceptual judgments. This thesis outlines three experiments
-(and a supplimental case study to the third experiment) chosen to
+(and a supplemental case study to the third experiment) chosen to
 examine this duality between the reactive, motor action system,
 and perceptual representation/awareness in neglect.
 

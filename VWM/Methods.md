@@ -49,10 +49,10 @@ indicates the leftward cue-effect-size on the COVAT test, with
 larger numbers indicating more difficulty re-orienting leftward
 when attention is initially cued to non-neglected, right space.
 "VWM(1)" is the average probability a patient guesses the target
-colour in the single target condition, with incread values
+colour in the single target condition, with increased values
 indicating a deficit.  "VWM(2/3)" is the average probability a
 patient selects one of the distractor colours, with increasing
-values indicating a color-location binding deficit. Values for
+values indicating a colour-location binding deficit. Values for
 "Stars" are coded as the percentage of leftward stimuli missed on
 the Star Cancellation task. Neglect observed in figure copying is
 coded as a "+" under "Copying." Line bisection performance is
