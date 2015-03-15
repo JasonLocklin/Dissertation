@@ -13,6 +13,12 @@ all: check docx pdf
 
 .PHONY: all clean 
 
+help:
+	# Run 'make' to build everything, otherwise:
+	# 'make pdf' -build pdf
+	# 'make docx' -build docx (base text only)'
+	# 'make Manuscript.md' -build only intermediate markdown file
+
 # Intermediate stage file:
 $(interm): 
 	pandoc  -o $(interm) $(cat files)
