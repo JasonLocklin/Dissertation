@@ -14,9 +14,11 @@ This is an R Markdown document generated in R Studio. Markdown is a simple
 formatting syntax for authoring HTML, PDF, and MS Word documents. For more 
 details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
+This analysis code is present for transparency only, not for educational or reference use. The code herein comprises work over a long period of time, where I learned to use several tools, and new tools became available. As a result, there are inconsistencies in style, lots of inelegance, and inefficient methods. 
+
 ### VWM Data Import and Formating
 
-The data file I recieved is a complicated excel file with lots of information. I
+The data file I received is a complicated excel file with lots of information. I
 reduced it to a simple table manually and saved to a csv file for reading into 
 R. 
 

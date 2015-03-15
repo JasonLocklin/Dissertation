@@ -8,6 +8,9 @@ output:
     toc: yes
 ---
 
+This analysis code is present for transparency only, not for educational or reference use. The code herein comprises work over a long period of time, where I learned to use several tools, and new tools became available. As a result, there are inconsistencies in style, lots of inelegance, and inefficient methods. 
+
+
 
 Basic Analysis
 ========================================================
