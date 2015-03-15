@@ -76,14 +76,14 @@ rehabilitation strategies have met with varied success
 ice-cold, is injected into the patient's ear canal, and neck
 muscle vibration, quickly orients the patient's torso, head, eyes,
 and attention to the stimulated side, reducing several of the
-behavioural deficits for a short time [\~20 minutes;
+behavioural deficits for a short time [~20 minutes;
 @AdairHeilman2003
 ,@KarnathHartje1993,@KarnathDichgans1996,@Rubens1985].
 Unfortunately, these exercises are aversive and their short-term
 effects prevent them from being useful as treatments. A much more
 promising rehabilitation technique based on prismatic glasses has
 recently been shown to have broader, and more lasting effects in
-neglect [@Rossetti1998; RossiKheyfetsReding1990]. When patients
+neglect [@Rossetti1998; @RossiKheyfetsReding1990]. When patients
 with neglect are adapted to a rightward visual shift and the
 glasses removed, the after-effects on several behavioural measures
 are profound, and last considerably longer than the adaptation
