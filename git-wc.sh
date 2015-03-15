@@ -1,4 +1,6 @@
 #!/bin/bash
+# 
+# Print out some convenient information about the current state of the document
 
 ARG=""
 
@@ -19,9 +21,9 @@ echo "VCS Status:"
 git status | grep -v "("
 
 echo "Notes:"
-grep -r -i "TODO:" * 
-grep -r -i "FIXME:" *
+grep -r -i "TODO:" */*.md
+grep -r -i "FIXME:" */*.md
 
 echo "Lines containing 'tk'"
-grep -Icr "tk" * | grep -v ":0"
+grep -Icr "tk" */*.md | grep -v ":0"
 
