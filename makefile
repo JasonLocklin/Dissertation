@@ -7,7 +7,12 @@
 
 
 outname = "Locklin_dissertation_W2015"
-interm = "Manuscript.md" 
+interm = "Manuscript.md"
+sourcefiles =  General/Introduction.md	VWM/Introduction.md VWM/Methods.md \
+		VWM/Results.md VWM/Discussion.md Prisms/Introduction.md \
+		Prisms/Methods.md Prisms/Results.md Prisms/Discussion.md \
+		SA/Introduction.md SA/Methods.md SA/Results.md \
+		SA/Discussion.md General/Discussion.md
 
 all: check docx pdf 
 
@@ -21,10 +26,11 @@ help:
 
 # Intermediate stage file:
 $(interm): 
-	pandoc  -o $(interm) $(cat files)
+	pandoc  -o $(interm) $(sourcefiles)
 	# Remove paragraph labels:
 	perl -0777 -pe 's|\n\n\[[^]]*]|\n\n|g' < $(interm) > p.md
 	mv p.md $(interm)
+	find . -type f -iname *.PDF -execdir convert '{}' '{}.png' ';'
 
 docx: $(interm)
 	pandoc -SN -o $(outname).docx $(interm)
@@ -42,8 +48,8 @@ figures.zip:
 	rm -r tmp
 
 check:
-	grep tk */*.md
-	grep FIXME */*.md
+	-grep tk */*.md
+	-grep FIXME */*.md
 
 clean:
 	-rm figures.zip $(interm) \
