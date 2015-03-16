@@ -12,3 +12,8 @@ the diagramatic ones are also in the origional Inkscape SVG.
 
 Run "make" to combine all the sources into the complete
 dissertation. Run "make help" for a list of options"
+
+Unless otherwise noted, this work is licensed under a
+[Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
+The two exceptions are the "uw-ethesis" LaTeX template files, of which I am not 
+the origional author -as is noted in the file header.
