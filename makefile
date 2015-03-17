@@ -19,21 +19,25 @@ all: check docx pdf
 .PHONY: all clean 
 
 help:
-	# Run 'make' to build everything, otherwise:
+	# Run 'ke' to build everything, otherwise:
 	# 'make pdf' -build pdf
 	# 'make docx' -build docx (base text only)'
 	# 'make Manuscript.md' -build only intermediate markdown file
 
 # Intermediate stage file:
 $(interm): 
-	pandoc  -o $(interm) $(sourcefiles)
+	pandoc -N -o $(interm) $(sourcefiles)
 	# Remove paragraph labels:
 	perl -0777 -pe 's|\n\n\[[^]]*]|\n\n|g' < $(interm) > p.md
 	mv p.md $(interm)
-	find . -type f -iname *.PDF -execdir convert '{}' '{}.png' ';'
 
-docx: $(interm)
-	pandoc -SN -o $(outname).docx $(interm)
+pngs: 
+	find */ -type f -iname *.PDF -execdir convert -trim -density 300 '{}' '{}.png' ';'
+	mv */*.pdf.png .
+
+
+docx: $(interm) $(pngs)
+	pandoc -SN --reference-docx=reference.docx -o $(outname).docx $(interm)
 
 pdf: $(interm)
 	pandoc -SN -o $(outname).pdf $(interm)
@@ -52,5 +56,4 @@ check:
 	-grep FIXME */*.md
 
 clean:
-	-rm figures.zip $(interm) \
-		$(outname)*
+	-rm figures.zip $(interm) $(outname)* *.pdf.png
