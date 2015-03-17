@@ -82,7 +82,7 @@ reference frame. That is to say, the starting eye position is
 irrelevant, with only the vector direction of the eye movement
 being important [@Catz2008, @Golla2008, @Hernandez2008,
 @Panouillères2009, @Panouillères2012]. For example, if rightward
-saccades of 10º are reduced by saccadic adaptation, other similar
+saccades of 10° are reduced by saccadic adaptation, other similar
 rightward saccades will be hypometric, regardless of the eye or
 head position.  Congruent with a retinocentric vector-based
 representation, adaptation of saccades of a given length will

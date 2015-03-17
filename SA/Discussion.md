@@ -15,7 +15,7 @@ The sparsity of test-trials in the saccadic adaptation paradigm
 raises questions about the reliability of results derived from
 them. However, regardless of whether just test-trials or all
 trials were used, participants appeared to reliably shorten their
-saccades in each block (table [tbl:Adaptation]). While the
+saccades in each block (table [tbl.Adaptation]). While the
 test-trial data set provides a clear indication that adaptation
 was successful, it is not able to provide a reliable estimate of
 magnitude, necessitating calculations based on all trials. When

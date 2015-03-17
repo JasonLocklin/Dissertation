@@ -25,22 +25,22 @@ by themselves, increase group mean precision.  However, while
 removing one or both extreme examples from the two older groups
 may result in a significant group effect, the procedure would only
 increase the homogeneity of the two older groups, implying an
-effect of age rather than neglect (Figure [fig:VWM_Precision]).
+effect of age rather than neglect (Figure [fig.VWM_Precision]).
 It is also worth noting that all of the patients responded within
 the range of performance observed in the two control groups.
 
-TODO: Figure[fig:VWM_Precision] goes about here. Caption: Figure
-depicts the precision of responses (coded as $1/SD$ of the
-response distribution, so higher values indicate better
+![Figure depicts the precision of responses (coded as $1/SD$ of
+the response distribution, so higher values indicate better
 performance).  The groups do not statistically differ in their
-ability to manually indicate their response precisely. 
+ability to manually indicate their response
+precisely.](fig.VWM_Precision.pdf.png) 
 
 [pTarget] Because the single target condition has no non-targets,
 and therefore no $P_{NT}$ (i.e., $P_{T} = (1 - P_{G})$), there is
 effectively only one dependent variable and the choice of which
 probability to use for analysis is arbitrary. For convenience,
 $P_{G}$ is used here as the dependant variable. As can be seen in
-figure [fig:VWM_1Target], the two healthy groups perform nearly
+figure [fig.VWM_1Target], the two healthy groups perform nearly
 perfectly by this metric. A one-way ANOVA containing all three
 group means was significant ($F(2) = 38$, $\text{p} < 0.001$).
 Tukey HSD tests were performed to compare the means, and the two
@@ -52,11 +52,10 @@ control group were significantly different from patients
 $\overline{M}_{\text{diff}} = 0.19$, $\text{p} < 0.001$,
 respectively). 
 
-TODO: Figure [fig:VWM_1Target] goes about here. Caption: Figure
-depicts the probability of correct target selection for the single
-target condition (i.e., the inverse of the probability of
-guessing).  The two healthy groups perform at ceiling, with the
-patient group responding less reliably.
+![Figure depicts the probability of correct target selection for
+the single target condition (i.e., the inverse of the probability
+of guessing).  The two healthy groups perform at ceiling, with the
+patient group responding less reliably.](fig.VWM_1Target.pdf.png) 
 
 #### Two and Three Target Conditions
 
@@ -81,7 +80,7 @@ frequency of near-zero outcomes produced a highly skewed and
 non-normal distribution that even with data transformations, was
 not sufficiently normal for parametric analysis to be appropriate.
 The means of the three groups and two target conditions can be
-seen in figure [fig:VWM_MTarget]. As an attempt to analyze the
+seen in figure [fig.VWM_MTarget]. As an attempt to analyze the
 data, the two target conditions were collapsed to produce means
 for a more generic "multi-target" performance metric.
 
@@ -103,7 +102,7 @@ the same results.]
 [Non-target/binding errors] As was the case for the $P_G$, the
 $P_{NT}$ data is highly non-normal and transformations are
 ineffective in correcting for the nature of the data. Figure
-[fig:VWM_MTarget_NT] presents the means for the two multi-target
+[fig.VWM_MTarget_NT] presents the means for the two multi-target
 conditions (2- and 3-targets). As was done for the guessing data,
 analysis was performed on the collapsed means of the two
 conditions. Here, however, the Kruskal-Wallis test was significant
@@ -114,14 +113,13 @@ controls, and $t(8) = 3.9$, $\text{p} < 0.05$, or young adults).
 The two healthy groups did not significantly differ from one
 another ($t(8) = 0.54$, $\text{p} = 0.6$).
 
-TODO: Figure [fig:VWM_MTarget] goes about here. Caption: Figure
-depicts non-target probability means (right) and guessing
+![Figure depicts non-target probability means (right) and guessing
 probability means (left) for the multi-target conditions (2 and 3
 targets).  Overlaid on the collapsed means are the contributing
 means in the 2 (blue) and 3 (red) target conditions. While the
 groups did not differ statistically when guessing, patients
 selected non-target colours more frequently than the two healthy
-groups. 
+groups.](fig.VWM_MTarget.pdf.png) 
 
 ### Covert Orienting Task
 
@@ -149,7 +147,7 @@ within-subjects factor. An effect of group approached significance
 were non-significant ($F(1) = 0.5$, $\text{p} = 0.49$, and $F(1) =
 0.02$, $\text{p} = 0.8$).
 
-[Compare directly to normative data] Figure [fig:COVAT] depicts
+![Compare directly to normative data] Figure [fig.COVAT] depicts
 the CES of the 5 neglect participants over the range of
 performance observed in the healthy controls (bands represent 1
 and 2 standard deviations).  As can be seen in the figure, three
@@ -172,12 +170,12 @@ indeed, a lateralized deficit ($CES_R$ of -22 and 11 for 50 and
 negative values indicate faster invalid trials).
 
 
-TODO: Figure [fig:COVAT] goes about here. Caption: Figure depicts
-left CES of each of the 5 patients that were able to perform the
-COVAT. Larger values indicate difficulty re-orienting leftward
-after a rightward attentional cue. Dark and lighter horizontal
-bands are overlaid that indicate 1 and 2 standard deviations
-around the mean normative performance of the older controls. 
+![Figure depicts left CES of each of the 5 patients that were able
+to perform the COVAT. Larger values indicate difficulty
+re-orienting leftward after a rightward attentional cue. Dark and
+lighter horizontal bands are overlaid that indicate 1 and 2
+standard deviations around the mean normative performance of the
+older controls.](fig.COVAT.pdf.png) 
 
 
 ### Comparing Visual Working Memory and Covert Orienting 
@@ -190,7 +188,7 @@ performed well outside the range of healthy performance on the
 covert orienting task did not stand out with extreme performance
 deficits on the visual working memory task. When compared with the
 rest of the neglecting group, as can be observed in table
-[tbl:VWM], Patient 454 performed slightly worse than the median on
+[tbl.VWM], Patient 454 performed slightly worse than the median on
 both visual working memory measures, while Patient 171, who,
 incidentally was the only one in the group to score negatively on
 all three clinical measures of neglect, was actually the most
@@ -203,4 +201,4 @@ covert orienting task, demonstrated strong deficits on the visual
 working memory task.  This was particularly apparent in the
 measure of non-target selection, where these three performed
 considerably poorer than the rest of the group (See table
-[tbl:VWM]). 
+[tbl.VWM]). 

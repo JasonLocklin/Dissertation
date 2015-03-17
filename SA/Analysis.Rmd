@@ -308,7 +308,7 @@ p <- ggplot(adn, aes(y = means, x=as.numeric(block))) +
      ggtitle("Effect of Saccadic Adaptation")
      
 p
-pdf("fig:Adaptation.pdf", paper='USr', width=11)
+pdf("fig.Adaptation.pdf", paper='USr', width=11)
 p
 dev.off()
      
@@ -332,7 +332,7 @@ grid.arrange(tableGrob(t), tableGrob(tn), ncol=2,
              sub="tbl:SA. (a) Test trials only, (b) All trials", clip=FALSE)
 
 
-pdf("tbl:SA.pdf", paper='USr', width=11)
+pdf("tbl.SA.pdf", paper='USr', width=11)
 grid.arrange(tableGrob(t), tableGrob(tn), ncol=2, 
              sub="tbl:SA. (a) Test trials only, (b) All trials", clip=FALSE)
 dev.off()

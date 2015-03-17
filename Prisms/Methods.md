@@ -21,21 +21,21 @@ spatial working memory task (giving a single response to all
 trials), and was therefore removed from that component of the
 analysis.
 
-TODO: [tbl:Prisms] goes about here. Caption: Table (a), above,
-includes demographic information for the patients, as well as
-performance on star cancellation, bell cancellation, and figure
-copying, all before and after prism adaptation (See Results for
-analysis).  For star and bell cancellation, values indicate the
-percentage of left-sided targets omitted. For figure copying, a
-"+" indicates the presence of neglect. Table (b), below, includes
-performance on the line bisection (LB), temporal estimation (TE),
-and spatial working memory (SWM) tasks. Line bisection is recorded
-as percentage of line length, with positive values indicating
-rightward bias. TE values represent the slope of a linear model of
-the log-log transformed real and estimated time intervals. A value
-of 1 indicates would indicate estimates that increase in
-proportion to actual time intervals. SWM values indicate accuracy
-based on hits minus false alarms.
+![Table (a), above, includes demographic information for the
+patients, as well as performance on star cancellation, bell
+cancellation, and figure copying, all before and after prism
+adaptation (See Results for analysis).  For star and bell
+cancellation, values indicate the percentage of left-sided targets
+omitted. For figure copying, a "+" indicates the presence of
+neglect. Table (b), below, includes performance on the line
+bisection (LB), temporal estimation (TE), and spatial working
+memory (SWM) tasks. Line bisection is recorded as percentage of
+line length, with positive values indicating rightward bias. TE
+values represent the slope of a linear model of the log-log
+transformed real and estimated time intervals. A value of 1
+indicates would indicate estimates that increase in proportion to
+actual time intervals. SWM values indicate accuracy based on hits
+minus false alarms.](tbl.Prisms.pdf.png) 
 
 
 
@@ -54,7 +54,7 @@ beginning of every session.  Line bisection was also performed
 twice during sessions involving prisms, before and after
 adaptation.  Coding and analysis of the tasks were performed in
 the same way as in Chapter 1. The results of the clinical measures
-are depicted in table [tbl:Prisms].
+are depicted in table [tbl.Prisms].
 
 #### Spatial Working Memory Task
 
@@ -69,10 +69,10 @@ a tk inch display. The task was the same as described in
 @Ferber2006. At the beginning of each trial, patients fixated a
 red central cross. Once fixated, the experimenter began the trial
 by depressing a key and the cross turned green. After 1 second,
-three targets were presented 2º to the right of fixation,
-vertically aligned. The targets were squares subtending 1.5º, and
+three targets were presented 2° to the right of fixation,
+vertically aligned. The targets were squares subtending 1.5°, and
 could appear in any of 16 different locations, however, targets
-were always separated from one-another by at least 2º.
+were always separated from one-another by at least 2°.
 
 The targets remained on-screen for 2 seconds which was followed by
 a delay of 3 seconds. A probe stimulus (a circle of the same size
@@ -86,13 +86,13 @@ previously occupied by a target. A total of 120 trials constituted
 a single session.  In 50% of trials, the circle appeared in the
 same position as one of the preceding squares.
 
-TODO: Figure [fig:Prisms] goes about here. Caption: Figure upper
-panel (a) depicts one trial of the temporal estimation task. The
-numbers were randomly selected and displayed at random times
-(though, not at the very beginning or end of the trial). The lower
-panel (b) depicts the spatial working memory task. The trial
-depicted is a "valid" trial, as the probe (circle) is in the same
-location as one of the initial three targets (squares).
+![Figure upper panel (a) depicts one trial of the temporal
+estimation task. The numbers were randomly selected and displayed
+at random times (though, not at the very beginning or end of the
+trial). The lower panel (b) depicts the spatial working memory
+task. The trial depicted is a "valid" trial, as the probe (circle)
+is in the same location as one of the initial three targets
+(squares).](fig.Prisms.pdf.png) 
 
 #### Temporal Estimation Task
 
@@ -103,13 +103,13 @@ verbal responses, and the experimenter entered those responses and
 controlled the task via the keyboard. The task was the same as
 @Danckert2007. When a trial was initiated by the experimenter, an
 illusory motion stimulus was presented that consisted of eight
-open circles (each subtending 3.5º), arranged in a larger circle
-around the centre of the screen (radius of 8º), with each circle
+open circles (each subtending 3.5°), arranged in a larger circle
+around the centre of the screen (radius of 8°), with each circle
 being filled, sequentially, one at a time, in a clockwise
 direction (figure [fig:Prisms]).  This created the illusion of a
 filled-circle moving around the outer circle. Rather than a
 fixation, the centre of the screen periodically displayed a number
-(numbers 1-9, presented for 300ms, 1.5º in size), which the
+(numbers 1-9, presented for 300ms, 1.5° in size), which the
 participant was asked to verbally report as they appeared. This
 effectively maintained central fixation for the patients and
 provided a check that participants were attending to the task. In

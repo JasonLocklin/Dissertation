@@ -102,7 +102,7 @@ p <- ggplot(cdata, aes(x = Subj_Group, y = Mean)) +
     theme_gray()
 p
 
-pdf("fig:VWM_Precision.pdf", paper='USr', width=11)
+pdf("fig.VWM_Precision.pdf", paper='USr', width=11)
 p
 dev.off()
 ```
@@ -163,7 +163,7 @@ p <- p + geom_bar(stat = "identity", width=0.5) +
 
 p + theme_gray()
 
-pdf("fig:VWM_1Target.pdf", paper='USr', width=11)
+pdf("fig.VWM_1Target.pdf", paper='USr', width=11)
 p + theme_gray()
 dev.off()
 ```
@@ -438,9 +438,9 @@ pg <- p #For use later
 ```
 
 Make double figure:
-```{r fig:VWM_MTarget}
+```{r fig.VWM_MTarget}
 require(grid)
-pdf("fig:VWM_MTarget.pdf", paper='USr', width=11)
+pdf("fig.VWM_MTarget.pdf", paper='USr', width=11)
 pushViewport(viewport(layout = grid.layout(1, 2)))
 print(pg + theme_gray() + theme(legend.position = 'none'), 
       vp = viewport(layout.pos.row = 1, layout.pos.col = 1))
@@ -791,7 +791,7 @@ t.test(qh[2], alternative="greater")
 
 Now, for describing the individuals, calculate z-scores and plot the individual
 patients over the expected distribution of healthy performance.
-```{r fig:COVAT}
+```{r fig.COVAT}
 m = mean(qh[["."]])
 sd = sd(qh[["."]])
 names(q) <- .(Subject, CES)
@@ -805,7 +805,7 @@ c <- c + geom_hline(aes(yintercept=m)) +
   ggtitle("Patient Leftward Cue Effect Size (CES)") + ylab("Seconds") + xlab("Patients")
 
 c
-pdf("fig:COVAT.pdf", paper='USr', width=11)
+pdf("fig.COVAT.pdf", paper='USr', width=11)
 c
 dev.off()
 ```
@@ -916,11 +916,11 @@ summary(COR)
 ```
 
 
-## Demographics and Clinical table (tbl:VWM)
+## Demographics and Clinical table (tbl.VWM)
 
 
 
-```{r tbl:VWM}
+```{r tbl.VWM}
 require(gridExtra)
 dem <- read.csv('../Patients.csv')
 names(dem)[1] <- 'Subject'
@@ -949,8 +949,56 @@ tbl <- tbl[-1]
 
 grid.table(tbl)
 
-pdf("tbl:VWM.pdf", paper='USr', width=11)
-grid.arrange(tableGrob(tbl), sub="tbl:VWM", clip=FALSE)
+pdf("tbl.VWM.pdf", paper='USr', width=11)
+grid.arrange(tableGrob(tbl), sub="tbl.VWM", clip=FALSE)
 dev.off()
 ```
+
+
+Now, plot the distributions to be used in fig.emrich2012. 
+ 
+* Produce 3 figures
+* Vertically stack
+* Generate normal distributions, and plot density curves.
+
+```{r}
+norm <- data.frame(rnorm(100000, 4,sd= .8), 
+                   c(rnorm(100000/2, 2,sd=.8), rnorm(100000/2, 9,sd=.8))
+                   )
+names(norm) <- c("T", "N")
+
+require(ggplot2)
+source("../Prisms/multiplot.r")
+
+# 1. Single distribution at 'T'
+m = ggplot(norm, aes(x=T)) +
+  geom_density(adjust=5, size=1, fill=4, alpha=0.5) + coord_flip() +
+  xlim(-1,15) + ylim(0,.6) + xlab("Probability Response") +
+  ylab("") + theme_classic()
+
+
+# 2. Flat distribution
+n = ggplot() +
+   geom_rect(aes(xmin=0, xmax=15, ymin=0, ymax=0.05), 
+             alpha=0.5, color=1, fill=4, size=1) + coord_flip() +
+   xlim(-1,15) + ylim(0,.6) + xlab("Probability Response") +
+   ylab("") + theme_classic()
+n
+
+# 3. Two Distributions at 'N' and 'N'
+o = ggplot(norm, aes(x=N)) +
+  geom_density( size=1, fill=4, alpha=0.5, kernel = "biweight") +
+  coord_flip() +
+  xlim(-1,15) + ylim(0,.6) + xlab("") +
+  ylab("") + theme_classic()
+
+multiplot(m,n,o)
+
+svg(filename="fig.Emrich2012.svg", width=4, height=6)
+multiplot(m,n,o)
+dev.off()
+
+```
+
+
 

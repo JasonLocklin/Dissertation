@@ -10,7 +10,7 @@ eight neurological patients, recruited from the Neurological
 Patient Database (Funded through the Heart and Stroke Foundation
 of Ontario, https://uwaterloo.ca/neurological-patient-database/),
 who showed symptoms of neglect in pre-testing (3 male, 2 left
-handed, mean age of 66, see table [tbl:VWM] for more details), and
+handed, mean age of 66, see table [tbl.VWM] for more details), and
 a healthy older control group recruited from the University of
 Waterloo's Research on Aging Participant pool (3 male, handedness
 untested, mean age of 74).  All of the neurological patients were 
@@ -38,26 +38,26 @@ targets on the left side of the page was recorded, and impaired
 performance was defined as \> 10% omission of left-sided targets.
 Three of the patients scored as impaired on all tasks, and these
 participants also scored highest quantitatively on the bisection
-and cancellation tasks (see table [tbl:VWM]).  Only one did not
+and cancellation tasks (see table [tbl.VWM]).  Only one did not
 show neglect on any task.
 
-TODO: Table [tbl:VWM] goes about here. Caption: Table presents
-demographic data, measures of attention (CES) and visual working
-memory, as well as performance on the three clinical measures of
-neglect by the patient group (described in Results). "CES"
-indicates the leftward cue-effect-size on the COVAT test, with
-larger numbers indicating more difficulty re-orienting leftward
-when attention is initially cued to non-neglected, right space.
-"VWM(1)" is the average probability a patient guesses the target
-colour in the single target condition, with increased values
-indicating a deficit.  "VWM(2/3)" is the average probability a
-patient selects one of the distractor colours, with increasing
-values indicating a colour-location binding deficit. Values for
-"Stars" are coded as the percentage of leftward stimuli missed on
-the Star Cancellation task. Neglect observed in figure copying is
-coded as a "+" under "Copying." Line bisection performance is
-recorded as the bias, in terms of percentage of line length, with
-positive values indicating rightward bias, under "Bisection."
+![Table presents demographic data, measures of attention (CES) and
+visual working memory, as well as performance on the three
+clinical measures of neglect by the patient group (described in
+Results). "CES" indicates the leftward cue-effect-size on the
+COVAT test, with larger numbers indicating more difficulty
+re-orienting leftward when attention is initially cued to
+non-neglected, right space.  "VWM(1)" is the average probability a
+patient guesses the target colour in the single target condition,
+with increased values indicating a deficit.  "VWM(2/3)" is the
+average probability a patient selects one of the distractor
+colours, with increasing values indicating a colour-location
+binding deficit. Values for "Stars" are coded as the percentage of
+leftward stimuli missed on the Star Cancellation task. Neglect
+observed in figure copying is coded as a "+" under "Copying." Line
+bisection performance is recorded as the bias, in terms of
+percentage of line length, with positive values indicating
+rightward bias, under "Bisection."](tbl.VWM.pdf.png)
 
 
 
@@ -72,7 +72,7 @@ screen. Instead of targets and a colour wheel surrounding central
 fixation, the colour wheel was replaced with a vertical colour bar
 and it, as well as the targets, always appeared to the right of
 centre in order to minimize the impact of spatial attention
-deficits on WM performance (see Figure [fig:CH1-task]).
+deficits on WM performance (see Figure [fig.CH1-task]).
  
 A trial sequence for the VWM task was as follows: a fixation cross
 was presented for 500ms, followed by a target array which
@@ -83,10 +83,10 @@ column. Following target presentation there was a delay of 1000ms,
 followed by the appearance of the vertical colour bar and probe
 stimuli. The probes occupied the *same locations* occupied by the
 targets but were unfilled (i.e., probes did not contain any colour
-information; Figure [fig:CH1-task]). One of the probes was
+information; Figure [fig.CH1-task]). One of the probes was
 highlighted by a bolded outline, and participants were asked to
 indicate, by external mouse input, the colour of the target
-indicated by the bolded probe location (Figure [fig:Ch1-task).
+indicated by the bolded probe location (Figure [fig.Ch1-task).
 Unlimited time was given, and the participant could make changes
 to their response an unlimited number of times until they were
 satisfied they had accurately indicated the target colour.  Note
@@ -95,11 +95,10 @@ outline, and the task was essentially to remember the colour of
 the target. In the two and three target conditions, only one of
 the two or three probes was highlighted, and the participant would
 be required to recall the colour of the target that had been
-presented at that particular location (Figure [fig:Ch1-task]).
+presented at that particular location (Figure [fig.Ch1-task]).
 
-TODO: Figure [fig:Ch1-task] goes about here. Caption: Figure
-depicts both VWM (above) and COVAT (below) tasks. The three-target
-condition of VWM is depicted. 
+![Figure depicts both VWM (above) and COVAT (below) tasks. The
+three-target condition of VWM is depicted.](fig.Ch1-task.pdf.png)
 
 
 #### Covert Orienting of Attention Task
@@ -108,15 +107,15 @@ The covert orienting task (Posner, 1978, 1980) was identical in
 design to that of @Striemer2007 and was run on the same computer
 as the visual working memory task described above. It was
 programmed and run in Superlab (Cedrus Software). Participants
-were presented with 100 trials, outlined in figure [fig:CH1-task].
+were presented with 100 trials, outlined in figure [fig.CH1-task].
 A single trial sequence consisted of a fixation cross with
-peripheral landmarks (empty green circles 12º to right and left of
-centre, each subtending 2º). This stimulus was followed by the
+peripheral landmarks (empty green circles 12° to right and left of
+centre, each subtending 2°). This stimulus was followed by the
 appearance of a peripheral cue (1050-1550ms), which consisted of
 the brightening of one landmark.  After an SOA of 50 or 150ms,
 targets, which consisted of red circles presented within the
 landmark, appeared either at the cued location (valid trials) or
-at the opposite location (invalid trials; Figure [fig:Ch1-task).
+at the opposite location (invalid trials; Figure [fig.Ch1-task).
 Cues were non-informative (i.e., 50% of cued trials were valid and
 50% were invalid trials).  There were also no-cue trials in which
 the target appeared without any preceding cue. Targets appeared
@@ -135,7 +134,7 @@ attempt at selecting the correct target colour ($P_T$), one of the
 distractor target colours ($P_{NT}$, in the two and three target
 conditions), or simply represented a random guess ($P_G$), was
 calculated with the probabilistic model described in @Emrich2012
-and @Bayes2009 (see figure [fig:Emrich2012]).  
+and @Bayes2009 (see figure [fig.Emrich2012]).  
 
 For each trial, these measures were calculated based on the
 physical location of the participant's response relative to the
@@ -154,9 +153,8 @@ also recorded. This provides a measure of the spatial response
 precision of those trials where the patient successfully recalls
 and reports a target colour (i.e., $P_T$ and $P_{NT}$).
 
-TODO: Figure [fig:Emrich2012] goes about here. Caption: Figure 
-depicts the three probability distributions used to calculate the
-three values. 
+![Figure depicts the three probability distributions used to
+calculate the three values.](fig.Emrich2012.pdf.png)
 
 
 For the covert orienting task, response times were recorded and

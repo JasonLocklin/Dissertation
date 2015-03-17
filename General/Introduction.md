@@ -1,6 +1,3 @@
-Introduction
-------------
-
 Unilateral spatial neglect is a disorder commonly resulting from
 damage to the right inferior parietal or superior temporal cortex
 [@Vallar1986, @Karnath2001, @Karnath2012, @Mort2003, @Buxbaum2004,
@@ -38,7 +35,7 @@ the line-bisection task – in which the patient is asked to place a
 mark at the perceived midpoint of a horizontal line – an inability
 to attend to an endpoint is a plausible explanation for impaired
 performance [i.e., typically marks are placed a long way to the
-right of true centre; @].
+right of true centre; @Wilson1987].
 
 [disengage deficit account] Attentional accounts of neglect
 typically invoke two kinds of impairment; first, an ipsilesional
