@@ -134,7 +134,7 @@ attempt at selecting the correct target colour ($P_T$), one of the
 distractor target colours ($P_{NT}$, in the two and three target
 conditions), or simply represented a random guess ($P_G$), was
 calculated with the probabilistic model described in @Emrich2012
-and @Bayes2009 (see figure [fig.Emrich2012]).  
+and @Bays2009 (see figure [fig.Emrich2012]).  
 
 For each trial, these measures were calculated based on the
 physical location of the participant's response relative to the

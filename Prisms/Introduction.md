@@ -32,7 +32,7 @@ to have trouble discerning the stimulus types used in visual
 search, eye-tracking research has demonstrated that even young,
 healthy, individuals can occasionally fixate, or even interact
 with targets, but still fail to identify them [@Rich2008,
-@Solman2011], so reduced perceptual judgment can play a role in
+@Solman2012], so reduced perceptual judgment can play a role in
 diminished search performance.  That diminished performance could
 also come from the search algorithm itself.  People do not search
 targets in a completely random order, necessitating a role for
@@ -62,10 +62,10 @@ cerebellar activation, but neither study identified activation in
 ventral stream areas.
 
 [Neglect SA/Prisms recovery associated with parietal cortex]
-@Luatei2006 found that several areas correlated with the
+@Luaute2006 found that several areas correlated with the
 effectiveness of prisms at remediating neglect symptoms using PET.
 They found an extensive cluster of areas, which included posterior
-parietal cortex [@Luate2006]. An examination of task-evoked brain
+parietal cortex [@Luaute2006]. An examination of task-evoked brain
 activity during recovery from neglect corroborates this notion.
 Participants performing a covert orienting task while undergoing
 fMRI exhibited significantly attenuated activity in undamaged

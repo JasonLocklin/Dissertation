@@ -9,7 +9,7 @@ perceptual nature. If prisms influence dorsal stream functioning,
 and these tasks are dominantly tests of ventral stream
 functioning, then it follows that these specially chosen
 perceptual tasks will not be substantially remediated by prisms
-[@Striemer2010].
+[@Striemer2010tpd].
 
 Prism adaptation, by design, influences both visual and
 proprioceptive frames of reference [@Redding2005]. In fact,
@@ -47,12 +47,13 @@ There are other differences between the two tasks that may make
 saccadic adaptation more useful as a rehabilitation tool in
 neglect.  For example; unlike other adaptive systems, saccades are
 unable to make corrections in-flight due to the lack of useful
-visual feedback throughout the duration of the action
-[@Matin1982].  Therefore, they are, by nature, ballistic, relying
-on error signals after each event to maintain highly accurate
-motor plans.  This may be valuable in neglect as patients tend
-toward slow, laborious, pointing gestures, and prism adaptation
-benefits from faster, more fluid movement [@Redding2005]
+visual feedback throughout the duration of the action [@Dodge1900,
+@MacKay1970, @Campbell1978, @Volkmann1978, @Matin1982].
+Therefore, they are, by nature, ballistic, relying on error
+signals after each event to maintain highly accurate motor plans.
+This may be valuable in neglect as patients tend toward slow,
+laborious, pointing gestures, and prism adaptation benefits from
+faster, more fluid movement [@Redding2005]
 
 [Saccades adapt to a wide range of perturbations] Because of the
 limitations of vision during eye movements, the saccadic system
@@ -64,7 +65,7 @@ wearing of magnifying glasses on one or both eyes
 [@Kommerell1976]. There exists a rich, half-century of
 investigation into the saccadic adaptation system, most of it
 relying on a behavioural saccadic adaptation paradigm, developed
-by @mclaughlin1967, that utilizes target perturbations presented
+by @McLaughlin1967, that utilizes target perturbations presented
 during saccades.
 
 [describe saccade adaptation procedure and classic results]
@@ -72,7 +73,7 @@ Saccadic adaptation involves the systemic perturbation of targets
 while the participant is making eye movements. If perturbations
 are configured such that saccades seem to over-shoot their target,
 then adapted saccades will become shorter over time
-[@mclaughlin1967].  The same can be done to lengthen saccades,
+[@McLaughlin1967].  The same can be done to lengthen saccades,
 though the mechanisms may be somewhat different [@Catz2008,
 @Golla2008, @Hernandez2008, @Panouillères2009, @Panouillères2012,
 @Hopp2004].
@@ -87,7 +88,7 @@ rightward saccades will be hypometric, regardless of the eye or
 head position.  Congruent with a retinocentric vector-based
 representation, adaptation of saccades of a given length will
 continue to affect similar but not drastically different length
-saccades [@Miller1981; @Frens1994; @Albano1996; @Straube1997], and
+saccades [@Miller1981, @Frens1994, @Albano1996, @Straube1997], and
 horizontal and vertical adaptation are also independent of
 one-another [@Watanabe2003]. Perhaps most indicative of a purely
 retinotopic reference frame, adaptation of saccades of one
@@ -107,13 +108,13 @@ motion.  In other words, their threshold for detecting upward
 motion was increased, while thresholds for detecting downward
 motion, decreased [@Mack1978].  Perception of the spatial location
 of targets presented before or during saccades can be biased by
-saccadic adaptation [@Awater2005, @Georg2008, @Bruno2007,
+saccadic adaptation [@Awater2005, @George2008, @Bruno2007,
 @Zimmermann2009], and the pre-saccadic attentional shift can also
-be influenced [@Dore-Mazars2005, @Collins2006]. It could be
+be influenced [@Doré-Mazars2005, @Collins2006]. It could be
 claimed that the perceptual effects above occur only near
 saccades, but saccadic adaptation can also induce biases in the
 perception of spatial extent in the absence of eye movements
-[@Garaas2008], providing a good set of converging evidence that
+[@Garaas2011], providing a good set of converging evidence that
 saccadic adaptation can influence perception.
 
 The current chapter sets out to examine the potential for saccadic

@@ -16,11 +16,11 @@ omissions of left-sided targets) could be couched as a consequence
 of a spatial attention deficit. However, revisiting behaviour
 (i.e., re-cancelling old targets as if they were new), commonly
 observed on the non-neglected, "good" side
-[@Husain2001,@Patron2006], suggest something more nuanced is
+[@Husain2001,@Parton2006], suggest something more nuanced is
 occurring. Even eliminating targets as they are cancelled, thereby
 removing their potential to re-capture attention, improves but
 does not fully remediate revisiting behaviour on the task
-[@Mark2012]. 
+[@Mark1988]. 
 
 In fact, a great deal of research over the past few decades has
 highlighted aspects of neglect that clearly go beyond spatially
@@ -61,7 +61,7 @@ re-orienting to left space have been tried, with little clinical
 effectiveness.  The most promising treatment has been prism
 adaptation, because it is non-aversive, and because it has been
 shown to produce effects lasting much longer than the treatment
-duration [@Rossetti1998, @Farne2002, @Frassinetti2002].
+duration [@Rossetti1998, @Farnè2002, @Frassinetti2002].
 Unfortunately, while prism adaptation produces striking changes in
 spatial attention [@Striemer2007, @Nijboer2008], there is a small,
 but increasing set of neglect deficits that are not improved

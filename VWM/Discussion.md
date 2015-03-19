@@ -20,7 +20,7 @@ same VWM task in the presence of distractors, two things change:
 there is an increase in memory load, as patients are asked to
 remember more items, and some of that information must be
 associated, as patients must now bind colours and locations
-[@Treisman2002].  That is, in addition to remembering more than a
+[@Wheeler2002].  That is, in addition to remembering more than a
 single colour, patients needed to remember the relative spatial
 arrangement of those colours in order to answer correctly.  As a
 result, two types of errors can be committed. A failure to recall
@@ -60,13 +60,13 @@ There are many potential explanations for this, the most obvious
 being an increase in failures of binding colour and location in
 working memory, a cross-domain cognitive process that has been
 shown degraded in parietal and neglect patients (@Humphreys2009,
-@Treisman2002, @Pisella2004).  When more than one target is
-presented, colour information must be explicitly associated with
-spatial location in memory.  If all of the colours are effectively
-encoded and recalled, but a failure to bind the colours to spatial
-location occurs, participants will select a distractor colour 50\%
-of the time in the two-target condition, and 66\% of the time in
-the three-target condition. 
+@Pisella2004).  When more than one target is presented, colour
+information must be explicitly associated with spatial location in
+memory.  If all of the colours are effectively encoded and
+recalled, but a failure to bind the colours to spatial location
+occurs, participants will select a distractor colour 50\% of the
+time in the two-target condition, and 66\% of the time in the
+three-target condition. 
 
 The other event that can lead to this type of error is a simple
 failure to recall the complete set of stimuli colours. If the

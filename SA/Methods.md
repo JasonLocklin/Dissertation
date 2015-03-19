@@ -22,7 +22,7 @@ calibration, both eyes were monitored, but afterwards only one eye
 was monitored during the task. The eye-tracker sampled at 500Hz
 and raw eye-position data was saved for later processing.  All
 three computer tasks were programmed using Python and Psychopy
-[@Peirce2006].
+[@Peirce2007].
 
 After eye-tracker calibration, the touchscreen was calibrated sing
 the manufacturer's calibration task, during which targets appeared

@@ -7,7 +7,7 @@ and line bisection performance, it was critical to establish that
 participants are, in fact, adapting saccade magnitudes.
 Performance on the first third of the first session was used as a
 pseudo-baseline, as very little, if any adaptation is expected in
-the first 30 trials of saccadic adaptation [@hopp2004]. If this
+the first 30 trials of saccadic adaptation [@Hopp2004]. If this
 assumption is incorrect, this would only make identifying an
 effect more difficult.
 

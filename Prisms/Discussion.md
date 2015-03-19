@@ -13,7 +13,7 @@ may also involve some ventral stream perceptual processing, past
 research involving a related perceptual task, the landmark task,
 suggests that the neglect-induced bias observed in line bisection
 probably represents a relatively clear indicator of a dorsal
-deficit within the disorder [@Striemer2010]. The findings here
+deficit within the disorder [@Striemer2010dpm]. The findings here
 strongly suggest that, in at least some of the neglecting
 patients, prisms did appear to bring about a shift in bisection
 toward the neglected field. Due to the characteristics of the

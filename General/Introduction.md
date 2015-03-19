@@ -14,24 +14,24 @@ is, as can be expected from the list of symptoms, debilitating,
 and is associated with poor rehabilitative outcome [@Cassidy1998,
 @Ringman2004].  Less than half of patents show improvements in the
 weeks after a neglect inducing stroke, and a small minority fully
-recover [Farnè2004@].
+recover [@Farnè2004].
 
 [Disorder of Spatial-attention] Most theoretical accounts of the
 neglect syndrome describe it as either a deficit of the deployment
 of spatial attention, or one of impaired awareness. More
 specifically, either an inability to report, respond, or orient
 attention toward stimuli in left space [@DriverMattingley1998
-,@HalliganVallar2003,@HeilmanValenstein1993] , or a general loss
-of environmental awareness that can at it's most extreme, cause a
-person to act as if the entire contralesional half of their world
-has ceased to exist [@Mesulam1981 ]. The spatial-attention based
-model does a good job of explaining many of the deficits displayed
-on clinical tests of neglect. For example, object cancellation (a
-variant of the visual search task) and figure copying (a free-hand
-drawing task) are believably influenced by the patient’s ability
-to deploy attention across the page. Where attention cannot be
-directed, mistakes or omissions are made. Even for something like
-the line-bisection task – in which the patient is asked to place a
+,@Halligan2003,@Heilman1993] , or a general loss of environmental
+awareness that can at it's most extreme, cause a person to act as
+if the entire contralesional half of their world has ceased to
+exist [@Mesulam1981 ]. The spatial-attention based model does a
+good job of explaining many of the deficits displayed on clinical
+tests of neglect. For example, object cancellation (a variant of
+the visual search task) and figure copying (a free-hand drawing
+task) are believably influenced by the patient’s ability to deploy
+attention across the page. Where attention cannot be directed,
+mistakes or omissions are made. Even for something like the
+line-bisection task – in which the patient is asked to place a
 mark at the perceived midpoint of a horizontal line – an inability
 to attend to an endpoint is a plausible explanation for impaired
 performance [i.e., typically marks are placed a long way to the
@@ -74,29 +74,27 @@ ice-cold, is injected into the patient's ear canal, and neck
 muscle vibration, quickly orients the patient's torso, head, eyes,
 and attention to the stimulated side, reducing several of the
 behavioural deficits for a short time [~20 minutes;
-@AdairHeilman2003
-,@KarnathHartje1993,@KarnathDichgans1996,@Rubens1985].
+@AdairHeilman2003 ,@Karnath1993,@Karnath1996,@Rubens1985].
 Unfortunately, these exercises are aversive and their short-term
 effects prevent them from being useful as treatments. A much more
 promising rehabilitation technique based on prismatic glasses has
 recently been shown to have broader, and more lasting effects in
-neglect [@Rossetti1998; @RossiKheyfetsReding1990]. When patients
-with neglect are adapted to a rightward visual shift and the
-glasses removed, the after-effects on several behavioural measures
-are profound, and last considerably longer than the adaptation
-time [@FarnèRossetti2002
-,@Frassinetti2002,@Pisella2002,@Rossetti1998]. Judgment of
+neglect [@Rossetti1998, @Rossi1990]. When patients with neglect
+are adapted to a rightward visual shift and the glasses removed,
+the after-effects on several behavioural measures are profound,
+and last considerably longer than the adaptation time [@Farnè2002
+,@Frassinetti2002,@Pisella2002,@Rossetti1998].  Judgment of
 straight-ahead and line bisection become closer to true centre
 [@Danckert2006], object cancellation, and figure copying improves
-[@Rosetti1998 ], exploratory eye movements demonstrate a reduction
-in rightward bias [@Danckert2006,@Ferber2003], and even visual
-imagery [@Rode2001 ,@Rode1998], and posture [@Tilikete2001] are
+[@Rossetti1998 ], exploratory eye movements demonstrate a
+reduction in rightward bias [@Danckert2006,@Ferber2003], and even
+visual imagery [@Rode2001], and posture [@Tilikete2001] are
 improved by the technique.
 
 [Failures of prisms] Despite the long list of behaviours prisms
 have been shown to ameliorate, more recent randomized controlled
 trials have failed to show prisms as an efficacious rehabilitation
-treatment [@Nys2008 ,@Turton2009]. Additionally, when an effort is
+treatment [@Nys2008, @Turton2010]. Additionally, when an effort is
 made to examine attention and perception more directly, the
 ameliorative effects seem to be somewhat less clear. Some direct
 measures of attentional biases have been shown to be affected by
@@ -110,7 +108,7 @@ previously neglected space, perceptual judgments can remain just
 as biased as before [@Dijkerman2003 ,@Ferber2003]. This appears to
 be demonstrating a dissociation between occulomotor "looking" and
 perceptual "seeing," with prisms restoring the former but not the
-latter [@Danckert2010].
+latter [@Striemer2010tpd].
 
 [Speculation on action/perception disassociation in prisms] The
 dissociation between after effects that influence actions and
@@ -130,7 +128,7 @@ within the dorsal stream that are typically undamaged in neglect.
 Instead, damage to the inferior parietal/superior temporal gyrus
 leads not only to the neglect syndrome, but also severely reduces
 (or even eliminates) the brain's ability to integrate dorsal and
-ventral stream processing [@Danckert2010]. In the same respect,
+ventral stream processing [@Striemer2010tpd]. In the same respect,
 the damage limits the ability of a rehabilitative technique such
 as prisms, that operates primarily on the dorsal stream,from
 influencing areas in the ventral system responsible for higher
@@ -164,11 +162,12 @@ thesis supports the notion that neglect is not *just* a disorder
 of attention, but can be characterized by a failure to build
 accurate perceptual representations of the world. Prisms appear to
 have an effect on the spatial action systems, having such a strong
-effect in part *because* of the lack of awareness [@Danckert2010];
-however, they do not seem to change the deficits of perceptual
-representation. Deficits of perceptual representation, as well as
-being central to the disorder, also represent a major contributor
-to the debilitating nature of neglect. Concentrating on deficits
-of perceptual representation has the potential of making
-substantial steps forward in understanding the disorder and
-producing more effective rehabilitation efforts.
+effect in part *because* of the lack of awareness
+[@Striemer2010tpd]; however, they do not seem to change the
+deficits of perceptual representation. Deficits of perceptual
+representation, as well as being central to the disorder, also
+represent a major contributor to the debilitating nature of
+neglect. Concentrating on deficits of perceptual representation
+has the potential of making substantial steps forward in
+understanding the disorder and producing more effective
+rehabilitation efforts.

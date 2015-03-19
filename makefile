@@ -51,6 +51,11 @@ figures.zip:
 	cd ..
 	rm -r tmp
 
+references: $(interm)
+	# Total number of references:
+	grep -oh '@\w*' Manuscript.md | sort | uniq | wc
+	grep -oh '@\w*' Manuscript.md | sort | uniq > references
+
 check:
 	-grep tk */*.md
 	-grep FIXME */*.md

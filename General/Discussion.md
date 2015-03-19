@@ -9,7 +9,7 @@ that this particular deficit characterizes the primary, or even
 cardinal characteristic of the disorder. The damage that often
 leads to neglect happens to straddle the border between the two
 visual systems as they differentiate dorsally and ventrally
-[@Danckert2010]. It is therefore perfectly placed to not only
+[@Striemer2010tpd].  It is therefore perfectly placed to not only
 interfere with both systems, but potentially corrupt late-stage
 communication between the dorsal and ventral streams, producing
 deficits that cannot be accounted for by simplistic single-system,
@@ -69,12 +69,12 @@ adaptation may represent a viable alternative treatment of
 neglect. Although the task is not that different from prism
 adaptation, it has been demonstrated to produce subtle changes in
 perception for healthy individuals [@Mack1978, @Awater2005,
-@George2008, @Bruno2007, @Zimmermann2009, @Dore-Mazars2005,
-@Collins2006, @Garaas2008].  Chapter 3 began with an examination
+@George2008, @Bruno2007, @Zimmermann2009, @Doré-Mazars2005,
+@Collins2006, @Garaas2011].  Chapter 3 began with an examination
 of healthy performance on the landmark and line bisection tasks.
 The two tasks have been used before in neglect research as they
 comprise largely similar perceptual properties but may rely on
-distinct visual systems [@Striemer2010].  Healthy participants
+distinct visual systems [@Striemer2010dpm].  Healthy participants
 typically demonstrate very small biases, compared with neglect
 patients, on these tasks. It was therefore suspected that if
 saccadic adaptation produced changes in perception of spatial
@@ -116,12 +116,12 @@ has demonstrated that the type of saccade
 [@Schraa-Tam2009,@Johnston2008,@Müri2008], or even the magnitude
 of the adaptation direction [i.e., +- gain, @Catz2008, @Golla2008,
 @Panouillères2012] can result in very different patterns of brain
-activation.  @Garaas2008 was able to identify long-lasting
+activation.  @Garaas2011 was able to identify long-lasting
 perceptual effects of saccadic adaptation, but this involved
 developing a new, whole-field adaptation protocol. Future attempts
 to change perceptual biases with saccadic adaptation should
 consider these parameters, especially the potential use of
-whole-field adaptation [@Garaas2008].
+whole-field adaptation [@Garaas2011].
 
 Beyond the type of adaptation used, it is possible that the
 landmark and line bisection tasks were insufficiently sensitive to
