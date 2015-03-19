@@ -113,13 +113,13 @@ latter [@Striemer2010tpd].
 [Speculation on action/perception disassociation in prisms] The
 dissociation between after effects that influence actions and
 those that influence perception invokes the dual visual pathways
-hypothesis of Goodale and Milner [@Milner2006vba]. Information
+hypothesis of Goodale and Milner [@Milner2006]. Information
 from primary visual cortex (V1) projects to two streams, one
 projecting to the superior, posterior parietal cortex that is
 important for the visual guidance of action (the so-called dorsal
 ‘how’ pathway) and another that projects from V1 to inferotemporal
 cortex and is important for perceptual processing [the so-called
-ventral ‘what’ pathway; @Milner2006vba]. Prisms have been shown to
+ventral ‘what’ pathway; @Milner2006]. Prisms have been shown to
 primarily influence processing within the dorsal stream [
 @Luaute2006, @Corbetta2005, @Clower1996.  In this framework,
 prisms will primarily influence behaviours supported by the the

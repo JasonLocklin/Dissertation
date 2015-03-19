@@ -50,9 +50,9 @@ effect may be primarily on the dorsal visual stream. The two
 visual stream hypothesis places spatial attention and action
 (where and how) within the dorsal stream, passing from visual
 areas in occipital cortex into much of the parietal lobe
-[@Milner2006vba].  Conversely, it places perception, and working
+[@Milner2006].  Conversely, it places perception, and working
 memory of those perceptions, in the ventral stream, radiating into
-the temporal lobe [@Milner2006vba].  Various lines of research
+the temporal lobe [@Milner2006].  Various lines of research
 have pointed to prisms specifically effecting dorsal areas.
 @Danckert2008 and @Clower1996 have both demonstrated "dorsal
 stream" activation during prism adaptation, with fMRI and PET
