@@ -4,7 +4,7 @@ Results
 ### Spatial Working Memory Task
 
 Replicating previous research using this spatial working memory
-task [@Ferber2006, @Striemer2013], all of the patients who were
+task [@Ferber2006; @Striemer2013], all of the patients who were
 showing clinical signs of neglect performed very poorly.  Figure
 [fig:SWM] plots the patient mean accuracy along with expected
 range (2 standard deviations from the means) of the neurologically

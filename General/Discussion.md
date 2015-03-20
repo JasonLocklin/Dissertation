@@ -50,7 +50,7 @@ measurable effect on tasks thought to measure ventral-stream
 dependant processing spatial working memory and temporal
 estimations tasks that would presumably not be improved by
 remediation of spatial attention in the dorsal stream, the
-apparent target of prisms [@Danckert2008, @Clower1996].  The
+apparent target of prisms [@Danckert2008; @Clower1996].  The
 experiment replicated findings that prisms produced a change in
 line bisection performance, a deficit that is likely driven, at
 least in part, by an inability to orient leftward, though the
@@ -68,9 +68,9 @@ on these two tasks both before and after prism adaptation (figure
 adaptation may represent a viable alternative treatment of
 neglect. Although the task is not that different from prism
 adaptation, it has been demonstrated to produce subtle changes in
-perception for healthy individuals [@Mack1978, @Awater2005,
-@George2008, @Bruno2007, @Zimmermann2009, @Doré-Mazars2005,
-@Collins2006, @Garaas2011].  Chapter 3 began with an examination
+perception for healthy individuals [@Mack1978; @Awater2005,
+@George2008; @Bruno2007; @Zimmermann2009; @Doré-Mazars2005,
+@Collins2006; @Garaas2011].  Chapter 3 began with an examination
 of healthy performance on the landmark and line bisection tasks.
 The two tasks have been used before in neglect research as they
 comprise largely similar perceptual properties but may rely on
@@ -108,14 +108,14 @@ avenues left unexplored in examining the possible reasons for
 this.  First, most of the perceptual after-effects that have been
 demonstrated post-saccadic adaptation have been restricted to
 spatial illusions immediately before or after saccades similar to
-those which were adapted [@Awater2005, @Collins2006]. Longer
+those which were adapted [@Awater2005; @Collins2006]. Longer
 lasting effects appear to be possible, but it may require highly
 specific design elements empirically chosen to maximize them.  The
 types of parameters used are likely to be important, as research
 has demonstrated that the type of saccade
-[@Schraa-Tam2009,@Johnston2008,@Müri2008], or even the magnitude
-of the adaptation direction [i.e., $\pm \text{gain}$, @Catz2008,
-@Golla2008, @Panouillères2012] can result in very different
+[@Schraa-Tam2009; @Johnston2008; @Müri2008], or even the magnitude
+of the adaptation direction [i.e., $\pm \text{gain}$; @Catz2008,
+@Golla2008; @Panouillères2012] can result in very different
 patterns of brain activation.  @Garaas2011 was able to identify
 long-lasting perceptual effects of saccadic adaptation, but this
 involved developing a new, whole-field adaptation protocol. Future
@@ -149,7 +149,7 @@ There are also paradigms that utilize self-paced, voluntary
 saccades rather than the reflexive saccades used here, and there
 is evidence that adaptation of voluntary saccades may rely more
 heavily on cortical as opposed to cerebellar, circuits
-[@Schraa-Tam2009, @Müri2008], which may prove promising for the
+[@Schraa-Tam2009; @Müri2008], which may prove promising for the
 rehabilitation of unilateral neglect.  Finally the durations that
 targets remain on the screen should be carefully calibrated to the
 particular abilities of the patient, again maximizing their

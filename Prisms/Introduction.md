@@ -12,11 +12,11 @@ traditionally described deficits of spatial attention.
 [Prisms remediate spatial attention] As discussed earlier, one of
 the most promising and well studied treatments for the remediation
 of neglect is the use of short term adaptation to leftward
-shifting prisms [@Rossetti1998, @Luaute2006]. Much of the research
+shifting prisms [@Rossetti1998; @Luaute2006]. Much of the research
 into prism adaptation has focused on the striking changes in
 spatial attention, demonstrating a shift from completely ignoring
 stimuli left of centre, to attending almost equally to leftward as
-rightward stimuli [@Striemer2007, @Nijboer2008, @Schindler2008].
+rightward stimuli [@Striemer2007; @Nijboer2008; @Schindler2008].
 Interestingly, at least one prism adaptation study failed to
 demonstrate what seems consistent and reliable elsewhere. While
 most of the research investigating the effects of prism adaptation
@@ -40,7 +40,7 @@ spatial working memory in directing search based on previously
 visited locations.  Further, the revisiting behaviour observed
 when neglect patients perform object cancellation tasks suggests
 that their search patterns may be indicative of impaired working
-memory [@Wojciulik2001, @Husain2001]. 
+memory [@Wojciulik2001; @Husain2001]. 
 
 [Prisms influence dorsal stream] The reliable effect of prisms on
 remediating spatial attention deficits, with their simultaneous
@@ -78,7 +78,7 @@ specific to the dorsal stream and to spatial attention deficits in
 neglect, and yet, as highlighted in the previous chapter, there
 are significant deficits that can be characterized as primarily
 loading the ventral visual system in neglect. For example, visual
-and spatial working memory [Ch.1., @Wojciulik2001, @Striemer2013],
+and spatial working memory [Ch.1.; @Wojciulik2001; @Striemer2013],
 perceptual judgments of spatial extent [@Dijkerman2003,
 @Striemer2010dpm], or emotional expression [@Ferber2003,
 @Sarri2006], among others.  This chapter explores the influence of

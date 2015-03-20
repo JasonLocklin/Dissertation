@@ -90,7 +90,7 @@ stimuli would have permitted *some* leftward orienting and thus
 calculation of cueing effects. The remaining patients do not
 demonstrate clear alignment with the severity of clinical results,
 but, considering that others have found covert orienting to be a
-reliable indicator of neglect symptoms [@Posner1984, @Morrow1988,
+reliable indicator of neglect symptoms [@Posner1984; @Morrow1988,
 @Losier2001], task constraints may be responsible. For example,
 the two, short, stimulus onset timings were chosen prevent the
 need for eye movement monitoring (i.e., at 150ms SOA, targets
@@ -99,7 +99,7 @@ limited the experiments sensitivity for measuring cue effect
 sizes. Also, patients were asked to perform only 100 trials to
 avoid undue fatigue, but this may have limited the power of the
 experiment, as other research has utilized considerably more [e.g.,
-@Posner1984, @Morrow1988, @Danckert1997].
+@Posner1984; @Morrow1988; @Danckert1997].
 
 
 
@@ -140,7 +140,7 @@ explore this further.
 Most rehabilitation techniques implemented in neglect focus on
 remediating the attention deficits. If these attention deficits
 are indeed distinct from the working memory impairments discussed
-here and elsewhere (e.g., @Husain2001, @Danckert2006,
+here and elsewhere (e.g.; @Husain2001; @Danckert2006,
 @Striemer2013), then this rehabilitation strategy will fail to
 address this domain, and may leave patients with untreated
 symptoms.  The next chapter addresses this question by examining

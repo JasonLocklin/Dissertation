@@ -16,7 +16,7 @@ omissions of left-sided targets) could be couched as a consequence
 of a spatial attention deficit. However, revisiting behaviour
 (i.e., re-cancelling old targets as if they were new), commonly
 observed on the non-neglected, "good" side
-[@Husain2001,@Parton2006], suggest something more nuanced is
+[@Husain2001; @Parton2006], suggest something more nuanced is
 occurring. Even eliminating targets as they are cancelled, thereby
 removing their potential to re-capture attention, improves but
 does not fully remediate revisiting behaviour on the task
@@ -36,7 +36,7 @@ correctly [@Husain1997]. In addition to these non-lateralized
 attention deficits, recent work has highlighted deficits of
 spatial working memory for stimuli in central or right, putatively
 non-neglected space
-[@Husain2001,@Danckert2006,@Malhotra2005,@Striemer2013].
+[@Husain2001; @Danckert2006; @Malhotra2005; @Striemer2013].
 
 Non-lateralized selective attention and sustained attention are
 strongly correlated with both neglect severity, and recovery over
@@ -61,14 +61,14 @@ re-orienting to left space have been tried, with little clinical
 effectiveness.  The most promising treatment has been prism
 adaptation, because it is non-aversive, and because it has been
 shown to produce effects lasting much longer than the treatment
-duration [@Rossetti1998, @Farnè2002, @Frassinetti2002].
+duration [@Rossetti1998; @Farnè2002; @Frassinetti2002].
 Unfortunately, while prism adaptation produces striking changes in
-spatial attention [@Striemer2007, @Nijboer2008], there is a small,
+spatial attention [@Striemer2007; @Nijboer2008], there is a small,
 but increasing set of neglect deficits that are not improved
-[@Rousseaux2006, @Striemer2010tpd].  Many of these findings make
+[@Rousseaux2006; @Striemer2010tpd].  Many of these findings make
 use of perceptual tasks, such the perceptual judgment of spatial
-extent [@Dijkerman2003, @Striemer2010dpm], and chimeric faces
-tasks[@Ferber2003, @Sarri2006].  It may be the case then that
+extent [@Dijkerman2003; @Striemer2010dpm], and chimeric faces
+tasks[@Ferber2003; @Sarri2006].  It may be the case then that
 prisms operate on neural systems important for the deployment of
 attention, but have little to no effect on those mechanisms needed
 to form accurate perceptual representations.
@@ -77,7 +77,7 @@ Part of the deficit involved in maintaining accurate perceptual
 representations may be driven by working memory impairments. As
 mentioned earlier, neglect patients have deficits of spatial
 working memory generally, even in "non-neglected," right or
-central space [@Husain2001, @Danckert2006].  In this context, it
+central space [@Husain2001; @Danckert2006].  In this context, it
 is important to clarify the relationship between spatial working
 memory and spatial attention.  The two systems appear to be
 independent and functionally unique, generally residing in ventral
@@ -96,8 +96,8 @@ subtle pathological orienting deficits exist for central and right
 space that in turn impact upon working memory. If this was the
 case, though, we might expect perceptual deficits to improve as a
 result of improvement in attention deficits, and this does not
-appear to be the case [@Rousseaux2006, @Striemer2010tpd,
-@Striemer2010dpm, @Ferber2003, @Sarri2006].  Second, the ability
+appear to be the case [@Rousseaux2006; @Striemer2010tpd,
+@Striemer2010dpm; @Ferber2003; @Sarri2006].  Second, the ability
 to utilize spatial attention for rehearsal may be disrupted in
 neglect via a disconnection of the dorsal and ventral streams
 arising from the neglect-inducing lesion.  This would imply that

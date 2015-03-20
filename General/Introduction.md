@@ -1,15 +1,15 @@
 Unilateral spatial neglect is a disorder commonly resulting from
 damage to the right inferior parietal or superior temporal cortex
-[@Vallar1986, @Karnath2001, @Karnath2012, @Mort2003, @Buxbaum2004,
+[@Vallar1986; @Karnath2001; @Karnath2012; @Mort2003; @Buxbaum2004,
 @Verdon2010].  Hereafter, specifically referred to simply as
 "neglect," the disorder causes a heterogeneous collection of
 deficits that can be generally categorized as an inability to
 respond to information on the contralesional side of space. People
 with the disorder are spatially biased away from contralesional
-space in their search behaviour [@Husain2001, @Wojciulik2001],
-grooming and eating [@Halligan2003, @Kerkhoff2001], drawing
+space in their search behaviour [@Husain2001; @Wojciulik2001],
+grooming and eating [@Halligan2003; @Kerkhoff2001], drawing
 [@Halligan1989], posture [@Rode1997], and perceptual judgment of
-spatial extent [@Dijkerman2003, @Striemer2010dpm].  The disorder
+spatial extent [@Dijkerman2003; @Striemer2010dpm].  The disorder
 is, as can be expected from the list of symptoms, debilitating,
 and is associated with poor rehabilitative outcome [@Cassidy1998,
 @Ringman2004].  Less than half of patents show improvements in the
@@ -21,7 +21,7 @@ neglect syndrome describe it as either a deficit of the deployment
 of spatial attention, or one of impaired awareness. More
 specifically, either an inability to report, respond, or orient
 attention toward stimuli in left space [@DriverMattingley1998
-,@Halligan2003,@Heilman1993] , or a general loss of environmental
+; @Halligan2003; @Heilman1993] , or a general loss of environmental
 awareness that can at it's most extreme, cause a person to act as
 if the entire contralesional half of their world has ceased to
 exist [@Mesulam1981 ]. The spatial-attention based model does a
@@ -74,27 +74,27 @@ ice-cold, is injected into the patient's ear canal, and neck
 muscle vibration, quickly orients the patient's torso, head, eyes,
 and attention to the stimulated side, reducing several of the
 behavioural deficits for a short time [~20 minutes;
-@AdairHeilman2003 ,@Karnath1993,@Karnath1996,@Rubens1985].
+@AdairHeilman2003 ; @Karnath1993; @Karnath1996; @Rubens1985].
 Unfortunately, these exercises are aversive and their short-term
 effects prevent them from being useful as treatments. A much more
 promising rehabilitation technique based on prismatic glasses has
 recently been shown to have broader, and more lasting effects in
-neglect [@Rossetti1998, @Rossi1990]. When patients with neglect
+neglect [@Rossetti1998; @Rossi1990]. When patients with neglect
 are adapted to a rightward visual shift and the glasses removed,
 the after-effects on several behavioural measures are profound,
 and last considerably longer than the adaptation time [@Farnè2002
-,@Frassinetti2002,@Pisella2002,@Rossetti1998].  Judgment of
+; @Frassinetti2002; @Pisella2002; @Rossetti1998].  Judgment of
 straight-ahead and line bisection become closer to true centre
 [@Danckert2006], object cancellation, and figure copying improves
 [@Rossetti1998 ], exploratory eye movements demonstrate a
-reduction in rightward bias [@Danckert2006,@Ferber2003], and even
+reduction in rightward bias [@Danckert2006; @Ferber2003], and even
 visual imagery [@Rode2001], and posture [@Tilikete2001] are
 improved by the technique.
 
 [Failures of prisms] Despite the long list of behaviours prisms
 have been shown to ameliorate, more recent randomized controlled
 trials have failed to show prisms as an efficacious rehabilitation
-treatment [@Nys2008, @Turton2010]. Additionally, when an effort is
+treatment [@Nys2008; @Turton2010]. Additionally, when an effort is
 made to examine attention and perception more directly, the
 ameliorative effects seem to be somewhat less clear. Some direct
 measures of attentional biases have been shown to be affected by
@@ -105,7 +105,7 @@ serial visual search task, have failed to show an effect
 [@Morris2004]. Similarly, while several studies have shown that
 prisms induce a shift in voluntarily eye movements towards
 previously neglected space, perceptual judgments can remain just
-as biased as before [@Dijkerman2003 ,@Ferber2003]. This appears to
+as biased as before [@Dijkerman2003 ; @Ferber2003]. This appears to
 be demonstrating a dissociation between occulomotor "looking" and
 perceptual "seeing," with prisms restoring the former but not the
 latter [@Striemer2010tpd].
@@ -121,7 +121,7 @@ important for the visual guidance of action (the so-called dorsal
 cortex and is important for perceptual processing [the so-called
 ventral ‘what’ pathway; @Milner2006]. Prisms have been shown to
 primarily influence processing within the dorsal stream [
-@Luaute2006, @Corbetta2005, @Clower1996.  In this framework,
+@Luaute2006; @Corbetta2005; @Clower1996.  In this framework,
 prisms will primarily influence behaviours supported by the the
 superior parietal lobule and infraparietal sulcus, areas well
 within the dorsal stream that are typically undamaged in neglect.

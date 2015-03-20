@@ -5,9 +5,9 @@ Discussion
 repeatedly been found to influence deficits putatively associated
 with dorsal visual stream processing. Here, we replicate past
 findings that prisms effect the bias present when neglect patients
-perform the line bisection [@Rossetti1998, @Striemer2010dpm], a
+perform the line bisection [@Rossetti1998; @Striemer2010dpm], a
 task that involves a motoric reporting of centre and is associated
-with dorsal brain activation [@Foxe2003, @Weiss2000, @Çiçek2009].
+with dorsal brain activation [@Foxe2003; @Weiss2000; @Çiçek2009].
 While the perception of the line it is self, it could be argued,
 may also involve some ventral stream perceptual processing, past
 research involving a related perceptual task, the landmark task,
