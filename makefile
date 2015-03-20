@@ -34,13 +34,19 @@ $(interm):
 pngs: 
 	find */ -type f -iname *.PDF -execdir convert -trim -density 300 '{}' '{}.png' ';'
 	mv */*.pdf.png .
+	touch pngs
 
 
-docx: $(interm) $(pngs)
-	pandoc -SN --reference-docx=reference.docx -o $(outname).docx $(interm)
+docx: $(interm) pngs
+	pandoc -SN --filter pandoc-citeproc --bibliography=Dissertation.bib \
+		--reference-docx=reference.docx -o $(outname).docx $(interm)
 
 pdf: $(interm)
-	pandoc -SN -o $(outname).pdf $(interm)
+	sed 's/.png//g' $(interm) > tmp.md # remove file ext for latex
+	pandoc -SN -s --bibliography=Dissertation.bib --biblatex \
+		-o $(outname).tex tmp.md
+	rm tmp.md  # remove temporary file
+	pdflatex $(outname).tex
 
 # Zip figures.
 figures.zip:
@@ -61,4 +67,4 @@ check:
 	-grep FIXME */*.md
 
 clean:
-	-rm figures.zip $(interm) $(outname)* *.pdf.png
+	-rm figures.zip $(interm) $(outname)* *.pdf.png pngs

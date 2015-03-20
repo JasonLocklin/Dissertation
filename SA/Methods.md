@@ -71,14 +71,14 @@ trial (i.e., a staircase procedure).  This allowed a precise
 estimation of the subjective point of equality via a staircase
 method using up to 20 trials (less if the staircase settled on a
 stable response earlier).  Again, the stimuli remained on screen
-until a response was registered (see figure [fig.Landmark]).
+until a response was registered (see figure [fig_Landmark]).
 
 ![Figure depicts two trials of the landmark task. Initial trials
 have obvious bias, and the participant responds by indicating
 whether the mark was right or left of centre. The stimuli bias was
 adjusted with a staircase method to identify the location at which
 the participant is unable to judge the bias and guesses
-randomly.](fig.Landmark.pdf.png) 
+randomly.](fig_Landmark.pdf.png) 
 
 
 #### Saccadic Adaptation
@@ -97,7 +97,7 @@ previous one. When an eye-movement toward the second target was
 detected (by passing a threshold of distance between the two), the
 target was perturbed back toward the initial target by 30% (5.4°),
 simulating an overshoot, and intended to reduce saccade amplitude
-over time (i.e., hypometria; see figure [fig.SA] for an overview).
+over time (i.e., hypometria; see figure [fig_SA] for an overview).
 One in 5 trials were "test trials," where the target was not
 perturbed, but simply disappeared. These trials were intended to
 allow analysis of changes to the saccade length induced by
@@ -111,7 +111,7 @@ movement relative to target onset and perturbations. The case
 study (described later) utilized the same timing, but involved
 different initial target direction, saccade direction, and
 involved saccadic augmentation, rather than
-reduction.](fig.SA.pdf.png) 
+reduction.](fig_SA.pdf.png) 
 
 ### Data Analysis
 
@@ -159,7 +159,7 @@ saccade.  A saccade was defined as regions where the rolling
 maximum met a threshold greater than the median trial speed plus
 an experimentally determined parameter (1500°/second).  The
 analysis of a typical trial is presented graphically in figure
-[fig.Saccade].
+[fig_Saccade].
 
 ![Figure depicts typical eye movements over a single trial.  Top
 panel depicts eye movement speed over the course of the trial,
@@ -184,7 +184,7 @@ movements).  Trials were also dropped if they appeared to contain
 no saccades, or if a lack of eye position data from the tracker
 resulted in large gaps or a low overall number of samples (which
 can result from blinking). As a result, approximately half (56%)
-of trials proved usable in the analysis.](fig.Saccade.pdf.png) 
+of trials proved usable in the analysis.](fig_Saccade.pdf.png) 
 
 The blocks were split up into approximate thirds, with the first
 third of the first block considered as a pseudo-baseline, to be

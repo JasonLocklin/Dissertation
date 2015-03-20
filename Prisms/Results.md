@@ -19,7 +19,7 @@ observed in either group.
 participants. Overlaid are means and bands of 2 standard
 deviations of neurologically intact (light band), and
 non-neglecting right brain damaged (dark band) controls from
-@Ferber2006.](fig.SWM.pdf.png)
+@Ferber2006.](fig_SWM.pdf.png)
 
 
 
@@ -75,7 +75,7 @@ post-adaptation task, and both results are included here. Patient
 time of testing, can be seen to exhibit a slope of near 1 (left),
 indicating that estimated time intervals increase in proportion to
 actual intervals, and this can be seen at right, as a nearly
-diagonal line.](fig.TE.pdf.png)
+diagonal line.](fig_TE.pdf.png)
 
 ### Line bisection
 
@@ -108,7 +108,7 @@ measurable change post-prisms ($t(10)=1.2$, $\text{p} = 0.3$).
 ![Figure depicts each individual's average line bisection
 performance pre- and post-prisms. Bars indicate the direction of
 bias, with values encoded as percentage of line
-length.](fig.LB_Prisms.pdf.png) 
+length.](fig_LB_Prisms.pdf.png) 
 
 
 As a group, the neglecting patients did not improve on either

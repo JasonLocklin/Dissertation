@@ -308,7 +308,7 @@ p <- ggplot(adn, aes(y = means, x=as.numeric(block))) +
      ggtitle("Effect of Saccadic Adaptation")
      
 p
-pdf("fig.Adaptation.pdf", paper='USr', width=11)
+pdf("fig_Adaptation.pdf", paper='USr', width=11)
 p
 dev.off()
      

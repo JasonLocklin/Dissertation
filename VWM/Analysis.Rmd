@@ -102,7 +102,7 @@ p <- ggplot(cdata, aes(x = Subj_Group, y = Mean)) +
     theme_gray()
 p
 
-pdf("fig.VWM_Precision.pdf", paper='USr', width=11)
+pdf("fig_VWM_Precision.pdf", paper='USr', width=11)
 p
 dev.off()
 ```
@@ -163,7 +163,7 @@ p <- p + geom_bar(stat = "identity", width=0.5) +
 
 p + theme_gray()
 
-pdf("fig.VWM_1Target.pdf", paper='USr', width=11)
+pdf("fig_VWM_1Target.pdf", paper='USr', width=11)
 p + theme_gray()
 dev.off()
 ```
@@ -440,7 +440,7 @@ pg <- p #For use later
 Make double figure:
 ```{r fig.VWM_MTarget}
 require(grid)
-pdf("fig.VWM_MTarget.pdf", paper='USr', width=11)
+pdf("fig_VWM_MTarget.pdf", paper='USr', width=11)
 pushViewport(viewport(layout = grid.layout(1, 2)))
 print(pg + theme_gray() + theme(legend.position = 'none'), 
       vp = viewport(layout.pos.row = 1, layout.pos.col = 1))
@@ -805,7 +805,7 @@ c <- c + geom_hline(aes(yintercept=m)) +
   ggtitle("Patient Leftward Cue Effect Size (CES)") + ylab("Seconds") + xlab("Patients")
 
 c
-pdf("fig.COVAT.pdf", paper='USr', width=11)
+pdf("fig_COVAT.pdf", paper='USr', width=11)
 c
 dev.off()
 ```
@@ -994,7 +994,7 @@ o = ggplot(norm, aes(x=N)) +
 
 multiplot(m,n,o)
 
-svg(filename="fig.Emrich2012.svg", width=4, height=6)
+svg(filename="fig_Emrich2012.svg", width=4, height=6)
 multiplot(m,n,o)
 dev.off()
 

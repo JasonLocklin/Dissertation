@@ -7,11 +7,11 @@ colour to a similar degree of proficiency as the two control
 groups, demonstrating that basic perceptual representations were
 intact, and that they are able to perform the motor response as
 effectively as controls when they are able to recall the correct
-visual information (Figure [fig.VWM_Precision]). In contrast, when
+visual information (Figure [fig_VWM_Precision]). In contrast, when
 examining the apparent reliability of patient recollections, the
 data appears to indicate that neglect patients fail to recall the
 colour of targets and respond in a way that indicates more
-prevalent guessing (Figure [fig.VWM_1Target]).
+prevalent guessing (Figure [fig_VWM_1Target]).
 
 
 
@@ -33,7 +33,7 @@ distractors as belonging to the indicated spatial position
 Interestingly, in contrast to the single target condition, the
 patient group does not appear to guess more frequently than the
 other groups when presented with multiple targets (Figure
-[fig.VWM_MTarget]).  This may reflect a limited sensitivity in
+[fig_VWM_MTarget]).  This may reflect a limited sensitivity in
 this task variant, as in the multi-target condition, binding
 errors appear to be the overwhelming source of failures. While the
 single-target condition is effectively tuned to detect guessing
@@ -55,7 +55,7 @@ performance is near perfect and not highly variable.
 
 
 [VWM Multiple -mis-binding] Patients were more likely to select
-non-targets in multi-target conditions (Figure [fig.VWM_MTarget]).
+non-targets in multi-target conditions (Figure [fig_VWM_MTarget]).
 There are many potential explanations for this, the most obvious
 being an increase in failures of binding colour and location in
 working memory, a cross-domain cognitive process that has been

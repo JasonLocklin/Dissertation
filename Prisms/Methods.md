@@ -92,7 +92,7 @@ at random times (though, not at the very beginning or end of the
 trial). The lower panel (b) depicts the spatial working memory
 task. The trial depicted is a "valid" trial, as the probe (circle)
 is in the same location as one of the initial three targets
-(squares).](fig.Prisms.pdf.png) 
+(squares).](fig_Prisms.pdf.png) 
 
 #### Temporal Estimation Task
 

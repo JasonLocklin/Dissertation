@@ -19,10 +19,10 @@ or single-domain, models.
 In chapter 1, patients with neglect demonstrated complex deficits
 in visual working memory. Namely, when compared with controls,
 they failed to successfully recall and report the colour of
-stimuli after a delay (figure [fig.VWM_1Target]). They also
+stimuli after a delay (figure [fig_VWM_1Target]). They also
 mis-reported colours when asked to recall stimuli from a given
 location, instead reporting colours of stimuli from other,
-competing, locations (figure [fig.VWM_MTarget]).  While the first
+competing, locations (figure [fig_VWM_MTarget]).  While the first
 deficit appears to demonstrate a simple problem of visual working
 memory, the latter probably represents a somewhat more complex
 problem of binding visual information (colour and location) in
@@ -60,7 +60,7 @@ estimation, two tasks presumably un-affected by deficits of
 leftward orienting, prisms appeared to lack any significant
 rehabilitative function.  Patients demonstrated extreme deficits
 on these two tasks both before and after prism adaptation (figure
-[fig.SWM] and [fig.TE]).
+[fig_SWM] and [fig_TE]).
 
 
 

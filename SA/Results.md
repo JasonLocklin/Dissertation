@@ -16,7 +16,7 @@ to calculate adaptation.  Nevertheless, one-sample t-tests of the
 remaining participant blocks were used to determine whether the
 adaptation paradigm had successfully shortened saccades, and 3 of
 4 blocks showed significant change from baseline (see Figure
-[fig.Adaptation]).
+[fig_Adaptation]).
 
 
 [non-test trials] While test trials provide a measure of the
@@ -55,7 +55,7 @@ applied, as the blocks should be considered a type of replication.
 The likelihood of one of the four test-trial tests producing an
 erroneously significant result, by chance, is 0.2. However, the
 likelihood of 3 erroneous in 4 tests results, as above, would be
-0.0001.](fig.Adaptation.pdf.png) 
+0.0001.](fig_Adaptation.pdf.png) 
 
 
 ### Landmark and Line bisection
