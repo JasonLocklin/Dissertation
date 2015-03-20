@@ -43,10 +43,10 @@ docx: $(interm) pngs
 
 pdf: $(interm)
 	sed 's/.png//g' $(interm) > tmp.md # remove file ext for latex
-	pandoc -SN -s --bibliography=Dissertation.bib --biblatex \
-		-o $(outname).tex tmp.md
+	pandoc -SN --bibliography=Dissertation.bib --biblatex \
+		-o Manuscript.tex tmp.md
 	rm tmp.md  # remove temporary file
-	pdflatex $(outname).tex
+	pdflatex uw-ethesis.tex
 
 # Zip figures.
 figures.zip:
@@ -67,4 +67,5 @@ check:
 	-grep FIXME */*.md
 
 clean:
-	-rm figures.zip $(interm) $(outname)* *.pdf.png pngs
+	-rm figures.zip $(interm) $(outname)* *.pdf.png pngs *.aux *.bcf \
+		*.lof *.log *.lot *.out *.xml *.toc 

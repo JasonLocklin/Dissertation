@@ -32,7 +32,8 @@
 % by overriding some options of the hyperref package below.
 
 %\usepackage{nomencl} % For a nomenclature (optional; available from ctan.org)
-\usepackage{amsmath,amssymb,amstext} % Lots of math symbols and environments
+%\usepackage{amsmath,amssymb,amstext} % Lots of math symbols and environments
+\usepackage{mathtools}
 \usepackage[pdftex]{graphicx} % For including graphics N.B. pdftex graphics driver 
 
 % Hyperlinks make it very easy to navigate an electronic document.
@@ -41,7 +42,19 @@
 % Use the "hyperref" package 
 % N.B. HYPERREF MUST BE THE LAST PACKAGE LOADED; ADD ADDITIONAL PKGS ABOVE
 \usepackage[pdftex,letterpaper=true,pagebackref=false]{hyperref} % with basic options
-		% N.B. pagebackref=true provides links back from the References to the body text. This can cause trouble for printing.
+
+% BibLaTeX requirements
+%\usepackage[]{babel}% Recommended
+\usepackage{csquotes}% Recommended
+\usepackage[style=authoryear, backend=biber]{biblatex}
+% \bibliography{<mybibfile>}% ONLY selects .bib file; syntax for version <= 1.1b
+\addbibresource[]{Dissertation.bib}% Syntax for version >= 1.2
+
+% Figure locations
+\graphicspath{ {Prisms/}{VWM/}{SA/} }
+
+
+% N.B. pagebackref=true provides links back from the References to the body text. This can cause trouble for printing.
 \hypersetup{
     plainpages=false,       % needed if Roman numbers in frontpages
     pdfpagelabels=true,     % adds page number as label in Acrobat's page count
@@ -141,11 +154,6 @@
 
 % B I B L I O G R A P H Y
 % -----------------------
-
-% The following statement selects the style to use for references.  It controls the sort order of the entries in the bibliography and also the formatting for the in-text labels.
-\bibliographystyle{plain}
-% This specifies the location of the file containing the bibliographic information.  
-% It assumes you're using BibTeX (if not, why not?).
 \cleardoublepage % This is needed if the book class is used, to place the anchor in the correct page,
                  % because the bibliography will start on its own page.
                  % Use \clearpage instead if the document class uses the "oneside" argument
@@ -156,8 +164,6 @@
 % Add the References to the Table of Contents
 \addcontentsline{toc}{chapter}{\textbf{References}}
 
-\bibliography{uw-ethesis}
-% Tip 5: You can create multiple .bib files to organize your references. 
-% Just list them all in the \bibliogaphy command, separated by commas (no spaces).
+\printbibliography[]
 
 \end{document}

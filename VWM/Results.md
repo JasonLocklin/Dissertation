@@ -29,8 +29,8 @@ effect of age rather than neglect (Figure [fig_VWM_Precision]).
 It is also worth noting that all of the patients responded within
 the range of performance observed in the two control groups.
 
-![Figure depicts the precision of responses (coded as $1/SD$ of
-the response distribution, so higher values indicate better
+![Figure depicts the precision of responses (coded as 1/SD of the
+response distribution, so higher values indicate better
 performance).  The groups do not statistically differ in their
 ability to manually indicate their response
 precisely.](fig_VWM_Precision.pdf.png) 
@@ -188,7 +188,7 @@ performed well outside the range of healthy performance on the
 covert orienting task did not stand out with extreme performance
 deficits on the visual working memory task. When compared with the
 rest of the neglecting group, as can be observed in table
-[tbl.VWM], Patient 454 performed slightly worse than the median on
+[tbl_VWM], Patient 454 performed slightly worse than the median on
 both visual working memory measures, while Patient 171, who,
 incidentally was the only one in the group to score negatively on
 all three clinical measures of neglect, was actually the most
@@ -201,4 +201,4 @@ covert orienting task, demonstrated strong deficits on the visual
 working memory task.  This was particularly apparent in the
 measure of non-target selection, where these three performed
 considerably poorer than the rest of the group (See table
-[tbl.VWM]). 
+[tbl_VWM]). 

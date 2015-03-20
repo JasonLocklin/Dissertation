@@ -92,17 +92,17 @@ when a white-on-black target disappears). Their instructions were
 simply to follow the dots with their eyes.  Underlying this,
 however, were 100 trials involving central fixation (250ms),
 followed by a target in the left half of the screen (100ms,
-jittered by 50ms), then a target 16 (+-1.6)° to the right of the
-previous one. When an eye-movement toward the second target was
-detected (by passing a threshold of distance between the two), the
-target was perturbed back toward the initial target by 30% (5.4°),
-simulating an overshoot, and intended to reduce saccade amplitude
-over time (i.e., hypometria; see figure [fig_SA] for an overview).
-One in 5 trials were "test trials," where the target was not
-perturbed, but simply disappeared. These trials were intended to
-allow analysis of changes to the saccade length induced by
-adaptation without the potential that the saccade was somehow
-updated mid-flight to the new location.
+jittered by 50ms), then a target 16° ($\pm 1.6°$) to the right of
+the previous one. When an eye-movement toward the second target
+was detected (by passing a threshold of distance between the two),
+the target was perturbed back toward the initial target by 30%
+(5.4°), simulating an overshoot, and intended to reduce saccade
+amplitude over time (i.e., hypometria; see figure [fig_SA] for an
+overview).  One in 5 trials were "test trials," where the target
+was not perturbed, but simply disappeared. These trials were
+intended to allow analysis of changes to the saccade length
+induced by adaptation without the potential that the saccade was
+somehow updated mid-flight to the new location.
 
 ![Figure depicts saccadic adaptation trials for both experiments.
 The upper portion depicts the on-screen stimuli presented during

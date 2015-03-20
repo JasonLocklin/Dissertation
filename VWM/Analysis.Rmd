@@ -949,8 +949,8 @@ tbl <- tbl[-1]
 
 grid.table(tbl)
 
-pdf("tbl.VWM.pdf", paper='USr', width=11)
-grid.arrange(tableGrob(tbl), sub="tbl.VWM", clip=FALSE)
+pdf("tbl_VWM.pdf", paper='USr', width=11)
+grid.arrange(tableGrob(tbl), sub="tbl_VWM", clip=FALSE)
 dev.off()
 ```
 

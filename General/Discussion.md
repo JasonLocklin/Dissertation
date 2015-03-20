@@ -114,13 +114,13 @@ specific design elements empirically chosen to maximize them.  The
 types of parameters used are likely to be important, as research
 has demonstrated that the type of saccade
 [@Schraa-Tam2009,@Johnston2008,@Müri2008], or even the magnitude
-of the adaptation direction [i.e., +- gain, @Catz2008, @Golla2008,
-@Panouillères2012] can result in very different patterns of brain
-activation.  @Garaas2011 was able to identify long-lasting
-perceptual effects of saccadic adaptation, but this involved
-developing a new, whole-field adaptation protocol. Future attempts
-to change perceptual biases with saccadic adaptation should
-consider these parameters, especially the potential use of
+of the adaptation direction [i.e., $\pm \text{gain}$, @Catz2008,
+@Golla2008, @Panouillères2012] can result in very different
+patterns of brain activation.  @Garaas2011 was able to identify
+long-lasting perceptual effects of saccadic adaptation, but this
+involved developing a new, whole-field adaptation protocol. Future
+attempts to change perceptual biases with saccadic adaptation
+should consider these parameters, especially the potential use of
 whole-field adaptation [@Garaas2011].
 
 Beyond the type of adaptation used, it is possible that the

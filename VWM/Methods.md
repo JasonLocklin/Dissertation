@@ -10,7 +10,7 @@ eight neurological patients, recruited from the Neurological
 Patient Database (Funded through the Heart and Stroke Foundation
 of Ontario, https://uwaterloo.ca/neurological-patient-database/),
 who showed symptoms of neglect in pre-testing (3 male, 2 left
-handed, mean age of 66, see table [tbl.VWM] for more details), and
+handed, mean age of 66, see table [tbl_VWM] for more details), and
 a healthy older control group recruited from the University of
 Waterloo's Research on Aging Participant pool (3 male, handedness
 untested, mean age of 74).  All of the neurological patients were 
@@ -38,7 +38,7 @@ targets on the left side of the page was recorded, and impaired
 performance was defined as \> 10% omission of left-sided targets.
 Three of the patients scored as impaired on all tasks, and these
 participants also scored highest quantitatively on the bisection
-and cancellation tasks (see table [tbl.VWM]).  Only one did not
+and cancellation tasks (see table [tbl_VWM]).  Only one did not
 show neglect on any task.
 
 ![Table presents demographic data, measures of attention (CES) and
@@ -57,7 +57,7 @@ leftward stimuli missed on the Star Cancellation task. Neglect
 observed in figure copying is coded as a "+" under "Copying." Line
 bisection performance is recorded as the bias, in terms of
 percentage of line length, with positive values indicating
-rightward bias, under "Bisection."](tbl.VWM.pdf.png)
+rightward bias, under "Bisection."](tbl_VWM.pdf.png)
 
 
 

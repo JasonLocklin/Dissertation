@@ -332,7 +332,7 @@ grid.arrange(tableGrob(t), tableGrob(tn), ncol=2,
              sub="tbl:SA. (a) Test trials only, (b) All trials", clip=FALSE)
 
 
-pdf("tbl.SA.pdf", paper='USr', width=11)
+pdf("tbl_SA.pdf", paper='USr', width=11)
 grid.arrange(tableGrob(t), tableGrob(tn), ncol=2, 
              sub="tbl:SA. (a) Test trials only, (b) All trials", clip=FALSE)
 dev.off()

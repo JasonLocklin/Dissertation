@@ -35,7 +35,7 @@ values represent the slope of a linear model of the log-log
 transformed real and estimated time intervals. A value of 1
 indicates would indicate estimates that increase in proportion to
 actual time intervals. SWM values indicate accuracy based on hits
-minus false alarms.](tbl.Prisms.pdf.png) 
+minus false alarms.](tbl_Prisms.pdf.png) 
 
 
 
@@ -54,7 +54,7 @@ beginning of every session.  Line bisection was also performed
 twice during sessions involving prisms, before and after
 adaptation.  Coding and analysis of the tasks were performed in
 the same way as in Chapter 1. The results of the clinical measures
-are depicted in table [tbl.Prisms].
+are depicted in table [tbl_Prisms].
 
 #### Spatial Working Memory Task
 
