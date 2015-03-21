@@ -8,10 +8,14 @@
  
 % Specify the document class, default style attributes, and page dimensions
 % For hyperlinked PDF, suitable for viewing on a computer, use this:
-\documentclass[letterpaper,12pt,titlepage,oneside,final]{book}
+\documentclass[british,letterpaper,12pt,titlepage,oneside,final]{book}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage{textcomp}
 
+\usepackage{setspace}
+\usepackage{babel}
+\usepackage{csquotes}
 % For PDF, suitable for double-sided printing, change the PrintVersion variable below
 % to "true" and use this \documentclass line instead of the one above:
 %\documentclass[letterpaper,12pt,titlepage,openright,twoside,final]{book}
@@ -38,6 +42,8 @@
 \usepackage{mathtools}
 \usepackage[pdftex]{graphicx} % For including graphics N.B. pdftex graphics driver 
 
+\usepackage{rotating} % Alow for rotating figures
+
 % Hyperlinks make it very easy to navigate an electronic document.
 % In addition, this is where you should specify the thesis title
 % and author as they appear in the properties of the PDF document.
@@ -48,7 +54,8 @@
 % BibLaTeX requirements
 %\usepackage[]{babel}% Recommended
 \usepackage{csquotes}% Recommended
-\usepackage[style=authoryear, backend=biber]{biblatex}
+\usepackage[backend=biber,date=short,maxcitenames=2,style=apa]{biblatex}
+\DeclareLanguageMapping{british}{british-apa}
 % \bibliography{<mybibfile>}% ONLY selects .bib file; syntax for version <= 1.1b
 \addbibresource{Dissertation.bib}% Syntax for version >= 1.2
 
@@ -73,7 +80,7 @@
     pdfnewwindow=true,      % links in new window
     colorlinks=true,        % false: boxed links; true: colored links
     linkcolor=blue,         % color of internal links
-    citecolor=green,        % color of links to bibliography
+    citecolor=blue,        % color of links to bibliography
     filecolor=magenta,      % color of file links
     urlcolor=cyan           % color of external links
 }
@@ -132,6 +139,7 @@
 %   L O G I C A L    D O C U M E N T -- the content of your thesis
 %======================================================================
 \begin{document}
+
 
 % For a large document, it is a good idea to divide your thesis
 % into several files, each one containing one chapter.

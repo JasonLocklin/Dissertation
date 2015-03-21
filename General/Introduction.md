@@ -1,3 +1,7 @@
+General Introduction 
+======================
+
+
 Unilateral spatial neglect is a disorder commonly resulting from
 damage to the right inferior parietal or superior temporal cortex
 [@Vallar1986; @Karnath2001; @Karnath2012; @Mort2003; @Buxbaum2004;
