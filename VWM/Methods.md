@@ -40,23 +40,26 @@ participants also scored highest quantitatively on the bisection
 and cancellation tasks (see table [tbl_VWM]).  Only one did not
 show neglect on any task.
 
-![Table presents demographic data, measures of attention (CES) and
-visual working memory, as well as performance on the three
-clinical measures of neglect by the patient group (described in
-Results). "CES" indicates the leftward cue-effect-size on the
-COVAT test, with larger numbers indicating more difficulty
-re-orienting leftward when attention is initially cued to
-non-neglected, right space.  "VWM(1)" is the average probability a
-patient guesses the target colour in the single target condition,
-with increased values indicating a deficit.  "VWM(2/3)" is the
-average probability a patient selects one of the distractor
-colours, with increasing values indicating a colour-location
-binding deficit. Values for "Stars" are coded as the percentage of
-leftward stimuli missed on the Star Cancellation task. Neglect
-observed in figure copying is coded as a "+" under "Copying." Line
-bisection performance is recorded as the bias, in terms of
-percentage of line length, with positive values indicating
-rightward bias, under "Bisection."](tbl_VWM.pdf.png)
+\begin{figure}[htbp]
+\centering
+\includegraphics{tbl_VWM.pdf.png}
+\caption{Table presents demographic data, measures of attention (CES)
+and visual working memory, as well as performance on the three clinical
+measures of neglect by the patient group (described in Results). ``CES''
+indicates the leftward cue-effect-size on the COVAT test, with larger
+numbers indicating more difficulty re-orienting leftward when attention
+is initially cued to non-neglected, right space. ``VWM(1)'' is the
+average probability a patient guesses the target colour in the single
+target condition, with increased values indicating a deficit.
+``VWM(2/3)'' is the average probability a patient selects one of the
+distractor colours, with increasing values indicating a colour-location
+binding deficit. Values for ``Stars'' are coded as the percentage of
+leftward stimuli missed on the Star Cancellation task. Neglect observed
+in figure copying is coded as a ``+'' under ``Copying.'' Line bisection
+performance is recorded as the bias, in terms of percentage of line
+length, with positive values indicating rightward bias, under
+``Bisection.''}
+\end{figure}
 
 
 
@@ -96,8 +99,12 @@ the two or three probes was highlighted, and the participant would
 be required to recall the colour of the target that had been
 presented at that particular location (Figure [fig_Ch1-task]).
 
-![Figure depicts both VWM (above) and COVAT (below) tasks. The
-three-target condition of VWM is depicted.](fig_Ch1-task.pdf.png)
+
+
+\begin{figure}[htbp] \centering
+\includegraphics[width=\textwidth]{fig_Ch1-task.pdf.png}
+\caption{Figure depicts both VWM (above) and COVAT (below) tasks.
+The three-target condition of VWM is depicted.} \end{figure}
 
 
 #### Covert Orienting of Attention Task
@@ -152,9 +159,13 @@ also recorded. This provides a measure of the spatial response
 precision of those trials where the patient successfully recalls
 and reports a target colour (i.e., $P_T$ and $P_{NT}$).
 
-![Figure depicts the three probability distributions used to
-calculate the three values.](fig_Emrich2012.pdf.png)
 
+\begin{figure}[htbp]
+\centering
+\includegraphics{fig_Emrich2012.pdf.png}
+\caption{Figure depicts the three probability distributions used to
+calculate the three values.}
+\end{figure}
 
 For the covert orienting task, response times were recorded and
 means were calculated for each trial category for each

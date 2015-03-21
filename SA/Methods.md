@@ -73,12 +73,15 @@ method using up to 20 trials (less if the staircase settled on a
 stable response earlier).  Again, the stimuli remained on screen
 until a response was registered (see figure [fig_Landmark]).
 
-![Figure depicts two trials of the landmark task. Initial trials
-have obvious bias, and the participant responds by indicating
-whether the mark was right or left of centre. The stimuli bias was
-adjusted with a staircase method to identify the location at which
-the participant is unable to judge the bias and guesses
-randomly.](fig_Landmark.pdf.png) 
+\begin{figure}[htbp]
+\centering
+\includegraphics{fig_Landmark.pdf.png}
+\caption{Figure depicts two trials of the landmark task. Initial trials
+have obvious bias, and the participant responds by indicating whether
+the mark was right or left of centre. The stimuli bias was adjusted with
+a staircase method to identify the location at which the participant is
+unable to judge the bias and guesses randomly.}
+\end{figure}
 
 
 #### Saccadic Adaptation
@@ -105,14 +108,18 @@ changes to the saccade length induced by adaptation without the
 potential that the saccade was somehow updated mid-flight to the
 new location.
 
-![Figure depicts saccadic adaptation trials for both experiments.
-The upper portion depicts the on-screen stimuli presented during
-an individual trial, while the lower portion depicts expected eye
-movement relative to target onset and perturbations. The case
-study (described later) utilized the same timing, but involved
-different initial target direction, saccade direction, and
-involved saccadic augmentation, rather than
-reduction.](fig_SA.pdf.png) 
+\begin{figure}[htbp]
+\centering
+\includegraphics{fig_SA.pdf.png}
+\caption{Figure depicts saccadic adaptation trials for both experiments.
+The upper portion depicts the on-screen stimuli presented during an
+individual trial, while the lower portion depicts expected eye movement
+relative to target onset and perturbations. The case study (described
+later) utilized the same timing, but involved different initial target
+direction, saccade direction, and involved saccadic augmentation, rather
+than reduction.}
+\end{figure}
+
 
 ### Data Analysis
 
@@ -162,30 +169,32 @@ an experimentally determined parameter (1500$^\circ$/second).  The
 analysis of a typical trial is presented graphically in figure
 [fig_Saccade].
 
-![Figure depicts typical eye movements over a single trial.  Top
-panel depicts eye movement speed over the course of the trial,
-while the bottom panel depicts horizontal position relative to the
-target positions. The rolling maximum broadens the speed curve for
-a saccade so that a threshold function reliably captures the
-complete displacement of the saccade. This trial shows partial
-adaptation, as the initial saccade falls short of the target, but
-still far enough that a corrective saccade is required to bring
-the eyes to the perturbed location. Individual trials were then
-removed from the analysis if the data was not of sufficient
-quality to calculate a reliable first-saccade length. These
-criteria and parameters were determined by plotting randomly
+\begin{figure}[htbp]
+\centering
+\includegraphics{fig_Saccade.pdf.png}
+\caption{Figure depicts typical eye movements over a single trial. Top
+panel depicts eye movement speed over the course of the trial, while the
+bottom panel depicts horizontal position relative to the target
+positions. The rolling maximum broadens the speed curve for a saccade so
+that a threshold function reliably captures the complete displacement of
+the saccade. This trial shows partial adaptation, as the initial saccade
+falls short of the target, but still far enough that a corrective
+saccade is required to bring the eyes to the perturbed location.
+Individual trials were then removed from the analysis if the data was
+not of sufficient quality to calculate a reliable first-saccade length.
+These criteria and parameters were determined by plotting randomly
 selected trials from the data-set and comparing the algorithm's
-selections with manual judgment.  Trials were removed if there was
-more total displacement during fixations than identified saccades
-(which occurred when large but slow velocity drifts occurred
-during fixations). They were also removed when there were more
-than two saccades in the short window of a trial (3 or more
-saccades in a single trial usually indicated erratic eye
-movements).  Trials were also dropped if they appeared to contain
-no saccades, or if a lack of eye position data from the tracker
-resulted in large gaps or a low overall number of samples (which
-can result from blinking). As a result, approximately half (56%)
-of trials proved usable in the analysis.](fig_Saccade.pdf.png) 
+selections with manual judgment. Trials were removed if there was more
+total displacement during fixations than identified saccades (which
+occurred when large but slow velocity drifts occurred during fixations).
+They were also removed when there were more than two saccades in the
+short window of a trial (3 or more saccades in a single trial usually
+indicated erratic eye movements). Trials were also dropped if they
+appeared to contain no saccades, or if a lack of eye position data from
+the tracker resulted in large gaps or a low overall number of samples
+(which can result from blinking). As a result, approximately half (56\%)
+of trials proved usable in the analysis.}
+\end{figure}
 
 The blocks were split up into approximate thirds, with the first
 third of the first block considered as a pseudo-baseline, to be

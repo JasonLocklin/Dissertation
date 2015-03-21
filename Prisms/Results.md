@@ -15,11 +15,14 @@ the non-neglecting group, the remaining patients baseline
 performance was at least 3 standard deviations outside what was
 observed in either group.
 
-![Figure depicts pre and post-prism SWM performance for all
-participants. Overlaid are means and bands of 2 standard
-deviations of neurologically intact (light band), and
-non-neglecting right brain damaged (dark band) controls from
-@Ferber2006.](fig_SWM.pdf.png)
+\begin{figure}[htbp]
+\centering
+\includegraphics{fig_SWM.pdf.png}
+\caption{Figure depicts pre and post-prism SWM performance for all
+participants. Overlaid are means and bands of 2 standard deviations of
+neurologically intact (light band), and non-neglecting right brain
+damaged (dark band) controls from @Ferber2006.}
+\end{figure}
 
 
 
@@ -66,16 +69,14 @@ The worst case model was, nevertheless, still significant
 despite their poor performance, patients' responses were, in fact,
 reliably influenced by the true trial intervals.
 
-![Figure depicts both line-plots of reported interval vs. true
-interval (right), and barplots that depict performance change pre-
-and post-prisms, calculated as the slope of a linear model of
-estimated and actual time intervals.  One patient repeated the
-post-adaptation task, and both results are included here. Patient
-27, the patient that did not show clinical signs of neglect at
-time of testing, can be seen to exhibit a slope of near 1 (left),
-indicating that estimated time intervals increase in proportion to
-actual intervals, and this can be seen at right, as a nearly
-diagonal line.](fig_TE.pdf.png)
+
+\begin{figure}[htbp]
+\centering
+\includegraphics{fig_LB_Prisms.pdf.png}
+\caption{Figure depicts each individual's average line bisection
+performance pre- and post-prisms. Bars indicate the direction of bias,
+with values encoded as percentage of line length.}
+\end{figure}
 
 ### Line bisection
 

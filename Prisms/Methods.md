@@ -21,21 +21,24 @@ spatial working memory task (giving a single response to all
 trials), and was therefore removed from that component of the
 analysis.
 
-![Table (a), above, includes demographic information for the
+\begin{figure}[htbp]
+\centering
+\includegraphics{tbl_Prisms.pdf.png}
+\caption{Table (a), above, includes demographic information for the
 patients, as well as performance on star cancellation, bell
-cancellation, and figure copying, all before and after prism
-adaptation (See Results for analysis).  For star and bell
-cancellation, values indicate the percentage of left-sided targets
-omitted. For figure copying, a "+" indicates the presence of
-neglect. Table (b), below, includes performance on the line
-bisection (LB), temporal estimation (TE), and spatial working
-memory (SWM) tasks. Line bisection is recorded as percentage of
-line length, with positive values indicating rightward bias. TE
-values represent the slope of a linear model of the log-log
-transformed real and estimated time intervals. A value of 1
-indicates would indicate estimates that increase in proportion to
-actual time intervals. SWM values indicate accuracy based on hits
-minus false alarms.](tbl_Prisms.pdf.png) 
+cancellation, and figure copying, all before and after prism adaptation
+(See Results for analysis). For star and bell cancellation, values
+indicate the percentage of left-sided targets omitted. For figure
+copying, a ``+'' indicates the presence of neglect. Table (b), below,
+includes performance on the line bisection (LB), temporal estimation
+(TE), and spatial working memory (SWM) tasks. Line bisection is recorded
+as percentage of line length, with positive values indicating rightward
+bias. TE values represent the slope of a linear model of the log-log
+transformed real and estimated time intervals. A value of 1 indicates
+would indicate estimates that increase in proportion to actual time
+intervals. SWM values indicate accuracy based on hits minus false
+alarms.}
+\end{figure}
 
 
 
@@ -86,13 +89,17 @@ previously occupied by a target. A total of 120 trials constituted
 a single session.  In 50% of trials, the circle appeared in the
 same position as one of the preceding squares.
 
-![Figure upper panel (a) depicts one trial of the temporal
-estimation task. The numbers were randomly selected and displayed
-at random times (though, not at the very beginning or end of the
-trial). The lower panel (b) depicts the spatial working memory
-task. The trial depicted is a "valid" trial, as the probe (circle)
-is in the same location as one of the initial three targets
-(squares).](fig_Prisms.pdf.png) 
+\begin{figure}[htbp]
+\centering
+\includegraphics{fig_Prisms.pdf.png}
+\caption{Figure upper panel (a) depicts one trial of the temporal
+estimation task. The numbers were randomly selected and displayed at
+random times (though, not at the very beginning or end of the trial).
+The lower panel (b) depicts the spatial working memory task. The trial
+depicted is a ``valid'' trial, as the probe (circle) is in the same
+location as one of the initial three targets (squares).}
+\end{figure}
+
 
 #### Temporal Estimation Task
 
