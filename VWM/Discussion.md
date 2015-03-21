@@ -59,7 +59,7 @@ non-targets in multi-target conditions (Figure [fig_VWM_MTarget]).
 There are many potential explanations for this, the most obvious
 being an increase in failures of binding colour and location in
 working memory, a cross-domain cognitive process that has been
-shown degraded in parietal and neglect patients (@Humphreys2009,
+shown degraded in parietal and neglect patients (@Humphreys2009;
 @Pisella2004).  When more than one target is presented, colour
 information must be explicitly associated with spatial location in
 memory.  If all of the colours are effectively encoded and
@@ -90,7 +90,7 @@ stimuli would have permitted *some* leftward orienting and thus
 calculation of cueing effects. The remaining patients do not
 demonstrate clear alignment with the severity of clinical results,
 but, considering that others have found covert orienting to be a
-reliable indicator of neglect symptoms [@Posner1984; @Morrow1988,
+reliable indicator of neglect symptoms [@Posner1984; @Morrow1988;
 @Losier2001], task constraints may be responsible. For example,
 the two, short, stimulus onset timings were chosen prevent the
 need for eye movement monitoring (i.e., at 150ms SOA, targets
@@ -140,7 +140,7 @@ explore this further.
 Most rehabilitation techniques implemented in neglect focus on
 remediating the attention deficits. If these attention deficits
 are indeed distinct from the working memory impairments discussed
-here and elsewhere (e.g.; @Husain2001; @Danckert2006,
+here and elsewhere (e.g.; @Husain2001; @Danckert2006;
 @Striemer2013), then this rehabilitation strategy will fail to
 address this domain, and may leave patients with untreated
 symptoms.  The next chapter addresses this question by examining

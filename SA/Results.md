@@ -65,13 +65,13 @@ Participants did not show any significant bias when responding on
 the line bisection task pre-adaptation ($t( 48 ) = 0.62$,
 $\text{p} = 0.541$ ). In contrast, performance on the landmark
 task indicated a rightward bias such that participants placed the
-mark 0.24° (0.18cm) to the right of true centre ($t( 48) = 5.6$,
+mark 0.24$^\circ$ (0.18cm) to the right of true centre ($t( 48) = 5.6$,
 $\text{p} < 0.01$). Such a rightward bias indicated that
 participants perceived the left half of the line to be larger, as
 has been shown in prior work [Pseudo-neglect; @Bowers1980].
 Interestingly, all participants performed very accurately on these
 two tasks, with the worst performance still less than a centimetre
-from centre (0.8° and 1.0° for line bisection and landmark,
+from centre (0.8$^\circ$ and 1.0$^\circ$ for line bisection and landmark,
 respectively.) Performance on the two tasks was not significantly
 correlated ($r = -0.2$, $t(47) = -1.57$, $\text{p}=0.12$).
 
@@ -88,9 +88,9 @@ post-adaptation ( $t( 35 ) = -0.55$, $\text{p} = 0.583$, and
 $t(36 ) = -0.88$, $\text{p} = 0.384$ respectively).  Based on the
 sample variance and sample size, a power analysis revealed that
 the experiment would have had a 95% chance of detecting a
-post-adaptation change in the landmark task as small as 0.1°
+post-adaptation change in the landmark task as small as 0.1$^\circ$
 (0.08cm, $n = 37$, $sd = 0.15$), less than half the pre-existing
-bias  and a change of 0.12° (0.09cm, $n = 36$, $sd = 0.14$) in
+bias  and a change of 0.12$^\circ$ (0.09cm, $n = 36$, $sd = 0.14$) in
 line bisection. 
 
 

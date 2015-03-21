@@ -96,7 +96,7 @@ subtle pathological orienting deficits exist for central and right
 space that in turn impact upon working memory. If this was the
 case, though, we might expect perceptual deficits to improve as a
 result of improvement in attention deficits, and this does not
-appear to be the case [@Rousseaux2006; @Striemer2010tpd,
+appear to be the case [@Rousseaux2006; @Striemer2010tpd;
 @Striemer2010dpm; @Ferber2003; @Sarri2006].  Second, the ability
 to utilize spatial attention for rehearsal may be disrupted in
 neglect via a disconnection of the dorsal and ventral streams

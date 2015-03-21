@@ -68,4 +68,4 @@ check:
 
 clean:
 	-rm figures.zip $(interm) $(outname)* *.pdf.png pngs *.aux *.bcf \
-		*.lof *.log *.lot *.out *.xml *.toc 
+		*.lof *.log *.lot *.out *.xml *.toc *.bbl *.blg 

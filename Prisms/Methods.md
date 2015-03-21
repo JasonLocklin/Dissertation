@@ -69,10 +69,10 @@ a tk inch display. The task was the same as described in
 @Ferber2006. At the beginning of each trial, patients fixated a
 red central cross. Once fixated, the experimenter began the trial
 by depressing a key and the cross turned green. After 1 second,
-three targets were presented 2° to the right of fixation,
-vertically aligned. The targets were squares subtending 1.5°, and
+three targets were presented 2$^\circ$ to the right of fixation,
+vertically aligned. The targets were squares subtending 1.5$^\circ$, and
 could appear in any of 16 different locations, however, targets
-were always separated from one-another by at least 2°.
+were always separated from one-another by at least 2$^\circ$.
 
 The targets remained on-screen for 2 seconds which was followed by
 a delay of 3 seconds. A probe stimulus (a circle of the same size
@@ -103,13 +103,13 @@ verbal responses, and the experimenter entered those responses and
 controlled the task via the keyboard. The task was the same as
 @Danckert2007. When a trial was initiated by the experimenter, an
 illusory motion stimulus was presented that consisted of eight
-open circles (each subtending 3.5°), arranged in a larger circle
-around the centre of the screen (radius of 8°), with each circle
+open circles (each subtending 3.5$^\circ$), arranged in a larger circle
+around the centre of the screen (radius of 8$^\circ$), with each circle
 being filled, sequentially, one at a time, in a clockwise
 direction (figure [fig:Prisms]).  This created the illusion of a
 filled-circle moving around the outer circle. Rather than a
 fixation, the centre of the screen periodically displayed a number
-(numbers 1-9, presented for 300ms, 1.5° in size), which the
+(numbers 1-9, presented for 300ms, 1.5$^\circ$ in size), which the
 participant was asked to verbally report as they appeared. This
 effectively maintained central fixation for the patients and
 provided a check that participants were attending to the task. In

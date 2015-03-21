@@ -31,7 +31,7 @@ progress in the search, for instance. While patients do not seem
 to have trouble discerning the stimulus types used in visual
 search, eye-tracking research has demonstrated that even young,
 healthy, individuals can occasionally fixate, or even interact
-with targets, but still fail to identify them [@Rich2008,
+with targets, but still fail to identify them [@Rich2008;
 @Solman2012], so reduced perceptual judgment can play a role in
 diminished search performance.  That diminished performance could
 also come from the search algorithm itself.  People do not search
@@ -79,8 +79,8 @@ neglect, and yet, as highlighted in the previous chapter, there
 are significant deficits that can be characterized as primarily
 loading the ventral visual system in neglect. For example, visual
 and spatial working memory [Ch.1.; @Wojciulik2001; @Striemer2013],
-perceptual judgments of spatial extent [@Dijkerman2003,
-@Striemer2010dpm], or emotional expression [@Ferber2003,
+perceptual judgments of spatial extent [@Dijkerman2003;
+@Striemer2010dpm], or emotional expression [@Ferber2003;
 @Sarri2006], among others.  This chapter explores the influence of
 prisms on two functions shown to be impaired in neglect, and
 chosen because they demonstrate impairments in a neglect patient's

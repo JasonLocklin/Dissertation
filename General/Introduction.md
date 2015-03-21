@@ -1,6 +1,6 @@
 Unilateral spatial neglect is a disorder commonly resulting from
 damage to the right inferior parietal or superior temporal cortex
-[@Vallar1986; @Karnath2001; @Karnath2012; @Mort2003; @Buxbaum2004,
+[@Vallar1986; @Karnath2001; @Karnath2012; @Mort2003; @Buxbaum2004;
 @Verdon2010].  Hereafter, specifically referred to simply as
 "neglect," the disorder causes a heterogeneous collection of
 deficits that can be generally categorized as an inability to
@@ -11,7 +11,7 @@ grooming and eating [@Halligan2003; @Kerkhoff2001], drawing
 [@Halligan1989], posture [@Rode1997], and perceptual judgment of
 spatial extent [@Dijkerman2003; @Striemer2010dpm].  The disorder
 is, as can be expected from the list of symptoms, debilitating,
-and is associated with poor rehabilitative outcome [@Cassidy1998,
+and is associated with poor rehabilitative outcome [@Cassidy1998;
 @Ringman2004].  Less than half of patents show improvements in the
 weeks after a neglect inducing stroke, and a small minority fully
 recover [@Farnè2004].
@@ -99,7 +99,7 @@ made to examine attention and perception more directly, the
 ameliorative effects seem to be somewhat less clear. Some direct
 measures of attentional biases have been shown to be affected by
 prisms, such as covert shifts of attention
-[@Striemer2007,Nijboer2008], and extinction [@Serino2007], while
+[@Striemer2007;Nijboer2008], and extinction [@Serino2007], while
 other, perhaps more realistic measures of attention, such as a
 serial visual search task, have failed to show an effect
 [@Morris2004]. Similarly, while several studies have shown that

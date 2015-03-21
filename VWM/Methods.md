@@ -109,8 +109,8 @@ as the visual working memory task described above. It was
 programmed and run in Superlab (Cedrus Software). Participants
 were presented with 100 trials, outlined in figure [fig_CH1-task].
 A single trial sequence consisted of a fixation cross with
-peripheral landmarks (empty green circles 12° to right and left of
-centre, each subtending 2°). This stimulus was followed by the
+peripheral landmarks (empty green circles 12$^\circ$ to right and left of
+centre, each subtending 2$^\circ$). This stimulus was followed by the
 appearance of a peripheral cue (1050-1550ms), which consisted of
 the brightening of one landmark.  After an SOA of 50 or 150ms,
 targets, which consisted of red circles presented within the

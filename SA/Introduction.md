@@ -47,8 +47,8 @@ There are other differences between the two tasks that may make
 saccadic adaptation more useful as a rehabilitation tool in
 neglect.  For example; unlike other adaptive systems, saccades are
 unable to make corrections in-flight due to the lack of useful
-visual feedback throughout the duration of the action [@Dodge1900,
-@MacKay1970; @Campbell1978; @Volkmann1978; @Matin1982].
+visual feedback throughout the duration of the action [@Dodge1900;
+@Mackay1970; @Campbell1978; @Volkmann1978; @Matin1982].
 Therefore, they are, by nature, ballistic, relying on error
 signals after each event to maintain highly accurate motor plans.
 This may be valuable in neglect as patients tend toward slow,
@@ -65,7 +65,7 @@ wearing of magnifying glasses on one or both eyes
 [@Kommerell1976]. There exists a rich, half-century of
 investigation into the saccadic adaptation system, most of it
 relying on a behavioural saccadic adaptation paradigm, developed
-by @McLaughlin1967, that utilizes target perturbations presented
+by @McLaughlin1967; that utilizes target perturbations presented
 during saccades.
 
 [describe saccade adaptation procedure and classic results]
@@ -74,16 +74,16 @@ while the participant is making eye movements. If perturbations
 are configured such that saccades seem to over-shoot their target,
 then adapted saccades will become shorter over time
 [@McLaughlin1967].  The same can be done to lengthen saccades,
-though the mechanisms may be somewhat different [@Catz2008,
-@Golla2008; @Hernandez2008; @Panouillères2009; @Panouillères2012,
+though the mechanisms may be somewhat different [@Catz2008;
+@Golla2008; @Hernandez2008; @Panouillères2009; @Panouillères2012;
 @Hopp2004].
 
 [Retinotopic] Saccadic adaptation operates in a retinocentric
 reference frame. That is to say, the starting eye position is
 irrelevant, with only the vector direction of the eye movement
-being important [@Catz2008; @Golla2008; @Hernandez2008,
+being important [@Catz2008; @Golla2008; @Hernandez2008;
 @Panouillères2009; @Panouillères2012]. For example, if rightward
-saccades of 10° are reduced by saccadic adaptation, other similar
+saccades of 10$^\circ$ are reduced by saccadic adaptation, other similar
 rightward saccades will be hypometric, regardless of the eye or
 head position.  Congruent with a retinocentric vector-based
 representation, adaptation of saccades of a given length will
@@ -108,7 +108,7 @@ motion.  In other words, their threshold for detecting upward
 motion was increased, while thresholds for detecting downward
 motion, decreased [@Mack1978].  Perception of the spatial location
 of targets presented before or during saccades can be biased by
-saccadic adaptation [@Awater2005; @George2008; @Bruno2007,
+saccadic adaptation [@Awater2005; @George2008; @Bruno2007;
 @Zimmermann2009], and the pre-saccadic attentional shift can also
 be influenced [@Doré-Mazars2005; @Collins2006]. It could be
 claimed that the perceptual effects above occur only near
