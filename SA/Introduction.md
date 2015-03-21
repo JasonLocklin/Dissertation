@@ -75,14 +75,14 @@ are configured such that saccades seem to over-shoot their target,
 then adapted saccades will become shorter over time
 [@McLaughlin1967].  The same can be done to lengthen saccades,
 though the mechanisms may be somewhat different [@Catz2008;
-@Golla2008; @Hernandez2008; @Panouillères2009; @Panouillères2012;
+@Golla2008; @Hernandez2008; @Panouilleres2009; @Panouilleres2012;
 @Hopp2004].
 
 [Retinotopic] Saccadic adaptation operates in a retinocentric
 reference frame. That is to say, the starting eye position is
 irrelevant, with only the vector direction of the eye movement
 being important [@Catz2008; @Golla2008; @Hernandez2008;
-@Panouillères2009; @Panouillères2012]. For example, if rightward
+@Panouilleres2009; @Panouilleres2012]. For example, if rightward
 saccades of 10$^\circ$ are reduced by saccadic adaptation, other similar
 rightward saccades will be hypometric, regardless of the eye or
 head position.  Congruent with a retinocentric vector-based
@@ -93,11 +93,11 @@ horizontal and vertical adaptation are also independent of
 one-another [@Watanabe2003]. Perhaps most indicative of a purely
 retinotopic reference frame, adaptation of saccades of one
 direction does not influence saccades of the opposite direction,
-regardless of spatial overlap [@Deubel1986; @Frens1994;
-@Albano1996]. Inducing changes in a retinocentric frame of
-reference could potentially influence a broader range of
-behaviours important for both attention and the accurate
-construction of perceptual representations.
+regardless of spatial overlap [@Frens1994; @Albano1996].  Inducing
+changes in a retinocentric frame of reference could potentially
+influence a broader range of behaviours important for both
+attention and the accurate construction of perceptual
+representations.
 
 [Perception] There are also several lines of research that
 indicate that saccadic adaptation can influence perception. For
@@ -108,9 +108,9 @@ motion.  In other words, their threshold for detecting upward
 motion was increased, while thresholds for detecting downward
 motion, decreased [@Mack1978].  Perception of the spatial location
 of targets presented before or during saccades can be biased by
-saccadic adaptation [@Awater2005; @George2008; @Bruno2007;
+saccadic adaptation [@Awater2005; @Georg2008; @Bruno2007;
 @Zimmermann2009], and the pre-saccadic attentional shift can also
-be influenced [@Doré-Mazars2005; @Collins2006]. It could be
+be influenced [@Dore-Mazars2005; @Collins2006]. It could be
 claimed that the perceptual effects above occur only near
 saccades, but saccadic adaptation can also induce biases in the
 perception of spatial extent in the absence of eye movements

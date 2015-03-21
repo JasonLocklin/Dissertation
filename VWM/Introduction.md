@@ -27,7 +27,7 @@ highlighted aspects of neglect that clearly go beyond spatially
 lateralized deficits of attention. For example, neglect patients
 tend to have difficulties with sustained attention
 [@Robertson1995], even when operating in a non-spatial modality
-[@Roberson1997]. The attentional blink, a measure of temporal,
+[@Robertson1997]. The attentional blink, a measure of temporal,
 selective attention is exaggerated in neglect. When presented with
 a rapid series of stimuli with two embedded targets separated by
 varying temporal intervals, neglect patients require up to three
@@ -35,8 +35,8 @@ times as much time between targets in order to identify both
 correctly [@Husain1997]. In addition to these non-lateralized
 attention deficits, recent work has highlighted deficits of
 spatial working memory for stimuli in central or right, putatively
-non-neglected space
-[@Husain2001; @Danckert2006; @Malhotra2005; @Striemer2013].
+non-neglected space [@Husain2001; @Danckert2006; @Malhotra2005;
+@Striemer2013].
 
 Non-lateralized selective attention and sustained attention are
 strongly correlated with both neglect severity, and recovery over
@@ -61,7 +61,7 @@ re-orienting to left space have been tried, with little clinical
 effectiveness.  The most promising treatment has been prism
 adaptation, because it is non-aversive, and because it has been
 shown to produce effects lasting much longer than the treatment
-duration [@Rossetti1998; @Farnè2002; @Frassinetti2002].
+duration [@Rossetti1998; @Farne2002; @Frassinetti2002].
 Unfortunately, while prism adaptation produces striking changes in
 spatial attention [@Striemer2007; @Nijboer2008], there is a small,
 but increasing set of neglect deficits that are not improved

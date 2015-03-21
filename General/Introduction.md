@@ -14,14 +14,14 @@ is, as can be expected from the list of symptoms, debilitating,
 and is associated with poor rehabilitative outcome [@Cassidy1998;
 @Ringman2004].  Less than half of patents show improvements in the
 weeks after a neglect inducing stroke, and a small minority fully
-recover [@Farnè2004].
+recover [@Farne2004].
 
 [Disorder of Spatial-attention] Most theoretical accounts of the
 neglect syndrome describe it as either a deficit of the deployment
 of spatial attention, or one of impaired awareness. More
 specifically, either an inability to report, respond, or orient
-attention toward stimuli in left space [@DriverMattingley1998
-; @Halligan2003; @Heilman1993] , or a general loss of environmental
+attention toward stimuli in left space [@Driver1998 ;
+@Halligan2003; @Heilman1993] , or a general loss of environmental
 awareness that can at it's most extreme, cause a person to act as
 if the entire contralesional half of their world has ceased to
 exist [@Mesulam1981 ]. The spatial-attention based model does a
@@ -57,12 +57,12 @@ disproportionately slower to respond to left sided targets
 following a right sided cue -- as if they have trouble disengaging
 from the cue when presented in right space.  Similarly, in a
 visual search task, performance in contralateral space is driven
-by the number of ipsilesional distractors [@EglinKnight1989]. This
+by the number of ipsilesional distractors [@Eglin1989]. This
 coincides with a general body of research that supports the notion
 that a crucial function of the right inferior parietal cortex is
 to disengage attention from the current focus and reorient toward
-a new, salient location [for a review, see @CorbettaShulman2002
-and @CorbettaShulman2011].
+a new, salient location [for a review, see @Corbetta2002; and
+@Corbetta2011].
 
 [Prisms do lot's of things] Given the debilitating nature of the
 disorder a broad range of rehabilitation protocols have been
@@ -73,17 +73,17 @@ rehabilitation strategies have met with varied success
 ice-cold, is injected into the patient's ear canal, and neck
 muscle vibration, quickly orients the patient's torso, head, eyes,
 and attention to the stimulated side, reducing several of the
-behavioural deficits for a short time [~20 minutes;
-@AdairHeilman2003 ; @Karnath1993; @Karnath1996; @Rubens1985].
-Unfortunately, these exercises are aversive and their short-term
-effects prevent them from being useful as treatments. A much more
-promising rehabilitation technique based on prismatic glasses has
-recently been shown to have broader, and more lasting effects in
-neglect [@Rossetti1998; @Rossi1990]. When patients with neglect
-are adapted to a rightward visual shift and the glasses removed,
-the after-effects on several behavioural measures are profound,
-and last considerably longer than the adaptation time [@Farnè2002
-; @Frassinetti2002; @Pisella2002; @Rossetti1998].  Judgment of
+behavioural deficits for a short time [~20 minutes; @Adair2003 ;
+@Karnath1993; @Karnath1996; @Rubens1985].  Unfortunately, these
+exercises are aversive and their short-term effects prevent them
+from being useful as treatments. A much more promising
+rehabilitation technique based on prismatic glasses has recently
+been shown to have broader, and more lasting effects in neglect
+[@Rossetti1998; @Rossi1990]. When patients with neglect are
+adapted to a rightward visual shift and the glasses removed, the
+after-effects on several behavioural measures are profound, and
+last considerably longer than the adaptation time [@Farne2002 ;
+@Frassinetti2002; @Pisella2002; @Rossetti1998].  Judgment of
 straight-ahead and line bisection become closer to true centre
 [@Danckert2006], object cancellation, and figure copying improves
 [@Rossetti1998 ], exploratory eye movements demonstrate a

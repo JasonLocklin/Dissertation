@@ -6,10 +6,10 @@ Method
 Nine patients with right parietal damage who had shown clinical
 symptoms of neglect in previous testing were recruited from the
 Neurological Patient Database (funded through the Heart and Stroke
-Foundation of Ontario,
-https://uwaterloo.ca/neurological-patient-database/).  One patient
-(171) was from the group tested in the previous chapter.  Two
-patients were unable to return for the second phase of the
+Foundation of Ontario,\newline{}
+<https://uwaterloo.ca/neurological-patient-database>).  One
+patient (171) was from the group tested in the previous chapter.
+Two patients were unable to return for the second phase of the
 experiment because of extenuating circumstances, and a third
 participant was removed from the study because of extensive
 cerebellar damage. See table [tbl:Prisms] for demographic data on

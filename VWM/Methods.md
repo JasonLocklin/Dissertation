@@ -8,23 +8,23 @@ task and a visual working memory task (both described below). The
 covert orienting task was performed by two groups, a group of
 eight neurological patients, recruited from the Neurological
 Patient Database (Funded through the Heart and Stroke Foundation
-of Ontario, https://uwaterloo.ca/neurological-patient-database/),
-who showed symptoms of neglect in pre-testing (3 male, 2 left
-handed, mean age of 66, see table [tbl_VWM] for more details), and
-a healthy older control group recruited from the University of
-Waterloo's Research on Aging Participant pool (3 male, handedness
-untested, mean age of 74).  All of the neurological patients were 
-at least 9 months
-post injury. The study was approved by the
-University of Waterloo's Office of Research Ethics, and the
-Tri-Hospital Research Ethics board.  The two groups were not
-strictly age-matched, but did not significantly differ with
-respect to age ($t(12.5) = 1.8$, $\text{p} = 0.10$).  All patients
-were tested at least 9 months post-stroke. The visual working
-memory task was performed by these same two groups plus an
-additional control group of 9 healthy young adults recruited from
-the University of Waterloo's Research Experience Group, and were
-remediated with course credit (tk female, mean age of tk).
+of Ontario,\newline{}
+<https://uwaterloo.ca/neurological-patient-database>), who showed
+symptoms of neglect in pre-testing (3 male, 2 left handed, mean
+age of 66, see table [tbl_VWM] for more details), and a healthy
+older control group recruited from the University of Waterloo's
+Research on Aging Participant pool (3 male, handedness untested,
+mean age of 74).  All of the neurological patients were at least 9
+months post injury. The study was approved by the University of
+Waterloo's Office of Research Ethics, and the Tri-Hospital
+Research Ethics board.  The two groups were not strictly
+age-matched, but did not significantly differ with respect to age
+($t(12.5) = 1.8$, $\text{p} = 0.10$).  All patients were tested at
+least 9 months post-stroke. The visual working memory task was
+performed by these same two groups plus an additional control
+group of 9 healthy young adults recruited from the University of
+Waterloo's Research Experience Group, and were remediated with
+course credit (tk female, mean age of tk).
 
 Patients were also tested for signs of neglect using three
 standard clinical tests: line bisection, star cancellation, and
