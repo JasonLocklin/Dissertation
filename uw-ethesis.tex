@@ -41,7 +41,7 @@
 %\usepackage{amsmath,amssymb,amstext} % Lots of math symbols and environments
 \usepackage{mathtools}
 \usepackage[pdftex]{graphicx} % For including graphics N.B. pdftex graphics driver 
-
+\usepackage{url}
 \usepackage{rotating} % Alow for rotating figures
 
 % Hyperlinks make it very easy to navigate an electronic document.
@@ -54,7 +54,7 @@
 % BibLaTeX requirements
 %\usepackage[]{babel}% Recommended
 \usepackage{csquotes}% Recommended
-\usepackage[backend=biber,date=short,maxcitenames=2,style=apa]{biblatex}
+\usepackage[backend=biber,date=short,maxcitenames=2,style=apa,uniquename=false,apabackref=true]{biblatex}
 \DeclareLanguageMapping{british}{british-apa}
 % \bibliography{<mybibfile>}% ONLY selects .bib file; syntax for version <= 1.1b
 \addbibresource{Dissertation.bib}% Syntax for version >= 1.2

@@ -89,20 +89,19 @@ a relatively consistent effect across individuals. As can be seen
 in figure [fig:LB_Prisms], the changes were nearly-universally
 leftward excepting Patient 27, the non-neglecting patient.
 Patient's 95, 97, and 171 demonstrated significant leftward shifts
-in bias post-prisms (
-$t(16)=3.3$, $\text{p} < 0.008$, 
-$t(17)=4.1$, $\text{p} < 0.001$,
-$t(18)=3.2$, $\text{p} < 0.008$, respectively). 
-Patient 27 demonstrates a
-direction of change opposite to what is expected, and what the
-rest of the participants show, but this change is non-significant
-with the bonferonni adjusted criteria (
-$\alpha = 0.008$, $t(18)=-2.70$, $\text{p} = 0.015$). 
-Patient 408 produced the largest average difference in bias, but was also
-highly variable, and as a result, did not demonstrate statistically
-significant change ($t(12)=1.9$, $\text{p} = 0.08$). 
-Patient 163 clearly did not show
-measurable change post-prisms ($t(10)=1.2$, $\text{p} = 0.3$). 
+in bias post-prisms 
+($t(16)=3.3$, $\text{p} < 0.008$, 
+$t(17)=4.1$, $\text{p} < 0.001$, 
+$t(18)=3.2$, $\text{p} < 0.008$, respectively).  Patient 27
+demonstrates a direction of change opposite to what is expected,
+and what the rest of the participants show, but this change is
+non-significant with the bonferonni adjusted criteria ($\alpha =
+0.008$, $t(18)=-2.70$, $\text{p} = 0.015$).  Patient 408 produced
+the largest average difference in bias, but was also highly
+variable, and as a result, did not demonstrate statistically
+significant change ($t(12)=1.9$, $\text{p} = 0.08$).  Patient 163
+clearly did not show measurable change post-prisms ($t(10)=1.2$,
+$\text{p} = 0.3$). 
 
 
 ![Figure depicts each individual's average line bisection

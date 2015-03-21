@@ -48,7 +48,7 @@ healthy groups, who appear to have been performing at ceiling, are
 not shown to be different ($\overline{M}_{\text{diff}}  = 0.02$,
 $\text{p} = 0.56$).  However, both young adults and the older
 control group were significantly different from patients
-($\overline{M}_{\text{diff}} = 0.17$, $\text{p} < 0.001$, and ,
+($\overline{M}_{\text{diff}} = 0.17$, $\text{p} < 0.001$, and,
 $\overline{M}_{\text{diff}} = 0.19$, $\text{p} < 0.001$,
 respectively). 
 

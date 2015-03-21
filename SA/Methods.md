@@ -201,24 +201,23 @@ As a pilot experiment to examine the practical considerations and
 potential viability of saccadic adaptation in unilateral neglect,
 a single participant who had demonstrated symptoms of neglect was
 recruited from the Neurological Patient Database (University of
-Waterloo, \newline{}
-<https://uwaterloo.ca/neurological-patient-database>).  The study
-was approved by the University of Waterloo's Office of Research
-Ethics, and the Tri-Hospital Research Ethics board. The parameters
-of the task were eased in anticipation of the needs of the
-participant.  For the saccadic adaptation, the target was slightly
-larger (0.3x0.3$^\circ$). The initial target was always to a
-target in the right half of the screen (5.4 to 16.3$^\circ$ right
-of mid-line, 16.3$^\circ$ above or below the horizon), rather than
-left as in the normative sample above. It was followed, by a
-second target 16.3$^\circ$ left of this initial position.  When a
-leftward saccade was detected, this target was perturbed further
-leftward (by 5.4$^\circ$, 30%), with the intent of simulating an
-undershoot, with the intent of augmenting saccade length over
-time. A leftward increase in saccadic gain was chosen based on the
-hypothesis that inducing leftward saccadic bias may reduce the
-rightward attentional bias inherent in the disorder.  During the
-landmark task, the patient reported verbally rather than by
-keyboard and, for both tasks, the stimuli remained on-screen as
-long as required for a response.
+Waterloo, <https://uwaterloo.ca/neurological-patient-database>).
+The study was approved by the University of Waterloo's Office of
+Research Ethics, and the Tri-Hospital Research Ethics board. The
+parameters of the task were eased in anticipation of the needs of
+the participant.  For the saccadic adaptation, the target was
+slightly larger (0.3x0.3$^\circ$). The initial target was always
+to a target in the right half of the screen (5.4 to 16.3$^\circ$
+right of mid-line, 16.3$^\circ$ above or below the horizon),
+rather than left as in the normative sample above. It was
+followed, by a second target 16.3$^\circ$ left of this initial
+position.  When a leftward saccade was detected, this target was
+perturbed further leftward (by 5.4$^\circ$, 30%), with the intent
+of simulating an undershoot, with the intent of augmenting saccade
+length over time. A leftward increase in saccadic gain was chosen
+based on the hypothesis that inducing leftward saccadic bias may
+reduce the rightward attentional bias inherent in the disorder.
+During the landmark task, the patient reported verbally rather
+than by keyboard and, for both tasks, the stimuli remained
+on-screen as long as required for a response.
 

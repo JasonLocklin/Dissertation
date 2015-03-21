@@ -41,13 +41,13 @@ block. Panel (a) is based on only test trials (i.e., those trials
 where no target perturbation is displayed), while panel (b) is
 calculated from all available trials, including non-test trials.
 For (a), blocks 1, 3, and 4 produced significant group change in
-saccade length ( $t( 30) = -2.53$, $\text{p} < 0.05$, $t( 19 ) =
+saccade length ($t( 30) = -2.53$, $\text{p} < 0.05$, $t( 19 ) =
 -2.58$, $\text{p} < 0.05$, and $t( 21 ) = -3.07$, $\text{p} <
-0.01$, respectively), while block 2 did not reach significance (
-$t( 24 ) = -1.8$, $\text{p} = 0.084$). Sparsity of data for test
+0.01$, respectively), while block 2 did not reach significance
+($t( 24 ) = -1.8$, $\text{p} = 0.084$). Sparsity of data for test
 trials required further analysis with all trials in order to
 quantify the degree of adaptation reliably. All four blocks of (b)
-demonstrated significant adaptation ( $t( 36 ) = -4.62$, $\text{p}
+demonstrated significant adaptation ($t( 36 ) = -4.62$, $\text{p}
 < 0.001$, $t( 35 ) = -6.17$, $\text{p} < 0.001$, $t( 34 ) =
 -6.76$, $\text{p} < 0.001$, and $t( 27 ) = -5.88$, $\text{p} <
 0.001$, respectively). A correction for family-wise error was not
@@ -63,17 +63,18 @@ likelihood of 3 erroneous in 4 tests results, as above, would be
 [Parameters of the two tasks at baseline. Correlations]
 Participants did not show any significant bias when responding on
 the line bisection task pre-adaptation ($t( 48 ) = 0.62$,
-$\text{p} = 0.541$ ). In contrast, performance on the landmark
-task indicated a rightward bias such that participants placed the
-mark 0.24$^\circ$ (0.18cm) to the right of true centre ($t( 48) = 5.6$,
+$\text{p} = 0.541$). In contrast, performance on the landmark task
+indicated a rightward bias such that participants placed the mark
+0.24$^\circ$ (0.18cm) to the right of true centre ($t( 48) = 5.6$,
 $\text{p} < 0.01$). Such a rightward bias indicated that
 participants perceived the left half of the line to be larger, as
 has been shown in prior work [Pseudo-neglect; @Bowers1980].
 Interestingly, all participants performed very accurately on these
 two tasks, with the worst performance still less than a centimetre
-from centre (0.8$^\circ$ and 1.0$^\circ$ for line bisection and landmark,
-respectively.) Performance on the two tasks was not significantly
-correlated ($r = -0.2$, $t(47) = -1.57$, $\text{p}=0.12$).
+from centre (0.8$^\circ$ and 1.0$^\circ$ for line bisection and
+landmark, respectively.) Performance on the two tasks was not
+significantly correlated ($r = -0.2$, $t(47) = -1.57$,
+$\text{p}=0.12$).
 
 
 [Change scores -null effect] To investigate the potential effect
@@ -84,14 +85,14 @@ participant was excluded from line bisection task as they pointed
 to the end of the line, rather than centre, after the first block.
 When the change scores were averaged across blocks, neither line
 bisection, nor landmark task performance showed evidence of change
-post-adaptation ( $t( 35 ) = -0.55$, $\text{p} = 0.583$, and 
-$t(36 ) = -0.88$, $\text{p} = 0.384$ respectively).  Based on the
-sample variance and sample size, a power analysis revealed that
-the experiment would have had a 95% chance of detecting a
-post-adaptation change in the landmark task as small as 0.1$^\circ$
-(0.08cm, $n = 37$, $sd = 0.15$), less than half the pre-existing
-bias  and a change of 0.12$^\circ$ (0.09cm, $n = 36$, $sd = 0.14$) in
-line bisection. 
+post-adaptation ($t( 35 ) = -0.55$, $\text{p} = 0.583$, and $t(36)
+= -0.88$, $\text{p} = 0.384$, respectively).  Based on the sample
+variance and sample size, a power analysis revealed that the
+experiment would have had a 95% chance of detecting a
+post-adaptation change in the landmark task as small as
+0.1$^\circ$ (0.08cm, $n = 37$, $sd = 0.15$), less than half the
+pre-existing bias  and a change of 0.12$^\circ$ (0.09cm, $n = 36$,
+$sd = 0.14$) in line bisection. 
 
 
 The degree of adaptation varied from participant to participant,
@@ -100,9 +101,9 @@ to zero. To examine the influence of saccadic adaptation further,
 the above analysis was repeated with only those participants
 demonstrating a strong saccadic adaptation effect (The median
 saccadic gain, of -16%, was chosen as the cut off).  Again,
-landmark and line bisection change scores were non-significant (
-$t( 17) = -1.89$, $\text{p} = 0.076$, and $t( 17 ) = -0.36$,
-$\text{p} = 0.726$ respectively). Note that while this may appear
+landmark and line bisection change scores were non-significant
+($t( 17) = -1.89$, $\text{p} = 0.076$, and $t( 17 ) = -0.36$,
+$\text{p} = 0.726$, respectively). Note that while this may appear
 to hint at the possibility of an effect of adaptation on landmark
 performance, the near-criteria p-value seems to be contingent on
 the precise cut-off for selecting the participants, so should not
@@ -111,8 +112,8 @@ be considered reliable.
 Examination of the correlation between degree of adaptation and
 landmark and line-bisection change post-prisms was also
 non-significant, though landmark performance did approach
-significance ( $r = 0.29$, $t(35) = 1.84$, $\text{p} = 0.07$, and
-$r = -0.06$, $t(34) = -0.39$, $\text{p} = 0.7$ respectively )
+significance ($r = 0.29$, $t(35) = 1.84$, $\text{p} = 0.07$, and
+$r = -0.06$, $t(34) = -0.39$, $\text{p} = 0.7$, respectively)
 
 ### Case Study
 

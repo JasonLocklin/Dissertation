@@ -4,7 +4,7 @@ Exploring the relationship between visual working memory and attention in neglec
 As discussed, most traditional models of neglect describe the
 disorder as a deficit of spatial attention. A disorder driven by a
 difficulty in disengaging attention away from right-space stimuli
-[Posner1984], an attentional ‘stickiness’ that results from
+[@Posner1984], an attentional ‘stickiness’ that results from
 disruption to inferior parietal cortex -- a region known to be
 important for effective attentional disengagement and re-orienting
 [@Corbetta2002]. This anchoring of neglect as an attentional
@@ -15,12 +15,11 @@ example, lateralized failures on object cancellation tasks (i.e.,
 omissions of left-sided targets) could be couched as a consequence
 of a spatial attention deficit. However, revisiting behaviour
 (i.e., re-cancelling old targets as if they were new), commonly
-observed on the non-neglected, "good" side
-[@Husain2001; @Parton2006], suggest something more nuanced is
-occurring. Even eliminating targets as they are cancelled, thereby
-removing their potential to re-capture attention, improves but
-does not fully remediate revisiting behaviour on the task
-[@Mark1988]. 
+observed on the non-neglected, "good" side [@Husain2001;
+@Parton2006], suggest something more nuanced is occurring. Even
+eliminating targets as they are cancelled, thereby removing their
+potential to re-capture attention, improves but does not fully
+remediate revisiting behaviour on the task [@Mark1988]. 
 
 In fact, a great deal of research over the past few decades has
 highlighted aspects of neglect that clearly go beyond spatially

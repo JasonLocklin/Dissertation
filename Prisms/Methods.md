@@ -6,7 +6,7 @@ Method
 Nine patients with right parietal damage who had shown clinical
 symptoms of neglect in previous testing were recruited from the
 Neurological Patient Database (funded through the Heart and Stroke
-Foundation of Ontario,\newline{}
+Foundation of Ontario,
 <https://uwaterloo.ca/neurological-patient-database>).  One
 patient (171) was from the group tested in the previous chapter.
 Two patients were unable to return for the second phase of the

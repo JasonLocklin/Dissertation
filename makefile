@@ -52,7 +52,7 @@ bib: $(interm)
 	pdflatex uw-ethesis.tex
 	biber uw-ethesis
 
-pdf: tex 
+pdf: tex bib 
 	pdflatex uw-ethesis.tex
 
 # Zip figures.

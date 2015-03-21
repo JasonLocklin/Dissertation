@@ -102,17 +102,17 @@ treatment [@Nys2008; @Turton2010]. Additionally, when an effort is
 made to examine attention and perception more directly, the
 ameliorative effects seem to be somewhat less clear. Some direct
 measures of attentional biases have been shown to be affected by
-prisms, such as covert shifts of attention
-[@Striemer2007;Nijboer2008], and extinction [@Serino2007], while
-other, perhaps more realistic measures of attention, such as a
-serial visual search task, have failed to show an effect
-[@Morris2004]. Similarly, while several studies have shown that
-prisms induce a shift in voluntarily eye movements towards
-previously neglected space, perceptual judgments can remain just
-as biased as before [@Dijkerman2003 ; @Ferber2003]. This appears to
-be demonstrating a dissociation between occulomotor "looking" and
-perceptual "seeing," with prisms restoring the former but not the
-latter [@Striemer2010tpd].
+prisms, such as covert shifts of attention [@Striemer2007;
+@Nijboer2008], and extinction [@Serino2007], while other, perhaps
+more realistic measures of attention, such as a serial visual
+search task, have failed to show an effect [@Morris2004].
+Similarly, while several studies have shown that prisms induce a
+shift in voluntarily eye movements towards previously neglected
+space, perceptual judgments can remain just as biased as before
+[@Dijkerman2003 ; @Ferber2003]. This appears to be demonstrating a
+dissociation between occulomotor "looking" and perceptual
+"seeing," with prisms restoring the former but not the latter
+[@Striemer2010tpd].
 
 [Speculation on action/perception disassociation in prisms] The
 dissociation between after effects that influence actions and
@@ -125,7 +125,7 @@ important for the visual guidance of action (the so-called dorsal
 cortex and is important for perceptual processing [the so-called
 ventral ‘what’ pathway; @Milner2006]. Prisms have been shown to
 primarily influence processing within the dorsal stream [
-@Luaute2006; @Corbetta2005; @Clower1996.  In this framework,
+@Luaute2006; @Corbetta2005; @Clower1996].  In this framework,
 prisms will primarily influence behaviours supported by the the
 superior parietal lobule and infraparietal sulcus, areas well
 within the dorsal stream that are typically undamaged in neglect.
