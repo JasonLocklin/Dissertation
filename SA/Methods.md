@@ -173,6 +173,22 @@ an experimentally determined parameter (1500$^\circ$/second).  The
 analysis of a typical trial is presented graphically in figure
 \ref{fig_Saccade}.
 
+Individual trials were then removed from the analysis if the data
+was not of sufficient quality to calculate a reliable
+first-saccade length.  These criteria and parameters were
+determined by plotting randomly selected trials from the data-set
+and comparing the algorithm's selections with manual judgment.
+Trials were removed if there was more total displacement during
+fixations than identified saccades (which occurred when large but
+slow velocity drifts occurred during fixations).  They were also
+removed when there were more than two saccades in the short window
+of a trial (3 or more saccades in a single trial usually indicated
+erratic eye movements). Trials were also dropped if they appeared
+to contain no saccades, or if a lack of eye position data from the
+tracker resulted in large gaps or a low overall number of samples
+(which can result from blinking). As a result, approximately half
+(56\%) of trials proved usable in the analysis.
+
 \begin{figure}[p] 
 \centering 
 \includegraphics{fig_Saccade.pdf.png} 
@@ -184,23 +200,7 @@ a saccade so that a threshold function reliably captures the
 complete displacement of the saccade. This trial shows partial
 adaptation, as the initial saccade falls short of the target, but
 still far enough that a corrective saccade is required to bring
-the eyes to the perturbed location.  Individual trials were then
-removed from the analysis if the data was not of sufficient
-quality to calculate a reliable first-saccade length.  These
-criteria and parameters were determined by plotting randomly
-selected trials from the data-set and comparing the algorithm's
-selections with manual judgment. Trials were removed if there was
-more total displacement during fixations than identified saccades
-(which occurred when large but slow velocity drifts occurred
-during fixations).  They were also removed when there were more
-than two saccades in the short window of a trial (3 or more
-saccades in a single trial usually indicated erratic eye
-movements). Trials were also dropped if they appeared to contain
-no saccades, or if a lack of eye position data from the tracker
-resulted in large gaps or a low overall number of samples (which
-can result from blinking). As a result, approximately half (56\%)
-of trials proved usable in the analysis.} 
-\label{fig_Saccade} 
+the eyes to the perturbed location.} \label{fig_Saccade}
 \end{figure}
 
 The blocks were split up into approximate thirds, with the first
