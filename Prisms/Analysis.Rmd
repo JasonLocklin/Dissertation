@@ -300,7 +300,7 @@ p <- qplot(data = TE2, x=Session, y=slope, geom="bar", stat="identity",
 Now, create the figure:
 ```{r}
 require(grid)
-pdf("fig:TE.pdf", paper='USr', width=11)
+pdf("fig_TE.pdf", paper='USr', width=11)
 pushViewport(viewport(layout = grid.layout(1, 2)))
 print(p, vp = viewport(layout.pos.row = 1, layout.pos.col = 1))
 print(pl, vp = viewport(layout.pos.row = 1, layout.pos.col = 2))
@@ -424,7 +424,7 @@ light gray bar = healthy controls (Ferber, 2006).") +
 
 p
 
-pdf("fig:SWM.pdf", paper='USr', width=11)
+pdf("fig_SWM.pdf", paper='USr', width=11)
 p
 dev.off()
 ```
@@ -549,7 +549,7 @@ p <- qplot(data = LB2, x=as.numeric(Prisms), y=PercentError, geom="bar", stat="i
 
 p
 
-pdf("fig:LB_Prisms.pdf", paper='USr', width=11)
+pdf("fig_LB_Prisms.pdf", paper='USr', width=11)
 p
 dev.off()
 ```
@@ -656,7 +656,7 @@ spread(NT2[,c(1,4,5)], Prisms, Drawing)
 ### Clinical Table
 ### Clinical Table
 
-```{r tbl:Prisms}
+```{r tbl_Prisms}
 dem <- read.csv('../Patients.csv')
 names(dem)[1] <- 'Subject'
 dem <- dem[dem$Chapter == 'Prisms',]
@@ -716,9 +716,13 @@ tbl <- tbl[-1]
 tbl2 <- tbl2[-1]
 
 require(gridExtra)
-pdf("tbl:Prisms.pdf", paper='USr', width=11)
-grid.arrange(tableGrob(tbl), tableGrob(tbl2), nrow=2, sub="tbl:Prisms(a and b)", clip=FALSE)
+pdf("tbl_Prisms.pdf", paper='USr', width=11)
+grid.arrange(tableGrob(tbl), tableGrob(tbl2), nrow=2, sub="tbl_Prisms(a and b)", clip=FALSE)
 dev.off()
+
+require(xtable)
+newobject<-xtable(tbl)
+print.xtable(newobject, type="latex", file="tbl_Prisms-raw.tex")
 ```
 
 

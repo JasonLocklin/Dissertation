@@ -438,7 +438,7 @@ pg <- p #For use later
 ```
 
 Make double figure:
-```{r fig.VWM_MTarget}
+```{r fig_VWM_MTarget}
 require(grid)
 pdf("fig_VWM_MTarget.pdf", paper='USr', width=11)
 pushViewport(viewport(layout = grid.layout(1, 2)))
@@ -791,7 +791,7 @@ t.test(qh[2], alternative="greater")
 
 Now, for describing the individuals, calculate z-scores and plot the individual
 patients over the expected distribution of healthy performance.
-```{r fig.COVAT}
+```{r fig_COVAT}
 m = mean(qh[["."]])
 sd = sd(qh[["."]])
 names(q) <- .(Subject, CES)
@@ -916,11 +916,11 @@ summary(COR)
 ```
 
 
-## Demographics and Clinical table (tbl.VWM)
+## Demographics and Clinical table (tbl_VWM)
 
 
 
-```{r tbl.VWM}
+```{r tbl_VWM}
 require(gridExtra)
 dem <- read.csv('../Patients.csv')
 names(dem)[1] <- 'Subject'
@@ -952,10 +952,14 @@ grid.table(tbl)
 pdf("tbl_VWM.pdf", paper='USr', width=11)
 grid.arrange(tableGrob(tbl), sub="tbl_VWM", clip=FALSE)
 dev.off()
+
+require(xtable)
+newobject<-xtable(tbl)
+print.xtable(newobject, type="latex", file="tbl_VWM-raw.tex")
 ```
 
 
-Now, plot the distributions to be used in fig.emrich2012. 
+Now, plot the distributions to be used in fig_emrich2012. 
  
 * Produce 3 figures
 * Vertically stack

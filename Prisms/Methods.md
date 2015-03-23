@@ -12,7 +12,7 @@ patient (171) was from the group tested in the previous chapter.
 Two patients were unable to return for the second phase of the
 experiment because of extenuating circumstances, and a third
 participant was removed from the study because of extensive
-cerebellar damage. See table [tbl:Prisms] for demographic data on
+cerebellar damage. See table \ref{tbl_Prisms} for demographic data on
 the remaining patients. The study was approved by the University
 of Waterloo's Office of Research Ethics, and the Tri-Hospital
 Research Ethics board.  All patients were tested at least 19
@@ -21,26 +21,7 @@ spatial working memory task (giving a single response to all
 trials), and was therefore removed from that component of the
 analysis.
 
-\begin{figure}[htbp]
-\centering
-\includegraphics{tbl_Prisms.pdf.png}
-\caption{Table (a), above, includes demographic information for the
-patients, as well as performance on star cancellation, bell
-cancellation, and figure copying, all before and after prism adaptation
-(See Results for analysis). For star and bell cancellation, values
-indicate the percentage of left-sided targets omitted. For figure
-copying, a ``+'' indicates the presence of neglect. Table (b), below,
-includes performance on the line bisection (LB), temporal estimation
-(TE), and spatial working memory (SWM) tasks. Line bisection is recorded
-as percentage of line length, with positive values indicating rightward
-bias. TE values represent the slope of a linear model of the log-log
-transformed real and estimated time intervals. A value of 1 indicates
-would indicate estimates that increase in proportion to actual time
-intervals. SWM values indicate accuracy based on hits minus false
-alarms.}
-\end{figure}
-
-
+\input{Prisms/tbl_Prisms.tex}
 
 ### Apparatus and Procedure
 
@@ -57,7 +38,7 @@ beginning of every session.  Line bisection was also performed
 twice during sessions involving prisms, before and after
 adaptation.  Coding and analysis of the tasks were performed in
 the same way as in Chapter 1. The results of the clinical measures
-are depicted in table [tbl_Prisms].
+are depicted in table \ref{tbl_Prisms}.
 
 #### Spatial Working Memory Task
 
@@ -138,7 +119,7 @@ As in chapter one, line bisection bias was coded as a percentage
 of line-length, and star- and bell-cancellation tasks, based on
 the percentage of left-sided target omissions. All measures were
 computed for pre- and post-prisms. Where multiple sessions were
-performed, values were averaged (Table [tbl:Prisms]).
+performed, values were averaged (Table \ref{tbl_Prisms}).
 
 For the spatial working memory task, there were two trial types;
 those where the probe appeared in the same location as one of the

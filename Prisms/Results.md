@@ -114,5 +114,5 @@ length.](fig_LB_Prisms.pdf.png)
 As a group, the neglecting patients did not improve on either
 bells ($t(4)=0.6$, $\text{p}=0.5$), or star cancellation
 ($t(4)=1.7$, $\text{p}=0.2$), and, as can be seen in table
-[tbl:Prisms], only one patient showed improvement on figure
+\ref{tbl_Prisms}, only one patient showed improvement on figure
 copying (Patient 171).
