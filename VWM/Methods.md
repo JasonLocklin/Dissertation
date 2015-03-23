@@ -53,7 +53,7 @@ screen. Instead of targets and a colour wheel surrounding central
 fixation, the colour wheel was replaced with a vertical colour bar
 and it, as well as the targets, always appeared to the right of
 centre in order to minimize the impact of spatial attention
-deficits on WM performance (see Figure [fig_CH1-task]).
+deficits on WM performance (see figure \ref{fig_Ch1-task}).
  
 A trial sequence for the VWM task was as follows: a fixation cross
 was presented for 500ms, followed by a target array which
@@ -64,10 +64,10 @@ column. Following target presentation there was a delay of 1000ms,
 followed by the appearance of the vertical colour bar and probe
 stimuli. The probes occupied the *same locations* occupied by the
 targets but were unfilled (i.e., probes did not contain any colour
-information; Figure [fig_CH1-task]). One of the probes was
+information; figure \ref{fig_Ch1-task}). One of the probes was
 highlighted by a bolded outline, and participants were asked to
 indicate, by external mouse input, the colour of the target
-indicated by the bolded probe location (Figure [fig_Ch1-task).
+indicated by the bolded probe location (figure \ref{fig_Ch1-task}.
 Unlimited time was given, and the participant could make changes
 to their response an unlimited number of times until they were
 satisfied they had accurately indicated the target colour.  Note
@@ -76,14 +76,17 @@ outline, and the task was essentially to remember the colour of
 the target. In the two and three target conditions, only one of
 the two or three probes was highlighted, and the participant would
 be required to recall the colour of the target that had been
-presented at that particular location (Figure [fig_Ch1-task]).
+presented at that particular location (figure \ref{fig_Ch1-task}).
 
 
 
-\begin{figure}[htbp] \centering
+\begin{figure}[p] 
+\centering
 \includegraphics[width=\textwidth]{fig_Ch1-task.pdf.png}
 \caption{Figure depicts both VWM (above) and COVAT (below) tasks.
-The three-target condition of VWM is depicted.} \end{figure}
+The three-target condition of VWM is depicted.}
+\label{fig_Ch1-task}
+\end{figure}
 
 
 #### Covert Orienting of Attention Task
@@ -92,18 +95,19 @@ The covert orienting task (Posner, 1978, 1980) was identical in
 design to that of @Striemer2007 and was run on the same computer
 as the visual working memory task described above. It was
 programmed and run in Superlab (Cedrus Software). Participants
-were presented with 100 trials, outlined in figure [fig_CH1-task].
-A single trial sequence consisted of a fixation cross with
-peripheral landmarks (empty green circles 12$^\circ$ to right and left of
-centre, each subtending 2$^\circ$). This stimulus was followed by the
-appearance of a peripheral cue (1050-1550ms), which consisted of
-the brightening of one landmark.  After an SOA of 50 or 150ms,
-targets, which consisted of red circles presented within the
-landmark, appeared either at the cued location (valid trials) or
-at the opposite location (invalid trials; Figure [fig_Ch1-task).
-Cues were non-informative (i.e., 50% of cued trials were valid and
-50% were invalid trials).  There were also no-cue trials in which
-the target appeared without any preceding cue. Targets appeared
+were presented with 100 trials, outlined in figure
+\ref{fig_Ch1-task}.  A single trial sequence consisted of a
+fixation cross with peripheral landmarks (empty green circles
+12$^\circ$ to right and left of centre, each subtending
+2$^\circ$). This stimulus was followed by the appearance of a
+peripheral cue (1050-1550ms), which consisted of the brightening
+of one landmark.  After an SOA of 50 or 150ms, targets, which
+consisted of red circles presented within the landmark, appeared
+either at the cued location (valid trials) or at the opposite
+location (invalid trials; figure \ref{fig_Ch1-task}.  Cues were
+non-informative (i.e., 50% of cued trials were valid and 50% were
+invalid trials).  There were also no-cue trials in which the
+target appeared without any preceding cue. Targets appeared
 equally often on the left and right sides.  Participants
 maintained fixation throughout the task. This was monitored by the
 experimenter and verbal feedback was given periodically to
@@ -119,7 +123,7 @@ attempt at selecting the correct target colour ($P_T$), one of the
 distractor target colours ($P_{NT}$, in the two and three target
 conditions), or simply represented a random guess ($P_G$), was
 calculated with the probabilistic model described in @Emrich2012
-and @Bays2009 (see figure [fig_Emrich2012]).  
+and @Bays2009 (see figure \ref{fig_Emrich2012}).  
 
 For each trial, these measures were calculated based on the
 physical location of the participant's response relative to the
@@ -139,11 +143,12 @@ precision of those trials where the patient successfully recalls
 and reports a target colour (i.e., $P_T$ and $P_{NT}$).
 
 
-\begin{figure}[htbp]
-\centering
-\includegraphics{fig_Emrich2012.pdf.png}
-\caption{Figure depicts the three probability distributions used to
-calculate the three values.}
+\begin{figure}[p] 
+\centering 
+\includegraphics{fig_Emrich2012.pdf.png} 
+\caption{Figure depicts the three probability distributions used
+to calculate the three values.} 
+\label{fig_Emrich2012} 
 \end{figure}
 
 For the covert orienting task, response times were recorded and

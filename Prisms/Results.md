@@ -51,7 +51,7 @@ As can be observed in figure \ref{fig_TE}, the five patients who
 showed clinical signs of neglect massively underestimated the time
 intervals. In contrast, Patient 27, the non-neglecting patient,
 underestimated to some degree pre-prisms, and responded very
-accurately post-prisms (Figure \ref{fig_TE}). As a result,
+accurately post-prisms (figure \ref{fig_TE}). As a result,
 analysis was done both with and without including Patient 27, and
 results did not differ.  What is presented here is the data
 excluding Patient 27.  An analysis of covariance was performed,

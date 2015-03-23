@@ -19,19 +19,19 @@ or single-domain, models.
 In chapter 1, patients with neglect demonstrated complex deficits
 in visual working memory. Namely, when compared with controls,
 they failed to successfully recall and report the colour of
-stimuli after a delay (figure [fig_VWM_1Target]). They also
+stimuli after a delay (figure \ref{fig_VWM_1Target}). They also
 mis-reported colours when asked to recall stimuli from a given
 location, instead reporting colours of stimuli from other,
-competing, locations (figure [fig_VWM_MTarget]).  While the first
-deficit appears to demonstrate a simple problem of visual working
-memory, the latter probably represents a somewhat more complex
-problem of binding visual information (colour and location) in
-working memory.  The experiment also supports the notion that
-these working memory deficits are not likely to be down-stream
-effects of more basic spatial attention deficits.  The severity of
-the visual working memory deficits from one patient to the next
-did not correlate with the magnitude of deficits observed on
-covert orienting, but appeared to be relatively independent. 
+competing, locations (figure \ref{fig_VWM_MTarget}).  While the
+first deficit appears to demonstrate a simple problem of visual
+working memory, the latter probably represents a somewhat more
+complex problem of binding visual information (colour and
+location) in working memory.  The experiment also supports the
+notion that these working memory deficits are not likely to be
+down-stream effects of more basic spatial attention deficits.  The
+severity of the visual working memory deficits from one patient to
+the next did not correlate with the magnitude of deficits observed
+on covert orienting, but appeared to be relatively independent. 
 
 
 
@@ -60,7 +60,7 @@ estimation, two tasks presumably un-affected by deficits of
 leftward orienting, prisms appeared to lack any significant
 rehabilitative function.  Patients demonstrated extreme deficits
 on these two tasks both before and after prism adaptation (figure
-[fig_SWM] and [fig_TE]).
+\ref{fig_SWM} and \ref{fig_TE}).
 
 
 

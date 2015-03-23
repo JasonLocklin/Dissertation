@@ -25,17 +25,19 @@ by themselves, increase group mean precision.  However, while
 removing one or both extreme examples from the two older groups
 may result in a significant group effect, the procedure would only
 increase the homogeneity of the two older groups, implying an
-effect of age rather than neglect (Figure [fig_VWM_Precision]).
-It is also worth noting that all of the patients responded within
-the range of performance observed in the two control groups.
+effect of age rather than neglect (figure
+\ref{fig_VWM_Precision}).  It is also worth noting that all of the
+patients responded within the range of performance observed in the
+two control groups.
 
-\begin{figure}[htbp]
-\centering
-\includegraphics{fig_VWM_Precision.pdf.png}
-\caption{Figure depicts the precision of responses (coded as 1/SD of the
-response distribution, so higher values indicate better performance).
-The groups do not statistically differ in their ability to manually
-indicate their response precisely.}
+\begin{figure}[p] 
+\centering 
+\includegraphics{fig_VWM_Precision.pdf.png} 
+\caption{Figure depicts the precision of responses (coded as 1/SD
+of the response distribution, so higher values indicate better
+performance).  The groups do not statistically differ in their
+ability to manually indicate their response precisely.}
+\label{fig_VWM_Precision}
 \end{figure}
 
 [pTarget] Because the single target condition has no non-targets,
@@ -43,25 +45,26 @@ and therefore no $P_{NT}$ (i.e., $P_{T} = (1 - P_{G})$), there is
 effectively only one dependent variable and the choice of which
 probability to use for analysis is arbitrary. For convenience,
 $P_{G}$ is used here as the dependant variable. As can be seen in
-figure [fig_VWM_1Target], the two healthy groups perform nearly
-perfectly by this metric. A one-way ANOVA containing all three
-group means was significant ($F(2) = 38$, $\text{p} < 0.001$).
-Tukey HSD tests were performed to compare the means, and the two
-healthy groups, who appear to have been performing at ceiling, are
-not shown to be different ($\overline{M}_{\text{diff}}  = 0.02$,
-$\text{p} = 0.56$).  However, both young adults and the older
-control group were significantly different from patients
-($\overline{M}_{\text{diff}} = 0.17$, $\text{p} < 0.001$, and,
-$\overline{M}_{\text{diff}} = 0.19$, $\text{p} < 0.001$,
-respectively). 
+figure \ref{fig_VWM_1Target}, the two healthy groups perform
+nearly perfectly by this metric. A one-way ANOVA containing all
+three group means was significant ($F(2) = 38$, $\text{p} <
+0.001$).  Tukey HSD tests were performed to compare the means, and
+the two healthy groups, who appear to have been performing at
+ceiling, are not shown to be different
+($\overline{M}_{\text{diff}}  = 0.02$, $\text{p} = 0.56$).
+However, both young adults and the older control group were
+significantly different from patients ($\overline{M}_{\text{diff}}
+= 0.17$, $\text{p} < 0.001$, and, $\overline{M}_{\text{diff}} =
+0.19$, $\text{p} < 0.001$, respectively). 
 
-\begin{figure}[htbp]
-\centering
-\includegraphics{fig_VWM_1Target.pdf.png}
-\caption{Figure depicts the probability of correct target selection for
-the single target condition (i.e., the inverse of the probability of
-guessing). The two healthy groups perform at ceiling, with the patient
-group responding less reliably.}
+\begin{figure}[p] 
+\centering 
+\includegraphics{fig_VWM_1Target.pdf.png} 
+\caption{Figure depicts the probability of correct target
+selection for the single target condition (i.e., the inverse of
+the probability of guessing). The two healthy groups perform at
+ceiling, with the patient group responding less reliably.}
+\label{fig_VWM_1Target}
 \end{figure}
 
 #### Two and Three Target Conditions
@@ -82,12 +85,12 @@ distinct questions each measure addresses.
 
 [Guessing 1] Guessing measures the tendency to indicate a colour
 that was not represented in any of the target distributions (see
-Figure a).  The restricted range of probability scores, and high
+figure a).  The restricted range of probability scores, and high
 frequency of near-zero outcomes produced a highly skewed and
 non-normal distribution that even with data transformations, was
 not sufficiently normal for parametric analysis to be appropriate.
 The means of the three groups and two target conditions can be
-seen in figure [fig_VWM_MTarget]. As an attempt to analyze the
+seen in figure \ref{fig_VWM_MTarget}. As an attempt to analyze the
 data, the two target conditions were collapsed to produce means
 for a more generic "multi-target" performance metric.
 
@@ -109,7 +112,7 @@ the same results.]
 [Non-target/binding errors] As was the case for the $P_G$, the
 $P_{NT}$ data is highly non-normal and transformations are
 ineffective in correcting for the nature of the data. Figure
-[fig_VWM_MTarget_NT] presents the means for the two multi-target
+\ref{fig_VWM_MTarget} presents the means for the two multi-target
 conditions (2- and 3-targets). As was done for the guessing data,
 analysis was performed on the collapsed means of the two
 conditions. Here, however, the Kruskal-Wallis test was significant
@@ -120,15 +123,17 @@ controls, and $t(8) = 3.9$, $\text{p} < 0.05$, or young adults).
 The two healthy groups did not significantly differ from one
 another ($t(8) = 0.54$, $\text{p} = 0.6$).
 
-\begin{figure}[htbp]
-\centering
-\includegraphics{fig_VWM_MTarget.pdf.png}
+\begin{figure}[p] 
+\centering 
+\includegraphics{fig_VWM_MTarget.pdf.png} 
 \caption{Figure depicts non-target probability means (right) and
-guessing probability means (left) for the multi-target conditions (2 and
-3 targets). Overlaid on the collapsed means are the contributing means
-in the 2 (blue) and 3 (red) target conditions. While the groups did not
-differ statistically when guessing, patients selected non-target colours
-more frequently than the two healthy groups.}
+guessing probability means (left) for the multi-target conditions
+(2 and 3 targets).  Overlaid on the collapsed means are the
+contributing means in the 2 (blue) and 3 (red) target conditions.
+While the groups did not differ statistically when guessing,
+patients selected non-target colours more frequently than the two
+healthy groups.} 
+\label{fig_VWM_MTarget}
 \end{figure}
 
 ### Covert Orienting Task
@@ -157,8 +162,8 @@ within-subjects factor. An effect of group approached significance
 were non-significant ($F(1) = 0.5$, $\text{p} = 0.49$, and $F(1) =
 0.02$, $\text{p} = 0.8$).
 
-[Compare directly to normative data] Figure [fig_COVAT] depicts
-the CES of the 5 neglect participants over the range of
+[Compare directly to normative data] Figure \ref{fig_COVAT}
+depicts the CES of the 5 neglect participants over the range of
 performance observed in the healthy controls (bands represent 1
 and 2 standard deviations).  As can be seen in the figure, three
 of the patients performed well within the range of healthy
@@ -180,14 +185,16 @@ indeed, a lateralized deficit ($CES_R$ of -22 and 11 for 50 and
 negative values indicate faster invalid trials).
 
 
-\begin{figure}[htbp]
-\centering
-\includegraphics{fig_COVAT.pdf.png}
-\caption{Figure depicts left CES of each of the 5 patients that were
-able to perform the COVAT. Larger values indicate difficulty
+\begin{figure}[p] 
+\centering 
+\includegraphics{fig_COVAT.pdf.png} 
+\caption{Figure depicts left CES of each of the 5 patients that
+were able to perform the COVAT.  Larger values indicate difficulty
 re-orienting leftward after a rightward attentional cue. Dark and
-lighter horizontal bands are overlaid that indicate 1 and 2 standard
-deviations around the mean normative performance of the older controls.}
+lighter horizontal bands are overlaid that indicate 1 and 2
+standard deviations around the mean normative performance of the
+older controls.} 
+\label{fig_COVAT} 
 \end{figure}
 
 

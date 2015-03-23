@@ -62,23 +62,25 @@ The targets remained on-screen for 2 seconds which was followed by
 a delay of 3 seconds. A probe stimulus (a circle of the same size
 as the target squares) appeared at one of the 16 possible
 locations. The probe remained on the screen until a response was
-entered via the keyboard (figure [fig:Prisms]). The patients were
-asked to remember the locations of the target squares across the
-delay interval and then verbally report to the experimenter
+entered via the keyboard (figure \ref{fig_Prisms}). The patients
+were asked to remember the locations of the target squares across
+the delay interval and then verbally report to the experimenter
 whether or not the probe appeared in one of the locations
 previously occupied by a target. A total of 120 trials constituted
 a single session.  In 50% of trials, the circle appeared in the
 same position as one of the preceding squares.
 
-\begin{figure}[htbp]
-\centering
-\includegraphics{fig_Prisms.pdf.png}
+\begin{figure}[p] 
+\centering 
+\includegraphics{fig_Prisms.pdf.png} 
 \caption{Figure upper panel (a) depicts one trial of the temporal
-estimation task. The numbers were randomly selected and displayed at
-random times (though, not at the very beginning or end of the trial).
-The lower panel (b) depicts the spatial working memory task. The trial
-depicted is a ``valid'' trial, as the probe (circle) is in the same
-location as one of the initial three targets (squares).}
+estimation task.  The numbers were randomly selected and displayed
+at random times (though, not at the very beginning or end of the
+trial).  The lower panel (b) depicts the spatial working memory
+task. The trial depicted is a ``valid'' trial, as the probe
+(circle) is in the same location as one of the initial three
+targets (squares).} 
+\label{fig_Prisms} 
 \end{figure}
 
 
@@ -94,8 +96,8 @@ illusory motion stimulus was presented that consisted of eight
 open circles (each subtending 3.5$^\circ$), arranged in a larger circle
 around the centre of the screen (radius of 8$^\circ$), with each circle
 being filled, sequentially, one at a time, in a clockwise
-direction (figure [fig:Prisms]).  This created the illusion of a
-filled-circle moving around the outer circle. Rather than a
+direction (figure \ref{fig_Prisms}).  This created the illusion of
+a filled-circle moving around the outer circle. Rather than a
 fixation, the centre of the screen periodically displayed a number
 (numbers 1-9, presented for 300ms, 1.5$^\circ$ in size), which the
 participant was asked to verbally report as they appeared. This
@@ -119,7 +121,7 @@ As in chapter one, line bisection bias was coded as a percentage
 of line-length, and star- and bell-cancellation tasks, based on
 the percentage of left-sided target omissions. All measures were
 computed for pre- and post-prisms. Where multiple sessions were
-performed, values were averaged (Table \ref{tbl_Prisms}).
+performed, values were averaged (table \ref{tbl_Prisms}).
 
 For the spatial working memory task, there were two trial types;
 those where the probe appeared in the same location as one of the
