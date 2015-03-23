@@ -41,18 +41,18 @@ docx: $(interm) pngs
 	pandoc -SN --filter pandoc-citeproc --bibliography=Dissertation.bib \
 		--reference-docx=reference.docx -o $(outname).docx $(interm)
 
-tex: $(interm)
+tex: $(interm) 
 	sed 's/.png//g' $(interm) > tmp.md # remove file ext for latex
 	pandoc -SN --bibliography=Dissertation.bib --biblatex \
 		--chapters -o Manuscript.tex tmp.md
 	rm tmp.md  # remove temporary file
 	sed -i 's/includegraphics{/includegraphics\[width=\\textwidth\]{/g' Manuscript.tex
 
-bib: $(interm)
+uw-ethesis.bbl: $(interm)
 	pdflatex uw-ethesis.tex
 	biber uw-ethesis
 
-pdf: tex bib 
+pdf: tex uw-ethesis.bbl 
 	pdflatex uw-ethesis.tex
 
 # Zip figures.
