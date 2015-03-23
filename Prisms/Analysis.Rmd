@@ -721,8 +721,9 @@ grid.arrange(tableGrob(tbl), tableGrob(tbl2), nrow=2, sub="tbl_Prisms(a and b)",
 dev.off()
 
 require(xtable)
-newobject<-xtable(tbl)
-print.xtable(newobject, type="latex", file="tbl_Prisms-raw.tex")
+print.xtable(xtable(tbl), type="latex", file="tbl_Prisms_a-raw.tex")
+print.xtable(xtable(tbl2), type="latex", file="tbl_Prisms_b-raw.tex")
+
 ```
 
 
