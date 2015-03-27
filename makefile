@@ -45,6 +45,7 @@ tex: $(interm)
 	sed 's/.png//g' $(interm) > tmp.md # remove file ext for latex
 	pandoc -SN --bibliography=Dissertation.bib --biblatex \
 		--chapters -o Manuscript.tex tmp.md
+	pandoc -o Abstract.tex Abstract.md
 	rm tmp.md  # remove temporary file
 	sed -i 's/includegraphics{/includegraphics\[width=\\textwidth\]{/g' Manuscript.tex
 
