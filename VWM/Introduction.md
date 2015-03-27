@@ -62,11 +62,12 @@ adaptation, because it is non-aversive, and because it has been
 shown to produce effects lasting much longer than the treatment
 duration [@Rossetti1998; @Farne2002; @Frassinetti2002].
 Unfortunately, while prism adaptation produces striking changes in
-spatial attention [@Striemer2007; @Nijboer2008], there is a small,
-but increasing set of neglect deficits that are not improved
-[@Rousseaux2006; @Striemer2010tpd].  Many of these findings make
-use of perceptual tasks, such the perceptual judgment of spatial
-extent [@Dijkerman2003; @Striemer2010dpm], and chimeric faces
+spatial attention [@Striemer2007; @Nijboer2008], researchers have
+begun to document an increasing number of neglect deficits that
+are not improved by prism adaptation [@Rousseaux2006;
+@Striemer2010tpd].  Many of these findings make use of perceptual
+tasks, such the perceptual judgment of spatial extent
+[@Dijkerman2003; @Striemer2010dpm], and chimeric faces
 tasks[@Ferber2003; @Sarri2006].  It may be the case then that
 prisms operate on neural systems important for the deployment of
 attention, but have little to no effect on those mechanisms needed

@@ -23,7 +23,8 @@ were tested at least 9 months post-stroke. The visual working
 memory task was performed by these same two groups plus an
 additional control group of 9 healthy young adults recruited from
 the University of Waterloo's Research Experience Group, and were
-remediated with course credit (tk female, mean age of tk).
+compensated for participation with course credit (tk female, mean
+age of tk).
 
 Patients were also tested for signs of neglect using three
 standard clinical tests: line bisection, star cancellation, and

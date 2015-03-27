@@ -39,11 +39,11 @@ patients showing clinical signs of neglect still showed large
 deficits post-prisms, compared with the performance of
 non-neglecting right brain damaged patients previously examined on
 this test (z-scores between 3.4 and 7.2). When compared with
-performance of the more variable, neurologically intact
-right-brain damaged individuals (the lighter region in figure
-\ref{fig_SWM}), Patient 171 does cross into a region statistically
-indistinguishable from normative performance ($z=1.2$), but the
-others remain well outside ($3.1 < z < 5.0$).
+performance of the more variable, right-brain damaged population
+(the lighter region in figure \ref{fig_SWM}), Patient 171 does
+cross into a region statistically indistinguishable from normative
+performance ($z=1.2$), but the others remain well outside ($3.1 <
+z < 5.0$).
 
 ### Temporal Estimation Task 
 

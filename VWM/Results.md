@@ -17,18 +17,11 @@ target colour.
 
 [Response Precision] Response precision for the single target
 condition was compared between the three groups using a one-way
-ANOVA.  There were no significant differences between the group
-means, despite an apparent advantage for the young controls (one
-way: $F(2,22)= 1.50$, $\text{p}=0.2$). Both older groups contain
-extreme examples of relatively highly accurate individuals that,
-by themselves, increase group mean precision.  However, while
-removing one or both extreme examples from the two older groups
-may result in a significant group effect, the procedure would only
-increase the homogeneity of the two older groups, implying an
-effect of age rather than neglect (figure
-\ref{fig_VWM_Precision}).  It is also worth noting that all of the
-patients responded within the range of performance observed in the
-two control groups.
+ANOVA (figure \ref{fig_VWM_Precision}).  There were no significant
+differences between the group means, despite an apparent advantage
+for the young controls (one way: $F(2,22)= 1.50$, $\text{p}=0.2$).
+It is also worth noting that all of the patients responded within
+the range of performance observed in the two control groups.
 
 \begin{figure}[p] 
 \centering 

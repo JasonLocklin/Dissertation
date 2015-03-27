@@ -8,7 +8,8 @@ cohorts: $\text{16-18y} =6$, $\text{18-20y} =30$,
 $\text{21-25y} =10$), were recruited from the University of
 Waterloo undergraduate student body through the Research
 Experiences Group, and was approved by the University of Waterloo
-Office of Research Ethics.
+Office of Research Ethics. Participants were compensated for
+participation with course credit.
 
 ### Apparatus and Procedure
 
@@ -24,18 +25,18 @@ and raw eye-position data was saved for later processing.  All
 three computer tasks were programmed using Python and Psychopy
 [@Peirce2007].
 
-After eye-tracker calibration, the touchscreen was calibrated sing
-the manufacturer's calibration task, during which targets appeared
-at various points on the screen and the participant was instructed
-to point to them as they appeared. The landmark and line bisection
-tasks were performed first, to measure baseline performance, and
-then up to four blocks of the three tasks (saccadic adaptation,
-bisection, and landmark), each beginning with saccadic adaptation,
-were performed (10 participants opted to end the experiment after
-3 blocks due to time constraints). The order that the landmark and
-line-bisection tasks were presented was randomized from one
-participant to the next, but remained consistent from block to
-block.
+After eye-tracker calibration, the touchscreen was calibrated
+using the manufacturer's calibration task, during which targets
+appeared at various points on the screen and the participant was
+instructed to point to them as they appeared. The landmark and
+line bisection tasks were performed first, to measure baseline
+performance, and then up to four blocks of the three tasks
+(saccadic adaptation, bisection, and landmark), each beginning
+with saccadic adaptation, were performed (10 participants opted to
+end the experiment after 3 blocks due to time constraints). The
+order that the landmark and line-bisection tasks were presented
+was randomized from one participant to the next, but remained
+consistent from block to block.
 
 
 #### Landmark and Line Bisection Tasks
@@ -222,7 +223,7 @@ The study was approved by the University of Waterloo's Office of
 Research Ethics, and the Tri-Hospital Research Ethics board. The
 parameters of the task were eased in anticipation of the needs of
 the participant.  For the saccadic adaptation, the target was
-slightly larger (0.3x0.3$^\circ$). The initial target was always
+slightly larger (0.3x0.3$^\circ$). The initial saccade was always
 to a target in the right half of the screen (5.4 to 16.3$^\circ$
 right of mid-line, 16.3$^\circ$ above or below the horizon),
 rather than left as in the normative sample above. It was

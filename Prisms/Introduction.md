@@ -45,15 +45,15 @@ memory [@Wojciulik2001; @Husain2001].
 [Prisms influence dorsal stream] The reliable effect of prisms on
 remediating spatial attention deficits, with their simultaneous
 lack of obvious efficacy on more perceptually demanding tasks and
-visual search, a working memory loaded task, indicate that their
-effect may be primarily on the dorsal visual stream. The two
-visual stream hypothesis places spatial attention and action
-(where and how) within the dorsal stream, passing from visual
-areas in occipital cortex into much of the parietal lobe
+visual search, a task that may induce a working memory load,
+indicate that their effect may be primarily on the dorsal visual
+stream.  The two visual stream hypothesis places spatial attention
+and action (where and how) within the dorsal stream, passing from
+visual areas in occipital cortex into much of the parietal lobe
 [@Milner2006].  Conversely, it places perception, and working
 memory of those perceptions, in the ventral stream, radiating into
-the temporal lobe [@Milner2006].  Various lines of research
-have pointed to prisms specifically effecting dorsal areas.
+the temporal lobe [@Milner2006].  Various lines of research have
+pointed to prisms specifically effecting dorsal areas.
 @Danckert2008 and @Clower1996 have both demonstrated "dorsal
 stream" activation during prism adaptation, with fMRI and PET
 respectively. Both studies found activation in the intraparietal
