@@ -831,6 +831,48 @@ Probably not useful as a "proxy" of CES.
 
 
 
+#### Simple Winsorized leftward RT
+
+```{r}
+covat$lrt_50 <- (covat$L_V_50 + covat$L_IV_50)/2 
+t.test(data=covat, lrt_50 ~ Group, alternative = "less")
+
+covat$lrt_150 <- (covat$L_IV_150 + covat$L_IV_150)/2 
+t.test(data=covat, lrt_150 ~ Group, alternative = "less")
+
+ezCor(data.frame(covat$CES.L_50, covat$CES.L_150, covat$lrt_50, covat$lrt_150), label_size = 5)
+```
+
+The simple leftward 50 and 150ms SOA's correlate with one-another almost perfectly (.95), so they could 
+probably just be collapsed to a single simple leftward RD.
+
+
+```{r}
+covat$lrt <- (covat$L_IV_150 + covat$L_IV_150 + covat$L_V_50 + covat$L_IV_50)/4
+t.test(data=covat, lrt ~ Group, alternative = "less")
+```
+
+Winsorizing the data:
+```{r}
+covat$lrt_50[is.na(covat$lrt_50)] <- mean(covat$lrt_50, na.rm=TRUE) + 
+  sd(covat$lrt_50, na.rm=TRUE)*2
+
+covat$lrt_150[is.na(covat$lrt_150)] <- mean(covat$lrt_150, na.rm=TRUE) + 
+  sd(covat$lrt_150, na.rm=TRUE)*2
+
+covat$lrt[is.na(covat$lrt)] <- mean(covat$lrt, na.rm=TRUE) + 
+  sd(covat$lrt, na.rm=TRUE)*2
+```
+
+Now run correlations:
+```{r}
+ezCor(data.frame(covat$CES.L_50, covat$CES.L_150, covat$lrt_50, covat$lrt_150), label_size = 5)
+LRT <- covat[,c(1,22)]
+```
+
+
+
+
 #### Prepare for contrasting the effects with Clinical/VWM measurse
 For comparing with other tests:
 ```{r}
@@ -959,7 +1001,25 @@ print.xtable(newobject, type="latex", file="tbl_VWM-raw.tex")
 ```
 
 
-Now, plot the distributions to be used in fig_emrich2012. 
+## Comparison with simple leftward RT
+
+```{r}
+lrt_tbl <- merge(COR, LRT, all.x=FALSE)[,c(1,4,5,6,8,9)]
+rownames(lrt_tbl) <- lrt_tbl$Subject
+lrt_tbl <- lrt_tbl[-1]
+lrt_tbl<- lrt_tbl[order(lrt_tbl$Bisection),]
+ezCor(lrt_tbl, label_size = 5)
+```
+
+
+```{r}
+grid.table(round(lrt_tbl,2))
+```
+
+
+
+
+## Plot the distributions to be used in fig_emrich2012. 
  
 * Produce 3 figures
 * Vertically stack
