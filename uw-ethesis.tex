@@ -10,12 +10,14 @@
 % For hyperlinked PDF, suitable for viewing on a computer, use this:
 \documentclass[british,letterpaper,12pt,titlepage,oneside,final]{book}
 \usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
+\usepackage[utf8]{inputenc} %Some of my references have names with special chars
 \usepackage{textcomp}
 
-\usepackage{setspace}
-\usepackage{babel}
+\usepackage{setspace} %Used for double spacing
+\usepackage{babel} %Language functions for references
 \usepackage{csquotes}
+\usepackage{lineno} %line numbering (for drafts)
+
 % For PDF, suitable for double-sided printing, change the PrintVersion variable below
 % to "true" and use this \documentclass line instead of the one above:
 %\documentclass[letterpaper,12pt,titlepage,openright,twoside,final]{book}
@@ -140,7 +142,6 @@
 %======================================================================
 \begin{document}
 
-
 % For a large document, it is a good idea to divide your thesis
 % into several files, each one containing one chapter.
 % To illustrate this idea, the "front pages" (i.e., title page,
@@ -156,6 +157,11 @@
 %----------------------------------------------------------------------
 % BODY TEXT 
 %----------------------------------------------------------------------
+
+\setlength\linenumbersep{1cm}
+% Comment to turn off line numbers
+\linenumbers
+
 \input{Manuscript}
 
 %----------------------------------------------------------------------
