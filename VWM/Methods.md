@@ -50,34 +50,39 @@ show neglect on any task.
 The visual working memory task was a modification of the one used
 by @Emrich2012.  It was presented on a Dell Latitude D820 Laptop
 with Windows XP and executed by Matlab on the built-in 8.5x13"
-screen. Instead of targets and a colour wheel surrounding central
+screen. Instead of squares and a colour wheel surrounding central
 fixation, the colour wheel was replaced with a vertical colour bar
-and it, as well as the targets, always appeared to the right of
-centre in order to minimize the impact of spatial attention
-deficits on WM performance (see figure \ref{fig_Ch1-task}).
+and all stimuli appeared to the right of centre in order to
+minimize the impact of spatial attention deficits on WM
+performance (see figure \ref{fig_Ch1-task}).
  
 A trial sequence for the VWM task was as follows: a fixation cross
-was presented for 500ms, followed by a target array which
-consisted of either 1,2, or 3 targets of different colours
-presented vertically aligned on the right side for 500ms. Targets
-could appear in one of 16 different locations in the vertical
-column. Following target presentation there was a delay of 1000ms,
-followed by the appearance of the vertical colour bar and probe
-stimuli. The probes occupied the *same locations* occupied by the
-targets but were unfilled (i.e., probes did not contain any colour
-information; figure \ref{fig_Ch1-task}). One of the probes was
-highlighted by a bolded outline, and participants were asked to
-indicate, by external mouse input, the colour of the target
-indicated by the bolded probe location (figure \ref{fig_Ch1-task}.
-Unlimited time was given, and the participant could make changes
-to their response an unlimited number of times until they were
-satisfied they had accurately indicated the target colour.  Note
-that in the single target condition, there would only be one
-outline, and the task was essentially to remember the colour of
-the target. In the two and three target conditions, only one of
-the two or three probes was highlighted, and the participant would
-be required to recall the colour of the target that had been
-presented at that particular location (figure \ref{fig_Ch1-task}).
+was presented for 500ms, followed by a memory sample which
+consisted of either 1,2, or 3 squares of different colours
+presented, vertically aligned, to the right of fixation for 500ms.
+The coloured squares could appear in any one of 16 different
+locations in the vertical column.  Following the memory sample, a
+blank delay, containing only the fixation cross, was displayed for
+1000ms.  Afterward, the probe display was presented. It consisted
+of the colour bar and black outlines of squares acting as
+placeholders, marking the locations of the previously presented
+memory sample (i.e., probes did not contain any colour
+information; figure \ref{fig_Ch1-task}) One of the placeholders
+was identified as the target by a bolded outline, distinguishing
+it from the non-targets (8 pixels vs. 4 pixels).  Participants
+were asked to indicate, by external mouse input, the colour of the
+initial square indicated by the bolded placeholder (figure
+\ref{fig_Ch1-task}.  Unlimited time was given, and the participant
+could make changes to their response an unlimited number of times
+until they were satisfied they had accurately indicated the
+colour.  Note that in the single square condition, there were no
+non-target squares, and there would only be one outline, so the
+task was essentially to remember the colour of a single stimuli
+without any need to remember locations.  In the two and three
+square conditions, only one of the two or three probes was
+highlighted, and the participant would be required to recall the
+colour of the target that had been presented at that particular
+location (figure \ref{fig_Ch1-task}).
 
 
 
@@ -85,7 +90,7 @@ presented at that particular location (figure \ref{fig_Ch1-task}).
 \centering
 \includegraphics[width=\textwidth]{fig_Ch1-task.pdf.png}
 \caption{Figure depicts both VWM (above) and COVAT (below) tasks.
-The three-target condition of VWM is depicted.}
+The three-square condition of VWM is depicted.}
 \label{fig_Ch1-task}
 \end{figure}
 
@@ -118,30 +123,31 @@ encourage participants to maintain fixation.
 ### Data Analysis
 
 The visual working memory task recorded the exact colour value
-selected by the participant.  From this several measures were
+selected by the participant.  From this, several measures were
 calculated: the probability that the response represented an
-attempt at selecting the correct target colour ($P_T$), one of the
-distractor target colours ($P_{NT}$, in the two and three target
+attempt at selecting the correct colour ($P_T$), one of the
+non-target colours ($P_{NT}$, in the two and three square
 conditions), or simply represented a random guess ($P_G$), was
 calculated with the probabilistic model described in @Emrich2012
-and @Bays2009 (see figure \ref{fig_Emrich2012}).  
+and @Bays2009 (see figure \ref{fig_Emrich2012}). 
 
 For each trial, these measures were calculated based on the
 physical location of the participant's response relative to the
-true target colours.  First, a probability that the participant
-indicated the correct target colour, $P_T$, by the magnitude of
-the location on a Gaussian distribution centred around the exact
-target colour. If the trial type included more than one initial
-box, then the probability the response to a non-target, $P_{NT}$,
-is calculated in the same way. Lastly, the probability the patient
-guessed randomly is based on a flat distribution, but the above
-distributions were chosen so that this was effectively the
-remainder (i.e., $P_G = 1 - (P_T + P_{NT})$. To compute an
-estimate of the precision of target responses, the $SD$ of the
-probability model used to compute the above three components was
-also recorded. This provides a measure of the spatial response
-precision of those trials where the patient successfully recalls
-and reports a target colour (i.e., $P_T$ and $P_{NT}$).
+true colour of the target square.  First, a probability that the
+participant indicated the correct target colour, $P_T$, by the
+magnitude of the location on a Gaussian distribution centred
+around the exact target colour.  If the trial type included more
+than one initial box, then the probability the response to a
+non-target, $P_{NT}$, is calculated in the same way. Lastly, the
+probability the patient guessed randomly is based on a flat
+distribution, but the above distributions were chosen so that this
+was effectively the remainder (i.e., $P_G = 1 - (P_T + P_{NT})$.
+To compute an estimate of the precision of target responses, the
+$SD$ of the probability model used to compute the above three
+components was also recorded. This provides a measure of the
+spatial response precision of those trials where the patient
+successfully recalls and reports a target colour (i.e., $P_T$ and
+$P_{NT}$).
 
 
 \begin{figure}[p] 

@@ -3,19 +3,18 @@ Results
 
 ### Visual Working Memory
 
-#### Single Target Condition
+#### Single Square Condition
 
-The single target condition of the VWM task was analyzed
+The single square condition of the VWM task was analyzed
 separately as it represents an arguably distinct challenge to
 participants, and the outcome variables are different (i.e., it
-lacks a $P_{NT}$ measure) when compared with the two and three
-target conditions. Unlike those conditions, the single target does
-not require the participant to encode spatial location, or any
-binding of colour and spatial location. It is more purely a
-measure of the person's ability to precisely encode and recall a
-target colour.
+lacks a $P_{NT}$ measure) when compared with trials that contain
+non-target distractors. It does not require the participant to
+encode spatial location, or any binding of colour and spatial
+location, so it is more purely a measure of the person's ability
+to precisely encode and recall a target colour.
 
-[Response Precision] Response precision for the single target
+[Response Precision] Response precision for the single square 
 condition was compared between the three groups using a one-way
 ANOVA (figure \ref{fig_VWM_Precision}).  There were no significant
 differences between the group means, despite an apparent advantage
@@ -33,7 +32,7 @@ ability to manually indicate their response precisely.}
 \label{fig_VWM_Precision}
 \end{figure}
 
-[pTarget] Because the single target condition has no non-targets,
+[pTarget] Because the single square condition has no non-targets,
 and therefore no $P_{NT}$ (i.e., $P_{T} = (1 - P_{G})$), there is
 effectively only one dependent variable and the choice of which
 probability to use for analysis is arbitrary. For convenience,
@@ -53,21 +52,22 @@ significantly different from patients ($\overline{M}_{\text{diff}}
 \begin{figure}[p] 
 \centering 
 \includegraphics{fig_VWM_1Target.pdf.png} 
-\caption{Figure depicts the probability of correct target
-selection for the single target condition (i.e., the inverse of
-the probability of guessing). The two healthy groups perform at
+\caption{Figure depicts the probability of correct 
+selection for the single square condition (i.e., the inverse of
+the probability of guessing, so higher values are more accurate). 
+The two healthy groups perform at
 ceiling, with the patient group responding less reliably.}
 \label{fig_VWM_1Target}
 \end{figure}
 
-#### Two and Three Target Conditions
+#### Two and Three Square Conditions
 
-[Approach] In the multi-target conditions, three outcome
+[Approach] In the multi-square conditions, three outcome
 probability estimates were produced. As was the case for the one
-target condition, these probability estimates sum to one, and as
+square condition, these probability estimates sum to one, and as
 such represent only two unique values. Here, two types of failures
 were chosen for the analysis (the probability of guessing,
-$P_{G}$, and the probability of indicating a non-target
+$P_{G}$, and the probability of indicating a non-target distractor
 ($P_{NT}$)).  The two dependant variables were analyzed
 separately, rather than in a multivariate analysis, as the
 characteristics of the data violate many of the assumptions of
@@ -77,15 +77,15 @@ compare the two outcomes, but provides clearer answers to the
 distinct questions each measure addresses.
 
 [Guessing 1] Guessing measures the tendency to indicate a colour
-that was not represented in any of the target distributions (see
+that was not represented in any of the distributions (see
 figure a).  The restricted range of probability scores, and high
 frequency of near-zero outcomes produced a highly skewed and
 non-normal distribution that even with data transformations, was
 not sufficiently normal for parametric analysis to be appropriate.
-The means of the three groups and two target conditions can be
+The means of the three groups and two square conditions can be
 seen in figure \ref{fig_VWM_MTarget}. As an attempt to analyze the
-data, the two target conditions were collapsed to produce means
-for a more generic "multi-target" performance metric.
+data, the two square conditions were collapsed to produce means
+for a more generic "multi-square" performance metric.
 
 
 
@@ -105,8 +105,8 @@ the same results.]
 [Non-target/binding errors] As was the case for the $P_G$, the
 $P_{NT}$ data is highly non-normal and transformations are
 ineffective in correcting for the nature of the data. Figure
-\ref{fig_VWM_MTarget} presents the means for the two multi-target
-conditions (2- and 3-targets). As was done for the guessing data,
+\ref{fig_VWM_MTarget} presents the means for the two multi-square
+conditions. As was done for the guessing data,
 analysis was performed on the collapsed means of the two
 conditions. Here, however, the Kruskal-Wallis test was significant
 ($\chi^2(2) = 7.5$, $\text{p} < 0.05$).  Multiple comparison tests
@@ -120,9 +120,10 @@ another ($t(8) = 0.54$, $\text{p} = 0.6$).
 \centering 
 \includegraphics{fig_VWM_MTarget.pdf.png} 
 \caption{Figure depicts non-target probability means (right) and
-guessing probability means (left) for the multi-target conditions
-(2 and 3 targets).  Overlaid on the collapsed means are the
-contributing means in the 2 (blue) and 3 (red) target conditions.
+guessing probability means (left) for the multi-square conditions
+(i.e., 1 and 2 non-target distractors). 
+Overlaid on the collapsed means are the
+contributing means in the 2 (blue) and 3 (red) square conditions.
 While the groups did not differ statistically when guessing,
 patients selected non-target colours more frequently than the two
 healthy groups.} 

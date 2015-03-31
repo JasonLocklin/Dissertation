@@ -10,8 +10,8 @@ effectively as controls when they are able to recall the correct
 visual information (figure \ref{fig_VWM_Precision}). In contrast,
 when examining the apparent reliability of patient recollections,
 the data appears to indicate that neglect patients fail to recall
-the colour of targets and respond in a way that indicates more
-prevalent guessing (figure \ref{fig_VWM_1Target}).
+the colour of the square stimuli and respond in a way that 
+indicates more prevalent guessing (figure \ref{fig_VWM_1Target}).
 
 
 
@@ -25,19 +25,19 @@ single colour, patients needed to remember the relative spatial
 arrangement of those colours in order to answer correctly.  As a
 result, two types of errors can be committed. A failure to recall
 a colour (a guess), or a mis-identification of one of the
-distractors as belonging to the indicated spatial position
-(incorrect target response). 
+non-target distractors as belonging to the indicated spatial position
+(non-target response). 
 
 
 [VWM Multiple -guessing results] 
-Interestingly, in contrast to the single target condition, the
+Interestingly, in contrast to the single square condition, the
 patient group does not appear to guess more frequently than the
-other groups when presented with multiple targets (figure
+other groups when presented with multiple square stimuli (figure
 \ref{fig_VWM_MTarget}).  This may reflect a limited sensitivity in
-this task variant, as in the multi-target condition, binding
+this task variant, as in the multi-square condition, binding
 errors appear to be the overwhelming source of failures. While the
-single-target condition is effectively tuned to detect guessing
-(as that is the only type of error possible), the multi-target
+single-square condition is effectively tuned to detect guessing
+(as that is the only type of error possible), the multi-square
 conditions simply provides less opportunity to detect guessing,
 both in terms of space on the colour bar that results in coding a
 response as a guess, and in terms of response frequency, given the
@@ -46,22 +46,23 @@ three possible outcome probabilities.
 Additionally, it should not be automatically discounted that a
 difference in the healthy control groups might account for the
 failure to identify group differences in guessing in the
-multi-target condition. The control groups perform almost
-perfectly on the single target condition, but fell away from this
-"ceiling" somewhat on the multi-target condition. The difference
+multi-square condition. The control groups perform almost
+perfectly on the single square condition, but fell away from this
+"ceiling" somewhat on the multi-square condition. The difference
 between neglect and healthy performance may simply be more
 accentuated when the task is calibrated such that healthy
 performance is near perfect and not highly variable.
 
 
 [VWM Multiple -mis-binding] Patients were more likely to select
-non-targets in multi-target conditions (Figure
+non-targets in multi-square conditions (Figure
 \ref{fig_VWM_MTarget}).  There are many potential explanations for
 this, the most obvious being an increase in failures of binding
 colour and location in working memory, a cross-domain cognitive
 process that has been shown degraded in parietal and neglect
 patients (@Humphreys2009; @Pisella2004).  When more than one
-target is presented, colour information must be explicitly
+square is presented in the memory sample, colour information 
+must be explicitly
 associated with spatial location in memory.  If all of the colours
 are effectively encoded and recalled, but a failure to bind the
 colours to spatial location occurs, participants will select a
