@@ -63,7 +63,7 @@ shown to produce effects lasting much longer than the treatment
 duration [@Rossetti1998; @Farne2002; @Frassinetti2002].
 Unfortunately, while prism adaptation produces striking changes in
 spatial attention [@Striemer2007; @Nijboer2008], researchers have
-begun to document an increasing number of neglect deficits that
+begun to recognize an increasing number of neglect deficits that
 are not improved by prism adaptation [@Rousseaux2006;
 @Striemer2010tpd].  Many of these findings make use of perceptual
 tasks, such the perceptual judgment of spatial extent
