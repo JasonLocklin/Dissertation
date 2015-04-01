@@ -137,9 +137,11 @@ the damage limits the ability of a rehabilitative technique such
 as prisms, that operates primarily on the dorsal stream,from
 influencing areas in the ventral system responsible for higher
 level perceptual judgments. This thesis outlines three experiments
-(and a supplemental case study to the third experiment) chosen to
-examine this duality between the reactive, motor action system,
-and perceptual representation/awareness in neglect.
+chosen to examine perceptual biases, as well as related working
+memory deficits, with the goal of providing insight into the
+greater breadth of cognitive deficits underlying neglect beyond
+spatial attention. 
+
 
 [Chapter overview] Chapter 1 explores the relationship between
 visual working memory and spatial attention. It examines the
