@@ -155,25 +155,29 @@ contributes to the growing evidence that prisms fail to influence
 domains of processing important for the construction of perceptual
 representations. Chapter 3 develops a procedure for using saccadic
 adaptation to explore the possibility that modifying eye position
-sense would lead to more generalized improvements in both action
-and perception. This preliminary work was conducted in healthy
-controls. Chapter 3 also includes data from a single case study of
-a neglect patient undergoing the saccadic adaptation procedure.
-The failures to adapt in this patient points to future directions
-of research to address both volitional and reactive saccadic eye
-movements.
+sense would lead to more generalized change in perceptual and
+motor biases important in the study of neglect. This preliminary 
+work was conducted in healthy individuals.
 
 [Conclude, summarize project] The evidence presented in this
-thesis supports the notion that neglect is not *just* a disorder
-of attention, but can be characterized by a failure to build
-accurate perceptual representations of the world. Prisms appear to
-have an effect on the spatial action systems, having such a strong
-effect in part *because* of the lack of awareness
-[@Striemer2010tpd]; however, they do not seem to change the
-deficits of perceptual representation. Deficits of perceptual
-representation, as well as being central to the disorder, also
-represent a major contributor to the debilitating nature of
-neglect. Concentrating on deficits of perceptual representation
-has the potential of making substantial steps forward in
-understanding the disorder and producing more effective
-rehabilitation efforts.
+thesis expands on previous work that has identified deficits in
+neglect that purportedly go beyond dorsal, spatial attention
+networks.  Here, working memory and perception are demonstrated to
+be impaired in patients with right brain damage and symptoms of
+neglect, and these deficits do not appear to be strongly linked to
+spatial attention. Specifically, working memory impairments,
+including memory of visual characteristics like colour or
+colour-location bindings, are degraded in the patients, and not in
+ways predictable from their attention deficits. Further, prism
+adaptation, a procedure that appears to have an effect on spatial
+action systems, did not produce reliable improvement in the large
+spatial working memory time perception observed in the patients.
+Lastly, saccadic adaptation successfully altered eye movement
+parameters, but was not found to influence perceptual or motoric
+judgements of centre in the healthy participants. The potential
+future research directions involving saccadic adaptation, and more
+generally, the observed perceptual and working memory deficits, are
+discussed, with the focus on better understanding the breadth of
+underlying cognitive deficits in neglect, and the potential impact
+on rehabilitation.
+
