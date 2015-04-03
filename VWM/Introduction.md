@@ -87,27 +87,39 @@ Specifically, in healthy people, mechanisms of spatial attention
 provide a rehearsal-like function to maintain information held in
 working memory [@Awh2001]. 
 
-This arguably creates three possible causes of working memory
-problems in neglect. First, they could be a direct result of
-spatial attention deficits. This seems less-likely, as patients
-maintain the ability to orient to rightward and central targets
-effectively. However, we can not rule out the possibility that
-subtle pathological orienting deficits exist for central and right
-space that in turn impact upon working memory. If this was the
-case, though, we might expect perceptual deficits to improve as a
-result of improvement in attention deficits, and this does not
-appear to be the case [@Rousseaux2006; @Striemer2010tpd;
-@Striemer2010dpm; @Ferber2003; @Sarri2006].  Second, the ability
-to utilize spatial attention for rehearsal may be disrupted in
-neglect via a disconnection of the dorsal and ventral streams
-arising from the neglect-inducing lesion.  This would imply that
-ventral processing may not be directly impaired in neglect, but
-that the spatial working memory deficit comes from the ventral
-system's inability to recruit attentional mechanisms to support
-rehearsal processes described above.  Third, working memory
-deficits may be fully independent of spatial attention deficits. 
+This arguably creates three possible causes of the apparent
+spatial working memory problems in neglect; namely, that they may
+actually be directly caused by attention deficits, they may be
+caused by the disruption of access to attentional resources by
+working memory systems, or, finally, they may arise independently,
+from damage to regions specifically necessary for working memory
+function. In the first case, it is possible that the neurological
+architecture of working memory is healthy, but spatial attention
+deficits prevent patients from performing adequately on the tasks,
+producing the appearance of spatial working memory deficits.  This
+seems less-likely, as patients maintain the ability to orient to
+rightward and central targets effectively. However, we can not
+rule out the possibility that subtle pathological orienting
+deficits exist for central and right space that, in turn, impact
+upon spatial working memory. If this was the case, though, we
+might expect these deficits to improve as a result of improvement
+in attention deficits, and this does not appear to be the case
+[@Striemer2010tpd; @Striemer2010dpm; @Ferber2003; @Sarri2006]. In
+the second case, of a disruption of access to attention by working
+memory networks, the ability, for example, of working memory to
+utilize spatial attention for rehearsal may be disrupted in
+neglect. This could be due to a compromise of the dorsal and
+ventral stream connectivity, arising from the neglect-inducing
+lesion.  Unlike the case of direct causation described above, if
+disrupted communication between the two systems is the problem,
+improvement in spatial attention may not have an impact on the
+spatial working memory deficits.  The third possibility, where
+working memory deficits are fully independent of spatial attention
+deficits, would have this same property, and therefore, cannot be
+clearly differentiated from a problem of disconnection in the
+existing research. 
 
-To test this last possibility, a new version of the working memory
+To overcome this problem, a new version of the working memory
 task was created to minimize the possible reliance on spatial
 attention rehearsal mechanisms. Rather than asking participants to
 remember and recall the spatial locations of targets, memory for
