@@ -33,7 +33,23 @@ severity of the visual working memory deficits from one patient to
 the next did not correlate with the magnitude of deficits observed
 on covert orienting, but appeared to be relatively independent. 
 
-
+The choice of colour as the characteristic to be remembered was
+made in response to a possible challenge to previous findings of
+spatial working memory deficits in neglect. Namely, that such
+deficits may result from an inability to access attentional
+resources for rehearsal of spatial locations. In the single square
+condition, if rehearsal was utilized, it would not involve spatial
+attention. Despite this, the working memory deficit was, indeed,
+demonstrated.  Nevertheless, this does not provide evidence that
+spatial rehearsal was occurring in the previous studies of spatial
+working memory, so further research will be required to determine
+the actual role, if any, of rehearsal in both those spatial
+working memory tasks, and the visual working memory task presented
+here. Self-reports of rehearsal strategies, as well as
+experimental manipulations to prevent or encourage rehearsal could
+be used to determine whether or not neglect patients utilize
+rehearsal, and to what degree it is necessary for healthy
+performance on these tasks.
 
 [Prisms are limited] Thus far, one of the most promising
 treatments for rehabilitating neglect has been prism adaptation
