@@ -11,7 +11,7 @@ Patient Database (Funded through the Heart and Stroke Foundation
 of Ontario, <https://uwaterloo.ca/neurological-patient-database>),
 who showed symptoms of neglect in pre-testing (3 male, 2 left
 handed, mean age of 66, see table \ref{tbl_VWM} for more details), and
-a healthy older control group recruited from the University of
+a healthy older control group of eight recruited from the University of
 Waterloo's Research on Aging Participant pool (3 male, handedness
 untested, mean age of 74).  All of the neurological patients were
 at least 9 months post injury. The study was approved by the
