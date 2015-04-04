@@ -122,6 +122,7 @@ encourage participants to maintain fixation.
 
 ### Data Analysis
 
+#### Visual Working Memory Task
 The visual working memory task recorded the exact colour value
 selected by the participant.  From this, several measures were
 calculated: the probability that the response represented an
@@ -157,6 +158,8 @@ $P_{NT}$).
 to calculate the three values.} 
 \label{fig_Emrich2012} 
 \end{figure}
+
+#### Covert Orienting of Attention Task
 
 For the covert orienting task, response times were recorded and
 means were calculated for each trial category for each
