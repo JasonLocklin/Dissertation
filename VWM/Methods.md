@@ -111,9 +111,9 @@ of one landmark.  After an SOA of 50 or 150ms, targets, which
 consisted of red circles presented within the landmark, appeared
 either at the cued location (valid trials) or at the opposite
 location (invalid trials; figure \ref{fig_Ch1-task}.  Cues were
-non-informative (i.e., 50% of cued trials were valid and 50% were
-invalid trials).  There were also no-cue trials in which the
-target appeared without any preceding cue. Targets appeared
+non-informative, and 20% of trials were non-cued (40 validly cued
+trials, 40 invalid trials, and 20 non-cued trials, per
+participant).  Targets appeared
 equally often on the left and right sides.  Participants
 maintained fixation throughout the task. This was monitored by the
 experimenter and verbal feedback was given periodically to
