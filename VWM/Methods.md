@@ -163,16 +163,14 @@ to calculate the three values.}
 
 For the covert orienting task, response times were recorded and
 means were calculated for each trial category for each
-participant. Cue-effect sizes (CES) – the different in RT between
+participant. Cue-effect sizes (CES) – the difference in RT between
 valid and invalid trials – for leftward and rightward shifts of
-attention for each participant at each level of SOA were
-calculated. For leftward shifts, RTs to validly cued right targets
+attention, for each participant, at each level of SOA were
+calculated. For leftward CES, RTs to validly cued left targets
 were subtracted from invalidly cued left targets (i.e., in both
-cases, the cue is on the right, and the magnitude of the
-difference comes from the extra time taken re-orienting to the
-left invalid target). The rightward CES was calculated in the
-inverse way – RTs to validly cued left targets were subtracted
-from invalidly cued right targets.
+cases, the target is on the left, and the magnitude of the score
+comes from the extra time taken to re-orient due to the
+invalid cue). 
 
 
 
