@@ -16,9 +16,20 @@ to precisely encode and recall a target colour.
 
 [Response Precision] Response precision for the single square 
 condition was compared between the three groups using a one-way
-ANOVA (figure \ref{fig_VWM_Precision}).  There were no significant
-differences between the group means, despite an apparent advantage
-for the young controls (one way: $F(2,22)= 1.50$, $\text{p}=0.2$).
+ANOVA (figure \ref{fig_VWM_Precision}). Response precision was
+positively skewed, but was sufficiently normal when log
+transformed (e.g., Shapiro-Wilk $w=0.98$, $p=0.9$). Despite the
+apparent age advantage when viewing figure
+\ref{fig_VWM_Precision}, the group effect did not reach
+significance
+($F(2,22)= 3.32$, $\text{p}=0.05$). Post hoc comparisons of the
+three groups also fails to identify significant differences (
+Tukey HSD; Patients vs Older Controls: 
+$ \log \overline{M}_{\text{diff}} = 0.09$, $\text{p} = 0.9$,
+Young Adults vs Older Controls:
+$ \log \overline{M}_{\text{diff}} = 0.71$, $\text{p} = 0.07$,
+Young Adults vs Patients:
+$ \log \overline{M}_{\text{diff}} = 0.62$, $\text{p} = 0.1$).
 It is also worth noting that all of the patients responded within
 the range of performance observed in the two control groups.
 
