@@ -131,9 +131,21 @@ concerned with differences due only to aging.
 
 ANOVA
 ```{r}
-fit <- aov(value ~ Subj_Group, data=simple) 
+fit <- aov(log(value) ~ Subj_Group, data=simple) 
 summary(fit)
+plot(fit)
+shapiro.test(log(simple$value))
+TukeyHSD(fit)
 ```
+
+With 3 problematic data points removed
+```{r}
+shapiro.test(simple$value[c(-6, -24, -14)])
+fit <- aov(value ~ Subj_Group, data=simple[c(-6, -24, -14),]) 
+summary(fit)
+plot(fit)
+```
+
 
 
 
@@ -1058,7 +1070,7 @@ o = ggplot(norm, aes(x=N)) +
 
 multiplot(m,n,o)
 
-svg(filename="fig_Emrich2012.svg", width=4, height=6)
+svg(filename="fig_Emrich2012_raw.svg", width=4, height=6)
 multiplot(m,n,o)
 dev.off()
 
