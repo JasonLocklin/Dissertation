@@ -99,8 +99,11 @@ p <- ggplot(cdata, aes(x = Subj_Group, y = Mean)) +
     xlab("") +
     ylab("Precision (1/SD)") + 
     ggtitle("Response Precision for Single Target Condition") +
-    theme_gray()
-p
+    theme_gray() +
+    theme(plot.title = element_text(size = rel(2)), 
+          axis.text = element_text(size = rel(2)),
+          axis.title = element_text(size = rel(2)))
+
 
 pdf("fig_VWM_Precision.pdf", paper='USr', width=11)
 p
