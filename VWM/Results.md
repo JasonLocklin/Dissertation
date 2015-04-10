@@ -3,35 +3,20 @@ Results
 
 ### Visual Working Memory
 
-#### Single Square Condition
+#### Response Precision
 
-The single square condition of the VWM task was analyzed
-separately as it represents an arguably distinct challenge to
-participants, and the outcome variables are different (i.e., it
-lacks a $P_{NT}$ measure) when compared with trials that contain
-non-target distractors. It does not require the participant to
-encode spatial location, or any binding of colour and spatial
-location, so it is more purely a measure of the person's ability
-to precisely encode and recall a target colour.
-
-[Response Precision] Response precision for the single square 
-condition was compared between the three groups using a one-way
+[Response Precision] Response precision was compared between 
+the three groups and three conditions using a mixed between and
+within-measures 
 ANOVA (figure \ref{fig_VWM_Precision}). Response precision was
 positively skewed, but was sufficiently normal when log
-transformed (e.g., Shapiro-Wilk $w=0.98$, $p=0.9$). Despite the
-apparent age advantage when viewing figure
-\ref{fig_VWM_Precision}, the group effect did not reach
-significance
-($F(2,22)= 3.32$, $\text{p}=0.05$). Post hoc comparisons of the
-three groups also fails to identify significant differences (
-Tukey HSD; Patients vs Older Controls: 
-$ \log \overline{M}_{\text{diff}} = 0.09$, $\text{p} = 0.9$,
-Young Adults vs Older Controls:
-$ \log \overline{M}_{\text{diff}} = 0.71$, $\text{p} = 0.07$,
-Young Adults vs Patients:
-$ \log \overline{M}_{\text{diff}} = 0.62$, $\text{p} = 0.1$).
-It is also worth noting that all of the patients responded within
-the range of performance observed in the two control groups.
+transformed (e.g., Shapiro-Wilk $w=0.98$, $p=0.9$). While there
+was a significant effect of the number of squares condition
+($F(2,44) = 14.7$, $\text{p} < 0.001$), the effect of group did
+not reach significance 
+($F(2,22) = 3.19$, $\text{p} = 0.06$). The interaction between the
+two was also non-significant 
+($F(4,44) = 0.88$, $\text{p} = 0.4$).
 
 \begin{figure}[p] 
 \centering 
@@ -42,6 +27,19 @@ performance).  The groups do not statistically differ in their
 ability to manually indicate their response precisely.}
 \label{fig_VWM_Precision}
 \end{figure}
+
+
+
+#### Single Square Condition
+
+The single square condition of the VWM task was analyzed
+separately as it represents an arguably distinct challenge to
+participants, and the outcome variables are different (i.e., it
+lacks a $P_{NT}$ measure) when compared with trials that contain
+non-target distractors. It does not require the participant to
+encode spatial location, or any binding of colour and spatial
+location, so it is more purely a measure of the person's ability
+to precisely encode and recall a target colour.
 
 [pTarget] Because the single square condition has no non-targets,
 and therefore no $P_{NT}$ (i.e., $P_{T} = (1 - P_{G})$), there is

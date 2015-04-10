@@ -148,7 +148,8 @@ $SD$ of the probability model used to compute the above three
 components was also recorded. This provides a measure of the
 spatial response precision of those trials where the patient
 successfully recalls and reports a target colour (i.e., $P_T$ and
-$P_{NT}$).
+$P_{NT}$), providing a basic measure of perceptual-motor ability
+relevant to the task.
 
 
 \begin{figure}[p] 
