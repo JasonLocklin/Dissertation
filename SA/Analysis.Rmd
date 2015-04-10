@@ -1,19 +1,19 @@
 ---
-title: "Saccadic Adaptation"
-author: "Jason Locklin"
-date: "2/9/2015"
-output:
-  html_document:
-    number_sections: yes
-    toc: yes
+title. "Saccadic Adaptation"
+author. "Jason Locklin"
+date. "2/9/2015"
+output.
+  html_document.
+    number_sections. yes
+    toc. yes
 ---
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http.//rmarkdown.rstudio.com>.
 
 This analysis code is present for transparency only, not for educational or reference use. The code herein comprises work over a long period of time, where I learned to use several tools, and new tools became available. As a result, there are inconsistencies in style, lots of inelegance, and inefficient methods. 
 
 
-## Load and prepare the data:
+## Load and prepare the data.
 
 ```{r}
 library(reshape2)
@@ -67,10 +67,10 @@ AD <- melt(AD, id=c("Sj","block"))
 AD <- AD[!(AD$Sj %in% bad),]
 
 AD_TT <- AD_TT[!(AD_TT$Subject %in% bad),]
-## Processing and Checking the saccadic Adaptation:
+## Processing and Checking the saccadic Adaptation.
 
 # PAR
-# Need to go back to processpickles.py and fix this, but for now, do it here:
+# Need to go back to processpickles.py and fix this, but for now, do it here.
 # Recode "Gain" as dir(ection) of saccade, and create a new "gain" that
 # encodes the magnitude purturbation (and hence the saccadic gain).
 PAR['Dir'] <- PAR['Gain']
@@ -89,7 +89,7 @@ print(dcast(mlt, Subject ~ Block + variable, sd), digits=1)
 #Odd, remove subject H72, a no-purturbation case, had randomized direction. Must have been a glitch.
 
 
-#Now format the data so it's "tidy":
+#Now format the data so it's "tidy".
 d <- dcast(mlt, Subject + Block ~  variable, median) 
 PAR <- melt(d, id=c("Subject","Block"), measure.vars = c("Gain","Dir"), na.rm=TRUE)
 names(PAR) <- c("Sj", "block", "variable", "value")
@@ -173,7 +173,7 @@ rm(t)
 
 
 ```{r}
-#Now, put them all together for analysis:
+#Now, put them all together for analysis.
 d <- rbind(LD,BD,AD,PAR)
 d <- d[!is.na(d$value),] # Remove 2 NAs for participant who didn't do 4th session
 
@@ -193,16 +193,16 @@ d <- d[d$Sj != "H72" & d$Sj != "99999" & d$Sj != "102", ]
 summary(d)
 ```
 
-Looking at adaptation:
+Looking at adaptation.
 1. Was it effective as a whole
 2. Select the people that showed reliable adaptation for further analysis.
 
 
-For 1:
+For 1.
 
 ## Effectiveness of Adaptation
 
-###First, test-trials only:
+###First, test-trials only.
 
 ```{r}
 t.test.md(AD_TT$X0)
@@ -309,17 +309,19 @@ p <- ggplot(adn, aes(y = means, x=as.numeric(block))) +
      
 p
 pdf("fig_Adaptation.pdf", paper='USr', width=11)
-p
+p + theme(plot.title = element_text(size = rel(1.5)), 
+          axis.text = element_text(size = rel(1.5)),
+          axis.title = element_text(size = rel(1.5)))
 dev.off()
      
 ```
 
 
-```{r tbl:SA}
+```{r tbl_SA}
 names(t)  <- c('t','df','p','mean')
 names(tn) <- c('t','df','p','mean')
-rownames(t) <- c('Block 1:','Block 2:','Block 3:','Block 4:')
-rownames(tn) <- c('Block 1:','Block 2:','Block 3:','Block 4:')
+rownames(t) <- c('Block 1.','Block 2.','Block 3.','Block 4.')
+rownames(tn) <- c('Block 1.','Block 2.','Block 3.','Block 4.')
 t$t <- round(t$t,1)
 tn$t <- round(tn$t,1)
 t$p <- round(t$p, 2)
@@ -329,13 +331,17 @@ tn$mean <- round(tn$mean, 2)
 
 require(gridExtra)
 grid.arrange(tableGrob(t), tableGrob(tn), ncol=2, 
-             sub="tbl:SA. (a) Test trials only, (b) All trials", clip=FALSE)
+             sub="tbl.SA. (a) Test trials only, (b) All trials", clip=FALSE)
 
 
 pdf("tbl_SA.pdf", paper='USr', width=11)
 grid.arrange(tableGrob(t), tableGrob(tn), ncol=2, 
-             sub="tbl:SA. (a) Test trials only, (b) All trials", clip=FALSE)
+             sub="tbl.SA. (a) Test trials only, (b) All trials", clip=FALSE)
 dev.off()
+
+#require(xtable)
+#newobject<-xtable(tbl)
+#print.xtable(newobject, type="latex", file="tbl_SA-raw.tex")
 
 ```
 
@@ -418,7 +424,7 @@ d.test <- function(v){
 
 t6 <- dcast(d, Sj + Dir~ variable , 
             subset=.(Gain == -0.3 & Dir == 1), fun=mean) 
-# Note: if -Dir is included ^, uncomment these 3 lines (no difference)
+# Note. if -Dir is included ^, uncomment these 3 lines (no difference)
 #summary(t6$Dir)
 #t6$Bisection <- as.numeric(as.character(t6$Dir)) * t6$Bisection
 #t6$Landmark  <- as.numeric(as.character(t6$Dir)) * t6$Landmark
@@ -452,7 +458,7 @@ t.test.md(t6b$Landmark)
 t.test.md(t6b$Bisection)
 
 
-# Repeat for the other gain:
+# Repeat for the other gain.
 t7 <- dcast(d, Sj +Dir ~ variable , 
             subset=.(Gain == 0.3), fun=mean) 
 t7$Bisection <- as.numeric(as.character(t7$Dir)) * t7$Bisection
@@ -460,7 +466,7 @@ t7$Landmark  <- as.numeric(as.character(t7$Dir)) * t7$Landmark
 t7
 ```
 
-Correlations:
+Correlations.
 ```{r}
 cor.test(t6$Adaptation, t6$Bisection)
 cor.test(t6$Adaptation, t6$Landmark)
@@ -481,13 +487,13 @@ error (i.e, graphically show a power analysis)
 
 
 
-Statistical effect size: The typical error in line bisection is Xcm, or 
+Statistical effect size. The typical error in line bisection is Xcm, or 
 x percent of a 10cm line. The maximum effect plausible effect of SA on 
 line bisection, given the lack of significant findings, is YCM, or 1/Y the typical
 error in locating the center of the line. (?? this is smaller than the 
 precision of the touch screen??). 
 
-From above: (lines ~85-89), typical error is 0.1510164 cm and 0.2342002 cm for
+From above. (lines ~85-89), typical error is 0.1510164 cm and 0.2342002 cm for
 LB and LT respectively. The average bias is 0.008334 cm and 0.20156 cm for LB
 and LT again.
 

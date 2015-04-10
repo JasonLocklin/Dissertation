@@ -302,8 +302,12 @@ Now, create the figure:
 require(grid)
 pdf("fig_TE.pdf", paper='USr', width=11)
 pushViewport(viewport(layout = grid.layout(1, 2)))
-print(p, vp = viewport(layout.pos.row = 1, layout.pos.col = 1))
-print(pl, vp = viewport(layout.pos.row = 1, layout.pos.col = 2))
+print(p + theme(plot.title = element_text(size = rel(1.5)), 
+          axis.text = element_text(size = rel(1.5)),
+          axis.title = element_text(size = rel(1.5))), vp = viewport(layout.pos.row = 1, layout.pos.col = 1))
+print(pl + theme(plot.title = element_text(size = rel(1.5)), 
+          axis.text = element_text(size = rel(1.5)),
+          axis.title = element_text(size = rel(1.5))), vp = viewport(layout.pos.row = 1, layout.pos.col = 2))
 dev.off()
 
 ```
@@ -425,7 +429,9 @@ light gray bar = healthy controls (Ferber, 2006).") +
 p
 
 pdf("fig_SWM.pdf", paper='USr', width=11)
-p
+p + theme(plot.title = element_text(size = rel(1.5)), 
+          axis.text = element_text(size = rel(1.5)),
+          axis.title = element_text(size = rel(1.5)))
 dev.off()
 ```
 
@@ -550,7 +556,11 @@ p <- qplot(data = LB2, x=as.numeric(Prisms), y=PercentError, geom="bar", stat="i
 p
 
 pdf("fig_LB_Prisms.pdf", paper='USr', width=11)
-p
+p + theme(plot.title = element_text(size = rel(1.5)), 
+          axis.text = element_text(size = rel(1.5)),
+          axis.title = element_text(size = rel(1.5)),
+          legend.text = element_text(size = rel(1.5)),
+          legend.title = element_text(size = rel(1.5)))
 dev.off()
 ```
 
