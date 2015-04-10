@@ -71,7 +71,7 @@ spatial location.
    forgetting the stimuli entirely? (i.e., guessing or NonTarget selection).
    
 
-### Are the patients able to encode and recall colour? A deficit?
+### Are the patients able to encode and recall colour? (Precision) 
 
 Just looking at the "one target" case, were patients able to reliably report the
 colour of the target.
@@ -90,33 +90,13 @@ head(cdata, n=3)
 ```
 
 
-
-Create a plot of means, and a seperate point plot to see outliers:
-```{r VWM_Precision}
-p <- ggplot(cdata, aes(x = Subj_Group, y = Mean)) +
-    geom_bar(stat = "identity", width=0.5) +
-    geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2) + 
-    xlab("") +
-    ylab("Precision (1/SD)") + 
-    ggtitle("Response Precision for Single Target Condition") +
-    theme_gray() +
-    theme(plot.title = element_text(size = rel(1.5)), 
-          axis.text = element_text(size = rel(1.5)),
-          axis.title = element_text(size = rel(1.5)))
-p
-
-pdf("fig_VWM_Precision.pdf", paper='USr', width=11)
-p
-dev.off()
-```
-
 ```{r}
 p <- ggplot(cdata, aes(x = Subj_Group, y = Mean)) 
 p + geom_bar(stat = "identity", width=0.5) +
     geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2) + 
     xlab("") +
     ylab("Precision (SE)") + 
-    ggtitle("Response Precision for Single Target Condition") +
+    ggtitle("Response Precision for Single Square Condition") +
     scale_y_continuous(breaks=0:20*4) +
     theme_gray() +
     geom_jitter(data=simple, aes(x = Subj_Group, y = value), position = position_jitter(width = .1))
@@ -150,10 +130,137 @@ plot(fit)
 ```
 
 
+Just looking at the "one target" case, were patients able to reliably report the
+colour of the target.
+
+#### Multi-square condition
+
+Running the same analysis for the multi-square condition.
+
+Create summary data:
+```{r}
+simple <- d[d$variable == "precision" & d$Number_of_Items !="one",]
+
+cdata <- ddply(simple, c("Subj_Group", "variable"), summarise,
+               N    = length(value),
+               Mean = mean(value),
+               sd   = sd(value),
+               se   = sd / sqrt(N) )
+head(cdata, n=3)
+```
 
 
 
-#### Looking at probability of target selection, a derivative of precision.
+
+```{r}
+p <- ggplot(cdata, aes(x = Subj_Group, y = Mean)) 
+p + geom_bar(stat = "identity", width=0.5) +
+    geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), width=.2) + 
+    xlab("") +
+    ylab("Precision (SE)") + 
+    ggtitle("Response Precision for Multiple Square Condition") +
+    scale_y_continuous(breaks=0:20*4) +
+    theme_gray() +
+    geom_jitter(data=simple, aes(x = Subj_Group, y = value), position = position_jitter(width = .1))
+```
+
+
+
+
+Both older groups seem to have a single extreme case, and in both cases, that 
+point will drastically increase the mean precision of the group. However, 
+removing those two points would not make the Patient group unique. At best, it 
+would make the two older groups different from the Young Adults (they would be
+less precise). There is no point in further analysis of this point as I'm not
+concerned with differences due only to aging.
+
+
+ANOVA (two squares)
+```{r}
+fit <- aov(log(value) ~ Subj_Group, data=simple[simple$Number_of_Items == "two",]) 
+summary(fit)
+plot(fit)
+shapiro.test(log(simple$value))
+TukeyHSD(fit)
+```
+
+ANOVA (three squares)
+```{r}
+fit <- aov(log(value) ~ Subj_Group, data=simple[simple$Number_of_Items == "three",]) 
+summary(fit)
+plot(fit)
+shapiro.test(log(simple$value))
+TukeyHSD(fit)
+```
+
+ANOVA (three squares)
+```{r}
+fit <- aov(log(value) ~ Subj_Group, 
+           data=ddply(simple, c("Subj_Group", "Subj_ID", "variable"), 
+                      summarize, value=mean(value))) 
+summary(fit)
+plot(fit)
+shapiro.test(log(simple$value))
+TukeyHSD(fit)
+```
+
+
+#### ANOVA (mixed)
+Sinse the log transformed data appears normal, a hierarchical model can be done.
+```{r}
+library(ez)
+simple <- d[d$variable == "precision",]
+simple$value <- log(simple$value)
+a <- ezANOVA(data=simple, dv=value, wid=Subj_ID, 
+        within=Number_of_Items, between=Subj_Group, return_aov=TRUE)
+a
+summary(a$aov)
+
+
+# Equivelant
+#a2 <- aov(data = simple, 
+#          value ~ Subj_Group * Number_of_Items + 
+#            Error(Subj_ID/Number_of_Items))
+```
+
+
+
+
+
+#### All together figure
+```{r VWM_Precision}
+simple <- d[d$variable == "precision",]
+
+cdata <- ddply(simple, c("Subj_Group", "Number_of_Items", "variable"), 
+               summarise,
+               N    = length(value),
+               Mean = mean(value),
+               sd   = sd(value),
+               se   = sd / sqrt(N) )
+names(cdata)[2] <- "Items"
+cdata$Items <- ordered(cdata$Items, levels=c("one","two","three"))
+
+p <- ggplot(cdata, aes(x = Subj_Group, y = Mean, fill=Items)) +
+    geom_bar(stat = "identity", width=0.5, position=position_dodge(.6)) +
+    geom_errorbar(aes(ymin=Mean-se, ymax=Mean+se), 
+                  width=.2, position=position_dodge(0.6)) + 
+    xlab("") +
+    ylab("Precision (1/SD)") + 
+    ggtitle("Response Precision") +
+    theme_gray() +
+    theme(plot.title = element_text(size = rel(1.5)), 
+          axis.text = element_text(size = rel(1.5)),
+          axis.title = element_text(size = rel(1.5)),
+          legend.title= element_text(size = rel(1.5)),
+          legend.text = element_text(size = rel(1.5)))
+p
+
+pdf("fig_VWM_Precision.pdf", paper='USr', width=11)
+p
+dev.off()
+```
+
+#### Looking at probability of target selection 
 
 Create summary data:
 ```{r}
@@ -987,7 +1094,7 @@ summary(COR)
 ```
 
 
-## Demographics and Clinical table (tbl_VWM)
+### Demographics and Clinical table (tbl_VWM)
 
 
 
@@ -1030,7 +1137,7 @@ print.xtable(newobject, type="latex", file="tbl_VWM-raw.tex")
 ```
 
 
-## Comparison with simple leftward RT
+### Comparison with simple leftward RT
 
 ```{r}
 lrt_tbl <- merge(COR, LRT, all.x=FALSE)[,c(1,4,5,6,8,9)]
@@ -1048,7 +1155,7 @@ grid.table(round(lrt_tbl,2))
 
 
 
-## Plot the distributions to be used in fig_emrich2012. 
+### Plot the distributions to be used in fig_emrich2012. 
  
 * Produce 3 figures
 * Vertically stack
