@@ -32,8 +32,9 @@ ability to manually indicate their response precisely.}
 
 #### Single Square Condition
 
-The single square condition of the VWM task was analyzed
-separately as it represents an arguably distinct challenge to
+When considering the response probabilities, the single square 
+condition of the VWM task was analyzed
+separately, as it represents an arguably distinct challenge to
 participants, and the outcome variables are different (i.e., it
 lacks a $P_{NT}$ measure) when compared with trials that contain
 non-target distractors. It does not require the participant to
@@ -163,7 +164,14 @@ group as the between-subjects factor and SOA as the
 within-subjects factor. An effect of group approached significance
 ($F(1) = 3.7$, $\text{p} = 0.08$), while SOA and the interaction
 were non-significant ($F(1) = 0.5$, $\text{p} = 0.49$, and $F(1) =
-0.02$, $\text{p} = 0.8$).
+0.02$, $\text{p} = 0.8$). Considering the size of the patient
+group in this analysis (5), it's unlikely that the sample variance
+provides a good estimate of the population, so the groups were
+also compared using a non-parametric Kruskal-Wallis test,
+collapsing across SOA, and this did indicate that patients
+exhibited larger leftward CES than the older controls
+($\chi^2(2) = 4.2$, $\text{p} < 0.05$).
+
 
 [Compare directly to normative data] Figure \ref{fig_COVAT}
 depicts the CES of the 5 neglect participants over the range of
