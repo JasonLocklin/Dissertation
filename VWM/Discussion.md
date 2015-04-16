@@ -3,9 +3,9 @@ Discussion
 
 [VWM single] The response precision data indicates that the
 patients were able to perform the basic task of indicating a
-colour to a similar degree of proficiency as the two control
+colour to a similar degree of proficiency as the healthy 
 groups, demonstrating that basic perceptual representations were
-intact, and that they are able to perform the motor response as
+intact, and that they are able to perform the perceptual-motor response as
 effectively as controls when they are able to recall the correct
 visual information (figure \ref{fig_VWM_Precision}). In contrast,
 when examining the apparent reliability of patient recollections,
@@ -100,9 +100,18 @@ limited the experiments sensitivity for measuring cue effect
 sizes. Also, patients were asked to perform only 100 trials to
 avoid undue fatigue, but this may have limited the power of the
 experiment, as other research has utilized considerably more [e.g.,
-@Posner1984; @Morrow1988; @Danckert1997].
-
-
+@Posner1984; @Morrow1988; @Danckert1997]. It's also well
+established that the paper and pencil clinical tests have limited
+sensitivity and, by their nature, are not likely capable of
+capturing the complete spectrum and heterogeneity of deficits
+across patients [@Danckert2006]. Participant 171, for example, had
+demonstrated neglect in a clinical setting previously, but at time
+of testing, no longer showed symptoms on the clinical tests.
+Despite this, considering the large deficit on the covert
+orienting task, it would likely be premature to claim complete
+recovery. It's more likely that this is case where the three
+clinical tests used here are poorly matched with remaining
+deficits. 
 
 
 [Comparison of tasks] While a reliable statistical comparison of
