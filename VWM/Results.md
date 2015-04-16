@@ -142,14 +142,13 @@ healthy groups.}
 
 ### Covert Orienting Task
 
-Analysis of the covert orienting data was extremely limited given
-that 3 of the 8 patients failed to respond to any left-sided
-targets. Not only does this prevent any measure of leftward
-orienting deficits in almost half the sample, but those three
-participants also exhibited the strongest symptoms of neglect on
-the clinical measures. This means that not only is the statistical
-power of any analysis substantially reduced, but that analysis
-will necessarily be performed only on moderately neglecting
+Analysis of the covert orienting data was limited given that 3 of
+the 8 patients failed to respond to any left-sided targets. Not
+only does this prevent any measure of leftward orienting deficits
+in part of the sample, but those three participants also exhibited
+the strongest symptoms of neglect on the clinical measures. As a
+result, the statistical power of the analysis is substantially
+reduced, and is performed only on moderately neglecting
 participants. 
 
 
@@ -164,7 +163,7 @@ group as the between-subjects factor and SOA as the
 within-subjects factor. An effect of group approached significance
 ($F(1) = 3.7$, $\text{p} = 0.08$), while SOA and the interaction
 were non-significant ($F(1) = 0.5$, $\text{p} = 0.49$, and $F(1) =
-0.02$, $\text{p} = 0.8$). Considering the size of the patient
+0.02$, $\text{p} = 0.8$, respectively). Considering the size of the patient
 group in this analysis (5), it's unlikely that the sample variance
 provides a good estimate of the population, so the groups were
 also compared using a non-parametric Kruskal-Wallis test,
@@ -174,21 +173,21 @@ exhibited larger leftward CES than the older controls
 
 
 [Compare directly to normative data] Figure \ref{fig_COVAT}
-depicts the CES of the 5 neglect participants over the range of
+depicts the CES of the 5 patients over the range of
 performance observed in the healthy controls (bands represent 1
 and 2 standard deviations).  As can be seen in the figure, three
-of the patients performed well within the range of healthy
-controls.  In contrast, the final two patients demonstrated
+of the patients performed within the range of healthy
+controls.  In contrast, two other patients demonstrated
 leftward CESs that were well outside the range of the healthy
 older controls. It is also worth noting that one of the two,
 Patient 171, did not show any signs of neglect on the clinical
-tests, and the other, Patient 454, exhibited only weakly
+tests, and the other, Patient 454, exhibited moderately 
 neglecting symptoms when compared with their cohort. This patient
 (454) produced a bisection bias above our threshold, though only
 at 6\%, a near median performance for the group, and produced
 errors in figure copying, but did not miss any left-sided targets
 in the stars test. It also should be noted that Patient 171 did
-not show similarly large rightward CE sizes, so it cannot be said
+not show a similarly large rightward CES, so it cannot be said
 that the result was a deficit of general covert re-orienting, but,
 indeed, a lateralized deficit ($CES_R$ of -22 and 11 for 50 and
 150ms SOA respectively). For Patient 454, it was less clear
@@ -233,35 +232,33 @@ visual working memory contributions more conservative.
 
 The highly non-normal $P_{NT}$, and $P_G$ were each transformed
 via a median split into categorical factors representing "good"
-and "poor" performance. CES was kept as a continuous variable, but
-log transformed. The analysis of deviance indicated that CES, on
-it's own, significantly predicted group affiliation (see table
-\ref{aod}). $P_{NT}$ was not significant, but $P_G$ did
+and "poor" performance. The analysis of deviance indicated that
+CES, on it's own, significantly predicted group affiliation (see
+table \ref{aod}). $P_{NT}$ was not significant, but $P_G$ did
 significantly describe group, when partialled on both CES and
 $P_{NT}$.  No interactions were significant.
 
 \input{VWM/aod.tex}
 
 
-#### Individual Patients
-The reduced group size, as a result of the inability of three
-patients to orient to leftward targets, prevents reliable
-statistical analysis of the relationship between the covert
-orienting and visual working memory tasks. The two patients that
-performed well outside the range of healthy performance on the
-covert orienting task did not stand out with extreme performance
-deficits on the visual working memory task. When compared with the
+#### Individual Patient Comparison
+When considering the patients able to perform the COVAT, the two 
+patients that
+performed well outside the range of healthy performance 
+did not stand out with similarly extreme performance
+deficits on the visual working memory task. When the two are compared with the
 rest of the neglecting group, as can be observed in table
 \ref{tbl_VWM}, Patient 454 performed slightly worse than the median on
 both visual working memory measures, while Patient 171, who,
-incidentally was the only one in the group to score negatively on
+as mentioned previously, as the only one in the group to score negatively on
 all three clinical measures of neglect, was actually the most
-accurate participant, again, on both measures. This lack of
+accurate participant. This lack of
 reliably similar performance between the two tasks hints at the
-decoupled nature of the two domains suggested earlier. However, of
-note, the three most densely neglecting patients on the clinical
-tests, who were the same three patients unable to complete the
-covert orienting task, demonstrated strong deficits on the visual
+decoupled nature of the two domains suggested earlier. 
+
+The three most densely neglecting patients on the clinical
+tests, however, were the three patients unable to complete the
+covert orienting task and demonstrated strong deficits on the visual
 working memory task.  This was particularly apparent in the
 measure of non-target selection, where these three performed
 considerably poorer than the rest of the group (See table
