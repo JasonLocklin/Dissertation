@@ -221,6 +221,9 @@ summary(a$aov)
 #a2 <- aov(data = simple, 
 #          value ~ Subj_Group * Number_of_Items + 
 #            Error(Subj_ID/Number_of_Items))
+
+simple2 <- dcast(simple, Subj_Group + Subj_ID ~ ., fun=mean)
+TukeyHSD(aov(data= simple2, . ~Subj_Group))
 ```
 
 
@@ -874,17 +877,29 @@ so it's likely not useful.
 Perform an ANOVA:
 ```{r}
 require(ez)
+shapiro.test(CES$value)
+
+
+
 CES$SOA <- factor(CES$SOA)
 CES_short <- CES[!is.na(CES$value) & ( CES$VF == "CES.L" ),]
+CES_short$Subject <- factor(CES_short$Subject)
+#CES_short$value <- CES_short$value + 100 -  min(CES_short$value) #Shift CES to allow for log transform
+#CES_short$value <- log(CES_short$value)
+shapiro.test(CES_short$value)
+hist(CES_short$value)
+plot(CES_short$value, pch=as.numeric(CES_short$Group))
+
 ezANOVA(CES_short, wid = .(Subject), dv = .(value), 
         within = .(SOA), 
         between = .(Group))
 
+#fit <- aov(data=CES_short, value ~ SOA * Group + Error(Subject/SOA))
+
 # Repeating with type 3 SS
-CES_short <- CES[!is.na(CES$value) & ( CES$VF == "CES.L" ),]
 ezANOVA(CES_short, wid = .(Subject), dv = .(value), 
         within = .(SOA), 
-        between = .(Group))
+        between = .(Group), type=3)
 ```
 As expected.
 
@@ -892,6 +907,8 @@ Trying 5 patients would give a terrible estimate of population variance,
 trying a non-parametric test:
 
 ```{r}
+CES_short <- CES[!is.na(CES$value) & ( CES$VF == "CES.L" ),]
+CES_short$Subject <- factor(CES_short$Subject)
 kruskal.test(. ~ Group, data =dcast(CES_short, 
                                         Subject + Group ~., fun=mean))  
 ```
@@ -916,21 +933,18 @@ t.test(.~Group, alternative="less",
 ```
 
 
-Again, Nonzero for group?
+Nonzero for group?
 
 ```{r}
 q <- dcast(CES_short, Subject ~ ., subset=.(Group=="Patient"), mean)
+
 t.test(q[2], alternative="greater")
 ```
-Huh, significant. Note that this would not reach significance if
-all the means were compared and some correction for multiple comparisons made.
-It can be argued, though, that this is a particularily key contrast, and can be
-done on it's own. Regardless, working from a group of 5 is not going to be sufficient
-for most group-level statistics.
 
 Healthy Group:
 ```{r}
 qh <- dcast(CES_short, Subject ~ ., subset=.(Group=="Older Control"),   mean)
+
 t.test(qh[2], alternative="greater")
 ```
 
@@ -1089,32 +1103,27 @@ par(mfrow = c(2, 2))
 plot(fit3)
 
 
+
 d2 <- d
 shapiro.test(d2$CES)
-d2$CES <- d2$CES + 10 -  min(d2$CES) #Shift CES to allow for log transform
-shapiro.test(log(d2$CES))
+d2$CES <- d2$CES + 1 -  min(d2$CES) #Shift CES to allow for log transform
+shapiro.test(sqrt(d2$CES))
 d2$VWM_SG <- factor(d$VWM_SG > median(d$VWM_SG))
 d2$VWM_NT <- factor(d$VWM_NT > median(d$VWM_NT))
 fit6b <- glm(Group~ CES * VWM_NT * VWM_SG,data=d2,family=binomial())
-fit6c <- glm(Group~ log(CES) + VWM_NT + VWM_SG,data=d2,family=binomial())
+fit6c <- glm(Group~ CES + VWM_NT + VWM_SG,data=d2,family=binomial())
 plot(fit6b)
 anova(fit6b, test="Chisq")
-library(xtable)
-print.xtable(xtable(anova(fit6b, test="Chisq")), type="latex", 
-             file="aod-raw.tex")
 
 plot(fit6c)
 anova(fit6c, test="Chisq")
 drop1(fit6c, test="Chisq")
-# VWM_NT doesn't contribute significantly and can be dropped
-fit6d <- glm(Group~ VWM_SG + log(CES),data=d2,family=binomial())
-anova(fit6d, test="Chisq")
+library(xtable)
+print.xtable(xtable(anova(fit6c, test="Chisq")), type="latex", 
+             file="aod-raw.tex")
 
-#RE-run without high leveredge points to check:
-fit6b <- glm(Group~ log(CES) * VWM_NT * VWM_SG,
-             data=d2[c(-1,-6,-14,-16),],family=binomial())
-plot(fit6b)
-anova(fit6b, test="Chisq")
+
+
 
 ```
 
