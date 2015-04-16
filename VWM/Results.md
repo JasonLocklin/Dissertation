@@ -16,7 +16,17 @@ was a significant effect of the number of squares condition
 not reach significance 
 ($F(2,22) = 3.19$, $\text{p} = 0.06$). The interaction between the
 two was also non-significant 
-($F(4,44) = 0.88$, $\text{p} = 0.4$).
+($F(4,44) = 0.88$, $\text{p} = 0.4$). Post hoc multiple
+comparisons, using Tukey HSD, indicate that the near-significant
+group effect is the result of a possible age effect between young
+adults and patients 
+($\overline{M}_{\text{diff}} = 0.6$, $\text{p} = 0.05$). While 
+the other age-related contrast was not significant 
+(i.e., young adult and older control groups, 
+$\overline{M}_{\text{diff}} = 0.4$, $\text{p} = 0.3$), the
+critical comparison, between patients and older controls, did 
+not appear to demonstrate an effect of damage
+($\overline{M}_{\text{diff}} = -0.23$, $\text{p} = 0.6$).
 
 \begin{figure}[p] 
 \centering 
