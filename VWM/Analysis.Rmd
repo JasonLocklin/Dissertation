@@ -322,8 +322,11 @@ TukeyHSD(fit)
 ```{r}
 VWM_SINGLE_P <- d[d$variable == "pTarget" & d$Subj_Group == "Patient" & 
                     d$Number_of_Items == "one",][,c(2,4,5)]
+VWM_SINGLE_A <- d[d$variable == "pTarget" & d$Subj_Group != "Young Adult" & 
+                    d$Number_of_Items == "one",][,c(2,4,5)]
 VWM_SINGLE_P$variable <- "VWM_Single"
 VWM_SINGLE_P$value <- 1 - VWM_SINGLE_P$value #Reverse code so + is more neglecting
+VWM_SINGLE_A$value <- 1 - VWM_SINGLE_A$value
 names(VWM_SINGLE_P)[1] <- "Subject"
 ```
 
@@ -513,6 +516,7 @@ from the other two groups, but they do not significantly differ from each other.
 #### Save the pTarget data for later contrast
 ```{r}
 VWM_P <- simple[simple$Subj_Group == "Patient",][,2:3]
+VWM_A <- simple[simple$Subj_Group != "Young Adult",][,2:3]
 names(VWM_P) <- .(Subject, value)
 VWM_P$variable <- "VWM_Multi"
 VWM_P <- rbind(VWM_SINGLE_P, VWM_P)
@@ -884,6 +888,15 @@ ezANOVA(CES_short, wid = .(Subject), dv = .(value),
 ```
 As expected.
 
+Trying 5 patients would give a terrible estimate of population variance,
+trying a non-parametric test:
+
+```{r}
+kruskal.test(. ~ Group, data =dcast(CES_short, 
+                                        Subject + Group ~., fun=mean))  
+```
+
+
 
 ```{r}
 ezPlot(CES_short, wid = .(Subject), dv = .(value), 
@@ -977,6 +990,11 @@ covat$lrt_150 <- (covat$L_IV_150 + covat$L_IV_150)/2
 t.test(data=covat, lrt_150 ~ Group, alternative = "less")
 
 ezCor(data.frame(covat$CES.L_50, covat$CES.L_150, covat$lrt_50, covat$lrt_150), label_size = 5)
+
+
+cor.test(covat$CES.L_50, covat$lrt_50, method = "spearman")
+
+cor.test(covat$CES.L_150, covat$lrt_150, method = "spearman")
 ```
 
 The simple leftward 50 and 150ms SOA's correlate with one-another almost perfectly (.95), so they could 
@@ -986,6 +1004,8 @@ probably just be collapsed to a single simple leftward RD.
 ```{r}
 covat$lrt <- (covat$L_IV_150 + covat$L_IV_150 + covat$L_V_50 + covat$L_IV_50)/4
 t.test(data=covat, lrt ~ Group, alternative = "less")
+kruskal.test(covat$lrt ~ covat$Group)
+cor.test((covat$CES.L_50 + covat$CES.L_150), covat$lrt, method="spearman")
 ```
 
 Winsorizing the data:
@@ -1006,16 +1026,17 @@ ezCor(data.frame(covat$CES.L_50, covat$CES.L_150, covat$lrt_50, covat$lrt_150), 
 LRT <- covat[,c(1,22)]
 ```
 
-
-
+Conclusion: Simple leftward RT is not useful, either on it's own or 
+winsorized, as it doesn't correlate reliably with CES, and, unlike CES,
+isn't significantly different between the groups.
 
 #### Prepare for contrasting the effects with Clinical/VWM measurse
 For comparing with other tests:
 ```{r}
 names(CES)[3] <- "variable"
-names(AA)[3] <- "variable"
-CES_AA <- rbind(CES,AA)
-COVAT_P <- dcast(CES_AA, Subject + variable ~ .,
+#names(AA)[3] <- "variable"
+#CES_AA <- rbind(CES,AA)
+COVAT_P <- dcast(CES, Subject + variable ~ .,
                  subset=.(Group=="Patient" & variable != "CES.R"),   mean)
 names(COVAT_P)[3] <- "value"
 ```
@@ -1025,6 +1046,78 @@ names(COVAT_P)[3] <- "value"
 
 BOUND <- rbind(COVAT_P, VWM_P)
 ```
+
+### Predict group based on COVAT and VWM
+```{r}
+CES_a <- dcast(CES, Subject + Group + variable ~ ., 
+      subset=.(variable != "CES.R"), mean)[,c(1,2,4)]
+names(VWM_A)[2] <- "VWM_NT"
+names(VWM_SINGLE_A)[3] <- "VWM_SG"
+VWM_SINGLE_A <- VWM_SINGLE_A[,c(1,3)]
+VWM_A <- join(VWM_A, VWM_SINGLE_A)
+
+names(CES_a) <- c("Subj_ID", "Group", "CES")
+d <- join(CES_a, VWM_A, by="Subj_ID")
+
+#Winsorize
+d$CES[is.na(d$CES)] <- mean(d$CES, na.rm=TRUE) + 2*sd(d$CES, na.rm=TRUE)
+
+```
+
+```{r}
+fit <- glm(Group~ CES,data=d,family=binomial())
+summary(fit) # display results
+confint(fit) # 95% CI for the coefficients
+#exp(coef(fit)) # exponentiated coefficients
+#exp(confint(fit)) # 95% CI for exponentiated coefficients
+#predict(fit, type="response") # predicted values
+#residuals(fit, type="deviance") # residuals 
+
+fit2 <- glm(Group~ CES + VWM_NT,data=d,family=binomial())
+fit3 <- glm(Group~ CES + VWM_SG,data=d,family=binomial())
+fit4 <- glm(Group~ CES + VWM_NT + VWM_SG,data=d,family=binomial())
+fit5 <- glm(Group~ CES + VWM_NT * VWM_SG,data=d,family=binomial())
+fit6 <- glm(Group~ CES * VWM_NT * VWM_SG,data=d,family=binomial())
+fit7 <- glm(Group~ log(CES) * log(VWM_NT) * log(VWM_SG),data=d,family=binomial())
+fit8 <- glm(Group~ log(CES) + log(VWM_NT) +log(VWM_SG),data=d,family=binomial())
+anova(fit,fit2, test="Chisq")
+anova(fit,fit3, test="Chisq")
+anova(fit3,fit4, test="Chisq")
+anova(fit3,fit5, test="Chisq")
+anova(fit6, test="Chisq")
+par(mfrow = c(2, 2))
+plot(fit3)
+
+
+d2 <- d
+shapiro.test(d2$CES)
+d2$CES <- d2$CES + 10 -  min(d2$CES) #Shift CES to allow for log transform
+shapiro.test(log(d2$CES))
+d2$VWM_SG <- factor(d$VWM_SG > median(d$VWM_SG))
+d2$VWM_NT <- factor(d$VWM_NT > median(d$VWM_NT))
+fit6b <- glm(Group~ CES * VWM_NT * VWM_SG,data=d2,family=binomial())
+fit6c <- glm(Group~ log(CES) + VWM_NT + VWM_SG,data=d2,family=binomial())
+plot(fit6b)
+anova(fit6b, test="Chisq")
+library(xtable)
+print.xtable(xtable(anova(fit6b, test="Chisq")), type="latex", 
+             file="aod-raw.tex")
+
+plot(fit6c)
+anova(fit6c, test="Chisq")
+drop1(fit6c, test="Chisq")
+# VWM_NT doesn't contribute significantly and can be dropped
+fit6d <- glm(Group~ VWM_SG + log(CES),data=d2,family=binomial())
+anova(fit6d, test="Chisq")
+
+#RE-run without high leveredge points to check:
+fit6b <- glm(Group~ log(CES) * VWM_NT * VWM_SG,
+             data=d2[c(-1,-6,-14,-16),],family=binomial())
+plot(fit6b)
+anova(fit6b, test="Chisq")
+
+```
+
 
 
 ### Clinical Measures
@@ -1061,8 +1154,8 @@ The following numeric variables are compared:
 High level overview:
 ```{r}
 COR <- dcast(BOUND, Subject ~ variable + .)
-COR <- cbind(COR, TESTS_P, by="Subject", label_size = 5)[,c(1:5,7,8,9)]
-ezCor(COR[,c(2:6,8)], label_size = 5)
+COR <- cbind(COR, TESTS_P, by="Subject", label_size = 5)[,c(1:4,6,7,8)]
+ezCor(COR[,c(2:5,7)], label_size = 5)
 ```
 
 The NAs are a problem to deal with. Just looking at the 
@@ -1073,16 +1166,9 @@ is removing the most neglecting individuals, and will seriously hamper
 any correlation calculation.
 
 ```{r}
-ezCor(COR[!is.na(COR$aa),][,c(2:6,8)], label_size = 5)
+ezCor(COR[,c(2:4,7)], label_size = 5)
 ```
 
-
-Now, just for completeness, Looking at the VWM + Clinical tests for everyone in 
-the Patient group (this is exactly the same as the bottom for values from the 
-origional plot.)
-```{r}
-ezCor(COR[,c(4,5,6,8)], label_size = 5)
-```
 
 I suspect that because of the lack of data points for all but 5 participants
 in the COVAT task, I will be restricted to individual comparisons rather than
@@ -1114,7 +1200,6 @@ tbl$Bisection <- round(tbl$Bisection,1)
 tbl$Stars <- round(tbl$Stars)
 tbl$VWM_Single <- round(tbl$VWM_Single,2)
 tbl$VWM_Multi <- round(tbl$VWM_Multi, 2)
-tbl <- tbl[-3]
 
 tbl <- merge(dem, tbl, by="Subject")
 
@@ -1136,21 +1221,30 @@ newobject<-xtable(tbl)
 print.xtable(newobject, type="latex", file="tbl_VWM-raw.tex")
 ```
 
-
-### Comparison with simple leftward RT
+### "Winsorization"
+In order to provide values for those patients unable to re-orient leftward,
+we could "winsorize" the data. 
 
 ```{r}
-lrt_tbl <- merge(COR, LRT, all.x=FALSE)[,c(1,4,5,6,8,9)]
-rownames(lrt_tbl) <- lrt_tbl$Subject
-lrt_tbl <- lrt_tbl[-1]
-lrt_tbl<- lrt_tbl[order(lrt_tbl$Bisection),]
-ezCor(lrt_tbl, label_size = 5)
+# Winsorize
+COR$CES.L[is.na(COR$CES.L)] <- mean(COR$CES.L, na.rm=TRUE) + 
+                                     2* sd(COR$CES.L, na.rm=TRUE)
+```
+
+Now, non-parametric correlations between CES, VWM1/2, and Bisection
+```{r}
+cor.test(COR$CES.L, COR$Bisection, method="spearman")
+cor.test(COR$CES.L, COR$VWM_Single, method="spearman")
+cor.test(COR$CES.L, COR$VWM_Multi, method="spearman")
+cor.test(COR$VWM_Single, COR$Bisection, method="spearman")
+cor.test(COR$VWM_Multi, COR$Bisection, method="spearman")
+cor.test(COR$VWM_Single, COR$VWM_Multi, method="spearman")
 ```
 
 
-```{r}
-grid.table(round(lrt_tbl,2))
-```
+
+
+
 
 
 

@@ -211,6 +211,39 @@ older controls.}
 
 ### Comparing Visual Working Memory and Covert Orienting 
 
+#### Group Level Comparison 
+
+In order to explore the relationship between visual working
+memory, and covert orienting, with regards to the patient and
+older control groups, a generalized linear model was fit
+predicting group affiliation based on the two tasks.
+Specifically, a logistic regression was computed based on a model
+of group predicted by just CES in an initial model, and then the
+two visual working memory deficits ($P_{NT}$, and $P_G$ from the
+single target condition) in a second and third. This order was
+chosen in order to examine visual working memory as a descriptor
+of the patient group beyond (i.e., partialled on), any attentional
+deficits measured with the covert orienting task. In order to
+model the complete dataset of 8 patients, the patient CES data was
+"Winsorized," substituting values of 2 standard deviations greater
+than the group mean for the three patients who failed to orient
+leftward. This procedure emphasizes any effect of CES, at the risk
+of over-emphasizing it, and in doing so, makes later estimates of
+visual working memory contributions more conservative. 
+
+The highly non-normal $P_{NT}$, and $P_G$ were each transformed
+via a median split into categorical factors representing "good"
+and "poor" performance. CES was kept as a continuous variable, but
+log transformed. The analysis of deviance indicated that CES, on
+it's own, significantly predicted group affiliation (see table
+\ref{aod}). $P_{NT}$ was not significant, but $P_G$ did
+significantly describe group, when partialled on both CES and
+$P_{NT}$.  No interactions were significant.
+
+\input{VWM/aod.tex}
+
+
+#### Individual Patients
 The reduced group size, as a result of the inability of three
 patients to orient to leftward targets, prevents reliable
 statistical analysis of the relationship between the covert
