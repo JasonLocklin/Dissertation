@@ -3,7 +3,7 @@ Method
 
 ### Participants 
 
-We had patients and controls perform a standard covert orienting
+Patients and controls performed a standard covert orienting
 task and a visual working memory task (both described below). The
 covert orienting task was performed by two groups, a group of
 eight neurological patients, recruited from the Neurological
@@ -23,8 +23,8 @@ were tested at least 9 months post-stroke. The visual working
 memory task was performed by these same two groups plus an
 additional control group of 9 healthy young adults recruited from
 the University of Waterloo's Research Experience Group, and were
-compensated for participation with course credit (Demographics
-unavailable).
+compensated for participation with course credit (demographic
+information unavailable).
 
 Patients were also tested for signs of neglect using three
 standard clinical tests: line bisection, star cancellation, and
@@ -38,8 +38,8 @@ targets on the left side of the page was recorded, and impaired
 performance was defined as \> 10% omission of left-sided targets.
 Three of the patients scored as impaired on all tasks, and these
 participants also scored highest quantitatively on the bisection
-and cancellation tasks (see table \ref{tbl_VWM}).  Only one did not
-show neglect on any task.
+and cancellation tasks (see table \ref{tbl_VWM}).  Only one
+patient did not demonstrate neglect on any task.
 
 \input{VWM/tbl_VWM.tex}
 
@@ -51,14 +51,14 @@ The visual working memory task was a modification of the one used
 by @Emrich2012.  It was presented on a Dell Latitude D820 Laptop
 with Windows XP and executed by Matlab on the built-in 8.5x13"
 screen. Instead of squares and a colour wheel surrounding central
-fixation, the colour wheel was replaced with a vertical colour bar
-and all stimuli appeared to the right of centre in order to
-minimize the impact of spatial attention deficits on WM
-performance (see figure \ref{fig_Ch1-task}).
+fixation, as used by @Emrich2012, the colour wheel was replaced
+with a vertical colour bar and all stimuli appeared to the right
+of centre in order to minimize the impact of spatial attention
+deficits on WM performance (see figure \ref{fig_Ch1-task}).
  
 A trial sequence for the VWM task was as follows: a fixation cross
 was presented for 500ms, followed by a memory sample which
-consisted of either 1,2, or 3 squares of different colours
+consisted of either 1, 2, or 3 squares of different colours
 presented, vertically aligned, to the right of fixation for 500ms.
 The coloured squares could appear in any one of 16 different
 locations in the vertical column.  Following the memory sample, a
@@ -97,8 +97,8 @@ The three-square condition of VWM is depicted.}
 
 #### Covert Orienting of Attention Task
 
-The covert orienting task (Posner, 1978, 1980) was identical in
-design to that of @Striemer2007 and was run on the same computer
+The covert orienting task (@Posner1978; @Posner1980) was identical 
+to that of @Striemer2007 and was run on the same computer
 as the visual working memory task described above. It was
 programmed and run in Superlab (Cedrus Software). Participants
 were presented with 100 trials, outlined in figure
@@ -106,11 +106,11 @@ were presented with 100 trials, outlined in figure
 fixation cross with peripheral landmarks (empty green circles
 12$^\circ$ to right and left of centre, each subtending
 2$^\circ$). This stimulus was followed by the appearance of a
-peripheral cue (1050-1550ms), which consisted of the brightening
+peripheral cue (1050--1550ms), which consisted of the brightening
 of one landmark.  After an SOA of 50 or 150ms, targets, which
 consisted of red circles presented within the landmark, appeared
 either at the cued location (valid trials) or at the opposite
-location (invalid trials; figure \ref{fig_Ch1-task}.  Cues were
+location (invalid trials; figure \ref{fig_Ch1-task}).  Cues were
 non-informative, and 20% of trials were non-cued (40 validly cued
 trials, 40 invalid trials, and 20 non-cued trials, per
 participant).  Targets appeared
@@ -134,15 +134,17 @@ and @Bays2009 (see figure \ref{fig_Emrich2012}).
 
 For each trial, these measures were calculated based on the
 physical location of the participant's response relative to the
-true colour of the target square.  First, a probability that the
+true colour of the target square on the color bar. 
+First, a probability that the
 participant indicated the correct target colour, $P_T$, by the
 magnitude of the location on a Gaussian distribution centred
 around the exact target colour.  If the trial type included more
 than one initial box, then the probability the response to a
-non-target, $P_{NT}$, is calculated in the same way. Lastly, the
+non-target, $P_{NT}$, is calculated in the same way but based on
+the colours of the non-target squares. Lastly, the
 probability the patient guessed randomly is based on a flat
 distribution, but the above distributions were chosen so that this
-was effectively the remainder (i.e., $P_G = 1 - (P_T + P_{NT})$.
+was effectively the remainder (i.e., $P_G = 1 - (P_T + P_{NT})$).
 To compute an estimate of the precision of target responses, the
 $SD$ of the probability model used to compute the above three
 components was also recorded. This provides a measure of the
@@ -163,17 +165,14 @@ to calculate the three values.}
 #### Covert Orienting of Attention Task
 
 For the covert orienting task, response times were recorded and
-means were calculated for each trial category for each
-participant. Cue-effect sizes (CES) – the difference in RT between
-valid and invalid trials – for leftward and rightward shifts of
-attention, for each participant, at each level of SOA were
-calculated. For leftward CES, RTs to validly cued left targets
-were subtracted from invalidly cued left targets (i.e., in both
-cases, the target is on the left, and the magnitude of the score
-comes from the extra time taken to re-orient due to the
-invalid cue). 
-
-
+cue-effect sizes (CES) were calculated for each trial category to
+measure the effects of leftward and rightward re-orienting.
+Leftward cue-effect size, the measure of importance with regards
+to neglect, was calculated by subtracting valid, right-target
+trials from invalid, left-target trials, seperately for each SOA.
+Both trial types involve rightward cues, and the difference
+represents the increased latency introduced when the participant
+must re-orient attention leftward. 
 
 Significance was defined as $p < 0.05$ throughout the thesis.
 Where independent samples $t$ tests are used, unless otherwise
