@@ -2,9 +2,12 @@ Prism adaptation does not improve deficits in spatial working memory or temporal
 ============================================================================================
 
 The previous chapter demonstrated that the working memory deficits
-observed in neglect are not specific to spatial working memory,
-and therefore cannot be reduced to a simple consequence of spatial
-attention. This working memory deficit joins several perceptual
+observed in neglect are not constrained strictly to the spatial
+domain, and so they are not likely to be a direct effect of an
+inability to utilize spatial attention (either due to spatial
+attention deficits specifically, or an inability to access those
+networks for spatial rehursal). This working memory deficit joins
+several perceptual
 deficits discovered in neglect to highlight an independent, subtle
 but debilitating, set of deficits that stand apart from the
 traditionally described deficits of spatial attention.
