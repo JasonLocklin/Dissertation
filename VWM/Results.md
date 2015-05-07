@@ -223,15 +223,16 @@ older controls.}
 #### Group Level Comparison 
 
 In order to explore the relationship between visual working
-memory, and covert orienting, with regards to the patient and
+memory and covert orienting, with regards to the patient and
 older control groups, a generalized linear model was fit
 predicting group affiliation based on the two tasks.
-Specifically, a logistic regression was computed based on a model
-of group predicted by just CES in an initial model, and then the
+Specifically, a logistic regression was computed based on 
+predicting group with just CES in an initial model, and then
+sequentially adding the
 two visual working memory deficits ($P_{NT}$, and $P_G$ from the
 single target condition) in a second and third. This order was
-chosen in order to examine visual working memory as a descriptor
-of the patient group beyond (i.e., partialled on), any attentional
+chosen in order to examine visual working memory as a predictor 
+of the patient group beyond (i.e., partialled on) any attentional
 deficits measured with the covert orienting task. In order to
 model the complete dataset of 8 patients, the patient CES data was
 "Winsorized," substituting values of 2 standard deviations greater
@@ -240,7 +241,7 @@ leftward. This procedure emphasizes any effect of CES, at the risk
 of over-emphasizing it, and in doing so, makes later estimates of
 visual working memory contributions more conservative. 
 
-The highly non-normal $P_{NT}$, and $P_G$ were each transformed
+$P_{NT}$, and $P_G$ could not be normalized, and instead were each transformed
 via a median split into categorical factors representing "good"
 and "poor" performance. The analysis of deviance indicated that
 CES, on it's own, significantly predicted group affiliation (see
@@ -252,24 +253,28 @@ $P_{NT}$.  No interactions were significant.
 
 
 #### Individual Patient Comparison
-When considering the patients able to perform the COVAT, the two 
-patients that
-performed well outside the range of healthy performance 
+When comparing patients on a case by case basis, they can be
+divided into 3 groups based on covert orienting results;
+non-responders (3), large deficit (2), and normal range CES (3).
+The three non-responders were the most densely neglecting patients
+on the clinical tests, and demonstrated strong deficits on the
+visual working memory task.  This was particularly apparent in the
+measure of non-target selection, where these three performed
+considerably poorer than the rest of the group (See table
+\ref{tbl_VWM}). 
+
+The two patients exhibiting a large deficit on CES 
 did not stand out with similarly extreme performance
 deficits on the visual working memory task. When the two are compared with the
-rest of the neglecting group, as can be observed in table
+the three normal range CES patients, as can be observed in table
 \ref{tbl_VWM}, Patient 454 performed slightly worse than the median on
 both visual working memory measures, while Patient 171, who,
 as mentioned previously, as the only one in the group to score negatively on
 all three clinical measures of neglect, was actually the most
-accurate participant. This lack of
+accurate participant. 
+
+This lack of
 reliably similar performance between the two tasks hints at the
 decoupled nature of the two domains suggested earlier. 
 
-The three most densely neglecting patients on the clinical
-tests, however, were the three patients unable to complete the
-covert orienting task and demonstrated strong deficits on the visual
-working memory task.  This was particularly apparent in the
-measure of non-target selection, where these three performed
-considerably poorer than the rest of the group (See table
-\ref{tbl_VWM}). 
+
