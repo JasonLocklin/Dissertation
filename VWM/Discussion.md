@@ -1,6 +1,8 @@
 Discussion
 ----------
 
+### Visual Working Memory Task 
+
 [VWM single] The response precision data indicates that the
 patients were able to perform the basic task of indicating a
 colour to a similar degree of proficiency as the healthy 
@@ -11,14 +13,16 @@ visual information (figure \ref{fig_VWM_Precision}). In contrast,
 when examining the apparent reliability of patient recollections,
 the data appears to indicate that neglect patients fail to recall
 the colour of the square stimuli and respond in a way that 
-indicates more prevalent guessing (figure \ref{fig_VWM_1Target}).
+indicates more prevalent guessing (i.e., single target $P_G$, 
+figure \ref{fig_VWM_1Target}).
 
 
+### Visual Working Memory Task (Non-Targets)
 
 [VWM multi-target intro] When participants were asked to perform the
-same VWM task in the presence of distractors, two things change:
+same VWM task in the presence of distractor "non-targets", two things change:
 there is an increase in memory load, as patients are asked to
-remember more items, and some of that information must be
+remember more items over the delay, and some of that information must be
 associated, as patients must now bind colours and locations
 [@Wheeler2002].  That is, in addition to remembering more than a
 single colour, patients needed to remember the relative spatial
@@ -43,6 +47,8 @@ both in terms of space on the colour bar that results in coding a
 response as a guess, and in terms of response frequency, given the
 three possible outcome probabilities.
 
+TODO: Above, mention proportion of P_G in multi-target cond.
+
 Additionally, it should not be automatically discounted that a
 difference in the healthy control groups might account for the
 failure to identify group differences in guessing in the
@@ -54,20 +60,22 @@ accentuated when the task is calibrated such that healthy
 performance is near perfect and not highly variable.
 
 
-[VWM Multiple -mis-binding] Patients were more likely to select
-non-targets in multi-square conditions (Figure
+[VWM Multiple -mis-binding] Patients appeared to be more likely to
+demonstrate colour-location binding errors than controls (Figure
 \ref{fig_VWM_MTarget}).  There are many potential explanations for
 this, the most obvious being an increase in failures of binding
-colour and location in working memory, a cross-domain cognitive
-process that has been shown degraded in parietal and neglect
+information from the two domains in working memory. This type of 
+cross-domain cognitive
+process has previously been shown degraded in parietal and neglect
 patients (@Humphreys2009; @Pisella2004).  When more than one
 square is presented in the memory sample, colour information 
 must be explicitly
-associated with spatial location in memory.  If all of the colours
+associated with spatial location in memory and stored over the
+delay.  If all of the colours
 are effectively encoded and recalled, but a failure to bind the
 colours to spatial location occurs, participants will select a
-distractor colour 50\% of the time in the two-target condition,
-and 66\% of the time in the three-target condition. 
+distractor colour about half of the time in the two-target condition,
+and two thirds of the time in the three-target condition. 
 
 The other event that can lead to this type of error is a simple
 failure to recall the complete set of stimuli colours. If the
@@ -82,50 +90,95 @@ similarly large increase in the amount of guessing. As guessing
 did not appear to increase in this condition, binding errors are
 the more likely culprit.
 
-[COVAT] The data also brings to light some potential difficulties
-with the covert orienting task in the study of neglect. The three
-most severely neglecting patients did show striking deficits of
-leftward orienting, but, the task was not able to quantify
-performance. It is possible that more salient or less eccentric
-stimuli would have permitted *some* leftward orienting and thus
-calculation of cueing effects. The remaining patients do not
-demonstrate clear alignment with the severity of clinical results,
-but, considering that others have found covert orienting to be a
-reliable indicator of neglect symptoms [@Posner1984; @Morrow1988;
-@Losier2001], task constraints may be responsible. For example,
-the two, short, stimulus onset timings were chosen prevent the
-need for eye movement monitoring (i.e., at 150ms SOA, targets
-appear before eye movement could be initiated), but this may have
-limited the experiments sensitivity for measuring cue effect
-sizes. Also, patients were asked to perform only 100 trials to
-avoid undue fatigue, but this may have limited the power of the
-experiment, as other research has utilized considerably more [e.g.,
-@Posner1984; @Morrow1988; @Danckert1997]. It's also well
-established that the paper and pencil clinical tests have limited
-sensitivity and, by their nature, are not likely capable of
-capturing the complete spectrum and heterogeneity of deficits
-across patients [@Danckert2006]. Participant 171, for example, had
-demonstrated neglect in a clinical setting previously, but at time
-of testing, no longer showed symptoms on the clinical tests.
-Despite this, considering the large deficit on the covert
-orienting task, it would likely be premature to claim complete
-recovery. It's more likely that this is case where the three
-clinical tests used here are poorly matched with remaining
-deficits. 
+### Covert Orienting
+[COVAT] Conclusions about the covert orienting data is more
+limited, as only 5 of the 8 patients were able to perform the task, and
+only 2 of them performed well outside the healthy range.
+Nevertheless, as a group, those patients able to complete the task
+did poorer than the healthy controls, so it's unlikely that those
+two extreme cases are artifacts of chance. Moreover, the non-parametric
+comparison is un-affected by the large magnitude of deficit in
+those two cases, as it's based on rank-order, lending more support
+to the notion that the groups as a whole are, in fact, different. 
 
+Nevertheless, Others have typically found clearer alignment
+between clinical results and orienting performance [@Posner1984;
+@Morrow1988; @Losier2001], so it's likely that experimental
+constraints limited sensitivity.  For example, the two short
+stimulus onset timings were chosen prevent the need for eye
+movement monitoring (i.e., at 150ms SOA, targets appear before eye
+movement could be initiated), but this may have limited cue effect
+size sensitivity by reducing the opportunity for complete
+attentional orienting.  Also, patients were asked to perform only
+100 trials to avoid undue fatigue, but this may have limited the
+power of the experiment, as other research has utilized
+considerably more [e.g., @Posner1984; @Morrow1988; @Danckert1997].
 
-[Comparison of tasks] While a reliable statistical comparison of
-the two tasks was made impossible by the inability of several
-participants to complete the task, there is some information that
-may be gleaned from what remains, and provide hints toward further
-research. The two patients with strikingly poor ability to
-re-orient leftward did not stand out as being particularly
-degraded on either visual working memory or clinical measures of
-neglect. In fact, one of them did not show clinical neglect at
-all. This should serve as a cautionary note, hinting that it is
-may be possible for some individuals to exhibit strong leftward
-covert orienting biases in the absence of symptoms on clinical
-measures of neglect, or visual working memory deficits. 
+In contrast, it's also well established that the paper and pencil
+clinical tests have limited sensitivity and, by their nature, are
+not likely capable of capturing the complete spectrum and
+heterogeneity of deficits across patients [@Danckert2006].
+Participant 171, for example, had demonstrated neglect in a
+clinical setting previously, but at time of testing, no longer
+showed symptoms on the clinical tests.  Despite this, considering
+the large leftward re-orienting deficit demonstrated on the 
+covert orienting task, it would be
+premature to claim complete recovery. It's more likely that this
+is case where the three clinical tests used here are poorly
+matched with remaining deficits; an extreme example of a general
+reality that paper and pencil tasks alone will present
+an incomplete picture, and as a result, will not always match well
+with measures of other components of the disorder. 
+
+[3 non-responders]  The three patients who were unable to complete the
+covert orienting task did effectively show striking deficits of
+leftward orienting, but the task was not able to quantify
+their performance, reducing the power of the above analysis.
+Nevertheless, these strongly biased patients were also the
+three most neglecting on the clinical tests, further supporting
+the connection between leftward re-orienting on the covert
+orienting task, and the clinical measures. Future research should consider
+calibrating experimental parameters to suit the strongest
+neglecting patients if possible. Parameters such as the size, brightness, and
+eccentricity of stimuli, as well as other techniques like
+flashing stimuli, can be used to increase the saliency enough that
+more severely neglecting patients are able to respond.
+
+### Comparison of the Tasks
+
+The logistic regression indicated that one of the two measures of
+visual working memory found to be degraded in the patient group,
+guessing in the single target condition, significantly described
+group affiliation, even when partialled on covert orienting
+performance. If visual working memory deficits were merely
+consequences of a deficit of spatial attention, then one would not
+expect a measure of visual working memory to uniquely describe the
+patient group above and beyond an established measure of the
+attentional neglect deficit (i.e., leftward covert re-orienting).
+While it is possible that the visual working memory test used here
+is a more sensitive, if indirect, measure of attention deficits
+than the well tested, and direct, measure of the covert orienting
+task, but unlikely. Fortunately, the relationship can also be
+examined by considering the patients on a case-by-case basis.
+
+The three most severely neglecting patients demonstrated
+consistently degraded performance on all tasks, lending support to
+the claim that the clinical, visual working memory, and covert
+orienting are testing factors related to neglect in some way.
+However, the remaining 5 weaker neglecting patients present a much
+less consistent relationship (table \ref{tbl_VWM}). One patient
+presents a very large leftward CES, along with degraded
+performance, relative to peers on most of the remaining tasks;
+while another presents the opposite picture, doing exceedingly
+well on the non-covert orienting tasks.  Generally, CES rank
+matches line bisection performance, though, this is not without
+exception. However, in only the one case, mentioned above, does
+covert orienting and visual working memory performance appear to
+be consistent. This lack of reliably similar performance across
+the range of the two tasks hints at the decoupled nature of the
+two domains in neglect. 
+
+### Moving Foreword
 
 [Heterogeneity of neglect means within-subject is better] Despite
 the fact that 8 patients with neglect were recruited for this

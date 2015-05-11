@@ -245,7 +245,7 @@ $P_{NT}$, and $P_G$ could not be normalized, and instead were each transformed
 via a median split into categorical factors representing "good"
 and "poor" performance. The analysis of deviance indicated that
 CES, on it's own, significantly predicted group affiliation (see
-table \ref{aod}). $P_{NT}$ was not significant, but $P_G$ did
+table \ref{aod}). The addition of $P_{NT}$ was not significant, but $P_G$ did
 significantly describe group, when partialled on both CES and
 $P_{NT}$.  No interactions were significant.
 
@@ -255,7 +255,7 @@ $P_{NT}$.  No interactions were significant.
 #### Individual Patient Comparison
 When comparing patients on a case by case basis, they can be
 divided into 3 groups based on covert orienting results;
-non-responders (3), large deficit (2), and normal range CES (3).
+non-responders (3), large deficit (2), and near normal range CES (3).
 The three non-responders were the most densely neglecting patients
 on the clinical tests, and demonstrated strong deficits on the
 visual working memory task.  This was particularly apparent in the
@@ -272,9 +272,5 @@ both visual working memory measures, while Patient 171, who,
 as mentioned previously, as the only one in the group to score negatively on
 all three clinical measures of neglect, was actually the most
 accurate participant. 
-
-This lack of
-reliably similar performance between the two tasks hints at the
-decoupled nature of the two domains suggested earlier. 
 
 
