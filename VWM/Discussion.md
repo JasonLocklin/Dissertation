@@ -9,15 +9,36 @@ colour to a similar degree of proficiency as the healthy
 groups, demonstrating that basic perceptual representations were
 intact, and that they are able to perform the perceptual-motor response as
 effectively as controls when they are able to recall the correct
-visual information (figure \ref{fig_VWM_Precision}). In contrast,
-when examining the apparent reliability of patient recollections,
-the data appears to indicate that neglect patients fail to recall
-the colour of the square stimuli and respond in a way that 
-indicates more prevalent guessing (i.e., single target $P_G$, 
-figure \ref{fig_VWM_1Target}).
+visual information (figure \ref{fig_VWM_Precision}). 
 
+#### Guessing
 
-### Visual Working Memory Task (Non-Targets)
+When examining the apparent reliability of patient responses, the
+data appears to indicate that neglect patients fail to recall the
+colour of the square stimuli and respond in a way that indicates
+more prevalent guessing in the single square condition (i.e.,
+$P_G$, figure \ref{fig_VWM_1Target}).  Interestingly,  this effect
+was not significant in the multi-square condition (figure
+\ref{fig_VWM_MTarget}). In the single square condition, both
+healthy groups perform near ceiling. When non-targets are
+introduced in the multi-square conditions, all groups appear to
+fail more often, but for the healthy groups the bulk of the errors
+appear to be guessing (figure \ref{fig_VWM_MTarget}). The patient
+group, in contrast, exhibits broadly similar guessing
+probabilities as in the single square condition, but significantly
+inflated binding errors, relative to the healthy groups (discussed
+below).
+
+The lack of a significant group guessing difference may,
+nevertheless, reflect limited sensitivity of the task variant. The
+single square condition may be more effectively tuned to measure
+simple visual working memory failures (i.e., guessing), as that is
+the only type of failure in the condition. The parameters of the
+task meant that the healthy groups performed near ceiling, and so
+demonstrated less variability, perhaps allowing for more
+sensitive statistical contrast with the patient group. 
+
+#### Binding Errors
 
 [VWM multi-target intro] When participants were asked to perform the
 same VWM task in the presence of distractor "non-targets", two things change:
@@ -31,33 +52,6 @@ result, two types of errors can be committed. A failure to recall
 a colour (a guess), or a mis-identification of one of the
 non-target distractors as belonging to the indicated spatial position
 (non-target response). 
-
-
-[VWM Multiple -guessing results] 
-Interestingly, in contrast to the single square condition, the
-patient group does not appear to guess more frequently than the
-other groups when presented with multiple square stimuli (figure
-\ref{fig_VWM_MTarget}).  This may reflect a limited sensitivity in
-this task variant, as in the multi-square condition, binding
-errors appear to be the overwhelming source of failures. While the
-single-square condition is effectively tuned to detect guessing
-(as that is the only type of error possible), the multi-square
-conditions simply provides less opportunity to detect guessing,
-both in terms of space on the colour bar that results in coding a
-response as a guess, and in terms of response frequency, given the
-three possible outcome probabilities.
-
-TODO: Above, mention proportion of P_G in multi-target cond.
-
-Additionally, it should not be automatically discounted that a
-difference in the healthy control groups might account for the
-failure to identify group differences in guessing in the
-multi-square condition. The control groups perform almost
-perfectly on the single square condition, but fell away from this
-"ceiling" somewhat on the multi-square condition. The difference
-between neglect and healthy performance may simply be more
-accentuated when the task is calibrated such that healthy
-performance is near perfect and not highly variable.
 
 
 [VWM Multiple -mis-binding] Patients appeared to be more likely to
