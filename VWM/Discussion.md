@@ -26,7 +26,7 @@ fail more often, but for the healthy groups the bulk of the errors
 appear to be guessing (figure \ref{fig_VWM_MTarget}). The patient
 group, in contrast, exhibits broadly similar guessing
 probabilities as in the single square condition, but significantly
-inflated binding errors, relative to the healthy groups (discussed
+inflated non-target errors, relative to the healthy groups (discussed
 below).
 
 The lack of a significant group guessing difference may,
@@ -44,7 +44,8 @@ sensitive statistical contrast with the patient group.
 same VWM task in the presence of distractor "non-targets", two things change:
 there is an increase in memory load, as patients are asked to
 remember more items over the delay, and some of that information must be
-associated, as patients must now bind colours and locations
+associated, as patients must now bind colours and locations in 
+working memory across the delay interval
 [@Wheeler2002].  That is, in addition to remembering more than a
 single colour, patients needed to remember the relative spatial
 arrangement of those colours in order to answer correctly.  As a
