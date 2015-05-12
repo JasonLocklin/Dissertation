@@ -15,35 +15,29 @@ traditionally described deficits of spatial attention.
 [Prisms remediate spatial attention] As discussed earlier, one of
 the most promising and well studied treatments for the remediation
 of neglect is the use of short term adaptation to leftward
-shifting prisms [@Rossetti1998; @Luaute2006]. Much of the research
-into prism adaptation has focused on the striking changes in
-spatial attention, demonstrating a shift from completely ignoring
-stimuli left of centre, to attending almost equally to leftward as
-rightward stimuli [@Striemer2007; @Nijboer2008; @Schindler2008].
-Interestingly, at least one prism adaptation study failed to
-demonstrate what seems consistent and reliable elsewhere. While
-most of the research investigating the effects of prism adaptation
-on spatial attention utilize tasks such as covert orienting,
-@Morris2004 used a visual search paradigm, and was unable to
-demonstrate any benefits of prism adaptation [@Morris2004].
+shifting prisms [@Rossetti1998; @Luaute2006]. While much of the
+research into prism adaptation has focused on changes in spatial
+attention [@Striemer2007; @Nijboer2008; @Schindler2008], their
+effectiveness may not extend to more integrated, perceptual tasks
+such as serial visual search [@Morris2004].
 
-[VS is somewhat perceptual] Serial visual search involves
-successive steps that make use of more than a single system. There
-is the perceptual judgment of stimulus identity that determines
-progress in the search, for instance. While patients do not seem
+Visual search involves successive steps that make use of
+several systems, including perceptual judgement of stimulus
+identity, and, spatial memory of searched locations. 
+While patients do not seem
 to have trouble discerning the stimulus types used in visual
 search, eye-tracking research has demonstrated that even young,
 healthy, individuals can occasionally fixate, or even interact
 with targets, but still fail to identify them [@Rich2008;
-@Solman2012], so reduced perceptual judgment can play a role in
-diminished search performance.  That diminished performance could
+@Solman2012], so reduced perceptual judgement can play a role in
+diminished search performance.  Diminished performance could
 also come from the search algorithm itself.  People do not search
 targets in a completely random order, necessitating a role for
 spatial working memory in directing search based on previously
-visited locations.  Further, the revisiting behaviour observed
+visited locations. The revisiting behaviour observed
 when neglect patients perform object cancellation tasks suggests
-that their search patterns may be indicative of impaired working
-memory [@Wojciulik2001; @Husain2001]. 
+a sub-optimal memory of those locations 
+[@Wojciulik2001; @Husain2001]. 
 
 [Prisms influence dorsal stream] The reliable effect of prisms on
 remediating spatial attention deficits, with their simultaneous
