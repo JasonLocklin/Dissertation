@@ -91,7 +91,8 @@ computer as the SWM task, but was programmed in E-Prime
 (Psychology Software Tools). As with the SWM task, patients gave
 verbal responses, and the experimenter entered those responses and
 controlled the task via the keyboard. The task was the same as
-@Danckert2007. When a trial was initiated by the experimenter, an
+@Danckert2007. 
+In order to provide a stimulus for the participant to attend, an
 illusory motion stimulus was presented that consisted of eight
 open circles (each subtending 3.5$^\circ$), arranged in a larger circle
 around the centre of the screen (radius of 8$^\circ$), with each circle
