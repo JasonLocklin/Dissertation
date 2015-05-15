@@ -3,17 +3,15 @@ Method
 
 ### Participants
 
-Nine patients with right parietal damage who had shown clinical
+Eight patients with right parietal damage who had shown clinical
 symptoms of neglect in previous testing were recruited from the
 Neurological Patient Database (funded through the Heart and Stroke
 Foundation of Ontario,
-<https://uwaterloo.ca/neurological-patient-database>).  One
-patient (171) was from the group tested in the previous chapter.
+<https://uwaterloo.ca/neurological-patient-database>). 
 Two patients were unable to return for the second phase of the
-experiment because of extenuating circumstances, and a third
-participant was removed from the study because of extensive
-cerebellar damage. See table \ref{tbl_Prisms} for demographic data on
-the remaining patients. The study was approved by the University
+experiment because of extenuating circumstances. 
+See table \ref{tbl_Prisms} for demographic data on
+the remaining six patients. The study was approved by the University
 of Waterloo's Office of Research Ethics, and the Tri-Hospital
 Research Ethics board.  All patients were tested at least 19
 months post-stroke.  One participant was not able to perform the
@@ -27,8 +25,9 @@ analysis.
 
 Patients participated in at least two sessions. The two sessions
 were intended to differ only in the presence or absence of prism
-adaptation. One patient discontinued their first session due to
-fatigue but was able to complete testing in a second session.
+adaptation. One patient had to leave early durring their first
+session, so repeated it on another day. The duplicated data is
+included in this chapter's figures for transparency.
 
 As in the previous chapter, patients were tested for symptoms of
 neglect using four standard clinical measures. These were line
