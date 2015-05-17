@@ -7,8 +7,8 @@ Replicating previous research using this spatial working memory
 task [@Ferber2006; @Striemer2013], all of the patients who were
 showing clinical signs of neglect performed very poorly.  Figure
 \ref{fig_SWM} plots the patient mean accuracy along with expected
-range (2 standard deviations from the means) of the neurologically
-intact, and non-neglecting right brain damaged participants from
+normal range, based on the performance of two non-neglecting
+groups tested on the identical task by
 @Ferber2006. While the patient who did not demonstrate neglect on
 the clinical tasks at time of testing (27) performed similarly to
 the non-neglecting group, the remaining patients baseline
@@ -19,10 +19,12 @@ observed in either group.
 \centering 
 \includegraphics{fig_SWM.pdf.png} 
 \caption{Figure depicts pre and post-prism SWM performance for all
-participants.  Overlaid are means and bands of 2 standard
-deviations of neurologically intact (light band), and
-non-neglecting right brain damaged (dark band) controls from
-@Ferber2006.} 
+participants. In order to depict performance expected from
+non-neglecting individuals, means and bands of $\pm 2$ standard
+deviations from non-neglecting right brain damaged (dark band,
+$n=4$, one female, ages: 55, 55, 68, and 78. All $> 3$ months post
+stroke) and neurologically intact controls (light band, $n=10$,
+age matched) from @Ferber2006 are overlaid the participant data.} 
 \label{fig_SWM} 
 \end{figure}
 
