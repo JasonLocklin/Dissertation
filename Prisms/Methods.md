@@ -10,8 +10,12 @@ Foundation of Ontario,
 <https://uwaterloo.ca/neurological-patient-database>). 
 Two patients were unable to return for the second phase of the
 experiment because of extenuating circumstances. 
-See table \ref{tbl_Prisms} for demographic data on
-the remaining six patients. The study was approved by the University
+As can be seen in table \ref{tbl_Prisms}, the remaining six
+patients demonstrated a wide range of performance on the clinical
+tasks at time of testing, including two who were no longer
+demonstrating neglect symptoms by our criteria (Patients 27,
+and 97). 
+The study was approved by the University
 of Waterloo's Office of Research Ethics, and the Tri-Hospital
 Research Ethics board.  All patients were tested at least 19
 months post-stroke.  One participant was not able to perform the

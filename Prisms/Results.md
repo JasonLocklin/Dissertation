@@ -9,9 +9,9 @@ showing clinical signs of neglect performed very poorly.  Figure
 \ref{fig_SWM} plots the patient mean accuracy along with expected
 normal range, based on the performance of two non-neglecting
 groups tested on the identical task by
-@Ferber2006. While the patient who did not demonstrate neglect on
-the clinical tasks at time of testing (27) performed similarly to
-the non-neglecting group, the remaining patients baseline
+@Ferber2006. While one patient performed similarly to
+the non-neglecting group (27, one of the two no longer
+demonstrating neglect on clinical tasks), the remaining patients baseline
 performance was at least 3 standard deviations outside what was
 observed in either group.
 
@@ -51,8 +51,9 @@ z < 5.0$).
 
 As can be observed in figure \ref{fig_TE}, the five patients who
 showed clinical signs of neglect massively underestimated the time
-intervals. In contrast, Patient 27, the non-neglecting patient,
-underestimated to some degree pre-prisms, and responded very
+intervals. Again, Patient 27, one of the two patients no longer
+demonstrating neglect on the clinical tasks,
+underestimated to only a minor degree pre-prisms, and responded very
 accurately post-prisms (figure \ref{fig_TE}). As a result,
 analysis was done both with and without including Patient 27, and
 results did not differ.  What is presented here is the data
