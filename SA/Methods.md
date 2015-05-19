@@ -144,35 +144,32 @@ of the line for each trial was recorded, and the mean of the final
 After the first target of a saccadic adaptation trial was fixated,
 it disappeared and the second target appeared. At this point,
 500hz eye position samples from the eye-tracker were recorded
-until the end of the trial (approximately 2s). This allowed later
+until the end of the trial (approximately 2s). This allowed off-line 
 analysis of the initial saccade toward the second target, and any
 corrective saccades to the perturbed location afterwards. Rather
 than rely on the real-time saccade detection algorithm executed by
-Eyelink's own program, an algorithm was developed that matched
-human performance when viewing the eye-position data graphically
+Eyelink's own program, saccades were detected by smoothing and
+velocity thresholding the data after the experiment was complete
+(Using SciPy [@Jones2001]).
+This allowed parameters to be chosen that matched human
+performance when viewing the eye-position data graphically
 and manually identifying the precise start and finish of each
-saccade.  The eye position data contained a large amount of noise,
-so determining the precise start and end of a saccade, which are
-needed to produce reliable estimates of saccade length, and thus
-adaptive gain effects, was critical to robust analysis.
+saccade, permitting accurate saccade length estimates.
 
-Duplicate samples were removed and eye movement speed was then
-calculated as the sample-to-sample position change (unsigned).
-This speed data was smoothed by convolution with a "hanning"
-window (a hanning window resembles a Gaussian distribution, but
-lacks the long tails, so makes a good smoothing filter,
-emphasizing local characteristics, $w(n) = 0.5\; \left(1 - \cos
-\left ( \frac{2 \pi n}{N-1} \right) \right)$). Saccades were
-detected by first convolving a "rolling maximum," with a window of
-10 speed samples.  A rolling maximum was chosen instead of the
-more commonly used average, as it accentuates sudden bursts of
-speed, eliminating long rise times, therefore making saccade onset
-and duration detection easier and more consistent from saccade to
-saccade.  A saccade was defined as regions where the rolling
-maximum met a threshold greater than the median trial speed plus
-an experimentally determined parameter (1500$^\circ$/second).  The
-analysis of a typical trial is presented graphically in figure
-\ref{fig_Saccade}.
+
+Speed data (unsigned horizontal velocity) was smoothed by
+convolution with a "hanning" window and then a "rolling maximum"
+of window size of 20ms.  A hanning window resembles a Gaussian
+distribution, but lacks long tails, so makes an effective
+smoothing filter, emphasizing local characteristics, $w(n) = 0.5\;
+\left(1 - \cos \left ( \frac{2 \pi n}{N-1} \right) \right)$). A
+rolling maximum accentuates sudden bursts of speed, eliminating
+long rise times, therefore making saccade onset and duration
+detection easier and more consistent from saccade to saccade.
+Saccades were detected based on a speed threshold of
+tk$^circ$/second faster than the median trial speed (empirically
+determined by visual verification). The analysis of a typical
+trial is presented graphically in figure \ref{fig_Saccade}.
 
 Individual trials were then removed from the analysis if the data
 was not of sufficient quality to calculate a reliable
