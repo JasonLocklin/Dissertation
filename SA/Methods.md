@@ -174,21 +174,21 @@ an experimentally determined parameter (1500$^\circ$/second).  The
 analysis of a typical trial is presented graphically in figure
 \ref{fig_Saccade}.
 
-Individual trials were then removed from the analysis if the data
-was not of sufficient quality to calculate a reliable
-first-saccade length.  These criteria and parameters were
-determined by plotting randomly selected trials from the data-set
-and comparing the algorithm's selections with manual judgment.
-Trials were removed if there was more total displacement during
-fixations than identified saccades (which occurred when large but
-slow velocity drifts occurred during fixations).  They were also
-removed when there were more than two saccades in the short window
-of a trial (3 or more saccades in a single trial usually indicated
-erratic eye movements). Trials were also dropped if they appeared
-to contain no saccades, or if a lack of eye position data from the
-tracker resulted in large gaps or a low overall number of samples
-(which can result from blinking). As a result, approximately half
-(56\%) of trials proved usable in the analysis.
+Only trials with sufficiently clear initial saccade and at most
+one corrective saccade were used to calculate eye movement
+results, and were included based on the following criteria:
+Trials were required to include more total displacement during
+identified saccades than fixations (elimiating trials with large
+drift during fixations).  They were also required to contain at
+least one and at most two saccades in the short window of a trial
+(3 or more saccades in a single trial usually indicated erratic
+eye movement recording --often due to partial pupil occlusion).
+Trials with temporal gaps in samples, which occur durring blinks or
+large head movements, were not included. This stringent criteria
+resulted in an inclusion rate of approximately half (56\%), but
+provides input for further analysis free from potential bias by
+equipment or behavioral artifacts unrelated to the adaptation
+procedure.
 
 \begin{figure}[p] 
 \centering 
