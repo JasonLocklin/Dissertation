@@ -4,8 +4,8 @@ Results
 ### Spatial Working Memory Task
 
 Replicating previous research using this spatial working memory
-task [@Ferber2006; @Striemer2013], all of the patients who were
-showing clinical signs of neglect performed very poorly.  Figure
+task [@Ferber2006; @Striemer2013], most of the patients performed 
+very poorly.  Figure
 \ref{fig_SWM} plots the patient mean accuracy along with expected
 normal range, based on the performance of two non-neglecting
 groups tested on the identical task by
@@ -33,13 +33,12 @@ age matched) from @Ferber2006 are overlaid the participant data.}
 As a group, SWM performance does statistically improve when a
 one-sided test is used (presuming prisms would not decrease
 performance, $t(4)=2.67$, $\text{p} < 0.05$). When consulting
-figure \ref{fig_SWM}, it becomes obvious, however, that there is
-not a consistently large improvement across all patients, and even
-those who did improve did not demonstrate performance in the range
-expected from healthy individuals (figure \ref{fig_SWM}). All four
-patients showing clinical signs of neglect still showed large
-deficits post-prisms, compared with the performance of
-non-neglecting right brain damaged patients previously examined on
+figure \ref{fig_SWM}, it becomes obvious, however, that the change
+is small relative to the size of the deficit. All four patients
+showing clinical signs of neglect at time of testing still
+demonstrated large deficits post-prisms, compared with the
+performance of non-neglecting right brain damaged patients
+previously examined on
 this test (z-scores between 3.4 and 7.2). When compared with
 performance of the more variable, right-brain damaged population
 (the lighter region in figure \ref{fig_SWM}), Patient 171 does
@@ -69,6 +68,7 @@ was computed in order to yield a measure of the relationship
 figure \ref{fig_TE}, the relationship was not recti-linear (first
 order), so linear models were computed based on log-transformed
 time. When this was done, linear models fit very well (13 models,
+one for each participant session,
 $r^2$: first quartile $=0.80$, median $=0.87$, third quartile
 $=0.92$).  The worst case model was, nevertheless, still
 significant ($F(1,14)=12.4$, $\text{p}< 0.01$, $r^2=0.47$),
@@ -104,7 +104,7 @@ tests on the sets of line bisections for each patient, with a bonferonni
 adjusted criteria ($\alpha = 0.008$), demonstrated
 a relatively consistent effect across individuals. As can be seen
 in figure \ref{fig_LB_Prisms}, the changes were nearly-universally
-leftward excepting Patient 27, the non-neglecting patient.
+leftward excepting Patient 27.
 Patient's 95, 97, and 171 demonstrated significant leftward shifts
 in bias post-prisms ($t(16)=3.3$, $\text{p} < 0.008$, $t(17)=4.1$,
 $\text{p} < 0.001$, $t(18)=3.2$, $\text{p} < 0.008$,

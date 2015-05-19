@@ -14,21 +14,18 @@ research involving a related perceptual task, the landmark task,
 suggests that the neglect-induced bias observed in line bisection
 probably represents a relatively clear indicator of a dorsal
 deficit within the disorder [@Striemer2010dpm]. The findings here
-strongly suggest that, in at least some of the neglecting
+suggest that, in at least some of the neglecting
 patients, prisms did appear to bring about a shift in bisection
-toward the neglected field. Due to the characteristics of the
-treatment and sample-size limitations, an experimental design that
-would have eliminated possible practice-effects was not possible.
-However, keeping in mind that limitation, it is the pattern of
-response between this "dorsal" task and the other, more
-perceptual, tasks that is most informative.
-
+toward the neglected field, replicating previous research, and
+confirming the prism-induced shift of visual-motor bias in the
+patients.
 
 [SWM not remediated] The spatial working memory task, despite
-being spatial in nature, is designed to test for the  more
+being spatial in nature, is designed to primarily test for 
 ventrally-oriented working memory deficits, and relies on stimuli
-in central and right space, rather than left space, where spatial
-attention defects predominate.  The locations of the targets need
+in central and right space, rather than left space, where the spatial
+attention defects associated with neglect predominate. 
+The locations of the targets need
 to not only be perceived, but recalled again after a delay, and
 that delay putatively causes the task to rely heavily on ventral,
 working memory systems [@Ferber2006].  When the patients performed

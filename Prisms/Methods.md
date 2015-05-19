@@ -48,7 +48,7 @@ are depicted in table \ref{tbl_Prisms}.
 The spatial working memory (SWM) task is a similar, simpler
 relative of the visual working memory task that was used in the
 last chapter [@Ferber2006]. Patients were seated at a viewing
-distance of approximately 60 cm, with their head and body axes
+distance of approximately 60 cm, with their head and body axis
 aligned (no chin-rest was used, optical angles presented below are
 therefore approximate). The task was programmed in Visual Basic
 Version 6.0 (Microsoft Inc.), and displayed on a tk computer with
