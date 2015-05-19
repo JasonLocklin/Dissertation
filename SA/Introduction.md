@@ -11,6 +11,8 @@ functioning, then it follows that these specially chosen
 perceptual tasks will not be substantially remediated by prisms
 [@Striemer2010tpd].
 
+### Issues with Prism Adaptation and an Alternative
+
 Prism adaptation, by design, influences both visual and
 proprioceptive frames of reference [@Redding2005]. In fact,
 depending on the specifics of the adaptation protocol, the bulk of
@@ -19,7 +21,7 @@ reference frame [@Redding2005]. The protocol used in the previous
 chapter employed concurrent visual feedback, where the participant
 is not prevented from seeing his hand throughout the movement.
 This is likely to have led to a predominantly proprioceptive
-reference frame realignment. Regardless of the type of feedback,
+reference frame realignment. However, regardless of the type of feedback,
 prism adaptation leads to a mix of proprioceptive and visual, or
 perceptual, effects, and the degree to which each of these is
 present is contentious [@Redding2005; @Herlihey2012].
@@ -29,8 +31,10 @@ adaptation procedure, called saccadic adaptation, -- a task that
 changes saccade length by jumping targets forward or backward as a
 saccade is made, inducing an artificial dysmetria
 [@McLaughlin1967] -- offers a potential alternative approach to
-rehabilitating neglect that may overcome some of the shortcomings
-of prism adaptation. This is because saccades straddle the
+overcome some of the shortcoming of prism adaptation, 
+exclusively influencing visual reference frames, and as a result,
+the perceptual system.
+This is because saccades straddle the
 perceptual and motor systems in a highly unique way.  Saccadic
 adaptation is a form of sensory adaptation, because it changes
 input to the visual system. At the same time saccadic adaptation
@@ -43,8 +47,9 @@ directly biasing eye movements, and thus providing a different,
 and perhaps more direct way of influencing visual perceptual
 representations.
 
-There are other differences between the two tasks that may make
-saccadic adaptation more useful as a rehabilitation tool in
+There are other differences between the two tasks that may also make
+saccadic adaptation more useful in the eventual study of
+perceptual bias in
 neglect.  For example; unlike other adaptive systems, saccades are
 unable to make corrections in-flight due to the lack of useful
 visual feedback throughout the duration of the action [@Dodge1900;
@@ -55,12 +60,14 @@ This may be valuable in neglect as patients tend toward slow,
 laborious, pointing gestures, and prism adaptation benefits from
 faster, more fluid movement [@Redding2005]
 
+### Saccadic Adaptation
+
 [Saccades adapt to a wide range of perturbations] Because of the
 limitations of vision during eye movements, the saccadic system
 must rely on errors to maintain precision [@Wong2010]. As a
 result, saccade accuracy can be maintained in the face of a wide
 range of perturbations, from ocular muscle paresis or injury
-[@Kommerell1976] , weakness due to aging [@Kommerell1976], or the
+[@Kommerell1976], weakness due to aging [@Kommerell1976], or the
 wearing of magnifying glasses on one or both eyes
 [@Kommerell1976]. There exists a rich, half-century of
 investigation into the saccadic adaptation system, most of it
@@ -118,17 +125,30 @@ perception of spatial extent in the absence of eye movements
 saccadic adaptation can influence perception.
 
 The current chapter sets out to examine the potential for saccadic
-adaptation as a rehabilitative tool for neglect. However, the
-application of saccadic adaptation in clinical research has not
-been well established. Where it has, it has almost exclusively
-been with disorders involving cerebellar degeneration, and not
+adaptation as a tool for examining the types of perceptual bias
+observed in neglect, and as a first step toward assessing it as an 
+alternative to prism adaptation for the rehabilitation of the
+dissorder. Despite it's relatively long history of use in
+psychophysics, the application of saccadic adaptation in clinical
+research has not been well established, and where it has, it has
+almost exclusively been with disorders involving cerebellar
+degeneration, and not
 cortical disorders like neglect. In one notable exception,
 saccadic adaptation was used to improve reading speed and
 performance on a serial visual search task in hemianopic patients
 [@Lvy-Bencheton2012]. It has also been successfully used to
 improve reading ability in an elderly patient with an acquired
 oculomotor apraxia and other degenerative disorders that caused
-gaze abnormalities [@Desestret2013]. Because of the dearth of
-research, the clinical application of saccadic adaptation on
-disorders like neglect is under-examined.
+gaze abnormalities [@Desestret2013]. 
+
+Because of the dearth of research, the clinical application of
+saccadic adaptation on disorders like neglect is unknown, so
+presented here is an experiment examining the influence of
+saccadic adaptation on the spatial perception and judgement of
+body mid-line by healthy individuals. If this behaviour can be
+biased by saccadic adaptation in healthy individuals, then it's
+possible that the procedure influences the same systems as are
+effected by the disorder, and if it influences *perception* of
+centre, then it's ventral influence makes it an important
+alternative to prism adaptation.
 
