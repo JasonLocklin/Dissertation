@@ -1,10 +1,10 @@
 Can saccadic adaptation improve both action and perception?
 ===========================================================
 
-The previous chapter demonstrates that prism adaptation fails to
-improve performance on both spatial working memory and temporal
-estimation tasks. This can be explained by the dorsal-ventral
-disassociation. These tasks were chosen because of their
+The previous chapter failed to demonstrate the effectiveness of prism 
+adaptation on improving both spatial working memory and temporal
+estimation. This can be explained by the dorsal-ventral
+disassociation, as these tasks were chosen because of their
 perceptual nature. If prisms influence dorsal stream functioning,
 and these tasks are dominantly tests of ventral stream
 functioning, then it follows that these specially chosen
