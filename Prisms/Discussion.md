@@ -60,9 +60,9 @@ meaningful improvement fits the prediction that prisms, a
 task demonstrated in the past to influence primarily dorsal brain
 regions, would have minimal effects on the deficits of working
 memory and time perception observed in neglect because they rely
-on putatively ventral functions. The disassociation between these
-two sets of results lends credence to the hypothesis presented
-earlier that neglect is a disorder involving two independent
+on putatively ventral functions. These findings lend support to
+the hypothesis presented earlier, that neglect is a disorder
+involving two independent
 systems, and that remediation of only one system will have minimal
 effect on the deficits arising from the other. More effective
 treatments will then necessarily need to induce changes in the
