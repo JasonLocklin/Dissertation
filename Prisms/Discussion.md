@@ -29,14 +29,12 @@ The locations of the targets need
 to not only be perceived, but recalled again after a delay, and
 that delay putatively causes the task to rely heavily on ventral,
 working memory systems [@Ferber2006].  When the patients performed
-the spatial working memory task after prism adaptation, they did
-show statistically significant improvement as a group, but that
-improvement, for the most part, would not be considered clinically
-significant. That is to say that the change left all four
-neglecting patients with large deficits relative to typical
-control performance, with three of those four performing well
-outside of what would be expected to be observed in the control
-population.
+the spatial working memory task after prism adaptation, while they
+did show statistically significant improvement as a group, the
+change left all four neglecting patients with large deficits
+relative to typical control performance, with three of those four
+performing well outside of what would be expected to be observed
+in the control population.
 
 [TE also not improved] Like the spatial working memory results,
 neglect patients displayed severe deficits on the temporal
@@ -58,7 +56,7 @@ relatively reliable change in individuals with neglect, and this
 data is paired with two other tasks which putatively rely on
 different, ventral stream processing. These other two tasks
 demonstrate continued deficits post prisms. This lack of
-clinically relevant improvement fits the prediction that prisms, a
+meaningful improvement fits the prediction that prisms, a
 task demonstrated in the past to influence primarily dorsal brain
 regions, would have minimal effects on the deficits of working
 memory and time perception observed in neglect because they rely
