@@ -169,7 +169,7 @@ cue-effect sizes (CES) were calculated for each trial category to
 measure the effects of leftward and rightward re-orienting.
 Leftward cue-effect size, the measure of importance with regards
 to neglect, was calculated by subtracting valid, right-target
-trials from invalid, left-target trials, seperately for each SOA.
+trials from invalid, left-target trials, separately for each SOA.
 Both trial types involve rightward cues, and the difference
 represents the increased latency introduced when the participant
 must re-orient attention leftward. 
@@ -177,7 +177,10 @@ must re-orient attention leftward.
 Significance was defined as $p < 0.05$ throughout the thesis.
 Where independent samples $t$ tests are used, unless otherwise
 specified, the Welch approximation of the degrees of freedom for
-unequal variance was used.
+unequal variance was used. Except where noted, all analysis was
+completed using R[@R], using various additional packages [@dplyr; @ez;
+@reshape2; @nparcomp], and plots were created using ggplot2
+[@ggplot2].
 
 
 
