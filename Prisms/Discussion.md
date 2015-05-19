@@ -42,9 +42,9 @@ population.
 neglect patients displayed severe deficits on the temporal
 estimation task. While responses did seem to be influenced by the
 actual trial duration (i.e., larger estimates made for longer
-interval durations), the five patients who showed clinical signs
-of neglect massively underestimated the durations both before and
-after prisms. In this case, it appears prisms had no measurable
+interval durations), the patients underestimated the durations
+both before and after prisms. In this case, it appears prisms
+failed to procude a measurable
 effect on the deficit.
 
 [concluding] Neglect is a disorder arising from naturally varied
