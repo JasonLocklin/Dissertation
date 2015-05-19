@@ -29,9 +29,11 @@ analysis.
 
 Patients participated in at least two sessions. The two sessions
 were intended to differ only in the presence or absence of prism
-adaptation. One patient had to leave early durring their first
-session, so repeated it on another day. The duplicated data is
-included in this chapter's figures for transparency.
+adaptation. 
+During prism adaptation, patients alternately pointed to targets on a
+table-top to the left and right of body mid-line every 2--3 seconds
+for 5 minutes. Prism glasses were worn that shifted vision
+10$^\circ$ to the right.
 
 As in the previous chapter, patients were tested for symptoms of
 neglect using four standard clinical measures. These were line
@@ -42,6 +44,10 @@ twice during sessions involving prisms, before and after
 adaptation.  Coding and analysis of the tasks were performed in
 the same way as in Chapter 1. The results of the clinical measures
 are depicted in table \ref{tbl_Prisms}.
+One patient had to leave early during their first
+session, so repeated it on another day. The duplicated data is
+included in this chapter's figures for transparency.
+
 
 #### Spatial Working Memory Task
 
