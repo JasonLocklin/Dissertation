@@ -123,15 +123,4 @@ non-significant, though landmark performance did approach
 significance ($r = 0.29$, $t(35) = 1.84$, $\text{p} = 0.07$, and
 $r = -0.06$, $t(34) = -0.39$, $\text{p} = 0.7$, respectively)
 
-### Case Study
 
-[Saccades not toward target but central fixation] The neglect
-patient made saccades normally to the first target in the
-adaptation task (rightward), however, he was never able to acquire
-the second,leftward target. After the first target disappeared,
-the patient always returned to the centre of the screen,
-anticipating the central fixation which would begin the next
-trial. The trial would time-out and the fixation would then
-appear. After several unsuccessful attempts to verbally and
-manually cue the patient to the second target in the sequence, the
-experiment was discontinued.  
