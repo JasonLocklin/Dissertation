@@ -30,6 +30,19 @@ adaptation, however, did not produce a measurable change in
 landmark or line bisection performance, even though the experiment
 had sufficient statistical power to detect very small changes. 
 
-
+The strict trial inclusion criteria was chosen to ensure
+confidence that the resulting metrics were not influenced by
+artifacts unrelated to the adaptation, however this results in
+nearly half the trials being removed from the analysis. This makes
+an estimate of adaptation size from test trials impossible, and so
+it was calculated based on non-test trials as well. Because
+non-test trials included the purturbed target, it's possible that
+the target influenced the duration of the initial saccade, biasing
+the adaptation effect calculation, though this should be
+relatively uniform across participants and blocks, and thus fail
+to influence the results. Future research should consider
+combining higher frequency test trials and more liberal inclusion
+critera. This approach may allow an entire analysis based on test
+trials, eliminating the possiblity of introducing bias. 
 
 
