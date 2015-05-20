@@ -162,7 +162,6 @@ performance when viewing the eye-position data graphically
 and manually identifying the precise start and finish of each
 saccade, permitting accurate saccade length estimates.
 
-
 Speed data (unsigned horizontal velocity) was smoothed by
 convolution with a "hanning" window and then a "rolling maximum"
 of window size of 20ms.  A hanning window resembles a Gaussian
@@ -174,9 +173,8 @@ long rise times, therefore making saccade onset and duration
 detection easier and more consistent from saccade to saccade.
 Saccades were detected based on a speed threshold of
 57$^circ$/second faster than the median trial speed (empirically
-determined by visual verification). The analysis of a typical
+determined by visual verification). The analysis of an example 
 trial is presented graphically in figure \ref{fig_Saccade}.
-
 
 Only trials with sufficiently clear initial saccade and at most
 one corrective saccade were used to calculate eye movement
