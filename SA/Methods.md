@@ -139,6 +139,12 @@ landmark task, the position of the red mark relative to the centre
 of the line for each trial was recorded, and the mean of the final
 5 positions was used in the analysis.
 
+To investigate the potential effect
+of saccadic adaptation on landmark and line bisection, change
+scores were computed from the initial, pre-adaptation sessions of
+the two tasks (i.e., baseline), to the remaining post-adaptation
+session blocks.
+
 #### Saccadic Adaptation
 
 After the first target of a saccadic adaptation trial was fixated,

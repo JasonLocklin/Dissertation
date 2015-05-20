@@ -86,15 +86,14 @@ significantly correlated ($r = -0.2$, $t(47) = -1.57$,
 $\text{p}=0.12$).
 
 
-[Change scores -null effect] To investigate the potential effect
-of saccadic adaptation on landmark and line bisection, change
-scores were computed from the initial, pre-adaptation sessions of
-the two tasks, to the remaining post-adaptation sessions. One
-participant was excluded from line bisection task as they pointed
-to the end of the line, rather than centre, after the first block.
-When the change scores were averaged across blocks, neither line
-bisection, nor landmark task performance showed evidence of change
-post-adaptation ($t( 35 ) = -0.55$, $\text{p} = 0.583$, and $t(36)
+[Change scores -null effect]
+After the first block, one participant switched to pointing to the
+end of the line, rather than centre, so was excluded from this
+portion of the line bisection analysis.
+When the post adaptation change scores 
+were averaged across blocks, neither line
+bisection, nor landmark task performance showed evidence of a shift
+($t( 35 ) = -0.55$, $\text{p} = 0.583$, and $t(36)
 = -0.88$, $\text{p} = 0.384$, respectively).  Based on the sample
 variance and sample size, a power analysis revealed that the
 experiment would have had a 95% chance of detecting a
