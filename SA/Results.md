@@ -18,6 +18,23 @@ adaptation paradigm had successfully shortened saccades, and 3 of
 4 blocks showed significant change from baseline (see figure
 \ref{fig_Adaptation}).
 
+For test trials (Figure \ref{fig_Adaptation}a), 
+blocks 1, 3, and 4 produced significant group
+change in saccade length (\(t( 30) = -2.53\), \(\text{p} < 0.05\),
+\(t( 19 ) = -2.58\), \(\text{p} < 0.05\), and \(t( 21 ) = -3.07\),
+\(\text{p} < 0.01\), respectively), while block 2 did not reach
+significance (\(t( 24 ) = -1.8\), \(\text{p} = 0.084\)). Sparsity
+of data for test trials required further analysis with all trials
+in order to quantify the degree of adaptation reliably. All four
+blocks of (b) demonstrated significant adaptation (\(t( 36 ) =
+-4.62\), \(\text{p} < 0.001\), \(t( 35 ) = -6.17\), \(\text{p} <
+0.001\), \(t( 34 ) = -6.76\), \(\text{p} < 0.001\), and \(t( 27 )
+= -5.88\), \(\text{p} < 0.001\), respectively). A correction for
+family-wise error was not applied, as the blocks should be
+considered a type of replication.  While the likelihood of one of the
+four test-trial tests producing an erroneously significant result,
+by chance, would be 0.2, the likelihood of 3 erroneous in 4
+tests results, as above, is 0.0001.
 
 [non-test trials] While test trials provide a measure of the
 degree of adaptation in the absence of any responses to target
@@ -43,22 +60,7 @@ the remainder of this analysis.
 each block. Panel (a) is based on only test trials (i.e., those
 trials where no target perturbation is displayed), while panel (b)
 is calculated from all available trials, including non-test
-trials. For (a), blocks 1, 3, and 4 produced significant group
-change in saccade length (\(t( 30) = -2.53\), \(\text{p} < 0.05\),
-\(t( 19 ) = -2.58\), \(\text{p} < 0.05\), and \(t( 21 ) = -3.07\),
-\(\text{p} < 0.01\), respectively), while block 2 did not reach
-significance (\(t( 24 ) = -1.8\), \(\text{p} = 0.084\)). Sparsity
-of data for test trials required further analysis with all trials
-in order to quantify the degree of adaptation reliably. All four
-blocks of (b) demonstrated significant adaptation (\(t( 36 ) =
--4.62\), \(\text{p} < 0.001\), \(t( 35 ) = -6.17\), \(\text{p} <
-0.001\), \(t( 34 ) = -6.76\), \(\text{p} < 0.001\), and \(t( 27 )
-= -5.88\), \(\text{p} < 0.001\), respectively). A correction for
-family-wise error was not applied, as the blocks should be
-considered a type of replication.  The likelihood of one of the
-four test-trial tests producing an erroneously significant result,
-by chance, is 0.2. However, the likelihood of 3 erroneous in 4
-tests results, as above, would be 0.0001.} 
+trials. } 
 \label{fig_Adaptation} 
 \end{figure}
 
