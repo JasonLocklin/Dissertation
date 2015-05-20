@@ -210,7 +210,7 @@ still far enough that a corrective saccade is required to bring
 the eyes to the perturbed location.} \label{fig_Saccade}
 \end{figure}
 
-The blocks were split up into approximate thirds, with the first
+The blocks were split up into approximate thirds (30 trials), with the first
 third of the first block considered as a pseudo-baseline, to be
 compared with the final third of each of the subsequent blocks
 (i.e., $Effect_{N} = \overline{N}_b - \overline{1}_a$). For the
