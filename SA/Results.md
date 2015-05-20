@@ -18,6 +18,23 @@ adaptation paradigm had successfully shortened saccades, and 3 of
 4 blocks showed significant change from baseline (see figure
 \ref{fig_Adaptation}).
 
+For test trials (Figure \ref{fig_Adaptation}a), 
+blocks 1, 3, and 4 produced significant group
+change in saccade length (\(t( 30) = -2.53\), \(\text{p} < 0.05\),
+\(t( 19 ) = -2.58\), \(\text{p} < 0.05\), and \(t( 21 ) = -3.07\),
+\(\text{p} < 0.01\), respectively), while block 2 did not reach
+significance (\(t( 24 ) = -1.8\), \(\text{p} = 0.084\)). Sparsity
+of data for test trials required further analysis with all trials
+in order to quantify the degree of adaptation reliably. All four
+blocks of (b) demonstrated significant adaptation (\(t( 36 ) =
+-4.62\), \(\text{p} < 0.001\), \(t( 35 ) = -6.17\), \(\text{p} <
+0.001\), \(t( 34 ) = -6.76\), \(\text{p} < 0.001\), and \(t( 27 )
+= -5.88\), \(\text{p} < 0.001\), respectively). A correction for
+family-wise error was not applied, as the blocks should be
+considered a type of replication.  While the likelihood of one of the
+four test-trial tests producing an erroneously significant result,
+by chance, would be 0.2, the likelihood of 3 erroneous in 4
+tests results, as above, is 0.0001.
 
 [non-test trials] While test trials provide a measure of the
 degree of adaptation in the absence of any responses to target
@@ -43,22 +60,7 @@ the remainder of this analysis.
 each block. Panel (a) is based on only test trials (i.e., those
 trials where no target perturbation is displayed), while panel (b)
 is calculated from all available trials, including non-test
-trials. For (a), blocks 1, 3, and 4 produced significant group
-change in saccade length (\(t( 30) = -2.53\), \(\text{p} < 0.05\),
-\(t( 19 ) = -2.58\), \(\text{p} < 0.05\), and \(t( 21 ) = -3.07\),
-\(\text{p} < 0.01\), respectively), while block 2 did not reach
-significance (\(t( 24 ) = -1.8\), \(\text{p} = 0.084\)). Sparsity
-of data for test trials required further analysis with all trials
-in order to quantify the degree of adaptation reliably. All four
-blocks of (b) demonstrated significant adaptation (\(t( 36 ) =
--4.62\), \(\text{p} < 0.001\), \(t( 35 ) = -6.17\), \(\text{p} <
-0.001\), \(t( 34 ) = -6.76\), \(\text{p} < 0.001\), and \(t( 27 )
-= -5.88\), \(\text{p} < 0.001\), respectively). A correction for
-family-wise error was not applied, as the blocks should be
-considered a type of replication.  The likelihood of one of the
-four test-trial tests producing an erroneously significant result,
-by chance, is 0.2. However, the likelihood of 3 erroneous in 4
-tests results, as above, would be 0.0001.} 
+trials. } 
 \label{fig_Adaptation} 
 \end{figure}
 
@@ -84,15 +86,14 @@ significantly correlated ($r = -0.2$, $t(47) = -1.57$,
 $\text{p}=0.12$).
 
 
-[Change scores -null effect] To investigate the potential effect
-of saccadic adaptation on landmark and line bisection, change
-scores were computed from the initial, pre-adaptation sessions of
-the two tasks, to the remaining post-adaptation sessions. One
-participant was excluded from line bisection task as they pointed
-to the end of the line, rather than centre, after the first block.
-When the change scores were averaged across blocks, neither line
-bisection, nor landmark task performance showed evidence of change
-post-adaptation ($t( 35 ) = -0.55$, $\text{p} = 0.583$, and $t(36)
+[Change scores -null effect]
+After the first block, one participant switched to pointing to the
+end of the line, rather than centre, so was excluded from this
+portion of the line bisection analysis.
+When the post adaptation change scores 
+were averaged across blocks, neither line
+bisection, nor landmark task performance showed evidence of a shift
+($t( 35 ) = -0.55$, $\text{p} = 0.583$, and $t(36)
 = -0.88$, $\text{p} = 0.384$, respectively).  Based on the sample
 variance and sample size, a power analysis revealed that the
 experiment would have had a 95% chance of detecting a
@@ -122,15 +123,4 @@ non-significant, though landmark performance did approach
 significance ($r = 0.29$, $t(35) = 1.84$, $\text{p} = 0.07$, and
 $r = -0.06$, $t(34) = -0.39$, $\text{p} = 0.7$, respectively)
 
-### Case Study
 
-[Saccades not toward target but central fixation] The neglect
-patient made saccades normally to the first target in the
-adaptation task (rightward), however, he was never able to acquire
-the second,leftward target. After the first target disappeared,
-the patient always returned to the centre of the screen,
-anticipating the central fixation which would begin the next
-trial. The trial would time-out and the fixation would then
-appear. After several unsuccessful attempts to verbally and
-manually cue the patient to the second target in the sequence, the
-experiment was discontinued.  

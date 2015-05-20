@@ -86,8 +86,9 @@ neglect. Although the task is not that different from prism
 adaptation, it has been demonstrated to produce subtle changes in
 perception for healthy individuals [@Mack1978; @Awater2005;
 @Georg2008; @Bruno2007; @Zimmermann2009; @Dore-Mazars2005;
-@Collins2006; @Garaas2011].  Chapter 3 began with an examination
-of healthy performance on the landmark and line bisection tasks.
+@Collins2006; @Garaas2011].  Chapter 3 examined 
+healthy performance on the landmark and line bisection tasks after 
+sessions of saccadic adaptation.
 The two tasks have been used before in neglect research as they
 comprise largely similar perceptual properties but may rely on
 distinct visual systems [@Striemer2010dpm].  Healthy participants
@@ -98,13 +99,7 @@ extent and spatial attention, it may show up as small changes on
 the landmark and line bisection tasks, respectively.
 Unfortunately, though the participants demonstrated adequate
 saccadic adaptation, the effect did not appear to influence either
-task.  At the same time, a single case study attempting saccadic
-adaptation in a neglect patient was unsuccessful because the task
-demands proved too difficult.
-
-
-
-
+task. 
 
 The results of the first two chapters involved small groups of
 patients with unilateral neglect.  As with any research examining
@@ -139,6 +134,13 @@ attempts to change perceptual biases with saccadic adaptation
 should consider these parameters, especially the potential use of
 whole-field adaptation [@Garaas2011].
 
+There are also paradigms that utilize self-paced, voluntary
+saccades rather than the reflexive saccades used here, and there
+is evidence that adaptation of voluntary saccades may rely more
+heavily on cortical as opposed to cerebellar, circuits
+[@Schraa-Tam2009; @Muri2008], which may prove promising for the
+rehabilitation of unilateral neglect. 
+
 Beyond the type of adaptation used, it is possible that the
 landmark and line bisection tasks were insufficiently sensitive to
 reliably measure any effect of the adaptation procedure.
@@ -150,37 +152,7 @@ prove fruitful to calibrate the length of the line to maximize
 sensitivity to the participant's own spatial bias established at
 baseline.
 
-
-The saccadic adaptation  case study demonstrated that the task
-demands of visually following a rapidly perturbed target on a
-screen may be too difficult to be a useful tool in rehabilitating
-patients suffering from neglect.  However, the parameters used
-here placed the second target somewhat to the left of centre.
-Placing all targets completely in right space may improve a
-patient's chance of successfully performing the task.  Further,
-increasing the salience of the targets, by, for example,
-increasing their size, brightness, or flashing them at onset, may
-improve the patient's ability to orient and saccade toward them.
-There are also paradigms that utilize self-paced, voluntary
-saccades rather than the reflexive saccades used here, and there
-is evidence that adaptation of voluntary saccades may rely more
-heavily on cortical as opposed to cerebellar, circuits
-[@Schraa-Tam2009; @Muri2008], which may prove promising for the
-rehabilitation of unilateral neglect.  Finally the durations that
-targets remain on the screen should be carefully calibrated to the
-particular abilities of the patient, again maximizing their
-chances of completing the task and adapting to the direction and
-magnitude of shift desired.
-
-It remains possible that improved methodologies may enable neglect
-patients to successfully undergo saccadic adaptation. However, the
-results presented here do not, in any strong way, suggest that
-saccadic adaptation appears to be a strong contender to replace
-prism adaptation in the remediation of neglect. In practice, it
-appears that prism adaptation more closely accommodates the
-abilities of neglect patients, and the existing body of positive
-research makes turning away from prisms appear to be a poor
-choice. Instead, future research should remain considerate of the
+Future research should remain considerate of the
 limitations of prism adaptation, and the particular domains where
 they do and do-not appear to be effective. Research should
 concentrate on combining other techniques with prisms to more

@@ -139,6 +139,12 @@ landmark task, the position of the red mark relative to the centre
 of the line for each trial was recorded, and the mean of the final
 5 positions was used in the analysis.
 
+To investigate the potential effect
+of saccadic adaptation on landmark and line bisection, change
+scores were computed from the initial, pre-adaptation sessions of
+the two tasks (i.e., baseline), to the remaining post-adaptation
+session blocks.
+
 #### Saccadic Adaptation
 
 After the first target of a saccadic adaptation trial was fixated,
@@ -204,37 +210,15 @@ still far enough that a corrective saccade is required to bring
 the eyes to the perturbed location.} \label{fig_Saccade}
 \end{figure}
 
-The blocks were split up into approximate thirds, with the first
+The blocks were split up into approximate thirds (30 trials), with the first
 third of the first block considered as a pseudo-baseline, to be
-compared with the final third of each of the subsequent blocks.
+compared with the final third of each of the subsequent blocks
+(i.e., $Effect_{N} = \overline{N}_b - \overline{1}_a$). For the
+first block, this is simply a measure of the change from the
+beginning to end of the block of adaptation, whereas for a later
+block, the difference represents more than one entire block of
+adaptation. 
 Five participants were removed from the analysis because they
 lacked a sufficient number of acceptable trials per third (10) to
 make reliable calculations, on two or more of the four blocks.
-
-
-### Case Study
-
-As a pilot experiment to examine the practical considerations and
-potential viability of saccadic adaptation in unilateral neglect,
-a single participant who had demonstrated symptoms of neglect was
-recruited from the Neurological Patient Database (University of
-Waterloo, <https://uwaterloo.ca/neurological-patient-database>).
-The study was approved by the University of Waterloo's Office of
-Research Ethics, and the Tri-Hospital Research Ethics board. The
-parameters of the task were eased in anticipation of the needs of
-the participant.  For the saccadic adaptation, the target was
-slightly larger (0.3x0.3$^\circ$). The initial saccade was always
-to a target in the right half of the screen (5.4 to 16.3$^\circ$
-right of mid-line, 16.3$^\circ$ above or below the horizon),
-rather than left as in the normative sample above. It was
-followed, by a second target 16.3$^\circ$ left of this initial
-position.  When a leftward saccade was detected, this target was
-perturbed further leftward (by 5.4$^\circ$, 30%), with the intent
-of simulating an undershoot, with the intent of augmenting saccade
-length over time. A leftward increase in saccadic gain was chosen
-based on the hypothesis that inducing leftward saccadic bias may
-reduce the rightward attentional bias inherent in the disorder.
-During the landmark task, the patient reported verbally rather
-than by keyboard and, for both tasks, the stimuli remained
-on-screen as long as required for a response.
 

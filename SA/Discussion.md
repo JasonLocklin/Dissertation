@@ -30,21 +30,6 @@ adaptation, however, did not produce a measurable change in
 landmark or line bisection performance, even though the experiment
 had sufficient statistical power to detect very small changes. 
 
-The case study made clear that special experimental
-considerations, beyond what is typically made for prism
-adaptation, need to be made with saccadic adaptation for the task
-to work with neglect patients. The design of the stimuli used here
-was either insufficient in saliency, or involved too large a
-leftward eccentricity to effectively elicit a leftward saccade to
-acquire the second target.  Further research attempting saccadic
-adaptation may require either a new experimental configuration, or
-locating a patient who is only showing weak signs of neglect.
-These potential constraints on saccadic adaptation highlight the
-relative ease with which patients are able to perform prism
-adaptation. For practical reasons, saccadic adaptation may not be
-suitable for rehabilitation of neglect.
-
-
 
 
 
