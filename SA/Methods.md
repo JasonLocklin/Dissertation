@@ -176,7 +176,7 @@ speed, eliminating long rise times, therefore making saccade onset
 and duration detection easier and more consistent from saccade to
 saccade.  A saccade was defined as regions where the rolling
 maximum met a threshold greater than the median trial speed plus
-an experimentally determined parameter (1500$^\circ$/second).  The
+an experimentally determined parameter (57$^\circ$/second).  The
 analysis of a typical trial is presented graphically in figure
 \ref{fig_Saccade}.
 
