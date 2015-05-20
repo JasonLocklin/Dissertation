@@ -20,21 +20,21 @@ adaptation paradigm had successfully shortened saccades, and 3 of
 
 For test trials (Figure \ref{fig_Adaptation}a), 
 blocks 1, 3, and 4 produced significant group
-change in saccade length (\(t( 30) = -2.53\), \(\text{p} < 0.05\),
-\(t( 19 ) = -2.58\), \(\text{p} < 0.05\), and \(t( 21 ) = -3.07\),
-\(\text{p} < 0.01\), respectively), while block 2 did not reach
-significance (\(t( 24 ) = -1.8\), \(\text{p} = 0.084\)). Sparsity
+change in saccade length ($t( 30) = -2.53$, $\text{p} < 0.05$,
+$t( 19 ) = -2.58$, $\text{p} < 0.05$, and $t( 21 ) = -3.07$,
+$\text{p} < 0.01$, respectively), while block 2 did not reach
+significance ($t( 24 ) = -1.8$, $\text{p} = 0.084$). Sparsity
 of data for test trials required further analysis with all trials
 in order to quantify the degree of adaptation reliably. All four
-blocks of (b) demonstrated significant adaptation (\(t( 36 ) =
--4.62\), \(\text{p} < 0.001\), \(t( 35 ) = -6.17\), \(\text{p} <
-0.001\), \(t( 34 ) = -6.76\), \(\text{p} < 0.001\), and \(t( 27 )
-= -5.88\), \(\text{p} < 0.001\), respectively). A correction for
+blocks of (b) demonstrated significant adaptation ($t( 36 ) =
+-4.62$, $\text{p} < 0.001$, $t( 35 ) = -6.17$, $\text{p} <
+0.001$, $t( 34 ) = -6.76$, $\text{p} < 0.001$, and $t( 27 )
+= -5.88$, $\text{p} < 0.001$, respectively). A correction for
 family-wise error was not applied, as the blocks should be
 considered a type of replication.  While the likelihood of one of the
 four test-trial tests producing an erroneously significant result,
-by chance, would be 0.2, the likelihood of 3 erroneous in 4
-tests results, as above, is 0.0001.
+by chance, would be $0.2$, the likelihood of 3 erroneous in 4
+tests results, as above, is $0.0001$.
 
 [non-test trials] While test trials provide a measure of the
 degree of adaptation in the absence of any responses to target
@@ -99,7 +99,7 @@ variance and sample size, a power analysis revealed that the
 experiment would have had a 95% chance of detecting a
 post-adaptation change in the landmark task as small as
 0.1$^\circ$ (0.08cm, $n = 37$, $sd = 0.15$), less than half the
-pre-existing bias  and a change of 0.12$^\circ$ (0.09cm, $n = 36$,
+pre-existing bias  and a change of $0.12^\circ$ (0.09cm, $n = 36$,
 $sd = 0.14$) in line bisection. 
 
 
