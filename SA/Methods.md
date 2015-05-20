@@ -206,7 +206,12 @@ the eyes to the perturbed location.} \label{fig_Saccade}
 
 The blocks were split up into approximate thirds, with the first
 third of the first block considered as a pseudo-baseline, to be
-compared with the final third of each of the subsequent blocks.
+compared with the final third of each of the subsequent blocks
+(i.e., $Effect_{N} = \overline{N}_b - \overline{1}_a$). For the
+first block, this is simply a measure of the change from the
+beginning to end of the block of adaptation, whereas for a later
+block, the difference represents more than one entire block of
+adaptation. 
 Five participants were removed from the analysis because they
 lacked a sufficient number of acceptable trials per third (10) to
 make reliable calculations, on two or more of the four blocks.
