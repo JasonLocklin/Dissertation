@@ -3,55 +3,49 @@ Results
 
 ### Saccadic Adaptation
 
-[SA worked -test trials] The median saccade length of the test
-trials belonging to the first third of the first block of
-adaptation trials (i.e., what is being used here as a baseline
-measure) were subtracted from the medians of each block's final
-third test trials. Because so many trials were removed for poor
-data quality, many participant's had individual blocks lacking
-sufficient test-trial data to perform this calculation.  Out of
-the 41 participants, between 11 and 22 of them did not have at
-least 2 acceptable test trials (out of a maximum of 6) from which
-to calculate adaptation.  Nevertheless, one-sample t-tests of the
-remaining participant blocks were used to determine whether the
-adaptation paradigm had successfully shortened saccades, and 3 of
-4 blocks showed significant change from baseline (see figure
-\ref{fig_Adaptation}).
+#### Adaptation was Effective
 
-For test trials (Figure \ref{fig_Adaptation}a), 
-blocks 1, 3, and 4 produced significant group
-change in saccade length ($t( 30) = -2.53$, $\text{p} < 0.05$,
-$t( 19 ) = -2.58$, $\text{p} < 0.05$, and $t( 21 ) = -3.07$,
-$\text{p} < 0.01$, respectively), while block 2 did not reach
-significance ($t( 24 ) = -1.8$, $\text{p} = 0.084$). Sparsity
-of data for test trials required further analysis with all trials
-in order to quantify the degree of adaptation reliably. All four
-blocks of (b) demonstrated significant adaptation ($t( 36 ) =
--4.62$, $\text{p} < 0.001$, $t( 35 ) = -6.17$, $\text{p} <
-0.001$, $t( 34 ) = -6.76$, $\text{p} < 0.001$, and $t( 27 )
-= -5.88$, $\text{p} < 0.001$, respectively). A correction for
+In order to determine if the saccadic adaptation
+procedure successfully changed saccade length from baseline, 
+one-sample t-tests for each block were computed (See figure
+\ref{fig_Adaptation}a). A participant experienced 6 test trials
+for each of the block thirds used in this calculation, so each
+test was run only with participants where the median first saccade
+length could be based on at least 2 accepted trials. 
+Blocks 1, 3, and 4 produced significant group
+change in saccade length (
+$n=tk$, $t( 30) = -2.53$, $\text{p} < 0.05$,
+$n=tk$, $t( 19 ) = -2.58$, $\text{p} < 0.05$, and 
+$n=tk$, $t( 21 ) = -3.07$, $\text{p} < 0.01$, respectively), 
+while block 2 did not reach
+significance ($n=tk$, $t( 24 ) = -1.8$, $\text{p} = 0.084$). 
+A correction for
 family-wise error was not applied, as the blocks should be
 considered a type of replication.  While the likelihood of one of the
 four test-trial tests producing an erroneously significant result,
 by chance, would be $0.2$, the likelihood of 3 erroneous in 4
 tests results, as above, is $0.0001$.
 
-[non-test trials] While test trials provide a measure of the
-degree of adaptation in the absence of any responses to target
-perturbations mid-flight, the sparsity of data when using only
-these trials limits the potential power and reliability of further
-statistical analysis.  Further, the average change in saccadic
-length (including all all blocks) was -69%, which is more than
-double the actual target perturbation (30%), and includes an
-exceptionally large 95% confidence interval ranging from -100% to
--7%.  Alternatively, if all trials are included instead of just
-test-trials, the overall mean saccadic change is -18% (95% CI of
-(-0.22, -0.13)). This change represents 60% of the perturbation
-distance, which is in line with the typical effect size that has
-been found in the literature [@Hopp2004].  Given this, the results
-based on all trials, rather than just test trials, are taken to
-provide a more reasonable measure of the effect, and is used in
-the remainder of this analysis.
+#### Magnitude of Adaptation
+
+The test-trials demonstrate significant change post-adaptation
+free of potential bias by purturbed targets, but the lack of
+individual trial replication results in large individual
+variability. The 95% confidence interval for the magnitude of
+adaptation ranges from 23% to 330%, where 0% would represent no
+change and 100% would indicate eye movements directly to the
+purturbed location, or complete adaptation, and thus 330% would
+indicate severe overcompensation. To yield more precise estimate
+of adaptation, the analysis was repeated with all trials.  In this
+case all four blocks of demonstrated significant adaptation (
+$n=tk$, $t( 36 ) = -4.62$, $\text{p} < 0.001$, 
+$n=tk$, $t( 35 ) = -6.17$, $\text{p} < 0.001$, 
+$n=tk$, $t( 34 ) = -6.76$, $\text{p} < 0.001$, and 
+$n=tk$, $t( 27 ) = -5.88$, $\text{p} < 0.001$, respectively).
+Overall, this results in an average adaptation magnitude of 60%
+(95% CI: 43%--73% adaptation), which is in line with the typical
+effect size that has been found in the literature [@Hopp2004].
+
 
 \begin{figure}[p] 
 \centering 
