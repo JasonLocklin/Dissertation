@@ -14,9 +14,9 @@ test was run only with participants where the median first saccade
 length could be based on at least 2 accepted trials. 
 Blocks 1, 3, and 4 produced significant group
 change in saccade length (
-$n=tk$, $t( 30) = -2.53$, $\text{p} < 0.05$,
-$n=tk$, $t( 19 ) = -2.58$, $\text{p} < 0.05$, and 
-$n=tk$, $t( 21 ) = -3.07$, $\text{p} < 0.01$, respectively), 
+$n=31$, $t( 30) = -2.53$, $\text{p} < 0.05$,
+$n=20$, $t( 19 ) = -2.58$, $\text{p} < 0.05$, and 
+$n=22$, $t( 21 ) = -3.07$, $\text{p} < 0.01$, respectively), 
 while block 2 did not reach
 significance ($n=tk$, $t( 24 ) = -1.8$, $\text{p} = 0.084$). 
 A correction for
@@ -38,10 +38,10 @@ purturbed location, or complete adaptation, and thus 330% would
 indicate severe overcompensation. To yield more precise estimate
 of adaptation, the analysis was repeated with all trials.  In this
 case all four blocks of demonstrated significant adaptation (
-$n=tk$, $t( 36 ) = -4.62$, $\text{p} < 0.001$, 
-$n=tk$, $t( 35 ) = -6.17$, $\text{p} < 0.001$, 
-$n=tk$, $t( 34 ) = -6.76$, $\text{p} < 0.001$, and 
-$n=tk$, $t( 27 ) = -5.88$, $\text{p} < 0.001$, respectively).
+$n=37$, $t( 36 ) = -4.62$, $\text{p} < 0.001$, 
+$n=36$, $t( 35 ) = -6.17$, $\text{p} < 0.001$, 
+$n=35$, $t( 34 ) = -6.76$, $\text{p} < 0.001$, and 
+$n=28$, $t( 27 ) = -5.88$, $\text{p} < 0.001$, respectively).
 Overall, this results in an average adaptation magnitude of 60%
 (95% CI: 43%--73% adaptation), which is in line with the typical
 effect size that has been found in the literature [@Hopp2004].
@@ -65,19 +65,21 @@ trials. }
 
 [Parameters of the two tasks at baseline. Correlations]
 Participants did not show any significant bias when responding on
-the line bisection task pre-adaptation ($t( 48 ) = 0.62$,
-$\text{p} = 0.541$). In contrast, performance on the landmark task
+the line bisection task pre-adaptation (
+$t( 36 ) = 0.57 $, $\text{p} = 0.575 $).
+In contrast, performance on the landmark task
 indicated a rightward bias such that participants placed the mark
-0.24$^\circ$ (0.18cm) to the right of true centre ($t( 48) = 5.6$,
-$\text{p} < 0.01$). Such a rightward bias indicated that
+0.24$^\circ$ (0.18cm) to the right of true centre (
+$t( 36 ) = 5.23 $, $\text{p} < 0.001 $).
+Such a rightward bias indicated that
 participants perceived the left half of the line to be larger, as
 has been shown in prior work [Pseudo-neglect; @Bowers1980].
 Interestingly, all participants performed very accurately on these
 two tasks, with the worst performance still less than a centimetre
 from centre (0.8$^\circ$ and 1.0$^\circ$ for line bisection and
 landmark, respectively.) Performance on the two tasks was not
-significantly correlated ($r = -0.2$, $t(47) = -1.57$,
-$\text{p}=0.12$).
+significantly correlated (
+$r = -0.3$, $t(35) = -1.71$, $\text{p}=0.1$).
 
 
 [Change scores -null effect]
