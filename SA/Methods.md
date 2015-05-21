@@ -3,13 +3,15 @@ Method
 
 ### Participants
 
-A total of 46 individuals (33 female, 3 left hand dominant, age
-cohorts: $\text{16-18y} =6$, $\text{18-20y} =30$, 
-$\text{21-25y} =10$), were recruited from the University of
+A total of 46 individuals, were recruited from the University of
 Waterloo undergraduate student body through the Research
-Experiences Group, and was approved by the University of Waterloo
-Office of Research Ethics. Participants were compensated for
-participation with course credit.
+Experiences Group, of which, 37 were able to be successfully
+calibrated with the equipment to provide reliable eye movement
+tracking (23 female, 3 left hand dominant, age
+cohorts: $\text{16-18y} =4$, $\text{18-20y} =25$, 
+$\text{21-25y} =8$). Participants were compensated for
+participation with course credit, and the experiment was approved
+by the University of Waterloo Office of Research Ethics
 
 ### Apparatus and Procedure
 
