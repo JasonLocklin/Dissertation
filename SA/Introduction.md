@@ -2,7 +2,7 @@ Can saccadic adaptation improve both action and perception?
 ===========================================================
 
 The previous chapter failed to demonstrate the effectiveness of prism 
-adaptation on improving both spatial working memory and temporal
+adaptation for improving both spatial working memory and temporal
 estimation. This can be explained by the dorsal-ventral
 disassociation, as these tasks were chosen because of their
 perceptual nature. If prisms influence dorsal stream functioning,
@@ -128,7 +128,7 @@ The current chapter sets out to examine the potential for saccadic
 adaptation as a tool for examining the types of perceptual bias
 observed in neglect, and as a first step toward assessing it as an 
 alternative to prism adaptation for the rehabilitation of the
-dissorder. Despite it's relatively long history of use in
+disorder. Despite it's relatively long history of use in
 psychophysics, the application of saccadic adaptation in clinical
 research has not been well established, and where it has, it has
 almost exclusively been with disorders involving cerebellar
@@ -144,7 +144,7 @@ gaze abnormalities [@Desestret2013].
 Because of the dearth of research, the clinical application of
 saccadic adaptation on disorders like neglect is unknown, so
 presented here is an experiment examining the influence of
-saccadic adaptation on the spatial perception and judgement of
+saccadic adaptation on the spatial perception and judgment of
 body mid-line by healthy individuals. If this behaviour can be
 biased by saccadic adaptation in healthy individuals, then it's
 possible that the procedure influences the same systems as are

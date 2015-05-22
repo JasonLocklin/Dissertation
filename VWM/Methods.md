@@ -18,13 +18,12 @@ at least 9 months post injury. The study was approved by the
 University of Waterloo's Office of Research Ethics, and the
 Tri-Hospital Research Ethics board.  The two groups were not
 strictly age-matched, but did not significantly differ with
-respect to age ($t(12.5) = 1.8$, $\text{p} = 0.10$).  All patients
-were tested at least 9 months post-stroke. The visual working
+respect to age ($t(12.5) = 1.8$, $\text{p} = 0.10$). The visual working
 memory task was performed by these same two groups plus an
 additional control group of 9 healthy young adults recruited from
 the University of Waterloo's Research Experience Group, and were
 compensated for participation with course credit (demographic
-information unavailable).
+information unavailable, undergraduate population).
 
 Patients were also tested for signs of neglect using three
 standard clinical tests: line bisection, star cancellation, and
@@ -39,7 +38,7 @@ performance was defined as \> 10% omission of left-sided targets.
 Three of the patients scored as impaired on all tasks, and these
 participants also scored highest quantitatively on the bisection
 and cancellation tasks (see table \ref{tbl_VWM}).  Only one
-patient did not demonstrate neglect on any task.
+patient no longer demonstrated neglect on any task at time of testing.
 
 \input{VWM/tbl_VWM.tex}
 
@@ -63,13 +62,14 @@ presented, vertically aligned, to the right of fixation for 500ms.
 The coloured squares could appear in any one of 16 different
 locations in the vertical column.  Following the memory sample, a
 blank delay, containing only the fixation cross, was displayed for
-1000ms.  Afterward, the probe display was presented. It consisted
+1000ms.  Afterword, the probe display was presented. It consisted
 of the colour bar and black outlines of squares acting as
 placeholders, marking the locations of the previously presented
 memory sample (i.e., probes did not contain any colour
 information; figure \ref{fig_Ch1-task}) One of the placeholders
 was identified as the target by a bolded outline, distinguishing
-it from the non-targets (8 pixels vs. 4 pixels).  Participants
+it from the non-targets (A line thickness of 8 pixels vs. 4 pixels).
+Participants
 were asked to indicate, by external mouse input, the colour of the
 initial square indicated by the bolded placeholder (figure
 \ref{fig_Ch1-task}.  Unlimited time was given, and the participant
@@ -134,7 +134,7 @@ and @Bays2009 (see figure \ref{fig_Emrich2012}).
 
 For each trial, these measures were calculated based on the
 physical location of the participant's response relative to the
-true colour of the target square on the color bar. 
+true colour of the target square on the colour bar. 
 First, a probability that the
 participant indicated the correct target colour, $P_T$, by the
 magnitude of the location on a Gaussian distribution centred
@@ -149,8 +149,8 @@ To compute an estimate of the precision of target responses, the
 $SD$ of the probability model used to compute the above three
 components was also recorded. This provides a measure of the
 spatial response precision of those trials where the patient
-successfully recalls and reports a target colour (i.e., $P_T$ and
-$P_{NT}$), providing a basic measure of perceptual-motor ability
+successfully recalls and reports a viewed colour (i.e., $P_T$ and
+$P_{NT}$), providing a basic measure of perceptual-motor ability,
 relevant to the task.
 
 
@@ -174,11 +174,13 @@ Both trial types involve rightward cues, and the difference
 represents the increased latency introduced when the participant
 must re-orient attention leftward. 
 
+
+
 Significance was defined as $p < 0.05$ throughout the thesis.
 Where independent samples $t$ tests are used, unless otherwise
 specified, the Welch approximation of the degrees of freedom for
 unequal variance was used. Except where noted, all analysis was
-completed using R[@R], using various additional packages [@dplyr; @ez;
+completed using R[@R], with various additional packages [@dplyr; @ez;
 @reshape2; @nparcomp], and plots were created using ggplot2
 [@ggplot2].
 

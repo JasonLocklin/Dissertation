@@ -62,7 +62,7 @@ random covariate, and there was no indication of an influence of
 prisms on time interval estimation ($F(1,4)= 0.79$,
 $\text{p}=0.4$). 
 
-For each participant and condition, a linear model (least squares)
+For each participant and condition, a linear model 
 was computed in order to yield a measure of the relationship
 (slope) between time intervals and estimations. As can be seen in
 figure \ref{fig_TE}, the relationship was not recti-linear (first
@@ -98,9 +98,9 @@ diagonal line.}
 
 As a group, the neglecting patients showed a significant change in
 line bisection bias after prism adaptation in the direction
-traditionally seen in the research, when a one-sided test was used
-(Patient 27 removed, $t(4)=2.6$, $\text{p} = 0.03$).  Individual t
-tests on the sets of line bisections for each patient, with a bonferonni
+traditionally seen in the research when a one-sided test was used
+(Patient 27 removed, $t(4)=2.6$, $\text{p} = 0.03$).  Individual
+t-tests on the sets of line bisections for each patient, with a bonferonni
 adjusted criteria ($\alpha = 0.008$), demonstrated
 a relatively consistent effect across individuals. As can be seen
 in figure \ref{fig_LB_Prisms}, the changes were nearly-universally

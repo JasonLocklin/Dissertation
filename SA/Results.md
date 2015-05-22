@@ -18,7 +18,7 @@ $n=31$, $t( 30) = -2.53$, $\text{p} < 0.05$,
 $n=20$, $t( 19 ) = -2.58$, $\text{p} < 0.05$, and 
 $n=22$, $t( 21 ) = -3.07$, $\text{p} < 0.01$, respectively), 
 while block 2 did not reach
-significance ($n=tk$, $t( 24 ) = -1.8$, $\text{p} = 0.084$). 
+significance ($n=25$, $t( 24 ) = -1.8$, $\text{p} = 0.084$). 
 A correction for
 family-wise error was not applied, as the blocks should be
 considered a type of replication.  While the likelihood of one of the
@@ -29,12 +29,12 @@ tests results, as above, is $0.0001$.
 #### Magnitude of Adaptation
 
 The test-trials demonstrate significant change post-adaptation
-free of potential bias by purturbed targets, but the lack of
+free of potential bias by perturbed targets, but the lack of
 individual trial replication results in large individual
 variability. The 95% confidence interval for the magnitude of
 adaptation ranges from 23% to 330%, where 0% would represent no
 change and 100% would indicate eye movements directly to the
-purturbed location, or complete adaptation, and thus 330% would
+perturbed location, or complete adaptation, and thus 330% would
 indicate severe overcompensation. To yield more precise estimate
 of adaptation, the analysis was repeated with all trials.  In this
 case all four blocks of demonstrated significant adaptation (
@@ -101,7 +101,7 @@ $sd = 0.14$) in line bisection.
 
 The degree of adaptation varied from participant to participant,
 with a few participants exhibiting mean saccadic change very close
-to zero. To examine the influence of saccadic adaptation further,
+to zero. To examine the possible influence of saccadic adaptation further,
 the above analysis was repeated with only those participants
 demonstrating a strong saccadic adaptation effect (The median
 saccadic gain, of -16%, was chosen as the cut off).  Again,

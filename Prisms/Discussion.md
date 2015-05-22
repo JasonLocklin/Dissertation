@@ -28,42 +28,41 @@ attention defects associated with neglect predominate.
 The locations of the targets need
 to not only be perceived, but recalled again after a delay, and
 that delay putatively causes the task to rely heavily on ventral,
-working memory systems [@Ferber2006].  When the patients performed
-the spatial working memory task after prism adaptation, while they
-did show statistically significant improvement as a group, the
-change left all four neglecting patients with large deficits
-relative to typical control performance, with three of those four
-performing well outside of what would be expected to be observed
-in the control population.
+working memory systems [@Ferber2006].  While the patients did show
+statistically significant improvement as a group on the spatial 
+working memory task after prism adaptation, the
+change left all four neglecting patients with apparent deficits. 
+Post prisms, three out of four
+performed well outside of what would be expected 
+in a previously studied control population.
 
-[TE also not improved] Like the spatial working memory results,
+[TE also not improved] Even more prominently than the spatial working memory results,
 neglect patients displayed severe deficits on the temporal
 estimation task. While responses did seem to be influenced by the
-actual trial duration (i.e., larger estimates made for longer
-interval durations), the patients underestimated the durations
-both before and after prisms. In this case, it appears prisms
-failed to procude a measurable
-effect on the deficit.
+actual trial duration (i.e., larger estimates were made for longer
+actual interval durations), the patients underestimated the durations
+both before and after prisms. In this case, prisms
+failed to produce any measurable effect on the deficit.
 
 [concluding] Neglect is a disorder arising from naturally varied
 brain lesions, and which produces heterogeneous deficits that can
 range from mild to severe and can recover over time in less than
 predictable degrees. As a result, there are going to be
 limitations to what can be inferred from treatment-effect studies
-like this when sample sizes are necessarily small.  However, here
-data are presented where prisms produced significant and
-relatively reliable change in individuals with neglect, and this
-data is paired with two other tasks which putatively rely on
+like this when sample sizes are necessarily small.  However, 
+this chapter demonstrated that prisms can produce significant and
+relatively reliable change the line bisection of patients with neglect, and 
+at the same time, fail to meaningfully ameliorate two other tasks which putatively rely on
 different, ventral stream processing. These other two tasks
 demonstrate continued deficits post prisms. This lack of
-meaningful improvement fits the prediction that prisms, a
-task demonstrated in the past to influence primarily dorsal brain
-regions, would have minimal effects on the deficits of working
-memory and time perception observed in neglect because they rely
-on putatively ventral functions. These findings lend support to
+meaningful improvement fits the prediction that prisms --- a
+treatment demonstrated in the past to influence primarily dorsal brain
+regions --- would have minimal effects on the deficits of working
+memory and time perception because they rely
+on ventral networks. These findings lend support to
 the hypothesis presented earlier, that neglect is a disorder
 involving two independent
 systems, and that remediation of only one system will have minimal
 effect on the deficits arising from the other. More effective
-treatments will then necessarily need to induce changes in the
-ventral perceptual system.
+treatments, therefore, will necessarily need to produce changes in the
+behaviours attributable to ventral perceptual system function.

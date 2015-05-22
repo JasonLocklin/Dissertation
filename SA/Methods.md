@@ -182,16 +182,16 @@ Only trials with sufficiently clear initial saccade and at most
 one corrective saccade were used to calculate eye movement
 results, and were included based on the following criteria:
 Trials were required to include more total displacement during
-identified saccades than fixations (elimiating trials with large
+identified saccades than fixations (eliminating trials with large
 drift during fixations).  They were also required to contain at
 least one and at most two saccades in the short window of a trial
 (3 or more saccades in a single trial usually indicated erratic
 eye movement recording --often due to partial pupil occlusion).
-Trials with temporal gaps in samples, which occur durring blinks or
+Trials with temporal gaps in samples, which occur during blinks or
 large head movements, were not included. This stringent criteria
 resulted in an inclusion rate of approximately half (56\%), but
 provides input for further analysis free from potential bias by
-equipment or behavioral artifacts unrelated to the adaptation
+equipment or behavioural artifacts unrelated to the adaptation
 procedure.
 
 \begin{figure}[p] 
@@ -216,7 +216,4 @@ first block, this is simply a measure of the change from the
 beginning to end of the block of adaptation, whereas for a later
 block, the difference represents more than one entire block of
 adaptation. 
-Five participants were removed from the analysis because they
-lacked a sufficient number of acceptable trials per third (10) to
-make reliable calculations, on two or more of the four blocks.
 

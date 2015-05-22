@@ -15,21 +15,23 @@ visual information (figure \ref{fig_VWM_Precision}).
 
 When examining the apparent reliability of patient responses, the
 data appears to indicate that neglect patients fail to recall the
-colour of the square stimuli and respond in a way that indicates
-more prevalent guessing in the single square condition (i.e.,
+colour of the stimuli and respond in a way that indicates
+more prevalent guessing, in the single square condition (i.e.,
 $P_G$, figure \ref{fig_VWM_1Target}).  Interestingly,  this effect
 was not significant in the multi-square condition (figure
 \ref{fig_VWM_MTarget}). In the single square condition, both
 healthy groups perform near ceiling. When non-targets are
 introduced in the multi-square conditions, all groups appear to
-fail more often, but for the healthy groups the bulk of the errors
-appear to be guessing (figure \ref{fig_VWM_MTarget}). The patient
-group, in contrast, exhibits broadly similar guessing
-probabilities as in the single square condition, but significantly
-inflated non-target errors, relative to the healthy groups (discussed
-below).
+fail more often, but for the healthy groups the bulk of the new errors
+appear to come from guessing, and for the patients, it is less
+clear (figure \ref{fig_VWM_MTarget}). This may represent a
+different underlying failure, as guessing likely represents a
+failure of memory for stimuli colour, while non-target
+selection represents a more complicated interaction, as discussed
+below.
 
-The lack of a significant group guessing difference may,
+The lack of a significant group guessing difference in the
+multi-target condition may,
 nevertheless, reflect limited sensitivity of the task variant. The
 single square condition may be more effectively tuned to measure
 simple visual working memory failures (i.e., guessing), as that is
@@ -58,7 +60,7 @@ non-target distractors as belonging to the indicated spatial position
 [VWM Multiple -mis-binding] Patients appeared to be more likely to
 demonstrate colour-location binding errors than controls (Figure
 \ref{fig_VWM_MTarget}).  There are many potential explanations for
-this, the most obvious being an increase in failures of binding
+this, the most obvious being failures of binding
 information from the two domains in working memory. This type of 
 cross-domain cognitive
 process has previously been shown degraded in parietal and neglect
@@ -82,15 +84,18 @@ two causes.  However, if the large deficit observed here was
 caused by patients forgetting target colours, then it seems likely
 that such frequent recall failures would have also lead to a
 similarly large increase in the amount of guessing. As guessing
-did not appear to increase in this condition, binding errors are
+did not appear to stand out in this condition, binding errors are
 the more likely culprit.
 
 ### Covert Orienting
 [COVAT] Conclusions about the covert orienting data is more
 limited, as only 5 of the 8 patients were able to perform the task, and
 only 2 of them performed well outside the healthy range.
+The 3 patients unable to complete the task exhibited the strongest
+symptoms of neglect on the clinical measures, so as a result, the
+analysis is based on only the subset of moderately neglecting patients.
 Nevertheless, as a group, those patients able to complete the task
-did poorer than the healthy controls, so it's unlikely that those
+did poorer than the healthy controls, so it is unlikely that those
 two extreme cases are artifacts of chance. Moreover, the non-parametric
 comparison is un-affected by the large magnitude of deficit in
 those two cases, as it's based on rank-order, lending more support
@@ -122,11 +127,11 @@ premature to claim complete recovery. It's more likely that this
 is case where the three clinical tests used here are poorly
 matched with remaining deficits; an extreme example of a general
 reality that paper and pencil tasks alone will present
-an incomplete picture, and as a result, will not always match well
+an incomplete picture, and as a result, will not always agree
 with measures of other components of the disorder. 
 
 [3 non-responders]  The three patients who were unable to complete the
-covert orienting task did effectively show striking deficits of
+covert orienting task *did* effectively show striking deficits of
 leftward orienting, but the task was not able to quantify
 their performance, reducing the power of the above analysis.
 Nevertheless, these strongly biased patients were also the
@@ -134,16 +139,17 @@ three most neglecting on the clinical tests, further supporting
 the connection between leftward re-orienting on the covert
 orienting task, and the clinical measures. Future research should consider
 calibrating experimental parameters to suit the strongest
-neglecting patients if possible. Parameters such as the size, brightness, and
+neglecting patients if possible, or on a case-by-case basis. 
+Parameters such as the size, brightness, and
 eccentricity of stimuli, as well as other techniques like
 flashing stimuli, can be used to increase the saliency enough that
 more severely neglecting patients are able to respond.
 
 ### Comparison of the Tasks
 
-The logistic regression indicated that one of the two measures of
-visual working memory found to be degraded in the patient group,
-guessing in the single target condition, significantly described
+The logistic regression indicated that one of the two deficits of
+visual working memory ---
+guessing in the single target condition --- significantly described
 group affiliation, even when partialled on covert orienting
 performance. If visual working memory deficits were merely
 consequences of a deficit of spatial attention, then one would not
@@ -153,7 +159,7 @@ attentional neglect deficit (i.e., leftward covert re-orienting).
 While it is possible that the visual working memory test used here
 is a more sensitive, if indirect, measure of attention deficits
 than the well tested, and direct, measure of the covert orienting
-task, but unlikely. Fortunately, the relationship can also be
+task, it is unlikely. Fortunately, the relationship can also be
 examined by considering the patients on a case-by-case basis.
 
 The three most severely neglecting patients demonstrated
@@ -185,7 +191,7 @@ the deficits. Clinical measures such as those used here may not be
 sensitive enough, or cover enough domains of performance, to
 detect deficits still present in the individual.  Further
 research, would benefit from within-subject designs, such as
-before-and-after certain treatments, or longitudinally, as
+before-and-after treatment, or longitudinally, as
 patients recover. Such designs would avoid some of the problems
 inherent in group-wise comparisons hamstrung by the heterogeneity
 of the disorder.  The clinical symptoms, covert orienting

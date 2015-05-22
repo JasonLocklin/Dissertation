@@ -14,14 +14,14 @@ As can be seen in table \ref{tbl_Prisms}, the remaining six
 patients demonstrated a wide range of performance on the clinical
 tasks at time of testing, including two who were no longer
 demonstrating neglect symptoms by our criteria (Patients 27,
-and 97). 
-The study was approved by the University
-of Waterloo's Office of Research Ethics, and the Tri-Hospital
-Research Ethics board.  All patients were tested at least 19
-months post-stroke.  One participant was not able to perform the
+and 97).  One participant was not able to perform the
 spatial working memory task (giving a single response to all
 trials), and was therefore removed from that component of the
 analysis.
+The study was approved by the University
+of Waterloo's Office of Research Ethics, and the Tri-Hospital
+Research Ethics board.  All patients were tested at least 19
+months post-stroke. 
 
 \input{Prisms/tbl_Prisms.tex}
 
@@ -86,7 +86,7 @@ same position as one of the preceding squares.
 estimation task.  The numbers were randomly selected and displayed
 at random times (though, not at the very beginning or end of the
 trial).  The lower panel (b) depicts the spatial working memory
-task. The trial depicted is a ``valid'' trial, as the probe
+task. The trial depicted is a valid trial, as the probe
 (circle) is in the same location as one of the initial three
 targets (squares).} 
 \label{fig_Prisms} 
@@ -99,8 +99,8 @@ The Temporal Estimation (TE) task was displayed on the same
 computer as the SWM task, but was programmed in E-Prime
 (Psychology Software Tools). As with the SWM task, patients gave
 verbal responses, and the experimenter entered those responses and
-controlled the task via the keyboard. The task was the same as
-@Danckert2007. 
+controlled the task via the keyboard. The task was identical to
+that described in @Danckert2007. 
 In order to provide a stimulus for the participant to attend, an
 illusory motion stimulus was presented that consisted of eight
 open circles (each subtending 3.5$^\circ$), arranged in a larger circle
@@ -149,4 +149,6 @@ provide context to these values [@Ferber2006].
 The temporal estimation task analyzed the time interval estimates
 the patients reported. For each patient, a mean of reported times
 was calculated for each time interval, both for pre and post
-prisms data. 
+prisms data. Individual linear models were also computed to provide a
+measure of the relationship between true trial durations and
+reported durations. 

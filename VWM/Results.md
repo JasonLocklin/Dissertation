@@ -16,16 +16,17 @@ was a significant effect of the number of squares condition
 not reach significance 
 ($F(2,22) = 3.19$, $\text{p} = 0.06$). The interaction between the
 two was also non-significant 
-($F(4,44) = 0.88$, $\text{p} = 0.4$). Post hoc multiple
+($F(4,44) = 0.88$, $\text{p} = 0.4$). *Post hoc* multiple
 comparisons, using Tukey HSD, indicate that the near-significant
-group effect is the result of a possible age effect between young
+group effect was the result of a possible age effect between young
 adults and patients 
 ($\overline{M}_{\text{diff}} = 0.6$, $\text{p} = 0.05$). While 
 the other age-related contrast was not significant 
 (i.e., young adult and older control groups, 
 $\overline{M}_{\text{diff}} = 0.4$, $\text{p} = 0.3$), the
 critical comparison, between patients and older controls, did 
-not appear to demonstrate an effect of damage
+not appear to demonstrate an effect of neurological damage on
+response precision
 ($\overline{M}_{\text{diff}} = -0.23$, $\text{p} = 0.6$).
 
 \begin{figure}[p] 
@@ -45,9 +46,9 @@ ability to manually indicate their response precisely.}
 When considering the response probabilities, the single square 
 condition of the VWM task was analyzed
 separately, as it represents an arguably distinct challenge to
-participants, and the outcome variables are different (i.e., it
-lacks a $P_{NT}$ measure) when compared with trials that contain
-non-target distractors. It does not require the participant to
+participants, and the outcome variables are different 
+when compared with trials that contain non-target distractors (i.e., it
+lacks a $P_{NT}$ measure). It does not require the participant to
 encode spatial location, or any binding of colour and spatial
 location, so it is more purely a measure of the person's ability
 to precisely encode and recall a target colour.
@@ -56,7 +57,7 @@ to precisely encode and recall a target colour.
 and therefore no $P_{NT}$ (i.e., $P_{T} = (1 - P_{G})$), there is
 effectively only one dependent variable and the choice of which
 probability to use for analysis is arbitrary. For convenience,
-$P_{G}$ is used here as the dependant variable. As can be seen in
+$P_{T}$ is used here as the dependant variable. As can be seen in
 figure \ref{fig_VWM_1Target}, the two healthy groups perform
 nearly perfectly by this metric. A one-way ANOVA containing all
 three group means was significant ($F(2) = 38$, $\text{p} <
@@ -64,8 +65,8 @@ three group means was significant ($F(2) = 38$, $\text{p} <
 the two healthy groups, who appear to have been performing at
 ceiling, are not shown to be different
 ($\overline{M}_{\text{diff}}  = 0.02$, $\text{p} = 0.56$).
-However, both young adults and the older control group were
-significantly different from patients ($\overline{M}_{\text{diff}}
+However, the patients performed significantly poorer than both 
+young adults and older controls ($\overline{M}_{\text{diff}}
 = 0.17$, $\text{p} < 0.001$, and, $\overline{M}_{\text{diff}} =
 0.19$, $\text{p} < 0.001$, respectively). 
 
@@ -88,7 +89,9 @@ square condition, these probability estimates sum to one, and as
 such represent only two unique values. Here, two types of failures
 were chosen for the analysis (the probability of guessing,
 $P_{G}$, and the probability of indicating a non-target distractor
-($P_{NT}$)).  The two dependant variables were analyzed
+($P_{NT}$; See figure \ref{fig_VWM_MTarget})
+
+The two dependant variables were analyzed
 separately, rather than in a multivariate analysis, as the
 characteristics of the data violate many of the assumptions of
 standard multivariate tests and the limited sample size would
@@ -96,44 +99,36 @@ render any result tenuous at best.  This limits the ability to
 compare the two outcomes, but provides clearer answers to the
 distinct questions each measure addresses.
 
-[Guessing 1] Guessing measures the tendency to indicate a colour
-that was not represented in any of the distributions (see
-figure a).  The restricted range of probability scores, and high
+The restricted range of both probability scores, and high
 frequency of near-zero outcomes produced a highly skewed and
-non-normal distribution that even with data transformations, was
-not sufficiently normal for parametric analysis to be appropriate.
-The means of the three groups and two square conditions can be
-seen in figure \ref{fig_VWM_MTarget}. As an attempt to analyze the
-data, the two square conditions were collapsed to produce means
-for a more generic "multi-square" performance metric.
+non-normal distribution that could not be normalized. As a result,
+the results of the 2 and 3 target conditions were collapsed, and
+analysis was performed with non-parametric tests.
 
-
+#### Guessing
 
 [Guessing 2] The Kruskal-Wallis rank sum test was used for the
 non-parametric omnibus model of $P_G$, and it did not indicate
 differences ($\chi^2(2) = 2.89$, $\text{p} = 0.2$). Non-parametric
 relative effects using Tukey contrasts were performed in a
 "one-sided" fashion, assuming age and injury would only impair
-performance.  The Patients did not significantly differ from
-either the young adults ($t(8) = 2.20$, $\text{p} = 0.08$), or
+performance [Using Nparcomp, @nparcomp]. 
+The Patients did not significantly differ from
+either the young adults ($t(8) = 2.20$, $\text{p} = 0.08$), nor
 older controls ($t(8) = 0.19$, $\text{p} = 0.8$). Additionally,
 the two healthy groups did not differ from one another ($t(8) =
-0.86$, $\text{p} = 0.5$).  [Footnote: Parametric tests were also
-performed using a square-root transform of the data and yielded
-the same results.]
+0.86$, $\text{p} = 0.5$).
 
-[Non-target/binding errors] As was the case for the $P_G$, the
-$P_{NT}$ data is highly non-normal and transformations are
-ineffective in correcting for the nature of the data. Figure
-\ref{fig_VWM_MTarget} presents the means for the two multi-square
-conditions. As was done for the guessing data,
+#### Non-target Selection
+
+[Non-target/binding errors] As was done for the guessing data,
 analysis was performed on the collapsed means of the two
-conditions. Here, however, the Kruskal-Wallis test was significant
+conditions. Here, however, the Kruskal-Wallis omnibus test was significant
 ($\chi^2(2) = 7.5$, $\text{p} < 0.05$).  Multiple comparison tests
 yielded significant differences between the patients and the two
 healthy groups ($t(12) = 2.47$, $\text{p} < 0.05$, for older
 controls, and $t(8) = 3.9$, $\text{p} < 0.05$, or young adults).
-The two healthy groups did not significantly differ from one
+The two healthy groups, however, did not significantly differ from one
 another ($t(8) = 0.54$, $\text{p} = 0.6$).
 
 \begin{figure}[p] 
@@ -152,16 +147,9 @@ healthy groups.}
 
 ### Covert Orienting Task
 
-Analysis of the covert orienting data was limited given that 3 of
-the 8 patients failed to respond to any left-sided targets. Not
-only does this prevent any measure of leftward orienting deficits
-in part of the sample, but those three participants also exhibited
-the strongest symptoms of neglect on the clinical measures. As a
-result, the statistical power of the analysis is substantially
-reduced, and is performed only on moderately neglecting
-participants. 
-
-
+Analysis of the covert orienting data was limited given that the 3 
+strongest neglecting patients failed to respond to any left-sided
+targets,  
 Leftward cue-effect sizes (CES) were calculated for each
 participant in the patient group and older controls. Overall, both
 groups exhibited significant cue effects, indicating significant
@@ -223,25 +211,24 @@ older controls.}
 #### Group Level Comparison 
 
 In order to explore the relationship between visual working
-memory and covert orienting, with regards to the patient and
-older control groups, a generalized linear model was fit
-predicting group affiliation based on the two tasks.
+memory and covert orienting, a generalized linear model was fit
+predicting group affiliation based on performance on the two tasks.
 Specifically, a logistic regression was computed based on 
 predicting group with just CES in an initial model, and then
 sequentially adding the
 two visual working memory deficits ($P_{NT}$, and $P_G$ from the
 single target condition) in a second and third. This order was
 chosen in order to examine visual working memory as a predictor 
-of the patient group beyond (i.e., partialled on) any attentional
+of the patient group beyond (i.e., partialled on) the attentional
 deficits measured with the covert orienting task. In order to
-model the complete dataset of 8 patients, the patient CES data was
+model the complete data set of 8 patients, the patient CES data was
 "Winsorized," substituting values of 2 standard deviations greater
 than the group mean for the three patients who failed to orient
-leftward. This procedure emphasizes any effect of CES, at the risk
+leftward. This procedure emphasizes any contribution of CES, at the risk
 of over-emphasizing it, and in doing so, makes later estimates of
 visual working memory contributions more conservative. 
 
-$P_{NT}$, and $P_G$ could not be normalized, and instead were each transformed
+Because $P_{NT}$ and $P_G$ could not be normalized, each was transformed
 via a median split into categorical factors representing "good"
 and "poor" performance. The analysis of deviance indicated that
 CES, on it's own, significantly predicted group affiliation (see
@@ -265,12 +252,14 @@ considerably poorer than the rest of the group (See table
 
 The two patients exhibiting a large deficit on CES 
 did not stand out with similarly extreme performance
-deficits on the visual working memory task. When the two are compared with the
+deficits on the visual working memory task. When the two are compared with 
 the three normal range CES patients, as can be observed in table
 \ref{tbl_VWM}, Patient 454 performed slightly worse than the median on
 both visual working memory measures, while Patient 171, who,
 as mentioned previously, as the only one in the group to score negatively on
 all three clinical measures of neglect, was actually the most
-accurate participant. 
+accurate participant. Similarly, the near normal range CES
+patients did not stand out as different from their cohort on
+either visual working memory deficit. 
 
 

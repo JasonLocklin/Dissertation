@@ -4,9 +4,9 @@ Prism adaptation does not improve deficits in spatial working memory or temporal
 The previous chapter demonstrated that the working memory deficits
 observed in neglect are not constrained strictly to the spatial
 domain, and so they are not likely to be a direct effect of an
-inability to utilize spatial attention (either due to spatial
+inability to utilize spatial attention --- either due to spatial
 attention deficits specifically, or an inability to access those
-networks for spatial rehursal). This working memory deficit joins
+networks for spatial rehearsal. This working memory deficit joins
 several perceptual
 deficits discovered in neglect to highlight an independent, subtle
 but debilitating, set of deficits that stand apart from the
@@ -22,14 +22,14 @@ effectiveness may not extend to more integrated, perceptual tasks
 such as serial visual search [@Morris2004].
 
 Visual search involves successive steps that make use of
-several systems, including perceptual judgement of stimulus
+several systems, including perceptual judgment of stimulus
 identity, and, spatial memory of searched locations. 
 While patients do not seem
 to have trouble discerning the stimulus types used in visual
 search, eye-tracking research has demonstrated that even young,
 healthy, individuals can occasionally fixate, or even interact
 with targets, but still fail to identify them [@Rich2008;
-@Solman2012], so reduced perceptual judgement can play a role in
+@Solman2012], so reduced perceptual judgment can play a role in
 diminished search performance.  Diminished performance could
 also come from the search algorithm itself.  People do not search
 targets in a completely random order, necessitating a role for
@@ -40,10 +40,9 @@ a sub-optimal memory of those locations
 [@Wojciulik2001; @Husain2001]. 
 
 [Prisms influence dorsal stream] The reliable effect of prisms on
-remediating spatial attention deficits, with their simultaneous
-lack of obvious efficacy on more perceptually demanding tasks and
-visual search, a task that may induce a working memory load,
-indicate that their effect may be primarily on the dorsal visual
+remediating spatial attention deficits, along with the simultaneous
+lack of obvious efficacy on perceptual and search tasks,
+indicate that their target of action may be primarily within the dorsal visual
 stream.  The two visual stream hypothesis places spatial attention
 and action (where and how) within the dorsal stream, passing from
 visual areas in occipital cortex into much of the parietal lobe
@@ -51,10 +50,10 @@ visual areas in occipital cortex into much of the parietal lobe
 memory of those perceptions, in the ventral stream, radiating into
 the temporal lobe [@Milner2006].  Various lines of research have
 pointed to prisms specifically effecting dorsal areas.
-@Danckert2008 and @Clower1996 have both demonstrated "dorsal
-stream" activation during prism adaptation, with fMRI and PET
+@Danckert2008 and @Clower1996 have both demonstrated dorsal
+stream activation during prism adaptation, with fMRI and PET
 respectively. Both studies found activation in the intraparietal
-sulcus.  @Danckert2008 also found anterior cingulate and
+sulcus. @Danckert2008 also found anterior cingulate and
 cerebellar activation, but neither study identified activation in
 ventral stream areas.
 
@@ -84,11 +83,11 @@ chosen because they demonstrate impairments in a neglect patient's
 ability to maintain accurate perceptual representations of his or
 her environment. The effect of prisms on spatial working memory
 and temporal perception were examined. Both spatial working memory
-and temporal perception are predominantly tasks of perception, and
+and temporal perception are
 likely to be supported by mechanisms primarily located in the
 ventral stream. As such, we expected to find neglect patients
 would continue to demonstrate deficits in these two tasks even
-after prism adaptation. More precisely, we expected to show prisms
-simultaneously benefit dorsal stream tasks, such as the clinical
+after prism adaptation. More precisely, we expect prisms
+remediate dorsal stream tasks, such as the clinical
 line-bisection measure, but not perception-dominant tasks, such as
 spatial working memory or temporal perception.
