@@ -42,7 +42,7 @@ bisection, figure copying, and two cancellation tasks: "stars" and
 beginning of every session.  Line bisection was also performed
 twice during sessions involving prisms, before and after
 adaptation.  Coding and analysis of the tasks were performed in
-the same way as in Chapter 1. The results of the clinical measures
+the same way as in experiment 1. The results of the clinical measures
 are depicted in table \ref{tbl_Prisms}.
 One patient had to leave early during their first
 session, so repeated it on another day. The duplicated data is
@@ -127,7 +127,7 @@ interval in whole seconds. The intervals were randomly chosen from
 
 ### Data Analysis
 
-As in chapter one, line bisection bias was coded as a percentage
+As in experiment 1, line bisection bias was coded as a percentage
 of line-length, and star- and bell-cancellation tasks, based on
 the percentage of left-sided target omissions. All measures were
 computed for pre- and post-prisms. Where multiple sessions were

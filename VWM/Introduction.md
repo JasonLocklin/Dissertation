@@ -9,7 +9,7 @@ disruption to inferior parietal cortex --- a region known to be
 important for effective attentional disengagement and re-orienting
 [@Corbetta2002]. This perhaps oversimplification of neglect as an attentional
 disorder, however, colours interpretation of deficits observed with
-other tasks --- Tasks which are not direct measures of attention,
+other tasks --- tasks which are not direct measures of attention,
 and for which performance may be degraded for other reasons. For
 example, lateralized failures on object cancellation tasks (i.e.,
 omissions of left-sided targets) could be couched as a consequence

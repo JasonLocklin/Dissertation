@@ -14,7 +14,7 @@
    viewBox="0 0 990 764.99999"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="fig_SA.svg">
   <title
      id="title6895">fig:Landmark</title>
@@ -563,8 +563,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="409.53023"
-     inkscape:cy="453.90998"
+     inkscape:cx="411.55054"
+     inkscape:cy="494.31608"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -1027,5 +1027,16 @@
          id="tspan5573"
          x="185.54097"
          y="624.23492">Eye Movement</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="372.74631"
+       y="21.527719"
+       id="text3128"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3130"
+         x="372.74631"
+         y="21.527719">Saccadic Adaptation Task</tspan></text>
   </g>
 </svg>

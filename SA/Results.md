@@ -66,11 +66,11 @@ trials. }
 [Parameters of the two tasks at baseline. Correlations]
 Participants did not show any significant bias when responding on
 the line bisection task pre-adaptation (
-$t( 36 ) = 0.57 $, $\text{p} = 0.575 $).
+$t( 36 ) = 0.57$, $\text{p} = 0.575$).
 In contrast, performance on the landmark task
 indicated a rightward bias such that participants placed the mark
-0.24$^\circ$ (0.18cm) to the right of true centre (
-$t( 36 ) = 5.23 $, $\text{p} < 0.001 $).
+$0.24^\circ$ ($0.18cm$) to the right of true centre (
+$t( 36 ) = 5.23$, $\text{p} < 0.001$).
 Such a rightward bias indicated that
 participants perceived the left half of the line to be larger, as
 has been shown in prior work [Pseudo-neglect; @Bowers1980].

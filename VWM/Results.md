@@ -5,7 +5,7 @@ Results
 
 #### Response Precision
 
-[Response Precision] Response precision was compared between 
+Response precision was compared between 
 the three groups and three conditions using a mixed between and
 within-measures 
 ANOVA (figure \ref{fig_VWM_Precision}). Response precision was

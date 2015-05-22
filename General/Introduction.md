@@ -143,17 +143,17 @@ greater breadth of cognitive deficits underlying neglect beyond
 spatial attention. 
 
 
-[Chapter overview] Chapter 1 explores the relationship between
+[Chapter overview] Experiment 1 explores the relationship between
 visual working memory and spatial attention in neglect. It examines the
 hypothesis that these two domains represent separate, but
-interacting deficits. Chapter 2 employs
+interacting deficits. Experiment 2 employs
 prism adaptation in right brain damaged (RBD) participants to
 explore the effects of prisms on two domains ---  spatial working
 memory and temporal estimation --- that are critical for developing
 accurate perceptual representations of the world. This chapter
 contributes to the growing evidence that prisms fail to influence
 domains of processing important for the construction of perceptual
-representations. Chapter 3 develops a procedure for using saccadic
+representations. Experiment 3 develops a procedure for using saccadic
 adaptation to explore the possibility that modifying eye position
 sense would lead to more generalized change in perceptual and
 motor biases important in the study of neglect. This preliminary 
