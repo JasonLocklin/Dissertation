@@ -3,19 +3,21 @@ Exploring the relationship between visual working memory and attention in neglec
 
 As discussed earlier, most traditional models of neglect describe the
 disorder as a deficit of spatial attention. A disorder driven by a
-difficulty in disengaging attention away from right-space stimuli
+difficulty in disengaging attention away from stimuli and events
+in right-space 
 [@Posner1984], an attentional ‘stickiness’ that results from
 disruption to inferior parietal cortex --- a region known to be
 important for effective attentional disengagement and re-orienting
-[@Corbetta2002]. This perhaps oversimplification of neglect as an attentional
-disorder, however, colours interpretation of deficits observed with
-other tasks --- Tasks which are not direct measures of attention,
+[@Corbetta2002]. This characterisation of neglect as an attentional
+disorder, however, does not fully capture the range of symtoms
+observed in neglect; particularly on tasks that 
+are not direct measures of attention,
 and for which performance may be degraded for other reasons. For
 example, lateralized failures on object cancellation tasks (i.e.,
 omissions of left-sided targets) could be couched as a consequence
 of a spatial attention deficit. However, revisiting behaviour
 (i.e., re-cancelling old targets as if they were new), commonly
-observed on the non-neglected, "good" side [@Husain2001;
+observed on the non-neglected, 'good' side of space [@Husain2001;
 @Parton2006], suggest something more nuanced is occurring. Even
 eliminating targets as they are cancelled, thereby removing their
 potential to re-capture attention, improves but does not fully
@@ -26,11 +28,13 @@ highlighted aspects of neglect that clearly go beyond spatially
 lateralized deficits of attention. For example, neglect patients
 tend to have difficulties with sustained attention
 [@Robertson1995], even when operating in a non-spatial modality
-[@Robertson1997]. For example, the attentional blink --- a measure of temporal,
+[@Robertson1997]. For example, the attentional blink 
+--- a measure of temporal,
 selective attention --- is exaggerated in neglect. When presented with
 a rapid series of stimuli with two embedded targets separated by
 varying temporal intervals, neglect patients require up to three
-times as much time between targets in order to identify both
+times as much time, relative to controls, 
+between targets in order to identify both
 correctly [@Husain1997]. In addition to these non-lateralized
 attention deficits, recent work has highlighted deficits of
 spatial working memory for stimuli in central or right, putatively
@@ -105,20 +109,21 @@ upon spatial working memory. If this was the case, though, we
 might expect these deficits to improve as a result of improvement
 in attention deficits, and this does not appear to be the case
 [@Striemer2010tpd; @Striemer2010dpm; @Ferber2003; @Sarri2006]. In
-the second case, of a disruption of access to attention by working
-memory networks --- the ability, for example, of working memory to
-utilize spatial attention for rehearsal --- may be disrupted in
-neglect. This could be due to a compromise of the dorsal and
+the second case, of disrupted access to attention by working
+memory networks that would then prevent patients from utilizing
+spatial attention as a rehearsal mechanism. 
+This could be due to a compromise of the dorsal and
 ventral stream connectivity, arising from the neglect-inducing
 lesion.  Unlike the case of direct causation described above, if
 disrupted communication between the two systems is the problem,
-improvement in spatial attention may not have an impact on the
+improvement in spatial attention may not have any impact on 
 spatial working memory deficits.  The third possibility, where
 working memory deficits are fully independent of spatial attention
 deficits, would have this same property, and therefore, cannot be
 clearly differentiated from a problem of disconnection in the
 existing research. 
 
+TODO: I'm here
 To overcome this problem, a new version of the working memory
 task was created to minimize the possible reliance on spatial
 attention rehearsal mechanisms. Rather than asking participants to
