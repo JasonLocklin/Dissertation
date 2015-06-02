@@ -123,16 +123,15 @@ deficits, would have this same property, and therefore, cannot be
 clearly differentiated from a problem of disconnection in the
 existing research. 
 
-TODO: I'm here
 To overcome this problem, a new version of the working memory
 task was created to minimize the possible reliance on spatial
 attention rehearsal mechanisms. Rather than asking participants to
 remember and recall strictly spatial information, memory for
-target colour (or a combination of colour *and* spatial organization in a second
-condition), was tested.  Placing the primary requirement of the
+target colour (or a combination of colour *and* spatial location), 
+was tested.  Placing the primary requirement of the
 task on colour processing reduces reliance on spatial attention
 and places any possible rehearsal mechanism requirements within
-the ventral stream, eliminating the likelihood that measured
+the ventral stream, reducing the likelihood that measured
 deficits would be the result of the hypothesized disrupted
 communication
 between the dorsal and ventral streams. If attention and working
