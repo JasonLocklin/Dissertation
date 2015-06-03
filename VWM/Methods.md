@@ -11,7 +11,7 @@ eight neurological patients, recruited from the Neurological
 Patient Database (Funded through the Heart and Stroke Foundation
 of Ontario, <https://uwaterloo.ca/neurological-patient-database>),
 who showed symptoms of neglect in pre-testing (3 male, 2 left
-handed, mean age of 66; table \ref{tbl_VWM}), and
+handed, mean age of 66; Table \ref{tbl_VWM}), and
 a healthy older control group of eight individuals
 recruited from the University of
 Waterloo's Research on Aging Participant pool (3 male, handedness
