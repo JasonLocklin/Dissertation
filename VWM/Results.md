@@ -48,7 +48,7 @@ condition of the VWM task was analyzed
 separately, as it represents an arguably distinct challenge to
 participants, and the outcome variables are different 
 when compared with trials that contain non-target distractors 
-(i.e., the single garget condition 
+(i.e., the single square condition 
 lacks a $P_{NT}$ measure). It does not require the participant to
 encode distinct spatial locations, or to bind colour and spatial
 location, so it is more purely a measure of an individual's ability
@@ -160,7 +160,7 @@ groups exhibited significant cue effects, indicating significant
 cost for reorienting attention to invalidly cued targets ($t(4) =
 2.16$, $\text{p} < 0.05$, for the patients, and $t(7) = 2.48$,
 $\text{p} < 0.05$ for the older controls). To examine group
-differences in covert orienting, a mixed Anova was performed with
+differences in covert orienting, a mixed ANOVA was performed with
 group as the between-subjects factor and SOA as the
 within-subjects factor. An effect of group approached significance
 ($F(1) = 3.7$, $\text{p} = 0.08$), while SOA and the interaction

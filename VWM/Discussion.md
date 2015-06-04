@@ -93,7 +93,7 @@ the more likely culprit.
 limited, as only five of the eight patients were able to perform the task, and
 only two of them performed well outside the healthy range ---
 although it is reasonable to suggest that the three patients who
-failed to detect any left sided targets also performed well ouside
+failed to detect any left sided targets also performed well outside
 the normal range.
 The three patients unable to complete the covert orienting 
 task also exhibited the strongest

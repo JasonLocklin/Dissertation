@@ -71,11 +71,11 @@ squares acting as
 placeholders, marking the locations of the previously presented
 memory sample (i.e., probes did not contain any colour
 information; Figure \ref{fig_Ch1-task}) One of the placeholders
-was identified as the target by a bolded outline, distinguishing
+was identified as the target by a bold-ed outline, distinguishing
 it from the non-targets (A line thickness of 8 pixels vs. 4 pixels).
 Participants
 were asked to indicate, by external mouse input, the colour of the
-initial square indicated by the bolded placeholder (Figure
+initial square indicated by the bold-ed placeholder (Figure
 \ref{fig_Ch1-task}).  Unlimited time was given, and the participant
 could make changes to their response an unlimited number of times
 until they were satisfied they had accurately indicated the

@@ -33,7 +33,7 @@ After eye-tracker calibration, the touchscreen was also calibrated
 using the manufacturer's calibration task, during which targets
 appeared at various points on the screen and the participant was
 instructed to point to them as they appeared. The landmark and
-line bisection tasks (descibed in detail below) were performed first, 
+line bisection tasks (described in detail below) were performed first, 
 to measure baseline
 performance, and then up to four blocks of the three tasks
 (saccadic adaptation, bisection, and landmark), each beginning
@@ -219,6 +219,6 @@ compared with the final third of each of the subsequent blocks
 (i.e., $Effect_{N} = \overline{N}_b - \overline{1}_a$). For the
 first block, this is simply a measure of the change from the
 beginning to end of the block of adaptation, whereas for the third
-block, the difference represents the commulative effect of three blocks of
+block, the difference represents the cumulative effect of three blocks of
 adaptation. 
 

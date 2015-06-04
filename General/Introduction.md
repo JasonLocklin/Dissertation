@@ -5,7 +5,7 @@ General Introduction
 Unilateral spatial neglect is a disorder commonly resulting from
 damage to the right inferior parietal or superior temporal cortex
 [@Vallar1986; @Karnath2001; @Karnath2012; @Mort2003; @Buxbaum2004;
-@Verdon2010]. Spatial neglect is characterised by a heterogeneous 
+@Verdon2010]. Spatial neglect is characterized by a heterogeneous 
 collection of
 deficits, the most prominent of which is an inability to
 respond to information on the contralesional side of space
@@ -93,7 +93,7 @@ last considerably longer than the adaptation period [@Farne2002;
 @Frassinetti2002; @Pisella2002; @Rossetti1998].  Judgment of
 straight-ahead and line bisection performance becomes closer to
 true centre, object cancellation, and figure copying improves
-[@Rossetti1998]. Beyond these clincal tests, exploratory eye 
+[@Rossetti1998]. Beyond these clinical tests, exploratory eye 
 movements demonstrate a
 reduction in rightward bias [@Danckert2006; @Ferber2003], and even
 visual imagery [@Rode2001], and postural balance [@Tilikete2001] are
@@ -138,7 +138,7 @@ within the dorsal stream that are typically undamaged in neglect.
 Instead, damage to the inferior parietal/superior temporal gyrus
 leads not only to the neglect syndrome, but also severely reduces
 (or even eliminates) the brain's ability to integrate dorsal and
-ventral stream processing [@Striemer2010tpd]. Similarily, given that
+ventral stream processing [@Striemer2010tpd]. Similarly, given that
 prisms operate primarily on the dorsal stream, this is likely to
 limit the influence the technique can have on functioning within 
 the ventral system responsible for higher

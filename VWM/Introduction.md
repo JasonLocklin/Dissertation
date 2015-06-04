@@ -8,8 +8,8 @@ in right-space
 [@Posner1984], an attentional ‘stickiness’ that results from
 disruption to inferior parietal cortex --- a region known to be
 important for effective attentional disengagement and re-orienting
-[@Corbetta2002]. This characterisation of neglect as an attentional
-disorder, however, does not fully capture the range of symtoms
+[@Corbetta2002]. This characterization of neglect as an attentional
+disorder, however, does not fully capture the range of symptoms
 observed in neglect; particularly on tasks that 
 are not direct measures of attention,
 and for which performance may be degraded for other reasons. For

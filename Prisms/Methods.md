@@ -33,7 +33,8 @@ adaptation.
 During prism adaptation, patients alternately pointed to targets on a
 table-top to the left and right of body mid-line every 2--3 seconds
 for 5 minutes. Prism glasses were worn that shifted vision
-10$^\circ$ to the right.
+10$^\circ$ to the right and visibility of hand movement was not
+artificially occluded (concurrent visual feedback).
 
 As in the previous chapter, patients were tested for symptoms of
 neglect using four standard clinical measures. These were line

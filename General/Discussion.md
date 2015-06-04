@@ -45,7 +45,7 @@ attention. Despite this, the working memory deficit was, indeed,
 evident. As a result, the findings support the notion that 
 working memory deficits observed in
 neglect are not a direct consequence of attention deficits, and
-are likely independantly caused.
+are likely independently caused.
 
 [Prisms are limited] Thus far, one of the most promising
 treatments for rehabilitating neglect has been prism adaptation
