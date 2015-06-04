@@ -21,17 +21,20 @@ distance of 42cm from a touch-screen computer monitor (ViewSonic
 rate 120Hz).  The participant was permitted to adjust the height
 of the chin-rest for comfort. The Eyelink II (SR Research)
 head-mounted eye-tracker was used to monitor eye movements. During
-calibration, both eyes were monitored, but afterwards only one eye
-was monitored during the task. The eye-tracker sampled at 500Hz
+calibration, targets appeared at nine different locations forming
+a grid that covered the full screen and the participants were
+instructed to saccade to them as they appeared. 
+The eye-tracker sampled at 500Hz (single eye)
 and raw eye-position data was saved for later processing.  All
 three computer tasks were programmed using Python and Psychopy
 [@Peirce2007].
 
-After eye-tracker calibration, the touchscreen was calibrated
+After eye-tracker calibration, the touchscreen was also calibrated
 using the manufacturer's calibration task, during which targets
 appeared at various points on the screen and the participant was
 instructed to point to them as they appeared. The landmark and
-line bisection tasks were performed first, to measure baseline
+line bisection tasks (descibed in detail below) were performed first, 
+to measure baseline
 performance, and then up to four blocks of the three tasks
 (saccadic adaptation, bisection, and landmark), each beginning
 with saccadic adaptation, were performed (10 participants opted to
@@ -46,10 +49,10 @@ consistent from block to block.
 Each trial of the line bisection task began with a black screen.
 The participant was asked to place their finger on the keyboard
 space-bar. While the key was depressed, after a jittered time
-interval (approximately 0.5 seconds), a horizontal 25$^\circ$
-(20cm) by 0.3$^\circ$ white bar appeared on the screen. The line
+interval (on average $0.5$ seconds), a horizontal $25^\circ$
+(20cm) by $0.3^\circ$ white bar appeared on the screen. The line
 was always centred, but was vertically jittered from trial to
-trial by up to 6.6$^\circ$. When the line appeared, the
+trial by up to $6.6^\circ$. When the line appeared, the
 participant was instructed touch the bar where they perceived the
 centre-most point was, as "quickly as possible." However, the line
 remained on screen for 1700ms, or until a touch-response was
@@ -57,7 +60,7 @@ registered on the screen. In practice, this was more than
 sufficient time for even the most careful participants. A blank
 screen replaced the target line and the participant was required
 to return their finger to the space-bar in order to proceed to the
-next trial. A block of line bisection consisted of 10 trials.
+next trial. A block of the line bisection task consisted of 10 trials.
 
 Each trial of the landmark task began with a red fixation mark
 1.3$^\circ$ tall by 0.3$^\circ$ that appeared near the centre of
@@ -74,7 +77,7 @@ trial (i.e., a staircase procedure).  This allowed a precise
 estimation of the subjective point of equality via a staircase
 method using up to 20 trials (less if the staircase settled on a
 stable response earlier).  Again, the stimuli remained on screen
-until a response was registered (see figure \ref{fig_Landmark}).
+until a response was registered (Figure \ref{fig_Landmark}).
 
 \begin{figure}[p] 
 \centering 
@@ -101,12 +104,13 @@ simply to follow the dots with their eyes.  Underlying this,
 however, were 100 trials involving central fixation (250ms),
 followed by a target in the left half of the screen (100ms,
 jittered by 50ms), then a target 16$^\circ$ ($\pm 1.6^\circ$) to
-the right of the previous one. When an eye-movement toward the
-second target was detected (by passing a threshold of distance
-between the two), the target was perturbed back toward the initial
+the right of the previous one. When an eye-movement away from the
+first target and toward the
+second was detected (by passing a threshold of distance
+between the two), the target was perturbed back toward the first 
 target by 30% (5.4$^\circ$), simulating an overshoot, and intended
 to reduce saccade amplitude over time (i.e., hypometria; see
-figure \ref{fig_SA} for an overview).  One in 5 trials were "test
+Figure \ref{fig_SA} for an overview).  One in five trials were "test
 trials," where the target was not perturbed, but simply
 disappeared. These trials were intended to allow analysis of
 changes to the saccade length induced by adaptation without the
@@ -145,13 +149,13 @@ To investigate the potential effect
 of saccadic adaptation on landmark and line bisection, change
 scores were computed from the initial, pre-adaptation sessions of
 the two tasks (i.e., baseline), to the remaining post-adaptation
-session blocks.
+blocks.
 
 #### Saccadic Adaptation
 
 After the first target of a saccadic adaptation trial was fixated,
 it disappeared and the second target appeared. At this point,
-500hz eye position samples from the eye-tracker were recorded
+eye position samples from the eye-tracker were recorded
 until the end of the trial (approximately 2s). This allowed off-line 
 analysis of the initial saccade toward the second target, and any
 corrective saccades to the perturbed location afterwards. Rather
@@ -176,7 +180,7 @@ detection easier and more consistent from saccade to saccade.
 Saccades were detected based on a speed threshold of
 57$^circ$/second faster than the median trial speed (empirically
 determined by visual verification). The analysis of an example 
-trial is presented graphically in figure \ref{fig_Saccade}.
+trial is presented graphically in Figure \ref{fig_Saccade}.
 
 Only trials with sufficiently clear initial saccade and at most
 one corrective saccade were used to calculate eye movement
@@ -192,7 +196,8 @@ large head movements, were not included. This stringent criteria
 resulted in an inclusion rate of approximately half (56\%), but
 provides input for further analysis free from potential bias by
 equipment or behavioural artifacts unrelated to the adaptation
-procedure.
+procedure (Example included and excluded trials are plotted in
+Appendix \ref{app}).
 
 \begin{figure}[p] 
 \centering 
@@ -213,7 +218,7 @@ third of the first block considered as a pseudo-baseline, to be
 compared with the final third of each of the subsequent blocks
 (i.e., $Effect_{N} = \overline{N}_b - \overline{1}_a$). For the
 first block, this is simply a measure of the change from the
-beginning to end of the block of adaptation, whereas for a later
-block, the difference represents more than one entire block of
+beginning to end of the block of adaptation, whereas for the third
+block, the difference represents the commulative effect of three blocks of
 adaptation. 
 
