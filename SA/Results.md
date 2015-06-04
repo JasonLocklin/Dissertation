@@ -5,13 +5,13 @@ Results
 
 #### Adaptation was Effective
 
-In order to determine if the saccadic adaptation
+In order to determine whether the saccadic adaptation
 procedure successfully changed saccade length from baseline, 
-one-sample t-tests for each block were computed (See figure
+one-sample t-tests for each block were computed (Figure
 \ref{fig_Adaptation}a). A participant experienced 6 test trials
 for each of the block thirds used in this calculation, so each
 test was run only with participants where the median first saccade
-length could be based on at least 2 accepted trials. 
+length could be based on at least two accepted trials. 
 Blocks 1, 3, and 4 produced significant group
 change in saccade length (
 $n=31$, $t( 30) = -2.53$, $\text{p} < 0.05$,
@@ -34,10 +34,11 @@ individual trial replication results in large individual
 variability. The 95% confidence interval for the magnitude of
 adaptation ranges from 23% to 330%, where 0% would represent no
 change and 100% would indicate eye movements directly to the
-perturbed location, or complete adaptation, and thus 330% would
-indicate severe overcompensation. To yield more precise estimate
+perturbed location (i.e., complete adaptation). Thus, adaptation of 
+330% would indicate severe overcompensation. 
+To gain a more precise estimate
 of adaptation, the analysis was repeated with all trials.  In this
-case all four blocks of demonstrated significant adaptation (
+case all four blocks demonstrated significant adaptation (
 $n=37$, $t( 36 ) = -4.62$, $\text{p} < 0.001$, 
 $n=36$, $t( 35 ) = -6.17$, $\text{p} < 0.001$, 
 $n=35$, $t( 34 ) = -6.76$, $\text{p} < 0.001$, and 
@@ -66,17 +67,17 @@ trials. }
 [Parameters of the two tasks at baseline. Correlations]
 Participants did not show any significant bias when responding on
 the line bisection task pre-adaptation (
-$t( 36 ) = 0.57 $, $\text{p} = 0.575 $).
+$t( 36 ) = 0.57$, $\text{p} = 0.575$).
 In contrast, performance on the landmark task
 indicated a rightward bias such that participants placed the mark
 0.24$^\circ$ (0.18cm) to the right of true centre (
-$t( 36 ) = 5.23 $, $\text{p} < 0.001 $).
+$t( 36 ) = 5.23$, $\text{p} < 0.001$).
 Such a rightward bias indicated that
 participants perceived the left half of the line to be larger, as
 has been shown in prior work [Pseudo-neglect; @Bowers1980].
 Interestingly, all participants performed very accurately on these
 two tasks, with the worst performance still less than a centimetre
-from centre (0.8$^\circ$ and 1.0$^\circ$ for line bisection and
+from true centre ($0.8^\circ$ and $1.0^\circ$ for line bisection and
 landmark, respectively.) Performance on the two tasks was not
 significantly correlated (
 $r = -0.3$, $t(35) = -1.71$, $\text{p}=0.1$).
@@ -84,7 +85,7 @@ $r = -0.3$, $t(35) = -1.71$, $\text{p}=0.1$).
 
 [Change scores -null effect]
 After the first block, one participant switched to pointing to the
-end of the line, rather than centre, so was excluded from this
+end of the line, rather than to the centre, and was excluded from this
 portion of the line bisection analysis.
 When the post adaptation change scores 
 were averaged across blocks, neither line
@@ -103,8 +104,8 @@ The degree of adaptation varied from participant to participant,
 with a few participants exhibiting mean saccadic change very close
 to zero. To examine the possible influence of saccadic adaptation further,
 the above analysis was repeated with only those participants
-demonstrating a strong saccadic adaptation effect (The median
-saccadic gain, of -16%, was chosen as the cut off).  Again,
+who demonstrated a strong saccadic adaptation effect (i.e., median
+saccadic gain of -16%, was chosen as the cut off).  Again,
 landmark and line bisection change scores were non-significant
 ($t( 17) = -1.89$, $\text{p} = 0.076$, and $t( 17 ) = -0.36$,
 $\text{p} = 0.726$, respectively). Note that while this may appear

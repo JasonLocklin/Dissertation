@@ -5,7 +5,7 @@ Discussion
 repeatedly been found to influence deficits putatively associated
 with dorsal visual stream processing. Here, we replicate past
 findings that prisms effect the bias present when neglect patients
-perform the line bisection [@Rossetti1998; @Striemer2010dpm], a
+perform the line bisection task [@Rossetti1998; @Striemer2010dpm], a
 task that involves a motoric reporting of centre and is associated
 with dorsal brain activation [@Foxe2003; @Weiss2000; @Cicek2009].
 While the perception of the line itself, it could be argued, may
@@ -16,7 +16,7 @@ probably represents a relatively clear indicator of a dorsal
 deficit within the disorder [@Striemer2010dpm]. The findings here
 suggest that, in at least some of the neglecting
 patients, prisms did appear to bring about a shift in bisection
-toward the neglected field, replicating previous research, and
+toward previously neglected space, replicating previous research, and
 confirming the prism-induced shift of visual-motor bias in the
 patients.
 
@@ -28,7 +28,8 @@ attention defects associated with neglect predominate.
 The locations of the targets need
 to not only be perceived, but recalled again after a delay, and
 that delay putatively causes the task to rely heavily on ventral,
-working memory systems [@Ferber2006].  While the patients did show
+working memory systems [@Ferber2006; @Milner2006].
+While the patients did show
 statistically significant improvement as a group on the spatial 
 working memory task after prism adaptation, the
 change left all four neglecting patients with apparent deficits. 
@@ -51,18 +52,18 @@ predictable degrees. As a result, there are going to be
 limitations to what can be inferred from treatment-effect studies
 like this when sample sizes are necessarily small.  However, 
 this chapter demonstrated that prisms can produce significant and
-relatively reliable change the line bisection of patients with neglect, and 
-at the same time, fail to meaningfully ameliorate two other tasks which putatively rely on
-different, ventral stream processing. These other two tasks
-demonstrate continued deficits post prisms. This lack of
+relatively reliable change the the line bisection performance,
+while at the same time, failing to meaningfully ameliorate
+performance on the other domains that putatively rely on, ventral
+stream processing. This lack of
 meaningful improvement fits the prediction that prisms --- a
 treatment demonstrated in the past to influence primarily dorsal brain
 regions --- would have minimal effects on the deficits of working
 memory and time perception because they rely
 on ventral networks. These findings lend support to
 the hypothesis presented earlier, that neglect is a disorder
-involving two independent
-systems, and that remediation of only one system will have minimal
-effect on the deficits arising from the other. More effective
+impacting two independent
+systems, and that remediation of only dorsal functioning will have minimal
+effect on the ventral deficits. More effective
 treatments, therefore, will necessarily need to produce changes in the
 behaviours attributable to ventral perceptual system function.

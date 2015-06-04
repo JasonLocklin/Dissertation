@@ -10,7 +10,7 @@ very poorly.  Figure
 normal range, based on the performance of two non-neglecting
 groups tested on the identical task by
 @Ferber2006. While one patient performed similarly to
-the non-neglecting group (27, one of the two no longer
+the non-neglecting group (Patient 27, one of the two patients no longer
 demonstrating neglect on clinical tasks), the remaining patients baseline
 performance was at least 3 standard deviations outside what was
 observed in either group.
@@ -33,27 +33,27 @@ age matched) from @Ferber2006 are overlaid the participant data.}
 As a group, SWM performance does statistically improve when a
 one-sided test is used (presuming prisms would not decrease
 performance, $t(4)=2.67$, $\text{p} < 0.05$). When consulting
-figure \ref{fig_SWM}, it becomes obvious, however, that the change
+Figure \ref{fig_SWM}, it becomes obvious, however, that the change
 is small relative to the size of the deficit. All four patients
-showing clinical signs of neglect at time of testing still
+showing clinical signs of neglect at the time of testing still
 demonstrated large deficits post-prisms, compared with the
 performance of non-neglecting right brain damaged patients
 previously examined on
 this test (z-scores between 3.4 and 7.2). When compared with
 performance of the more variable, right-brain damaged population
-(the lighter region in figure \ref{fig_SWM}), Patient 171 does
+(the lighter region in Figure \ref{fig_SWM}), Patient 171 does
 cross into a region statistically indistinguishable from normative
-performance ($z=1.2$), but the others remain well outside ($3.1 <
-z < 5.0$).
+performance ($z=1.2$), but the others remain well outside this
+range ($3.1 < z < 5.0$).
 
 ### Temporal Estimation Task 
 
-As can be observed in figure \ref{fig_TE}, the five patients who
+As can be seen in Figure \ref{fig_TE}, the five patients who
 showed clinical signs of neglect massively underestimated the time
-intervals. Again, Patient 27, one of the two patients no longer
-demonstrating neglect on the clinical tasks,
+intervals. Again, Patient 27, one of two patients no longer
+demonstrating neglect on clinical tasks,
 underestimated to only a minor degree pre-prisms, and responded very
-accurately post-prisms (figure \ref{fig_TE}). As a result,
+accurately post-prisms (Figure \ref{fig_TE}). As a result,
 analysis was done both with and without including Patient 27, and
 results did not differ.  What is presented here is the data
 excluding Patient 27.  An analysis of covariance was performed,
@@ -65,7 +65,7 @@ $\text{p}=0.4$).
 For each participant and condition, a linear model 
 was computed in order to yield a measure of the relationship
 (slope) between time intervals and estimations. As can be seen in
-figure \ref{fig_TE}, the relationship was not recti-linear (first
+Figure \ref{fig_TE}, the relationship was not recti-linear (first
 order), so linear models were computed based on log-transformed
 time. When this was done, linear models fit very well (13 models,
 one for each participant session,
@@ -103,7 +103,7 @@ traditionally seen in the research when a one-sided test was used
 t-tests on the sets of line bisections for each patient, with a bonferonni
 adjusted criteria ($\alpha = 0.008$), demonstrated
 a relatively consistent effect across individuals. As can be seen
-in figure \ref{fig_LB_Prisms}, the changes were nearly-universally
+in Figure \ref{fig_LB_Prisms}, the changes were nearly-universally
 leftward excepting Patient 27.
 Patient's 95, 97, and 171 demonstrated significant leftward shifts
 in bias post-prisms ($t(16)=3.3$, $\text{p} < 0.008$, $t(17)=4.1$,
@@ -131,6 +131,6 @@ bias, with values encoded as percentage of line length.}
 
 As a group, the neglecting patients did not improve on either
 bells ($t(4)=0.6$, $\text{p}=0.5$), or star cancellation
-($t(4)=1.7$, $\text{p}=0.2$), and, as can be seen in table
+($t(4)=1.7$, $\text{p}=0.2$), and, as can be seen in Table
 \ref{tbl_Prisms}, only one patient showed improvement on figure
 copying (Patient 171).

@@ -16,13 +16,13 @@ deficits that cannot be accounted for by simplistic single-system,
 or single-domain, models.
 
 
-In experiment 1, patients with neglect demonstrated complex deficits
+In Experiment 1, patients with neglect demonstrated complex deficits
 in visual working memory. Namely, when compared with controls,
 they failed to successfully recall and report the colour of
-stimuli after a delay (figure \ref{fig_VWM_1Target}). They also
+stimuli after a delay (Figure \ref{fig_VWM_1Target}). They also
 mis-reported colours when asked to recall stimuli from a given
 location, instead reporting colours of stimuli from other,
-competing, locations (figure \ref{fig_VWM_MTarget}).  While the
+competing, locations (Figure \ref{fig_VWM_MTarget}).  While the
 first deficit appears to demonstrate a simple problem of visual
 working memory, the latter probably represents a somewhat more
 complex problem of binding visual information (colour and
@@ -37,19 +37,15 @@ The choice of colour as the characteristic to be remembered was
 made in response to a possible challenge to previous findings of
 spatial working memory deficits in neglect. Namely, that such
 deficits may result from an inability to access attentional
-resources for rehearsal of spatial locations. In the single square
-condition, if rehearsal was utilized, it would not involve spatial
+resources for rehearsal of spatial locations [@Awh2001]. 
+In the single square
+condition, if rehearsal was utilized, it would primarily involve
+rehearsal of information such as colour, rather than involving spatial
 attention. Despite this, the working memory deficit was, indeed,
-demonstrated.  Nevertheless, this does not provide evidence that
-spatial rehearsal was occurring in the previous studies of spatial
-working memory, so further research will be required to determine
-the actual role, if any, of rehearsal in both those spatial
-working memory tasks, and the visual working memory task presented
-here. Self-reports of rehearsal strategies, as well as
-experimental manipulations to prevent or encourage rehearsal could
-be used to determine whether or not neglect patients utilize
-rehearsal, and to what degree it is necessary for healthy
-performance on these tasks.
+evident. As a result, the findings support the notion that 
+working memory deficits observed in
+neglect are not a direct consequence of attention deficits, and
+are likely independently caused.
 
 [Prisms are limited] Thus far, one of the most promising
 treatments for rehabilitating neglect has been prism adaptation
@@ -63,7 +59,7 @@ or copying [@Wilson1987], tasks that are, by their very nature,
 sensitive to an inability to orient to the left. Experiment 2
 investigated whether or not prism adaptation would produce a
 measurable effect on tasks thought to measure ventral-stream
-dependant processing spatial working memory and temporal
+dependant processing using spatial working memory and temporal
 estimations tasks that would presumably not be improved by
 remediation of spatial attention in the dorsal stream, the
 apparent target of prisms [@Danckert2008; @Clower1996].  The
@@ -75,7 +71,7 @@ deficits of spatial working memory in right space, and temporal
 estimation, two tasks presumably un-affected by deficits of
 leftward orienting, prisms appeared to lack any significant
 rehabilitative function. Patients demonstrated extreme deficits
-on these two tasks both before and after prism adaptation (figure
+on these two tasks both before and after prism adaptation (Figure
 \ref{fig_SWM} and \ref{fig_TE}).
 
 
@@ -87,12 +83,11 @@ Although the task is not that different from prism
 adaptation, it has been demonstrated to produce subtle changes in
 perception for healthy individuals [@Mack1978; @Awater2005;
 @Georg2008; @Bruno2007; @Zimmermann2009; @Dore-Mazars2005;
-@Collins2006; @Garaas2011].  Experiment 3 examined 
-healthy performance on the landmark and line bisection tasks after 
-sessions of saccadic adaptation.
-The two tasks comprise largely similar perceptual properties but 
-appear to rely on distinct visual systems [@Striemer2010dpm]. 
-Healthy participants
+@Collins2006; @Garaas2011].  Experiment 3 examined performance of
+healthy individuals on the landmark and line bisection tasks after
+sessions of saccadic adaptation.  The two tasks comprise largely
+similar perceptual properties but appear to rely on distinct
+visual systems [@Striemer2010dpm].  Healthy participants
 typically demonstrate very small biases, compared with neglect
 patients, on these tasks. It was therefore suspected that if
 saccadic adaptation produced changes in perception of spatial
@@ -135,9 +130,9 @@ saccades rather than the reflexive saccades used here, and there
 is evidence that adaptation of voluntary saccades may rely more
 heavily on cortical as opposed to cerebellar, circuits
 [@Schraa-Tam2009; @Muri2008], which may prove promising for the
-rehabilitation of unilateral neglect. 
- @Garaas2011 was able to identify
-long-lasting perceptual effects of saccadic adaptation, but this
+rehabilitation of unilateral neglect.  @Garaas2011 were able to
+identify long-lasting perceptual effects of saccadic adaptation,
+but this
 involved developing a new, whole-field adaptation protocol. Future
 attempts to change perceptual biases with saccadic adaptation
 should consider these parameters and designs, especially the potential use of
