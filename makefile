@@ -58,6 +58,7 @@ pdf: tex uw-ethesis.bbl
 	pdflatex uw-ethesis.tex
 	pdflatex uw-ethesis.tex
 	pdflatex uw-ethesis.tex
+	mv uw-ethesis.pdf Locklin_Dissertation.pdf
 
 
 # Zip figures.
