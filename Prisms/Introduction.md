@@ -59,7 +59,7 @@ cerebellar activation, but neither study identified activation in
 ventral stream areas.
 
 [Neglect SA/Prisms recovery associated with parietal cortex]
-Luaute and colleagues \citeyear{@Luaute2006} 
+Luaute and colleagues \citeyear{Luaute2006} 
 found that several areas correlated with the
 effectiveness of prisms at remediating neglect symptoms using PET.
 They found an extensive cluster of areas, which included posterior

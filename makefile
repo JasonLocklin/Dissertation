@@ -56,6 +56,8 @@ uw-ethesis.bbl: $(interm)
 pdf: tex uw-ethesis.bbl 
 	pdflatex uw-ethesis.tex
 	pdflatex uw-ethesis.tex
+	pdflatex uw-ethesis.tex
+	pdflatex uw-ethesis.tex
 
 
 # Zip figures.

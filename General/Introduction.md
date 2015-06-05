@@ -9,7 +9,7 @@ damage to the right inferior parietal or superior temporal cortex
 collection of
 deficits, the most prominent of which is an inability to
 respond to information on the contralesional side of space
-[@Driver1998, @Halligan2003, @Heilman1993]. 
+[@Driver1998; @Halligan2003; @Heilman1993]. 
 People
 with the disorder are spatially biased away from contralesional
 space in their search behaviour [@Husain2001; @Wojciulik2001],
@@ -26,8 +26,8 @@ recover [@Farne2004].
 neglect syndrome describe it as either a deficit of the deployment
 of spatial attention, or one of impaired awareness. More
 specifically, either an inability to report, respond, or orient
-attention toward stimuli in left space [@Driver1998 ;
-@Halligan2003; @Heilman1993] , or a general loss of environmental
+attention toward stimuli in left space [@Driver1998;
+@Halligan2003; @Heilman1993], or a general loss of environmental
 awareness that can at it's most extreme, cause a person to act as
 if the entire contralesional half of their world has ceased to
 exist [@Mesulam1981]. The spatial-attention based model does a
@@ -130,8 +130,9 @@ important for the visual guidance of action (the so-called dorsal
 ‘how’ pathway) and another that projects from V1 to inferotemporal
 cortex and is important for perceptual processing [the so-called
 ventral ‘what’ pathway; @Milner2006]. Prisms have been shown to
-primarily influence processing within the dorsal stream [
-@Luaute2006; @Danckert2008 @Corbetta2005; @Clower1996].  In this framework,
+primarily influence processing within the dorsal stream 
+[@Luaute2006; @Danckert2008; @Corbetta2005; @Clower1996].
+In this framework,
 prisms will primarily influence behaviours supported by the 
 superior parietal lobule and intraparietal sulcus, areas well
 within the dorsal stream that are typically undamaged in neglect.
@@ -168,7 +169,7 @@ work was conducted in healthy individuals.
 [Conclude, summarize project] The evidence presented in this
 thesis expands on previous work that has identified deficits in
 neglect that purportedly go beyond dorsal, spatial attention
-networks [@Striemer2010tpd, @Robertson1997, @Husain1997].
+networks [@Striemer2010tpd; @Robertson1997; @Husain1997].
 Here, working memory and temporal perception are demonstrated to
 be impaired in patients with right brain damage, many of whom
 presented with symptoms of
