@@ -6,7 +6,7 @@ adaptation for improving both spatial working memory and temporal
 estimation. This can be explained by the dorsal-ventral
 disassociation, as these tasks were chosen because of their
 perceptual nature. If prisms influence dorsal stream functioning,
-and these tasks are dominantly tests of ventral stream
+and these tasks are predominantly tests of ventral stream
 functioning, then it follows that these specially chosen
 perceptual tasks will not be substantially remediated by prisms
 [@Striemer2010tpd].
@@ -29,12 +29,13 @@ present is contentious [@Redding2005; @Herlihey2012].
 [Saccadic adaptation as an alternative] Another visuomotor
 adaptation procedure, called saccadic adaptation, -- a task that
 changes saccade length by jumping targets forward or backward as a
-saccade is made, inducing an artificial dysmetria
+saccade is initiated, inducing an artificial dysmetria
 [@McLaughlin1967] -- offers a potential alternative approach to
-overcome some of the shortcoming of prism adaptation, 
-exclusively influencing visual reference frames, and as a result,
-the perceptual system.
-This is because saccades straddle the
+overcome some of the shortcomings of prism adaptation. That is,
+saccadic adaptation exclusively influences visual reference
+frames, and as a result, may be more likely to induce changes to 
+perceptual processes.
+In fact, saccades straddle the
 perceptual and motor systems in a highly unique way.  Saccadic
 adaptation is a form of sensory adaptation, because it changes
 input to the visual system. At the same time saccadic adaptation
@@ -72,7 +73,7 @@ wearing of magnifying glasses on one or both eyes
 [@Kommerell1976]. There exists a rich, half-century of
 investigation into the saccadic adaptation system, most of it
 relying on a behavioural saccadic adaptation paradigm, developed
-by @McLaughlin1967; that utilizes target perturbations presented
+by @McLaughlin1967, that utilizes target perturbations presented
 during saccades.
 
 [describe saccade adaptation procedure and classic results]
@@ -107,7 +108,7 @@ attention and the accurate construction of perceptual
 representations.
 
 [Perception] There are also several lines of research that
-indicate that saccadic adaptation can influence perception. For
+indicate that saccadic adaptation influences perception. For
 example; @Mack1978 found that when a vertical gain was added to
 horizontal saccades by perturbing targets upward, participants
 became desensitized to upward motion and sensitized to downward
@@ -142,13 +143,7 @@ oculomotor apraxia and other degenerative disorders that caused
 gaze abnormalities [@Desestret2013]. 
 
 Because of the dearth of research, the clinical application of
-saccadic adaptation on disorders like neglect is unknown, so
-presented here is an experiment examining the influence of
-saccadic adaptation on the spatial perception and judgment of
-body mid-line by healthy individuals. If this behaviour can be
-biased by saccadic adaptation in healthy individuals, then it's
-possible that the procedure influences the same systems as are
-effected by the disorder, and if it influences *perception* of
-centre, then it's ventral influence makes it an important
-alternative to prism adaptation.
-
+saccadic adaptation on disorders like neglect is unknown. The
+current chapter examined the influence of
+saccadic adaptation on perception and action by using landmark and
+line bisection tasks. 

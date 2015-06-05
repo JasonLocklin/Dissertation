@@ -19,7 +19,7 @@ produced much less individual variability, and thus provides a
 relatively precise estimate, which coincides with what has been
 found in the literature in the past [@Hopp2004]. 
 Because
-non-test trials included the perturbed target, it's possible that
+non-test trials included the perturbed target, it is possible that
 the target influenced the duration of the initial saccade, biasing
 the adaptation effect calculation, though this should be
 relatively uniform across participants and blocks, and thus fail

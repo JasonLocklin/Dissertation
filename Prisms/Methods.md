@@ -10,7 +10,7 @@ Foundation of Ontario,
 <https://uwaterloo.ca/neurological-patient-database>). 
 Two patients were unable to return for the second phase of the
 experiment because of extenuating circumstances. 
-As can be seen in table \ref{tbl_Prisms}, the remaining six
+As can be seen in Table \ref{tbl_Prisms}, the remaining six
 patients demonstrated a wide range of performance on the clinical
 tasks at time of testing, including two who were no longer
 demonstrating neglect symptoms by our criteria (Patients 27,
@@ -33,7 +33,8 @@ adaptation.
 During prism adaptation, patients alternately pointed to targets on a
 table-top to the left and right of body mid-line every 2--3 seconds
 for 5 minutes. Prism glasses were worn that shifted vision
-10$^\circ$ to the right.
+10$^\circ$ to the right and visibility of hand movement was not
+artificially occluded (concurrent visual feedback).
 
 As in the previous chapter, patients were tested for symptoms of
 neglect using four standard clinical measures. These were line
@@ -41,9 +42,10 @@ bisection, figure copying, and two cancellation tasks: "stars" and
 "bells" [@Wilson1987]. The four tasks were completed at the
 beginning of every session.  Line bisection was also performed
 twice during sessions involving prisms, before and after
-adaptation.  Coding and analysis of the tasks were performed in
-the same way as in experiment 1. The results of the clinical measures
-are depicted in table \ref{tbl_Prisms}.
+adaptation as a measure of the after-effects of the procedure.
+Coding and analysis of the tasks were performed in
+the same way as in Experiment 1. The results of the clinical measures
+are depicted in Table \ref{tbl_Prisms}.
 One patient had to leave early during their first
 session, so repeated it on another day. The duplicated data is
 included in this chapter's figures for transparency.
@@ -51,14 +53,14 @@ included in this chapter's figures for transparency.
 
 #### Spatial Working Memory Task
 
-The spatial working memory (SWM) task is a similar, simpler
+The spatial working memory task is a similar, simpler
 relative of the visual working memory task that was used in the
 last chapter [@Ferber2006]. Patients were seated at a viewing
 distance of approximately 60 cm, with their head and body axis
 aligned (no chin-rest was used, optical angles presented below are
 therefore approximate). The task was programmed in Visual Basic
-Version 6.0 (Microsoft Inc.), and displayed on a tk computer with
-a tk inch display. The task was the same as described in
+Version 6.0 (Microsoft Inc.). 
+The task was the same as described in
 @Ferber2006. At the beginning of each trial, patients fixated a
 red central cross. Once fixated, the experimenter began the trial
 by depressing a key and the cross turned green. After 1 second,
@@ -68,10 +70,11 @@ could appear in any of 16 different locations, however, targets
 were always separated from one-another by at least 2$^\circ$.
 
 The targets remained on-screen for 2 seconds which was followed by
-a delay of 3 seconds. A probe stimulus (a circle of the same size
-as the target squares) appeared at one of the 16 possible
+a delay of 3 seconds. Following the delay a probe 
+stimulus (a circle of the same size
+as the target squares) was presented at one of the 16 possible
 locations. The probe remained on the screen until a response was
-entered via the keyboard (figure \ref{fig_Prisms}). The patients
+entered via the keyboard (Figure \ref{fig_Prisms}). The patients
 were asked to remember the locations of the target squares across
 the delay interval and then verbally report to the experimenter
 whether or not the probe appeared in one of the locations
@@ -95,18 +98,19 @@ targets (squares).}
 
 #### Temporal Estimation Task
 
-The Temporal Estimation (TE) task was displayed on the same
-computer as the SWM task, but was programmed in E-Prime
-(Psychology Software Tools). As with the SWM task, patients gave
+The temporal estimation task was displayed on the same
+computer as the spatial working memory task, but was programmed in E-Prime
+(Psychology Software Tools). As with the spatial working memory task, 
+patients gave
 verbal responses, and the experimenter entered those responses and
 controlled the task via the keyboard. The task was identical to
 that described in @Danckert2007. 
-In order to provide a stimulus for the participant to attend, an
+In order to provide a stimulus for the participant to attend to, an
 illusory motion stimulus was presented that consisted of eight
 open circles (each subtending 3.5$^\circ$), arranged in a larger circle
 around the centre of the screen (radius of 8$^\circ$), with each circle
 being filled, sequentially, one at a time, in a clockwise
-direction (figure \ref{fig_Prisms}).  This created the illusion of
+direction (Figure \ref{fig_Prisms}).  This created the illusion of
 a filled-circle moving around the outer circle. Rather than a
 fixation, the centre of the screen periodically displayed a number
 (numbers 1-9, presented for 300ms, 1.5$^\circ$ in size), which the
@@ -127,11 +131,11 @@ interval in whole seconds. The intervals were randomly chosen from
 
 ### Data Analysis
 
-As in experiment 1, line bisection bias was coded as a percentage
+As in Experiment 1, line bisection bias was coded as a percentage
 of line-length, and star- and bell-cancellation tasks, based on
 the percentage of left-sided target omissions. All measures were
-computed for pre- and post-prisms. Where multiple sessions were
-performed, values were averaged (table \ref{tbl_Prisms}).
+computed for pre and post prisms. Where multiple sessions were
+performed, values were averaged (Table \ref{tbl_Prisms}).
 
 For the spatial working memory task, there were two trial types;
 those where the probe appeared in the same location as one of the
