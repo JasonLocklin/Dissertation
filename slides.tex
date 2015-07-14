@@ -2,8 +2,9 @@
 \usetheme{Warsaw}
 \usecolortheme{beaver}
 \hypersetup{pdfstartview={Fit}} % fits the presentation to the window when first displayed
-\usepackage{adjustbox}
+\usepackage{adjustbox} %Used to fit tables to slide
 
+\usepackage{import} % \subimput alows importing of Inkscape pdf+tex files in subfolder
 
 \title[Perception and Working Memory in Neglect]{Perceptual and Working Memory Deficits in Unilateral Neglect} 
 \subtitle{}
@@ -46,9 +47,40 @@
 \section[Attention and WM]{Attention and Working Memory in Neglect} 
 
  \begin{frame}
-  \frametitle{This is the first slide}
-  text goes here
+	 \frametitle{Covert Orienting Task}
+  \def\svgwidth{\textwidth}
+  \subimport{VWM/}{VWM/fig_COVAT-task.pdf_tex}
  \end{frame}
+
+  \begin{frame}
+	 \frametitle{Visual Working Memory Task}
+  \def\svgwidth{\textwidth}
+  \subimport{VWM/}{VWM/fig_VWM-task.pdf_tex}
+ \end{frame}
+
+ \begin{frame}
+	 \frametitle{Response Model Calculations}
+ To be added: Slides to explain prob. models based off Fig 2.2.
+ \end{frame}
+
+ \begin{frame}
+	 \frametitle{Figure 2.3}
+	 \centering
+	 \includegraphics
+	 [height=.8\textheight,width=\textwidth,keepaspectratio]
+	 {VWM/fig_VWM_Precision.pdf}
+ \end{frame}
+
+  \begin{frame}
+	 \frametitle{Figure 2.4}
+	 \centering
+	 \includegraphics
+	 [height=.8\textheight,width=\textwidth,keepaspectratio]
+	 {VWM/fig_VWM_1Target.pdf}
+ \end{frame}
+
+
+ 
 
 %%%%%%%%%%%%%%%%%%%%%%%% EXPERIMENT TWO
  \section[Prisms]{Prism Adaptation and Non-Attention Deficits} 
@@ -68,7 +100,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%% CONCLUDING MATTER
 \section*{}
- \begin{frame}
+\begin{frame}
   \frametitle{Conclusions}
   text goes here
  \end{frame}
@@ -80,7 +112,6 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%% APPENDIX
-\section*{}
 \subsection*{Appendix}
 \begin{frame}
   \frametitle{Table 2.1}
