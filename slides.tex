@@ -2,20 +2,22 @@
 \usetheme{Warsaw}
 \usecolortheme{beaver}
 \hypersetup{pdfstartview={Fit}} % fits the presentation to the window when first displayed
+\usepackage{adjustbox}
+
 
 \title[Perception and Working Memory in Neglect]{Perceptual and Working Memory Deficits in Unilateral Neglect} 
 \subtitle{}
 
-\author{Jason Locklin\inst{} \\
-Supervisor: Dr. James Danckert}
+\author{Jason Locklin}
 \institute[University of Waterloo] 
 {
-  \inst{}%
   Department of Psychology\\
-  University of Waterloo 
+  University of Waterloo\\
+  \bigskip
+  Supervisor: Dr. James Danckert
 }
 \date[August 6, 2015] 
-{QR}
+{}% <- QR
 
 \AtBeginSection[]
 {
@@ -29,9 +31,9 @@ Supervisor: Dr. James Danckert}
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%% GENERAL INTRODUCTION
-
 \frame{\titlepage}
 
+\section*{}
 \begin{frame}
  \frametitle{General Introduction}
  introduction text goes here
@@ -65,6 +67,7 @@ Supervisor: Dr. James Danckert}
  \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%% CONCLUDING MATTER
+\section*{}
  \begin{frame}
   \frametitle{Conclusions}
   text goes here
@@ -77,7 +80,15 @@ Supervisor: Dr. James Danckert}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%% APPENDIX
+\section*{}
+\subsection*{Appendix}
+\begin{frame}
+  \frametitle{Table 2.1}
+  \adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+  max width=\textwidth}{
+  \input{VWM/tbl_VWM_data.tex}}
+ \end{frame}
 
- 
+
  
 \end{document}
