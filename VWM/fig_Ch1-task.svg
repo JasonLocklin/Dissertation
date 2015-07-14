@@ -77,11 +77,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="388.11247"
-     inkscape:cy="428.06459"
+     inkscape:zoom="1.4"
+     inkscape:cx="467.30949"
+     inkscape:cy="217.04028"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer4"
      showgrid="true"
      units="in"
      inkscape:window-width="1440"
@@ -106,7 +106,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -172,29 +172,27 @@
          style="fill:#000000;fill-opacity:1;stroke:none" />
     </g>
     <text
-       transform="translate(0,-287.3622)"
        xml:space="preserve"
-       style="font-size:15px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
-       x="463.56595"
-       y="997.1676"
+       style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="499.85672"
+       y="709.55286"
        id="text4185"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4187"
-         x="463.56595"
-         y="997.1676">Valid Trial</tspan></text>
+         x="499.85672"
+         y="709.55286">Valid Trial</tspan></text>
     <text
-       transform="translate(0,-287.3622)"
        xml:space="preserve"
-       style="font-size:15px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
-       x="670.39465"
-       y="997.92523"
+       style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
+       x="713.38318"
+       y="709.80548"
        id="text4189"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4191"
-         x="670.39465"
-         y="997.92523">Invalid Trial</tspan></text>
+         x="713.38318"
+         y="709.80548">Invalid Trial</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -293,13 +291,9 @@
        id="text4203"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4205"
          x="415.50922"
-         y="423.79077">Memory</tspan><tspan
-         sodipodi:role="line"
-         x="415.50922"
-         y="442.54077"
-         id="tspan4207">Sample</tspan></text>
+         y="423.79077"
+         id="tspan4207">Memory</tspan></text>
     <text
        transform="translate(0,-287.3622)"
        xml:space="preserve"
@@ -321,13 +315,9 @@
        id="text4217"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan4219"
          x="719.37146"
-         y="518.54205">Probe Array/</tspan><tspan
-         sodipodi:role="line"
-         x="719.37146"
-         y="537.29205"
-         id="tspan4221">Response</tspan></text>
+         y="518.54205"
+         id="tspan4221">Probe Array/</tspan></text>
     <rect
        transform="translate(0,-287.3622)"
        style="fill:#babcc0;fill-opacity:1;stroke:none;display:inline"
@@ -466,6 +456,28 @@
        height="15"
        x="445.71426"
        y="294.82141" />
+    <text
+       xml:space="preserve"
+       style="font-size:15px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="415.4176"
+       y="155.08244"
+       id="text4203-1"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="415.4176"
+         y="155.08244"
+         id="tspan4207-5">Sample</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:sans-serif"
+       x="719.44983"
+       y="250.12033"
+       id="text4217-8"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="719.44983"
+         y="250.12033"
+         id="tspan4221-0">Response</tspan></text>
   </g>
   <g
      inkscape:label="Title"
