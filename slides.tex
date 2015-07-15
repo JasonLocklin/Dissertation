@@ -2,8 +2,9 @@
 \usetheme{Warsaw}
 \usecolortheme{beaver}
 \hypersetup{pdfstartview={Fit}} % fits the presentation to the window when first displayed
-\usepackage{adjustbox} %Used to fit tables to slide
+\usepackage{adjustbox} %Used to fit tables to slides
 
+\usepackage{array} %used for math mode in table aod
 \usepackage{import} % \subimput alows importing of Inkscape pdf+tex files in subfolder
 
 \title[Perception and Working Memory in Neglect]{Perceptual and Working Memory Deficits in Unilateral Neglect} 
@@ -46,6 +47,12 @@
 
 \section[Attention and WM]{Attention and Working Memory in Neglect} 
 
+ \begin{frame}
+  \frametitle{Experiment One}
+ Introductory slides. 
+ \end{frame}
+
+
 %%%% COVAT
 \subsection*{Covert Orienting}
  \begin{frame}
@@ -54,8 +61,17 @@
   \subimport{VWM/}{VWM/fig_COVAT-task.pdf_tex}
  \end{frame}
 
+ \begin{frame}
+	 \frametitle{Figure 2.6}
+	 \centering
+	 \includegraphics
+	 [height=.8\textheight,width=\textwidth,keepaspectratio]
+	 {VWM/fig_COVAT.pdf}
+ \end{frame} 
+ 
 %%%% VWM
  \subsection*{Visual Working Memory}
+
   \begin{frame}
 	 \frametitle{Visual Working Memory Task}
   \def\svgwidth{\textwidth}
@@ -66,7 +82,7 @@
 	 \frametitle{Response Model Calculations}
  To be added: Slides to explain prob. models based off Fig 2.2.\\
  Need to figure out the best way to explain this fluidly, and also a more thorough
- explenation using appendix slides if necissary.
+ explenation using appendix slidess if necissary.
  \end{frame}
 
  \begin{frame}
@@ -98,16 +114,32 @@
  \section[Prisms]{Prism Adaptation and Non-Attention Deficits} 
 
  \begin{frame}
-  \frametitle{This is the first slide}
-  text goes here
+  \frametitle{Experiment Two}
+ Introductory slides. 
  \end{frame}
+
+
+
+  \begin{frame}
+	 \frametitle{Spatial Working Memory Task}
+  \def\svgwidth{0.7\textwidth}
+  \subimport{Prisms/}{Prisms/fig_SWM-task.pdf_tex}
+ \end{frame}
+
+  \begin{frame}
+	 \frametitle{Temporal Estimation Task}
+  \def\svgwidth{0.9\textwidth}
+  \subimport{Prisms/}{Prisms/fig_TE-task.pdf_tex}
+ \end{frame}
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%% EXPERIMENT THREE
 \section[Saccadic Adaptation]{Saccadic Adaptation for Action and Perception} 
 
  \begin{frame}
-  \frametitle{This is the first slide}
-  text goes here
+  \frametitle{Experiment Three}
+ Introductory slides. 
  \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%% CONCLUDING MATTER
@@ -130,6 +162,19 @@
   \adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
   max width=\textwidth}{
   \input{VWM/tbl_VWM_data.tex}}
+ \end{frame}
+
+\begin{frame}
+  \frametitle{Table 2.2}
+  \input{VWM/aod.tex}
+ \end{frame}
+
+\begin{frame}
+  \frametitle{Table 3.1}
+  \tiny
+  \centering
+  \setlength{\tabcolsep}{5pt}
+  \input{Prisms/tbl_Prisms_data.tex}
  \end{frame}
 
 
