@@ -84,7 +84,7 @@ same position as one of the preceding squares.
 
 \begin{figure}[p] 
 \centering 
-\includegraphics{fig_Prisms.pdf.png} 
+\includegraphics[height=0.7\textheight]{fig_Prisms.pdf.png} 
 \caption{Figure upper panel (a) depicts one trial of the temporal
 estimation task.  The numbers were randomly selected and displayed
 at random times (though, not at the very beginning or end of the
