@@ -1,0 +1,75 @@
+%% Creator: Inkscape inkscape 0.48.5, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'fig_Adaptation.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{761.905153bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.70181244)%
+    \put(0,0){\includegraphics[width=\unitlength]{fig_Adaptation.pdf}}%
+    \put(0.20539978,0.56813439){\makebox(0,0)[lb]{\smash{*}}}%
+    \put(0.14456544,0.29012078){\makebox(0,0)[lb]{\smash{*}}}%
+    \put(0.10561046,0.15110085){\makebox(0,0)[lb]{\smash{*}}}%
+    \put(0.7165264,0.56813439){\makebox(0,0)[lb]{\smash{*}}}%
+    \put(0.59141896,0.42912758){\makebox(0,0)[lb]{\smash{*}}}%
+    \put(0.6124452,0.29012078){\makebox(0,0)[lb]{\smash{*}}}%
+    \put(0.53948336,0.15110085){\makebox(0,0)[lb]{\smash{*}}}%
+    \put(0.26447538,0.64235622){\makebox(0,0)[lb]{\smash{Test Trials}}}%
+    \put(0.72904764,0.64235622){\makebox(0,0)[lb]{\smash{All Trials}}}%
+    \put(0.03157445,0.57006376){\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.03157445,0.43105696){\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.03157445,0.29205015){\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.03157445,0.15304335){\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0.04587861,0.06413672){\makebox(0,0)[lb]{\smash{−0.3}}}%
+    \put(0.18964979,0.06413672){\makebox(0,0)[lb]{\smash{−0.2}}}%
+    \put(0.33343409,0.06413672){\makebox(0,0)[lb]{\smash{−0.1}}}%
+    \put(0.50576525,0.06413672){\makebox(0,0)[lb]{\smash{−0.3}}}%
+    \put(0.64953643,0.06413672){\makebox(0,0)[lb]{\smash{−0.2}}}%
+    \put(0.79332073,0.06413672){\makebox(0,0)[lb]{\smash{−0.1}}}%
+    \put(0.39212971,0.00515025){\makebox(0,0)[lb]{\smash{Saccadic Gain (Change from Baseline + Standard Error)}}}%
+    \put(0.01722262,0.34476081){\rotatebox{90}{\makebox(0,0)[lb]{\smash{Block}}}}%
+  \end{picture}%
+\endgroup%
