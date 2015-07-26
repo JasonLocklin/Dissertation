@@ -1,0 +1,26 @@
+Scrap Heaers/Cleaner theme
+Add Limitations/Future directions slide(s)
+Study probability model papers and practice discussing it.
+
+Finish with figures
+Add introductory slides
+Add discussion slides
+
+Reading.
+
+wget https://bitbucket.org/denilsonsa/small_scripts/raw/542edd54d290d476603e939027ca654b25487d85/sleep_until_modified.sh
+while ./sleep_until_modified.sh slides.tex; do pdflatex slides.tex; done
+
+
+Dates:
+Tues, Jul. 21: Complete slide deck to James
+Thur, Jul. 23: Meeting with James to discuss
+Thur, Aug. 6: Defence date
+     June 2015             July 2015            August 2015       
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+    1  2  3  4  5  6            1  2  3  4                     1  
+ 7  8  9 10 11 12 13   5  6  7  8  9 10 11   2  3  4  5  6  7  8  
+14 15 16 17 18 19 20  12 13 14 15 16 17 18   9 10 11 12 13 14 15  
+21 22 23 24 25 26 27  19 20 21 22 23 24 25  16 17 18 19 20 21 22  
+28 29 30              26 27 28 29 30 31     23 24 25 26 27 28 29  
+                                            30 31                 

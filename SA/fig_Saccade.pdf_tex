@@ -1,0 +1,65 @@
+%% Creator: Inkscape inkscape 0.48.5, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'fig_Saccade.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{522.62524771bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.68364368)%
+    \put(0,0){\includegraphics[width=\unitlength]{fig_Saccade.pdf}}%
+    \put(0.00542096,0.25258411){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{F}}}%
+    \put(0.0001805,0.46497731){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{T2}}}%
+    \put(0.00006727,0.09644041){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{T1}}}%
+    \put(0.00323419,0.34511146){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{P}}}%
+    \put(0.8522446,0.27855192){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Length of 
+first Saccade}}}%
+    \put(0.05954332,0.63663419){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Smoothed speed}}}%
+    \put(0.05981663,0.56829785){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Rolling max}}}%
+    \put(0.26942496,0.05773641){\color[rgb]{0,0,0}\rotatebox{-17.1045814}{\makebox(0,0)[lb]{\smash{Saccade start}}}}%
+    \put(0.35790878,0.05678397){\color[rgb]{0,0,0}\rotatebox{-14.46671832}{\makebox(0,0)[lb]{\smash{Saccade end}}}}%
+    \put(0.66782311,0.05514717){\color[rgb]{0,0,0}\rotatebox{-14.55358325}{\makebox(0,0)[lb]{\smash{Corrective saccade}}}}%
+  \end{picture}%
+\endgroup%

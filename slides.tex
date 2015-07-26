@@ -1,31 +1,37 @@
 \documentclass{beamer}
-\usetheme{Warsaw}
+\usetheme{Boadilla}
+%\usetheme{Madrid}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
 \usecolortheme{beaver}
+\usecolortheme{orchid}
+\setbeameroption{show notes}
 \hypersetup{pdfstartview={Fit}} % fits the presentation to the window when first displayed
-\usepackage{adjustbox} %Used to fit tables to slide
+\usepackage{adjustbox} %Used to fit tables to slides
 
+\usepackage{array} %used for math mode in table aod
 \usepackage{import} % \subimput alows importing of Inkscape pdf+tex files in subfolder
 
-\title[Perception and Working Memory in Neglect]{Perceptual and Working Memory Deficits in Unilateral Neglect} 
+\title[Perception and Working Memory in Neglect]{Perceptual and Working Memory Deficits in Unilateral Neglect}
 \subtitle{}
 
 \author{Jason Locklin}
-\institute[University of Waterloo] 
+\institute[University of Waterloo]
 {
-  Department of Psychology\\
-  University of Waterloo\\
-  \bigskip
-  Supervisor: Dr. James Danckert
+	Department of Psychology\\
+	University of Waterloo\\
+	\bigskip
+	Supervisor: Dr. James Danckert
 }
-\date[August 6, 2015] 
+\date[August 6, 2015]
 {}% <- QR
 
 \AtBeginSection[]
 {
-  \begin{frame}
-    \frametitle{Experiments}
-    \tableofcontents[currentsection]
-  \end{frame}
+	\begin{frame}
+		\frametitle{Experiments}
+		\tableofcontents[currentsection]
+	\end{frame}
 }
 
 
@@ -36,15 +42,121 @@
 
 \section*{}
 \begin{frame}
- \frametitle{General Introduction}
- introduction text goes here
+	\frametitle{Unilateral Neglect}
+  General description
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Neglect as a Lateralized Dissorder of Attention}
+	\begin{itemize}
+		\item	Prefferential orienting and difficulty dissengaging and re-orienting.
+		\item Evidence from covert orienting and visual search.
+		\item Other non-lateralized deficits of attention such as selective attention (attentional blink), and sustained attention.
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Impaired Perceptual Representation as a Key Component of Neglect}
+	\begin{block}{Perceptual deficits:}
+		\begin{itemize}
+			\item Chimeric face perception
+			\item Perceptual judgement of spatial extent.
+		\end{itemize}
+	\end{block}
+	\begin{block}{Working Memory deficits:}
+		\begin{itemize}
+		\item Spatial Working Memory (Danckert \& Feber 2006).
+		\end{itemize}
+	\end{block}
 \end{frame}
 
 
 
+\begin{frame}
+	\frametitle{3 Possible Explenations for Working Memory deficits}
+	\begin{enumerate}
+		\item<1> Patients perform poorly on tests of Working Memory as a direct result of spatial attention deficits.
+		\item<1-2> Working Memory Deficits arrise as a result of an inability to utilize attention for rehursal
+		\item<1-2> Working Memory and Spatial Attention deficits both arrise from the neglect-inducing inferior parietal lesion, but via unique mechanisms.
+	\end{enumerate}
+\end{frame}
+
+% fade the first as implausible given the evidence
+
 %%%%%%%%%%%%%%%%%%%%%%%% EXPERIMENT ONE
 
-\section[Attention and WM]{Attention and Working Memory in Neglect} 
+\section[Attention and WM]{Attention and Working Memory in Neglect}
+
+\begin{frame}
+	\frametitle{Experiment One}
+	Introductory slides.
+\end{frame}
+
+
+%%%% COVAT
+\subsection*{Covert Orienting}
+\begin{frame}
+	\frametitle{Covert Orienting Task}
+	\def\svgwidth{\textwidth}
+	\subimport{VWM/}{VWM/fig_COVAT-task.pdf_tex}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Figure 2.6}
+	\centering
+	\includegraphics
+	[height=.8\textheight,width=\textwidth,keepaspectratio]
+	{VWM/fig_COVAT.pdf}
+\end{frame}
+
+%%%% VWM
+\subsection*{Visual Working Memory}
+
+\begin{frame}
+	\frametitle{Visual Working Memory Task}
+	\def\svgwidth{\textwidth}
+	\subimport{VWM/}{VWM/fig_VWM-task.pdf_tex}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Response Model Calculations}
+	To be added: Slides to explain prob. models based off Fig 2.2.\\
+	Need to figure out the best way to explain this fluidly, and also a more thorough
+	explenation using appendix slidess if necissary.
+\end{frame}
+
+\begin{frame}
+	\frametitle{Figure 2.3}
+	\centering
+	\includegraphics
+	[height=.8\textheight,width=\textwidth,keepaspectratio]
+	{VWM/fig_VWM_Precision.pdf}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Figure 2.4}
+	\centering
+	\includegraphics
+	[height=.8\textheight,width=\textwidth,keepaspectratio]
+	{VWM/fig_VWM_1Target.pdf}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Figure 2.5}
+	\centering
+	\includegraphics
+	[height=.8\textheight,width=\textwidth,keepaspectratio]
+	{VWM/fig_VWM_MTarget.pdf}
+\end{frame}
+
+\subsection*{}
+\begin{frame}
+	\frametitle{Comparison}
+	to be added: slide(s) illustrating the comparison of the two tasks
+\end{frame}
+
 
  \begin{frame}
 	 \frametitle{Covert Orienting Task}
@@ -85,47 +197,176 @@
 	 \includegraphics
 	 [height=.8\textheight,width=\textwidth,keepaspectratio]
 	 {VWM/fig_VWM_MTarget.pdf}
- \end{frame} 
- 
+ \end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%% EXPERIMENT TWO
- \section[Prisms]{Prism Adaptation and Non-Attention Deficits} 
+\section[Prisms]{Prism Adaptation and Non-Attention Deficits}
 
- \begin{frame}
-  \frametitle{This is the first slide}
-  text goes here
- \end{frame}
+\begin{frame}
+	\frametitle{Prism Adaptation Improves of (re)orienting, but Produces Limited Change in Perceptual Awareness}
+	\begin{itemize}
+		\item Prisms improve leftward re-orienting
+		\item Perception of spatial extent and chimeric faces provide evidence of limited change in awareness.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Experiment Two}
+	Introductory slides.
+	\begin{itemize}
+		\item Background
+		\item Describe prism adaptation procedure
+	\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Figure 3.4}
+	\centering
+	\includegraphics
+	[height=.85\textheight,width=\textwidth,keepaspectratio]
+	{Prisms/fig_LB_Prisms.pdf}
+\end{frame}
+
+
+%%%% SWM
+\subsection*{Spatial Working Memory}
+
+\begin{frame}
+	\frametitle{Spatial Working Memory Task}
+	\def\svgwidth{0.7\textwidth}
+	\subimport{Prisms/}{Prisms/fig_SWM-task.pdf_tex}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Figure 3.2}
+	\centering
+	\includegraphics
+	[height=.85\textheight,width=\textwidth,keepaspectratio]
+	{Prisms/fig_SWM.pdf}
+\end{frame}
+
+
+%%%% TE
+\subsection*{Time Perception}
+\begin{frame}
+	\frametitle{Temporal Estimation Task}
+	\def\svgwidth{0.9\textwidth}
+	\subimport{Prisms/}{Prisms/fig_TE-task.pdf_tex}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Figure 3.3}
+	\centering
+	\includegraphics
+	[height=.75\textheight,width=\textwidth,keepaspectratio]
+	{Prisms/fig_TE.pdf}
+\end{frame}
+
+
+
+\subsection*{}
+\begin{frame}
+	\frametitle{Conclusion}
+	to be added: Takehome of results from two tasks
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%% EXPERIMENT THREE
-\section[Saccadic Adaptation]{Saccadic Adaptation for Action and Perception} 
+\section[Saccadic Adaptation]{Saccadic Adaptation for Action and Perception}
 
- \begin{frame}
-  \frametitle{This is the first slide}
-  text goes here
- \end{frame}
+\begin{frame}
+	\frametitle{Experiment Three}
+	Introductory slides.
+\end{frame}
+
+\begin{frame}
+	\frametitle{Landmark Task}
+	\def\svgwidth{0.8\textwidth}
+	\subimport{SA/}{SA/fig_Landmark-task.pdf_tex}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Line Bisection Task}
+	\def\svgwidth{0.9\textwidth}
+	\subimport{SA/}{SA/fig_LineBisection.pdf_tex}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Saccadic Adaptation}
+	\centering
+	\def\svgwidth{0.7\textwidth}
+	\tiny
+	\subimport{SA/}{SA/fig_SA.pdf_tex}
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Analysis of an Example Saccade}
+	\centering
+	\def\svgwidth{\textwidth}
+	\tiny
+	\subimport{SA/}{SA/fig_Saccade.pdf_tex}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Figure 3.3: Effect of Saccadic Adaptation}
+	\centering
+	\def\svgwidth{0.9\textwidth}
+	\tiny
+	\subimport{SA/}{SA/fig_Adaptation.pdf_tex}
+\end{frame}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%% CONCLUDING MATTER
 \section*{}
 \begin{frame}
-  \frametitle{Conclusions}
-  text goes here
- \end{frame}
+	\frametitle{Conclusions}
+	text goes here
+\end{frame}
 
- \begin{frame}
-  \frametitle{Awknowledgements}
-  text goes here
- \end{frame}
+\begin{frame}
+	\frametitle{Awknowledgements}
+	text goes here
+\end{frame}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%% APPENDIX
 \subsection*{Appendix}
 \begin{frame}
-  \frametitle{Table 2.1}
-  \adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
-  max width=\textwidth}{
-  \input{VWM/tbl_VWM_data.tex}}
- \end{frame}
+	\frametitle{Table 2.1}
+	\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
+	max width=\textwidth}{
+	\input{VWM/tbl_VWM_data.tex}}
+\end{frame}
 
+\begin{frame}
+	\frametitle{Table 2.2}
+	\input{VWM/aod.tex}
+\end{frame}
 
- 
+\begin{frame}
+	\frametitle{Table 3.1}
+	\tiny
+	\centering
+	\setlength{\tabcolsep}{5pt}
+	\input{Prisms/tbl_Prisms_data.tex}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Accepted Trials}
+	\includegraphics
+	[height=1.1\textheight,width=1.1\textwidth,keepaspectratio]
+	{appendix/accepted}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Rejected Trials}
+	\includegraphics
+	[height=1.1\textheight,width=1.1\textwidth,keepaspectratio]
+	{appendix/rejected}
+\end{frame}
+
 \end{document}
