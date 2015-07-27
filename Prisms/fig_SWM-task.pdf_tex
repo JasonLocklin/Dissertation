@@ -52,7 +52,7 @@
     \put(0,0){\includegraphics[width=\unitlength]{fig_SWM-task.pdf}}%
     \put(0.69643069,0.45431639){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3s}}}%
     \put(0.55619416,0.60049917){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2s}}}%
-    \put(0.41240423,0.68395951){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2°}}}%
+    \put(0.45804097,0.67199449){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2°}}}%
     \put(0.80659604,0.32090413){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{until}}}%
     \put(0.80659604,0.26708153){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{response}}}%
   \end{picture}%

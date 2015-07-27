@@ -7,6 +7,7 @@
 \usecolortheme{orchid}
 \setbeameroption{show notes}
 \hypersetup{pdfstartview={Fit}} % fits the presentation to the window when first displayed
+\usepackage{xcolor}
 \usepackage{adjustbox} %Used to fit tables to slides
 
 \usepackage{array} %used for math mode in table aod
@@ -17,22 +18,20 @@
 
 \author{Jason Locklin}
 \institute[University of Waterloo]
-{
-	Department of Psychology\\
+{Department of Psychology\\
 	University of Waterloo\\
 	\bigskip
-	Supervisor: Dr. James Danckert
+	Supervisor: Dr.\ James Danckert
 }
 \date[August 6, 2015]
 {}% <- QR
 
-\AtBeginSection[]
-{
-	\begin{frame}
-		\frametitle{Experiments}
-		\tableofcontents[currentsection]
-	\end{frame}
-}
+%\AtBeginSection[]
+%{\begin{frame}
+%		\frametitle{Experiments}
+%		\tableofcontents[currentsection]
+%	\end{frame}
+%}
 
 
 \begin{document}
@@ -67,48 +66,47 @@
 	\end{block}
 	\begin{block}{Working Memory deficits:}
 		\begin{itemize}
-		\item Spatial Working Memory (Danckert \& Feber 2006).
+		\item Spatial Working Memory.
 		\end{itemize}
 	\end{block}
 \end{frame}
 
-
+\begin{frame}
+	\frametitle{Spatial Working Memory Task}
+	Describe Danckert \& Ferber 2006
+\end{frame}
 
 \begin{frame}
-	\frametitle{3 Possible Explenations for Working Memory deficits}
+	\frametitle{Possible Explenations of Observed Working Memory (WM) deficits}
 	\begin{enumerate}
-		\item<1> Patients perform poorly on tests of Working Memory as a direct result of spatial attention deficits.
-		\item<1-2> Working Memory Deficits arrise as a result of an inability to utilize attention for rehursal
-		\item<1-2> Working Memory and Spatial Attention deficits both arrise from the neglect-inducing inferior parietal lesion, but via unique mechanisms.
+		\item WM intact, but WM tasks influenced by attention deficits.
+		\item WM intact, but degraded when it needs access to spatial attention for rehursal.
+		\item WM impaired by neglect-inducing parietal lesion
 	\end{enumerate}
 \end{frame}
 
 % fade the first as implausible given the evidence
-
-%%%%%%%%%%%%%%%%%%%%%%%% EXPERIMENT ONE
-
-\section[Attention and WM]{Attention and Working Memory in Neglect}
-
 \begin{frame}
-	\frametitle{Experiment One}
-	Introductory slides.
+	\frametitle{Possible Explenations of Observed Working Memory (WM) deficits}
+	\begin{enumerate}
+		\item \textcolor{gray}{WM intact, but WM tasks influenced by attention deficits.}
+		\item WM intact, but degraded where it would normally accesses spatial attention for rehursal.
+		\item WM impaired by neglect-inducing lesion.
+	\end{enumerate}
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%% EXPERIMENT ONE
 
-%%%% COVAT
-\subsection*{Covert Orienting}
+\section[Attention and WM]{Examine non-spatial ``visual'' WM and compare with attention}
+
 \begin{frame}
-	\frametitle{Covert Orienting Task}
-	\def\svgwidth{\textwidth}
-	\subimport{VWM/}{VWM/fig_COVAT-task.pdf_tex}
+	\frametitle{Experiment 1: WM deficits or Rehursal Failure?}
+		\tableofcontents[currentsection]
 \end{frame}
 
 \begin{frame}
-	\frametitle{Figure 2.6}
-	\centering
-	\includegraphics
-	[height=.8\textheight,width=\textwidth,keepaspectratio]
-	{VWM/fig_COVAT.pdf}
+\frametitle{Participants}
+
 \end{frame}
 
 %%%% VWM
@@ -151,57 +149,39 @@
 	{VWM/fig_VWM_MTarget.pdf}
 \end{frame}
 
+
+%%%% COVAT
+\subsection*{Covert Orienting}
+\begin{frame}
+	\frametitle{Covert Orienting Task}
+	\def\svgwidth{\textwidth}
+	\subimport{VWM/}{VWM/fig_COVAT-task.pdf_tex}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Figure 2.6}
+	\centering
+	\includegraphics
+	[height=.8\textheight,width=\textwidth,keepaspectratio]
+	{VWM/fig_COVAT.pdf}
+\end{frame}
+
 \subsection*{}
 \begin{frame}
 	\frametitle{Comparison}
 	to be added: slide(s) illustrating the comparison of the two tasks
 \end{frame}
 
+\begin{frame}
+	\frametitle{Recovery of Attention and Perceptual Representations}
+	If deficits of perceptual representation in neglect are independant of spatial attention deficits,
+	then treatment of spatial attention deficits will not improve perceptual representation
+\end{frame}
 
- \begin{frame}
-	 \frametitle{Covert Orienting Task}
-  \def\svgwidth{\textwidth}
-  \subimport{VWM/}{VWM/fig_COVAT-task.pdf_tex}
- \end{frame}
-
-  \begin{frame}
-	 \frametitle{Visual Working Memory Task}
-  \def\svgwidth{\textwidth}
-  \subimport{VWM/}{VWM/fig_VWM-task.pdf_tex}
- \end{frame}
-
- \begin{frame}
-	 \frametitle{Response Model Calculations}
- To be added: Slides to explain prob. models based off Fig 2.2.
- \end{frame}
-
- \begin{frame}
-	 \frametitle{Figure 2.3}
-	 \centering
-	 \includegraphics
-	 [height=.8\textheight,width=\textwidth,keepaspectratio]
-	 {VWM/fig_VWM_Precision.pdf}
- \end{frame}
-
-  \begin{frame}
-	 \frametitle{Figure 2.4}
-	 \centering
-	 \includegraphics
-	 [height=.8\textheight,width=\textwidth,keepaspectratio]
-	 {VWM/fig_VWM_1Target.pdf}
- \end{frame}
-
-  \begin{frame}
-	 \frametitle{Figure 2.5}
-	 \centering
-	 \includegraphics
-	 [height=.8\textheight,width=\textwidth,keepaspectratio]
-	 {VWM/fig_VWM_MTarget.pdf}
- \end{frame}
-
-
-%%%%%%%%%%%%%%%%%%%%%%%% EXPERIMENT TWO
-\section[Prisms]{Prism Adaptation and Non-Attention Deficits}
+\begin{frame}
+	\frametitle{Prism Adaptation}
+	Basic prism adaptation description
+\end{frame}
 
 \begin{frame}
 	\frametitle{Prism Adaptation Improves of (re)orienting, but Produces Limited Change in Perceptual Awareness}
@@ -211,14 +191,18 @@
 	\end{itemize}
 \end{frame}
 
-\begin{frame}
-	\frametitle{Experiment Two}
-	Introductory slides.
-	\begin{itemize}
-		\item Background
-		\item Describe prism adaptation procedure
-	\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%% EXPERIMENT TWO
+\section[Prisms]{Prism Adaptation and Perceptual Representation}
 
+\begin{frame}
+	\frametitle{Experiment 2: Does treatment of attention deficits influence perceptual representations?}
+		\tableofcontents[currentsection]
+\end{frame}
+
+
+\begin{frame}
+	\frametitle{Participants}
+Describe participant groups
 \end{frame}
 
 \begin{frame}
@@ -288,7 +272,7 @@
 \end{frame}
 
 
-\begin{frame}
+\begin{frame}logic shorthand causal relationship
 	\frametitle{Line Bisection Task}
 	\def\svgwidth{0.9\textwidth}
 	\subimport{SA/}{SA/fig_LineBisection.pdf_tex}
@@ -338,8 +322,7 @@
 \begin{frame}
 	\frametitle{Table 2.1}
 	\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
-	max width=\textwidth}{
-	\input{VWM/tbl_VWM_data.tex}}
+	max width=\textwidth}{\input{VWM/tbl_VWM_data.tex}}
 \end{frame}
 
 \begin{frame}
