@@ -10,7 +10,7 @@ Reading.
 
 sudo apt-get install inotify-tools python-pyinotify
 wget https://bitbucket.org/denilsonsa/small_scripts/raw/542edd54d290d476603e939027ca654b25487d85/sleep_until_modified.sh
-while ./sleep_until_modified.sh slides.tex;o pdflatex slides.tex -halt-on-error && cp slides.pdf presentation.pdf; done
+while ./sleep_until_modified.sh slides.tex; do pdflatex slides.tex -halt-on-error && cp slides.pdf presentation.pdf; done
 
 
 Dates:
