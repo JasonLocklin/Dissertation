@@ -41,11 +41,11 @@
      id="namedview9291"
      showgrid="true"
      showguides="false"
-     inkscape:zoom="0.86293215"
-     inkscape:cx="465.534"
-     inkscape:cy="373.80418"
+     inkscape:zoom="1.2203703"
+     inkscape:cx="368.08005"
+     inkscape:cy="312.77757"
      inkscape:window-x="0"
-     inkscape:window-y="59"
+     inkscape:window-y="65"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg8863"
      units="in">
@@ -780,14 +780,14 @@
   <text
      xml:space="preserve"
      style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif"
-     x="459.95181"
-     y="552.82892"
+     x="389.48141"
+     y="554.14001"
      id="text4471"
      sodipodi:linespacing="125%"><tspan
        sodipodi:role="line"
        id="tspan4473"
-       x="459.95181"
-       y="552.82892">Probability Response</tspan></text>
+       x="389.48141"
+       y="554.14001">Probability Response</tspan></text>
   <g
      transform="translate(251.9518,374.57115)"
      id="g4481-0">
@@ -836,15 +836,4 @@
        id="tspan4771">(P<tspan
    style="font-size:52.00042725%;baseline-shift:sub"
    id="tspan4773">NT</tspan>)</tspan></text>
-  <text
-     xml:space="preserve"
-     style="font-size:19.20000076px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-     x="264"
-     y="172"
-     id="text3144"
-     sodipodi:linespacing="125%"><tspan
-       sodipodi:role="line"
-       id="tspan3146"
-       x="264"
-       y="172">Response Model Distributions</tspan></text>
 </svg>
