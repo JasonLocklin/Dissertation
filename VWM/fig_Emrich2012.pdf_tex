@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.48.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'fig_VWM-task.pdf' (pdf, eps, ps)
+%% Accompanies image file 'fig_Emrich2012.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{504.938bp}%
+    \setlength{\unitlength}{452.9375bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,17 +48,31 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.58918917)%
-    \put(0,0){\includegraphics[width=\unitlength]{fig_VWM-task.pdf}}%
-    \put(0.10502635,0.25372503){\makebox(0,0)[lb]{\smash{500ms}}}%
-    \put(0.35667363,0.17885476){\makebox(0,0)[lb]{\smash{500ms}}}%
-    \put(0.56880607,0.11022364){\makebox(0,0)[lb]{\smash{1000ms}}}%
-    \put(0.81421413,0.03015405){\makebox(0,0)[lb]{\smash{Unlimited}}}%
-    \put(0.11617647,0.55882353){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Fixation}}}%
-    \put(0.59852941,0.42352938){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Delay}}}%
-    \put(0.41404496,0.52647056){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Memory }}}%
-    \put(0.40900102,0.48686174){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Sample}}}%
-    \put(0.88977164,0.39558823){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Probe Array /}}}%
-    \put(0.88977164,0.3559794){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Response}}}%
+  \begin{picture}(1,0.75944222)%
+    \put(0,0){\includegraphics[width=\unitlength]{fig_Emrich2012.pdf}}%
+    \put(0.04020673,0.57806754){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{N}}}%
+    \put(0.04020673,0.66061891){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{N}}}%
+    \put(0.04225352,0.61339251){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{T}}}%
+    \put(0.5676462,0.51600189){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.45667489,0.733695){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Target
+response
+(P
+T)}}}%
+    \put(0.24319121,0.33085982){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{N}}}%
+    \put(0.24319121,0.41341118){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{N}}}%
+    \put(0.24523801,0.36618478){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{T}}}%
+    \put(0.77026887,0.26598192){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.65868784,0.46218364){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Guesses
+(P
+G)}}}%
+    \put(0.45141939,0.07656299){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{N}}}%
+    \put(0.45141939,0.15911435){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{N}}}%
+    \put(0.45346619,0.11188795){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{T}}}%
+    \put(0.48622915,0.0055109){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Probability Response}}}%
+    \put(0.97868081,0.00431207){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.87249465,0.19704651){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Non-target
+responses
+(P
+NT)}}}%
   \end{picture}%
 \endgroup%

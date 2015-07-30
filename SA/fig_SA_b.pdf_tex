@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.48.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'fig_VWM-task.pdf' (pdf, eps, ps)
+%% Accompanies image file 'fig_SA_b.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{504.938bp}%
+    \setlength{\unitlength}{535.08151855bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,17 +48,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.58918917)%
-    \put(0,0){\includegraphics[width=\unitlength]{fig_VWM-task.pdf}}%
-    \put(0.10502635,0.25372503){\makebox(0,0)[lb]{\smash{500ms}}}%
-    \put(0.35667363,0.17885476){\makebox(0,0)[lb]{\smash{500ms}}}%
-    \put(0.56880607,0.11022364){\makebox(0,0)[lb]{\smash{1000ms}}}%
-    \put(0.81421413,0.03015405){\makebox(0,0)[lb]{\smash{Unlimited}}}%
-    \put(0.11617647,0.55882353){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Fixation}}}%
-    \put(0.59852941,0.42352938){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Delay}}}%
-    \put(0.41404496,0.52647056){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Memory }}}%
-    \put(0.40900102,0.48686174){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Sample}}}%
-    \put(0.88977164,0.39558823){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Probe Array /}}}%
-    \put(0.88977164,0.3559794){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Response}}}%
+  \begin{picture}(1,0.35192939)%
+    \put(0,0){\includegraphics[width=\unitlength]{fig_SA_b.pdf}}%
+    \put(-0.00322819,0.32693904){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Event Timecourse:}}}%
+    \put(0.01217966,0.25041426){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Target1}}}%
+    \put(0.01193571,0.10762632){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Target2}}}%
+    \put(0.602287,0.28208601){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{t3 (Purturbation)}}}%
+    \put(0.00916967,0.0297151){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Expected Eye Movement}}}%
+    \put(0.31821817,0.28208601){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{t1}}}%
+    \put(0.46025255,0.28208601){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{t2}}}%
+    \put(0.12385524,0.28208601){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{t0 (fixation)}}}%
   \end{picture}%
 \endgroup%

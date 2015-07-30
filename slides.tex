@@ -57,13 +57,7 @@
 			{img/Clock_drawing.pdf}}
 			\only<2>{ \includegraphics
 			[height=.5\textheight,width=\textwidth,keepaspectratio]
-			{img/figure_copy.jpg}}
-			\only<3>{ \includegraphics
-			[height=.5\textheight,width=\textwidth,keepaspectratio]
 			{img/lb.jpg}}
-			\only<4>{ \includegraphics
-			[height=.5\textheight,width=\textwidth,keepaspectratio]
-			{img/Visual_Search.jpg}}
 		\end{column}
 	\end{columns}
 \end{frame}
@@ -93,25 +87,33 @@
 \begin{frame}
 	\frametitle{Impaired Perceptual Representation as a Key Component of Neglect}
 	\begin{block}{Perceptual deficits:}
-		\begin{itemize}
-			\item Chimeric face perception
-			\item Perceptual judgment of spatial extent.
-		\end{itemize}
+			\begin{column}{0.4\textwidth}
+							\centering
+							Chimeric face perception\\
+							{ \includegraphics
+							[height=.3\textheight,width=\textwidth,keepaspectratio]
+							{img/chimeric.jpg}}
+			\end{column}
+			\begin{column}{0.6\textwidth}
+							\centering
+							Perceptual judgment of spatial extent.\\
+							(``Landmark Task'')\\
+							\smallskip
+							{ \includegraphics
+							[height=.3\textheight,width=\textwidth,keepaspectratio]
+							{img/Landmark.pdf}}
+			\end{column}
+
+
 	\end{block}
 	\begin{block}{Working Memory deficits:}
 		\begin{itemize}
-		\item Spatial Working Memory.
+		\item Spatial Working Memory in Right Space.
 		\end{itemize}
 	\end{block}
 \end{frame}
 
-\begin{frame}
-	\frametitle{Spatial Working Memory}
-	\centering \includegraphics
-			[height=.8\textheight,keepaspectratio]
-			{img/danckert2006.png}\\
-	\tiny (Danckert \& Ferber 2006)
-\end{frame}
+
 
 \begin{frame}
 	\frametitle{Possible Explanations of Observed Working Memory (WM) deficits}
@@ -155,7 +157,7 @@
 
 \begin{frame}
 	\frametitle{Visual Working Memory Task}
-	\def\svgwidth{\textwidth}
+	\def\svgwidth{1\textwidth}
 	\subimport{VWM/}{VWM/fig_VWM-task.pdf_tex}
 \end{frame}
 
@@ -164,14 +166,6 @@
 	\includegraphics
 	[height=.8\textheight,width=\textwidth,keepaspectratio]
 	{VWM/fig_Emrich2012.pdf}
-\end{frame}
-
-\begin{frame}
-	\frametitle{Figure 2.3}
-	\centering
-	\includegraphics
-	[height=.8\textheight,width=\textwidth,keepaspectratio]
-	{VWM/fig_VWM_Precision.pdf}
 \end{frame}
 
 \begin{frame}
@@ -304,14 +298,12 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Figure 3.3}
+	\frametitle{Figure 3.3: Temporal Estimation Across Intervals}
 	\centering
 	\includegraphics
 	[height=.75\textheight,width=\textwidth,keepaspectratio]
-	{Prisms/fig_TE.pdf}
+	{Prisms/fig_TE_right.pdf}
 \end{frame}
-
-
 
 \subsection*{}
 \begin{frame}
@@ -334,17 +326,6 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Landmark and Line Bisection Tasks}
-
-	\centering
-	\includegraphics
-	[height=\textheight,width=\textwidth,keepaspectratio]
-	{img/Striemer2010.png}
-
-	\tiny Striemer \& Danckert 2010a
-\end{frame}
-
-\begin{frame}
 	\frametitle{Participants and Procedure}
 	\begin{itemize}
 		\item 37 young adults.
@@ -354,14 +335,11 @@
 	\end{itemize}
 \end{frame}
 
-
-
 \begin{frame}
 	\frametitle{Landmark Task}
 	\def\svgwidth{0.8\textwidth}
 	\subimport{SA/}{SA/fig_Landmark-task.pdf_tex}
 \end{frame}
-
 
 \begin{frame}logic shorthand causal relationship
 	\frametitle{Line Bisection Task}
@@ -374,16 +352,7 @@
 	\centering
 	\def\svgwidth{0.7\textwidth}
 	\tiny
-	\subimport{SA/}{SA/fig_SA.pdf_tex}
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Analysis of an Example Saccade}
-	\centering
-	\def\svgwidth{\textwidth}
-	\tiny
-	\subimport{SA/}{SA/fig_Saccade.pdf_tex}
+	\subimport{SA/}{SA/fig_SA_a.pdf_tex}
 \end{frame}
 
 \begin{frame}
@@ -391,14 +360,13 @@
 	\centering
 	\def\svgwidth{0.9\textwidth}
 	\tiny
-	\subimport{SA/}{SA/fig_Adaptation.pdf_tex}
+	\subimport{SA/}{SA/fig_Adaptation_allTrials.pdf_tex}
 \end{frame}
 
 \begin{frame}
 	\frametitle{Impact on Line Bisection (LB) and Landmark Task (LT)}
 	\begin{itemize}
 		\item Two tasks were not correlated ($r = -0.03$, $\text{p} = 0.1$)
-		\item Pseudo-neglect was demonstrated at baseline on landmark task
 		(0.18cm to the right of centre, $t(36) = 5.23$, $\text{p} < 0.001$)
 		\item No measurable chance in either LB or LT post prisms.
 		\item ``Strong adapters'' also showed no change.
@@ -437,6 +405,15 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%% APPENDIX
 \subsection*{Appendix}
+
+\begin{frame}[noframenumbering]
+	\frametitle{Spatial Working Memory}
+	\centering \includegraphics
+			[height=.8\textheight,keepaspectratio]
+			{img/danckert2006.png}\\
+	\tiny (Danckert \& Ferber 2006)
+\end{frame}
+
 \begin{frame}[noframenumbering]
 	\frametitle{Table 2.1}
 	\adjustbox{max height=\dimexpr\textheight-5.5cm\relax,
@@ -444,9 +421,18 @@
 \end{frame}
 
 \begin{frame}[noframenumbering]
+	\frametitle{Figure 2.3}
+	\centering
+	\includegraphics
+	[height=.8\textheight,width=\textwidth,keepaspectratio]
+	{VWM/fig_VWM_Precision.pdf}
+\end{frame}
+
+\begin{frame}[noframenumbering]
 	\frametitle{Table 2.2}
 	\input{VWM/aod.tex}
 \end{frame}
+
 
 \begin{frame}[noframenumbering]
 	\frametitle{Table 3.1}
@@ -454,6 +440,48 @@
 	\centering
 	\setlength{\tabcolsep}{5pt}
 	\input{Prisms/tbl_Prisms_data.tex}
+\end{frame}
+
+\begin{frame}[noframenumbering]
+	\frametitle{Figure 3.3}
+	\centering
+	\includegraphics
+	[height=.75\textheight,width=\textwidth,keepaspectratio]
+	{Prisms/fig_TE.pdf}
+\end{frame}
+
+\begin{frame}[noframenumbering]
+	\frametitle{Landmark and Line Bisection Tasks}
+	\centering
+	\includegraphics
+	[height=\textheight,width=\textwidth,keepaspectratio]
+	{img/Striemer2010.png}
+	\tiny Striemer \& Danckert 2010a
+\end{frame}
+
+\begin{frame}[noframenumbering]
+	\frametitle{Saccadic Adaptation Event Timeline}
+	\centering
+	\def\svgwidth{\textwidth}
+	\tiny
+	\subimport{SA/}{SA/fig_SA_b.pdf_tex}
+\end{frame}
+
+
+\begin{frame}[noframenumbering]
+	\frametitle{Analysis of an Example Saccade}
+	\centering
+	\def\svgwidth{\textwidth}
+	\tiny
+	\subimport{SA/}{SA/fig_Saccade.pdf_tex}
+\end{frame}
+
+\begin{frame}[noframenumbering]
+	\frametitle{Figure 4.4: Effect of Saccadic Adaptation}
+	\centering
+	\def\svgwidth{0.9\textwidth}
+	\tiny
+	\subimport{SA/}{SA/fig_Adaptation.pdf_tex}
 \end{frame}
 
 \begin{frame}[noframenumbering]
