@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{540.87524414bp}%
+    \setlength{\unitlength}{501.92146277bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,9 +48,14 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.54418461)%
+  \begin{picture}(1,0.57225308)%
     \put(0,0){\includegraphics[width=\unitlength]{fig_COVAT-task.pdf}}%
-    \put(0.53700376,0.0944648){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Valid Trial}}}%
-    \put(0.85282736,0.09409115){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Invalid Trial}}}%
+    \put(0.22892942,0.5457156){\makebox(0,0)[lb]{\smash{12}}}%
+    \put(0.26702863,0.55580068){\makebox(0,0)[lb]{\smash{◦}}}%
+    \put(0.54338295,0.10693829){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{40\%}}}%
+    \put(0.87985098,0.1058812){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{40\%}}}%
+    \put(0.6640313,0.04798511){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{20\% no cue}}}%
+    \put(0.11014586,0.32629882){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1050 - 1550ms}}}%
+    \put(0.29934433,0.22073152){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{50 or 150ms}}}%
   \end{picture}%
 \endgroup%
