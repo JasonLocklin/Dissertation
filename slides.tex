@@ -27,12 +27,12 @@
 \date[August 6, 2015]
 {}% <- QR
 
-%\AtBeginSection[]
-%{\begin{frame}
-%		\frametitle{Experiments}
-%		\tableofcontents[currentsection]
-%	\end{frame}
-%}
+\AtBeginSection[]
+{\begin{frame}
+		\frametitle{Overview}
+		\tableofcontents[currentsection]
+	\end{frame}
+}
 
 
 \begin{document}
@@ -52,12 +52,9 @@
 			\end{itemize}
 		\end{column}
 		\begin{column}{0.5\textwidth}
-			\only<1>{ \includegraphics
+			\includegraphics
 			[height=.5\textheight,width=\textwidth,keepaspectratio]
-			{img/Clock_drawing.pdf}}
-			\only<2>{ \includegraphics
-			[height=.5\textheight,width=\textwidth,keepaspectratio]
-			{img/lb.jpg}}
+			{img/Clock_drawing.pdf}
 		\end{column}
 	\end{columns}
 \end{frame}
@@ -71,6 +68,8 @@
 				\item	Preferential orienting rightward
 				\bigskip
 				\item Delayed re-orienting leftward.
+				\bigskip
+				\item Limitations
 				%\item Evidence from covert orienting and visual search.
 				%\item Other non-lateralized deficits of attention such as selective attention (attentional blink), and sustained attention.
 			\end{itemize}
@@ -84,73 +83,8 @@
 	\end{frame}
 
 
-\begin{frame}
-	\frametitle{Impaired Perceptual Representation as a Key Component of Neglect}
-	\begin{block}{Perceptual deficits:}
-			\begin{column}{0.4\textwidth}
-							\centering
-							Chimeric face perception\\
-							{ \includegraphics
-							[height=.3\textheight,width=\textwidth,keepaspectratio]
-							{img/chimeric.jpg}}
-			\end{column}
-			\begin{column}{0.6\textwidth}
-							\centering
-							Perceptual judgment of spatial extent.\\
-							(``Landmark Task'')\\
-							\smallskip
-							{ \includegraphics
-							[height=.3\textheight,width=\textwidth,keepaspectratio]
-							{img/Landmark.pdf}}
-			\end{column}
 
-
-	\end{block}
-	\begin{block}{Working Memory deficits:}
-		\begin{itemize}
-		\item Spatial Working Memory in Right Space.
-		\end{itemize}
-	\end{block}
-\end{frame}
-
-
-
-\begin{frame}
-	\frametitle{Possible Explanations of Observed Working Memory (WM) deficits}
-	\begin{enumerate}
-		\item WM intact, but WM tasks influenced by attention deficits.
-		\item WM intact, but degraded when it needs access to spatial attention for rehearsal.
-		\item WM impaired by neglect-inducing parietal lesion
-	\end{enumerate}
-\end{frame}
-
-% fade the first as implausible given the evidence
-\begin{frame}
-	\frametitle{Possible Explanations of Observed Working Memory (WM) deficits}
-	\begin{enumerate}
-		\item \textcolor{gray}{WM intact, but WM tasks influenced by attention deficits.}
-		\item WM intact, but degraded where it would normally accesses spatial attention for rehearsal.
-		\item WM impaired by neglect-inducing lesion.
-	\end{enumerate}
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%% EXPERIMENT ONE
-
-\section[Attention and WM]{Examine non-spatial ``visual'' WM and compare with attention}
-
-\begin{frame}
-	\frametitle{Experiment 1: WM deficits or Rehearsal Failure?}
-		\tableofcontents[currentsection]
-\end{frame}
-
-\begin{frame}
-\frametitle{Participants and Procedure}
-\begin{itemize}
-	\item 8 RBD neurological patients, demonstrating Neglect in pre-testing.
-	\item 8 healthy older controls + 9 healthy young adults on first task only
-	\item ``Visual'' Working Memory and Covert Attention.
-\end{itemize}
-\end{frame}
+\section[Attention and WM]{Is visual working memory closely coupled to lateralized attention biases?}
 
 %%%% VWM
 \subsection*{Visual Working Memory}
@@ -162,14 +96,7 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Response Model Calculations}
-	\includegraphics
-	[height=.8\textheight,width=\textwidth,keepaspectratio]
-	{VWM/fig_Emrich2012.pdf}
-\end{frame}
-
-\begin{frame}
-	\frametitle{Figure 2.4}
+	\frametitle{Figure 2.4: Probability of Correct Target Selection}
 	\centering
 	\includegraphics
 	[height=.8\textheight,width=\textwidth,keepaspectratio]
@@ -177,11 +104,11 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Figure 2.5}
+	\frametitle{Figure 2.5: Probability of Non-Target Selection}
 	\centering
 	\includegraphics
 	[height=.8\textheight,width=\textwidth,keepaspectratio]
-	{VWM/fig_VWM_MTarget.pdf}
+	{VWM/fig_VWM_PNT.pdf}
 \end{frame}
 
 
@@ -194,7 +121,7 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Figure 2.6}
+	\frametitle{Figure 2.6: Patient Leftward Cue Effect Sizes (CES)}
 	\centering
 	\includegraphics
 	[height=.8\textheight,width=\textwidth,keepaspectratio]
@@ -202,20 +129,9 @@
 \end{frame}
 
 \subsection*{}
-\begin{frame}
-	\frametitle{Comparison}
-\begin{itemize}
-	\item $P_G$ significantly describes group differences, partialled
-	on CES (and $P_{NT}$, Deviance$(12) = 12.44$, $\text{p}<0.001$)
-\end{itemize}
-\end{frame}
 
-\begin{frame}
-	\frametitle{Recovery of Attention and Perceptual Representations}
-		\emph{If} perceptual representation deficits are independent of spatial attention,\\
-		\smallskip
-		\emph{then} treatment of spatial attention will not improve perceptual representation
-\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%% EXPERIMENT TWO
+\section[Prisms]{Does treatment of attention deficits with prisms influence perceptual representations?}
 
 \begin{frame}
 	\frametitle{Prism Adaptation}
@@ -234,38 +150,6 @@
 	\end{columns}
 \end{frame}
 
-\begin{frame}
-	\frametitle{Prism Adaptation Improves of (re)orienting, but Produces Limited Change in Perceptual Awareness}
-	\begin{itemize}
-		\item Prisms improve leftward re-orienting
-		\item Perception of spatial extent and chimeric faces provide evidence of limited change in awareness.
-	\end{itemize}
-\end{frame}
-
-%%%%%%%%%%%%%%%%%%%%%%%% EXPERIMENT TWO
-\section[Prisms]{Prism Adaptation and Perceptual Representation}
-
-\begin{frame}
-	\frametitle{Experiment 2: Does treatment of attention deficits influence perceptual representations?}
-		\tableofcontents[currentsection]
-\end{frame}
-
-
-\begin{frame}
-	\frametitle{Participants and Procedure}
-\begin{itemize}
-	\item 6 RBD neurological patients who demonstrated neglect in pre-testing.
-	\item Line Bisection, Spatial Working Memory, and Time Estimation.
-\end{itemize}
-\end{frame}
-
-\begin{frame}
-	\frametitle{Figure 3.4}
-	\centering
-	\includegraphics
-	[height=.85\textheight,width=\textwidth,keepaspectratio]
-	{Prisms/fig_LB_Prisms.pdf}
-\end{frame}
 
 
 %%%% SWM
@@ -278,7 +162,7 @@
 \end{frame}
 
 \begin{frame}
-	\frametitle{Figure 3.2}
+	\frametitle{Figure 3.2: Spatial Working Memory}
 	\centering
 	\includegraphics
 	[height=.85\textheight,width=\textwidth,keepaspectratio]
@@ -302,35 +186,8 @@
 	{Prisms/fig_TE_right.pdf}
 \end{frame}
 
-\subsection*{}
-\begin{frame}
-	\frametitle{Prisms are not influencing perceptual representations, \\ so what will?}
-	Saccadic adaptation is similar to prism adaptation, but produces subtle effects on perception in healthy populations.
-	\begin{itemize}
-		\item Motion Sensitization
-		\item Target Mislocalization
-		\item Perception of Spatial Extent
-	\end{itemize}
-\end{frame}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%% EXPERIMENT THREE
-\section[Saccadic Adaptation]{Saccadic Adaptation for Action and Perception}
-
-\begin{frame}
-	\frametitle{Experiment 3: Does Saccadic Adaptation influence perceptual representations?}
-		\tableofcontents[currentsection]
-\end{frame}
-
-\begin{frame}
-	\frametitle{Participants and Procedure}
-	\begin{itemize}
-		\item 37 young adults.
-		\item Baseline Line Bisection (LB) and Landmark Task (LT).
-		\item Up to 4 blocks of Saccadic Adaptation + LB and LT.
-	\end{itemize}
-\end{frame}
-
+\section[Saccadic Adaptation]{Is Saccadic Adaptation capable of influencing perceptual biases\?}
 
 
 \begin{frame}
@@ -364,9 +221,7 @@
 \begin{frame}
 	\frametitle{Impact on Line Bisection (LB) and Landmark Task (LT)}
 	\begin{itemize}
-		\item Two tasks were not correlated ($r = -0.03$, $\text{p} = 0.1$)
-		%(0.18cm to the right of centre, $t(36) = 5.23$, $\text{p} < 0.001$)
-		\item No measurable chance in either LB or LT post prisms.
+		\item No measurable change in either LB or LT post adaptation.
 		\item ``Strong adapters'' also showed no change.
 	\end{itemize}
 
@@ -387,7 +242,7 @@
 \begin{frame}
 	\frametitle{Future Directions}
 	\begin{itemize}
-		\item Improve SA procedure, possibly with whole-field Adaptation
+		\item Improve saccadic adaptation procedure, possibly with whole-field adaptation
 		\item If successful, compare the two in a neglect population.
 	\end{itemize}
 \end{frame}
@@ -395,8 +250,7 @@
 \begin{frame}
 	\frametitle{Acknowledgements}
 	Dr. James Danckert\\
-	DAAG lab,\\
-	funding agencies, etc.
+	With funding from the Heart and Stroke Foundation.
 \end{frame}
 
 
@@ -418,6 +272,22 @@
 \end{frame}
 
 \begin{frame}[noframenumbering]
+\frametitle{Exp. 1: Participants and Procedure}
+\begin{itemize}
+	\item 8 RBD neurological patients, demonstrating Neglect in pre-testing.
+	\item 8 healthy older controls + 9 healthy young adults on first task only
+	\item ``Visual'' Working Memory and Covert Attention.
+\end{itemize}
+\end{frame}
+
+\begin{frame}[noframenumbering]
+	\frametitle{Response Model Calculations}
+	\includegraphics
+	[height=.8\textheight,width=\textwidth,keepaspectratio]
+	{VWM/fig_Emrich2012.pdf}
+\end{frame}
+
+\begin{frame}[noframenumbering]
 	\frametitle{Figure 2.3}
 	\centering
 	\includegraphics
@@ -430,6 +300,13 @@
 	\input{VWM/aod.tex}
 \end{frame}
 
+\begin{frame}
+	\frametitle{Experiment 2: Participants and Procedure}[noframenumbering]
+\begin{itemize}
+	\item 6 RBD neurological patients who demonstrated neglect in pre-testing.
+	\item Line Bisection, Spatial Working Memory, and Time Estimation.
+\end{itemize}
+\end{frame}
 
 \begin{frame}[noframenumbering]
 	\frametitle{Table 3.1}
@@ -440,11 +317,28 @@
 \end{frame}
 
 \begin{frame}[noframenumbering]
+	\frametitle{Figure 3.4}
+	\centering
+	\includegraphics
+	[height=.85\textheight,width=\textwidth,keepaspectratio]
+	{Prisms/fig_LB_Prisms.pdf}
+\end{frame}
+
+\begin{frame}[noframenumbering]
 	\frametitle{Figure 3.3}
 	\centering
 	\includegraphics
 	[height=.75\textheight,width=\textwidth,keepaspectratio]
 	{Prisms/fig_TE.pdf}
+\end{frame}
+
+\begin{frame}[noframenumbering]
+	\frametitle{Experiment 3: Participants and Procedure}
+	\begin{itemize}
+		\item 37 young adults.
+		\item Baseline Line Bisection (LB) and Landmark Task (LT).
+		\item Up to 4 blocks of Saccadic Adaptation + LB and LT.
+	\end{itemize}
 \end{frame}
 
 \begin{frame}[noframenumbering]
@@ -495,4 +389,32 @@
 	{appendix/rejected}
 \end{frame}
 
+\begin{frame}[noframenumbering]
+	\frametitle{Impaired Perceptual Representation as a Key Component of Neglect}
+	\begin{block}{Perceptual deficits:}
+			\begin{column}{0.4\textwidth}
+							\centering
+							Chimeric face perception\\
+							{ \includegraphics
+							[height=.3\textheight,width=\textwidth,keepaspectratio]
+							{img/chimeric.jpg}}
+			\end{column}
+			\begin{column}{0.6\textwidth}
+							\centering
+							Perceptual judgment of spatial extent.\\
+							(``Landmark Task'')\\
+							\smallskip
+							{ \includegraphics
+							[height=.3\textheight,width=\textwidth,keepaspectratio]
+							{img/Landmark.pdf}}
+			\end{column}
+
+
+	\end{block}
+	\begin{block}{Working Memory deficits:}
+		\begin{itemize}
+		\item Spatial Working Memory in Right Space.
+		\end{itemize}
+	\end{block}
+\end{frame}
 \end{document}

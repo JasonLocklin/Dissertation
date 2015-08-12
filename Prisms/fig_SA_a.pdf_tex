@@ -1,6 +1,6 @@
 %% Creator: Inkscape inkscape 0.48.5, www.inkscape.org
 %% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
-%% Accompanies image file 'fig_COVAT-task.pdf' (pdf, eps, ps)
+%% Accompanies image file 'fig_SA_a.pdf' (pdf, eps, ps)
 %%
 %% To include the image in your LaTeX document, write
 %%   \input{<filename>.pdf_tex}
@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{501.92146277bp}%
+    \setlength{\unitlength}{397.77154317bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,14 +48,12 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.57225308)%
-    \put(0,0){\includegraphics[width=\unitlength]{fig_COVAT-task.pdf}}%
-    \put(0.22892942,0.5457156){\makebox(0,0)[lb]{\smash{12}}}%
-    \put(0.26702863,0.55580068){\makebox(0,0)[lb]{\smash{◦}}}%
-    \put(0.54338295,0.10693829){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{40\%}}}%
-    \put(0.87985098,0.1058812){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{40\%}}}%
-    \put(0.6640313,0.04798511){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{20\% no cue}}}%
-    \put(0.11014586,0.32629882){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1050 - 1550ms}}}%
-    \put(0.29934433,0.22073152){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{50 or 150ms}}}%
+  \begin{picture}(1,0.72546817)%
+    \put(0,0){\includegraphics[width=\unitlength]{fig_SA_a.pdf}}%
+    \put(0.21884197,0.64432779){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Fixation (250ms)}}}%
+    \put(0.36622568,0.50537624){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Target1 (~100ms)}}}%
+    \put(0.48938994,0.37201204){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Target2 (until saccade)}}}%
+    \put(0.63405011,0.23477469){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Purturbation (~1000ms)}}}%
+    \put(0.78301797,0.06519873){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Repeat}}}%
   \end{picture}%
 \endgroup%

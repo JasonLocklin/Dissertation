@@ -48,13 +48,12 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.76328053)%
+  \begin{picture}(1,0.72546817)%
     \put(0,0){\includegraphics[width=\unitlength]{fig_SA_a.pdf}}%
     \put(0.21884197,0.64432779){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Fixation (250ms)}}}%
     \put(0.36622568,0.50537624){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Target1 (~100ms)}}}%
     \put(0.48938994,0.37201204){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Target2 (until saccade)}}}%
     \put(0.63405011,0.23477469){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Purturbation (~1000ms)}}}%
-    \put(0.04151862,0.74035987){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Control}}}%
     \put(0.78301797,0.06519873){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Repeat}}}%
   \end{picture}%
 \endgroup%

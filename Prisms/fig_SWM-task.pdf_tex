@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{278.69330834bp}%
+    \setlength{\unitlength}{240.82075991bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,12 +48,12 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.93220752)%
+  \begin{picture}(1,0.91811021)%
     \put(0,0){\includegraphics[width=\unitlength]{fig_SWM-task.pdf}}%
-    \put(0.69643069,0.45431639){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3s}}}%
-    \put(0.55619416,0.60049917){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2s}}}%
-    \put(0.45804097,0.67199449){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2°}}}%
-    \put(0.80659604,0.32090413){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{until}}}%
-    \put(0.80659604,0.26708153){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{response}}}%
+    \put(0.64869003,0.52576423){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3s}}}%
+    \put(0.48639927,0.69493636){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2s}}}%
+    \put(0.37281007,0.77767536){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2°}}}%
+    \put(0.77618046,0.37137096){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{until}}}%
+    \put(0.77618046,0.30908397){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{response}}}%
   \end{picture}%
 \endgroup%

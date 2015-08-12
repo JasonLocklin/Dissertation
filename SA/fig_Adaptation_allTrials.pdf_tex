@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{758.368102bp}%
+    \setlength{\unitlength}{799.45443832bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,18 +48,22 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.72565717)%
+  \begin{picture}(1,0.6883635)%
     \put(0,0){\includegraphics[width=\unitlength]{fig_Adaptation_allTrials.pdf}}%
-    \put(0.44541633,0.57336352){\makebox(0,0)[lb]{\smash{*}}}%
-    \put(0.19215224,0.43370838){\makebox(0,0)[lb]{\smash{*}}}%
-    \put(0.23471715,0.29405326){\makebox(0,0)[lb]{\smash{*}}}%
-    \put(0.08701522,0.15438494){\makebox(0,0)[lb]{\smash{*}}}%
-    \put(0.37875145,0.00517427){\makebox(0,0)[lb]{\smash{Saccadic Gain (Change from Baseline + Standard Error)}}}%
-    \put(0.01730294,0.34275663){\rotatebox{90}{\makebox(0,0)[lb]{\smash{Block}}}}%
-    \put(0.36924419,0.707927){\makebox(0,0)[lb]{\smash{Effect of Saccadic Adaptation}}}%
-    \put(0.0435026,0.07787833){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.3}}}%
-    \put(0.3350128,0.07702347){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.2}}}%
-    \put(0.62652297,0.07616862){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.1}}}%
-    \put(0.93085619,0.0727491){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
+    \put(0.41956291,0.54389667){\makebox(0,0)[lb]{\smash{*}}}%
+    \put(0.17931482,0.41141882){\makebox(0,0)[lb]{\smash{*}}}%
+    \put(0.2196922,0.27894099){\makebox(0,0)[lb]{\smash{*}}}%
+    \put(0.0795811,0.14645064){\makebox(0,0)[lb]{\smash{*}}}%
+    \put(0.94263669,0.54695195){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1}}}%
+    \put(0.94299258,0.41625849){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{2}}}%
+    \put(0.94280878,0.28296538){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{3}}}%
+    \put(0.94283609,0.14926076){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{4}}}%
+    \put(0.35632415,0.00490835){\makebox(0,0)[lb]{\smash{Saccadic Gain (Change from Baseline + Standard Error)}}}%
+    \put(0.94490493,0.34324659){\makebox(0,0)[lb]{\smash{Block}}}%
+    \put(0.34730549,0.67154453){\makebox(0,0)[lb]{\smash{Effect of Saccadic Adaptation}}}%
+    \put(0.03830472,0.07387594){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.3}}}%
+    \put(0.31483334,0.07306501){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.2}}}%
+    \put(0.59136197,0.07225409){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{-0.1}}}%
+    \put(0.88005459,0.06901031){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{0}}}%
   \end{picture}%
 \endgroup%

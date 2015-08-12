@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="fig_SA.svg">
+   sodipodi:docname="fig_SA_a.svg">
   <title
      id="title6895">fig:Landmark</title>
   <defs
@@ -563,16 +563,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="455.27367"
+     inkscape:cx="458.13081"
      inkscape:cy="424.36429"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="in"
-     inkscape:window-width="1920"
-     inkscape:window-height="1031"
+     inkscape:window-width="1440"
+     inkscape:window-height="846"
      inkscape:window-x="0"
-     inkscape:window-y="29"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      showguides="false"
      inkscape:snap-grids="true">
@@ -764,17 +764,6 @@
          id="tspan4790"
          x="594.61444"
          y="606.34454">Purturbation (~1000ms)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:15px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif"
-       x="299.99924"
-       y="354.9603"
-       id="text4983"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4985"
-         x="299.99924"
-         y="354.9603">Control</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:15px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans-serif"

@@ -24,7 +24,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.5285543"
-     inkscape:cx="559.92707"
+     inkscape:cx="472.58964"
      inkscape:cy="243.50868"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
@@ -57,8 +57,7 @@
      style="display:inline"
      inkscape:label="Boxes"
      id="layer5"
-     inkscape:groupmode="layer"
-     sodipodi:insensitive="true">
+     inkscape:groupmode="layer">
     <rect
        y="611.73132"
        x="-607.68414"
@@ -97,14 +96,6 @@
        height="80"
        width="80"
        id="rect4191-64"
-       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
-       transform="scale(-1,1)" />
-    <rect
-       y="370.75"
-       x="-364.31964"
-       height="80"
-       width="80"
-       id="rect4191-69"
        style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;display:inline"
        transform="scale(-1,1)" />
   </g>
@@ -177,7 +168,7 @@
     <g
        id="g4154-5"
        style="display:inline"
-       transform="matrix(0.32306581,0.57612745,0.57992002,-0.32095302,-77.281038,553.09623)">
+       transform="matrix(0.25369318,0.46638889,0.45539252,-0.25981911,47.27221,580.12552)">
       <path
          style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
          d="m 173.74624,524.05242 433.35544,132.32998 0,0"
@@ -259,21 +250,6 @@
          style="fill:none;stroke:#696969;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          d="m 216.2313,622.7687 0,13 0,0"
          id="path4331-0"
-         inkscape:connector-curvature="0" />
-    </g>
-    <g
-       id="g4333-11"
-       style="display:inline"
-       transform="matrix(-1,0,0,1,541.10585,-218.63261)">
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 223.34695,629.42175 0,0 -13,0 -1,0 1,0"
-         id="path4324-2"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="m 216.2313,622.7687 0,13 0,0"
-         id="path4331-09"
          inkscape:connector-curvature="0" />
     </g>
     <circle
