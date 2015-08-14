@@ -48,7 +48,7 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.72565717)%
+  \begin{picture}(1,0.70766506)%
     \put(0,0){\includegraphics[width=\unitlength]{fig_Adaptation.pdf}}%
     \put(0.20169374,0.57336353){\makebox(0,0)[lb]{\smash{*}}}%
     \put(0.14057567,0.29405326){\makebox(0,0)[lb]{\smash{*}}}%
@@ -59,20 +59,7 @@
     \put(0.5373355,0.15438493){\makebox(0,0)[lb]{\smash{*}}}%
     \put(0.26104487,0.64793154){\makebox(0,0)[lb]{\smash{Test Trials}}}%
     \put(0.72778391,0.64793154){\makebox(0,0)[lb]{\smash{All Trials}}}%
-    \put(0.03487301,0.5753019){\makebox(0,0)[lb]{\smash{1}}}%
-    \put(0.03487301,0.43564676){\makebox(0,0)[lb]{\smash{2}}}%
-    \put(0.03487301,0.29599163){\makebox(0,0)[lb]{\smash{3}}}%
-    \put(0.03487301,0.15633649){\makebox(0,0)[lb]{\smash{4}}}%
-    \put(0.04570291,0.07312079){\makebox(0,0)[lb]{\smash{−0.3}}}%
-    \put(0.19014464,0.07312079){\makebox(0,0)[lb]{\smash{−0.2}}}%
-    \put(0.33459955,0.07312079){\makebox(0,0)[lb]{\smash{−0.1}}}%
-    \put(0.48597723,0.07312079){\makebox(0,0)[lb]{\smash{0}}}%
-    \put(0.50773447,0.07312079){\makebox(0,0)[lb]{\smash{−0.3}}}%
-    \put(0.6521762,0.07312079){\makebox(0,0)[lb]{\smash{−0.2}}}%
-    \put(0.79663112,0.07312079){\makebox(0,0)[lb]{\smash{−0.1}}}%
-    \put(0.94800879,0.07312079){\makebox(0,0)[lb]{\smash{0}}}%
     \put(0.37875145,0.00517427){\makebox(0,0)[lb]{\smash{Saccadic Gain (Change from Baseline + Standard Error)}}}%
     \put(0.01730294,0.34275663){\rotatebox{90}{\makebox(0,0)[lb]{\smash{Block}}}}%
-    \put(0.36924419,0.707927){\makebox(0,0)[lb]{\smash{Effect of Saccadic Adaptation}}}%
   \end{picture}%
 \endgroup%

@@ -1,5 +1,5 @@
-Method 
-------- 
+Method
+-------
 
 ### Participants
 
@@ -8,7 +8,7 @@ Waterloo undergraduate student body through the Research
 Experiences Group, of which, 37 were able to be successfully
 calibrated with the equipment to provide reliable eye movement
 tracking (23 female, 3 left hand dominant, age
-cohorts: $\text{16-18y} =4$, $\text{18-20y} =25$, 
+cohorts: $\text{16-18y} =4$, $\text{18-20y} =25$,
 $\text{21-25y} =8$). Participants were compensated for
 participation with course credit, and the experiment was approved
 by the University of Waterloo Office of Research Ethics
@@ -23,7 +23,7 @@ of the chin-rest for comfort. The Eyelink II (SR Research)
 head-mounted eye-tracker was used to monitor eye movements. During
 calibration, targets appeared at nine different locations forming
 a grid that covered the full screen and the participants were
-instructed to saccade to them as they appeared. 
+instructed to saccade to them as they appeared.
 The eye-tracker sampled at 500Hz (single eye)
 and raw eye-position data was saved for later processing.  All
 three computer tasks were programmed using Python and Psychopy
@@ -33,7 +33,7 @@ After eye-tracker calibration, the touchscreen was also calibrated
 using the manufacturer's calibration task, during which targets
 appeared at various points on the screen and the participant was
 instructed to point to them as they appeared. The landmark and
-line bisection tasks (described in detail below) were performed first, 
+line bisection tasks (described in detail below) were performed first,
 to measure baseline
 performance, and then up to four blocks of the three tasks
 (saccadic adaptation, bisection, and landmark), each beginning
@@ -79,15 +79,17 @@ method using up to 20 trials (less if the staircase settled on a
 stable response earlier).  Again, the stimuli remained on screen
 until a response was registered (Figure \ref{fig_Landmark}).
 
-\begin{figure}[p] 
-\centering 
-\includegraphics{fig_Landmark.pdf.png} 
+\begin{figure}[p]
+\centering
+\includegraphics{fig_Landmark.pdf.png}
+
+
 \caption{Figure depicts two trials of the landmark task. Initial
 trials have obvious bias, and the participant responds by
 indicating whether the mark was right or left of centre. The
 stimuli bias was adjusted with a staircase method to identify the
 location at which the participant is unable to judge the bias and
-guesses randomly.} 
+guesses randomly.}
 \label{fig_Landmark}
 \end{figure}
 
@@ -107,7 +109,7 @@ jittered by 50ms), then a target 16$^\circ$ ($\pm 1.6^\circ$) to
 the right of the previous one. When an eye-movement away from the
 first target and toward the
 second was detected (by passing a threshold of distance
-between the two), the target was perturbed back toward the first 
+between the two), the target was perturbed back toward the first
 target by 30% (5.4$^\circ$), simulating an overshoot, and intended
 to reduce saccade amplitude over time (i.e., hypometria; see
 Figure \ref{fig_SA} for an overview).  One in five trials were "test
@@ -117,9 +119,21 @@ changes to the saccade length induced by adaptation without the
 potential that the saccade was somehow updated mid-flight to the
 new location.
 
-\begin{figure}[p] 
-\centering 
-\includegraphics{fig_SA.pdf.png} 
+\begin{figure}[p]
+\centering
+
+\begin{sffamily}
+\large Saccadic Adaptation Task\\
+
+\bigskip
+
+	\def\svgwidth{0.7\textwidth}
+	\tiny
+	\subimport{SA/}{SA/fig_SA_a.pdf_tex}
+	\def\svgwidth{0.7\textwidth}
+	\tiny
+	\subimport{SA/}{SA/fig_SA_b.pdf_tex}
+\end{sffamily}
 \caption{Figure depicts saccadic adaptation trials for both
 experiments.  The upper portion depicts the on-screen stimuli
 presented during an individual trial, while the lower portion
@@ -127,8 +141,8 @@ depicts expected eye movement relative to target onset and
 perturbations. The case study (described later) utilized the same
 timing, but involved different initial target direction, saccade
 direction, and involved saccadic augmentation, rather than
-reduction.} 
-\label{fig_SA} 
+reduction.}
+\label{fig_SA}
 \end{figure}
 
 
@@ -156,7 +170,7 @@ blocks.
 After the first target of a saccadic adaptation trial was fixated,
 it disappeared and the second target appeared. At this point,
 eye position samples from the eye-tracker were recorded
-until the end of the trial (approximately 2s). This allowed off-line 
+until the end of the trial (approximately 2s). This allowed off-line
 analysis of the initial saccade toward the second target, and any
 corrective saccades to the perturbed location afterwards. Rather
 than rely on the real-time saccade detection algorithm executed by
@@ -179,7 +193,7 @@ long rise times, therefore making saccade onset and duration
 detection easier and more consistent from saccade to saccade.
 Saccades were detected based on a speed threshold of
 57$^circ$/second faster than the median trial speed (empirically
-determined by visual verification). The analysis of an example 
+determined by visual verification). The analysis of an example
 trial is presented graphically in Figure \ref{fig_Saccade}.
 
 Only trials with sufficiently clear initial saccade and at most
@@ -199,9 +213,17 @@ equipment or behavioural artifacts unrelated to the adaptation
 procedure (Example included and excluded trials are plotted in
 Appendix \ref{app}).
 
-\begin{figure}[p] 
-\centering 
-\includegraphics{fig_Saccade.pdf.png} 
+\begin{figure}[p]
+\centering
+\begin{sffamily}
+\large Analysis of Example Saccade\\
+
+\bigskip
+
+	\def\svgwidth{\textwidth}
+	\tiny
+	\subimport{SA/}{SA/fig_Saccade.pdf_tex}
+\end{sffamily}
 \caption{Figure depicts typical eye movements over a single trial.
 Top panel depicts eye movement speed over the course of the trial,
 while the bottom panel depicts horizontal position relative to the
@@ -220,5 +242,4 @@ compared with the final third of each of the subsequent blocks
 first block, this is simply a measure of the change from the
 beginning to end of the block of adaptation, whereas for the third
 block, the difference represents the cumulative effect of three blocks of
-adaptation. 
-
+adaptation.

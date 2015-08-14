@@ -1,14 +1,16 @@
-% uWaterloo Thesis Template for LaTeX 
+% uWaterloo Thesis Template for LaTeX
 % Last Updated May 24, 2011 by Stephen Carr, IST Client Services
 % FOR ASSISTANCE, please send mail to rt-IST-CSmathsci@ist.uwaterloo.ca
 
 % The repository-wide license does not apply to this file.
 
 % --------------------- Start of Document Preamble -----------------------
- 
+
 % Specify the document class, default style attributes, and page dimensions
 % For hyperlinked PDF, suitable for viewing on a computer, use this:
 \documentclass[british,letterpaper,12pt,titlepage,oneside,final]{book}
+\usepackage{DejaVuSans}
+%\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc} %Some of my references have names with special chars
 \usepackage{textcomp}
@@ -18,16 +20,18 @@
 \usepackage{csquotes}
 \usepackage{lineno} %line numbering (for drafts)
 \usepackage{array} %used for math mode in table aod
+\usepackage{import} % \subimput alows importing of Inkscape pdf+tex files in subfolder
+
 
 % For PDF, suitable for double-sided printing, change the PrintVersion variable below
 % to "true" and use this \documentclass line instead of the one above:
 %\documentclass[letterpaper,12pt,titlepage,openright,twoside,final]{book}
 
 % Some LaTeX commands I define for my own nomenclature.
-% If you have to, it's better to change nomenclature once here than in a 
+% If you have to, it's better to change nomenclature once here than in a
 % million places throughout your thesis!
 \newcommand{\package}[1]{\textbf{#1}} % package names in bold text
-\newcommand{\cmmd}[1]{\textbackslash\texttt{#1}} % command name in tt font 
+\newcommand{\cmmd}[1]{\textbackslash\texttt{#1}} % command name in tt font
 \newcommand{\href}[1]{#1} % does nothing, but defines the command so the
     % print-optimized version will ignore \href tags (redefined by hyperref pkg).
 %\newcommand{\texorpdfstring}[2]{#1} % does nothing, but defines the command
@@ -36,14 +40,14 @@
 % This package allows if-then-else control structures.
 \usepackage{ifthen}
 \newboolean{PrintVersion}
-\setboolean{PrintVersion}{false} 
+\setboolean{PrintVersion}{false}
 % CHANGE THIS VALUE TO "true" as necessary, to improve printed results for hard copies
 % by overriding some options of the hyperref package below.
 
 %\usepackage{nomencl} % For a nomenclature (optional; available from ctan.org)
 %\usepackage{amsmath,amssymb,amstext} % Lots of math symbols and environments
 \usepackage{mathtools}
-\usepackage[pdftex]{graphicx} % For including graphics N.B. pdftex graphics driver 
+\usepackage[pdftex]{graphicx} % For including graphics N.B. pdftex graphics driver
 \usepackage{url}
 \usepackage{rotating} % Alow for rotating figures
 \usepackage{pdfpages} % for including the pdf appendix pages
@@ -51,7 +55,7 @@
 % Hyperlinks make it very easy to navigate an electronic document.
 % In addition, this is where you should specify the thesis title
 % and author as they appear in the properties of the PDF document.
-% Use the "hyperref" package 
+% Use the "hyperref" package
 % N.B. HYPERREF MUST BE THE LAST PACKAGE LOADED; ADD ADDITIONAL PKGS ABOVE
 \usepackage[pdftex,letterpaper=true,pagebackref=false]{hyperref} % with basic options
 
@@ -77,7 +81,7 @@
     pdfmenubar=true,        % show Acrobat’s menu?
     pdffitwindow=false,     % window fit to page when opened
     pdfstartview={FitH},    % fits the width of the page to the window
-    pdftitle={Perceptual and Memory Deficits In Unilateral Neglect},    
+    pdftitle={Perceptual and Memory Deficits In Unilateral Neglect},
     pdfauthor={Jason Locklin},
     pdfsubject={Neglect},  % subject: CHANGE THIS TEXT! and uncomment this line
     pdfkeywords={Neglect} {Perception} {Memory} {Prisms} {Saccadic Adaptation},
@@ -109,12 +113,12 @@
 % and \marginparsep so that the space left between the margin notes and page
 % edge is less than 15 mm (0.6 in.)
 \setlength{\marginparsep}{0pt} % width of space between body text and margin notes
-\setlength{\evensidemargin}{0.125in} % Adds 1/8 in. to binding side of all 
+\setlength{\evensidemargin}{0.125in} % Adds 1/8 in. to binding side of all
 % even-numbered pages when the "twoside" printing option is selected
 \setlength{\oddsidemargin}{0.125in} % Adds 1/8 in. to the left of all pages
 % when "oneside" printing is selected, and to the left of all odd-numbered
 % pages when "twoside" printing is selected
-\setlength{\textwidth}{6.375in} % assuming US letter paper (8.5 in. x 11 in.) and 
+\setlength{\textwidth}{6.375in} % assuming US letter paper (8.5 in. x 11 in.) and
 % side margins as above
 \raggedbottom
 
@@ -128,7 +132,7 @@
 \renewcommand{\baselinestretch}{1} % this is the default line space setting
 
 % By default, each chapter will start on a recto (right-hand side)
-% page.  We also force each section of the front pages to start on 
+% page.  We also force each section of the front pages to start on
 % a recto page by inserting \cleardoublepage commands.
 % In many cases, this will require that the verso page be
 % blank and, while it should be counted, a page number should not be
@@ -157,7 +161,7 @@
 \input{uw-ethesis-frontpgs}
 
 %----------------------------------------------------------------------
-% BODY TEXT 
+% BODY TEXT
 %----------------------------------------------------------------------
 
 \setlength\linenumbersep{1cm}
@@ -175,7 +179,7 @@
 \cleardoublepage % This is needed if the book class is used, to place the anchor in the correct page,
                  % because the bibliography will start on its own page.
                  % Use \clearpage instead if the document class uses the "oneside" argument
-\phantomsection  % With hyperref package, enables hyperlinking from the table of contents to bibliography             
+\phantomsection  % With hyperref package, enables hyperlinking from the table of contents to bibliography
 % The following statement causes the title "References" to be used for the bibliography section:
 \renewcommand*{\bibname}{References}
 

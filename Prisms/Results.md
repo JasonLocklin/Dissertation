@@ -4,7 +4,7 @@ Results
 ### Spatial Working Memory Task
 
 Replicating previous research using this spatial working memory
-task [@Ferber2006; @Striemer2013], most of the patients performed 
+task [@Ferber2006; @Striemer2013], most of the patients performed
 very poorly.  Figure
 \ref{fig_SWM} plots the patient mean accuracy along with expected
 normal range, based on the performance of two non-neglecting
@@ -15,17 +15,23 @@ demonstrating neglect on clinical tasks), the remaining patients baseline
 performance was at least 3 standard deviations outside what was
 observed in either group.
 
-\begin{figure}[p] 
-\centering 
-\includegraphics{fig_SWM.pdf.png} 
+\begin{figure}[p]
+\centering
+\begin{sffamily}
+\large Spatial Working Memory Performance\\
+
+\bigskip
+
+\includegraphics{fig_SWM.pdf}
+\end{sffamily}
 \caption{Figure depicts pre and post-prism SWM performance for all
 participants. In order to depict performance expected from
 non-neglecting individuals, means and bands of $\pm 2$ standard
 deviations from non-neglecting right brain damaged (dark band,
 $n=4$, one female, ages: 55, 55, 68, and 78. All $> 3$ months post
 stroke) and neurologically intact controls (light band, $n=10$,
-age matched) from @Ferber2006 are overlaid the participant data.} 
-\label{fig_SWM} 
+age matched) from @Ferber2006 are overlaid the participant data.}
+\label{fig_SWM}
 \end{figure}
 
 
@@ -46,7 +52,7 @@ cross into a region statistically indistinguishable from normative
 performance ($z=1.2$), but the others remain well outside this
 range ($3.1 < z < 5.0$).
 
-### Temporal Estimation Task 
+### Temporal Estimation Task
 
 As can be seen in Figure \ref{fig_TE}, the five patients who
 showed clinical signs of neglect massively underestimated the time
@@ -60,9 +66,9 @@ excluding Patient 27.  An analysis of covariance was performed,
 with prism condition as a fixed factor and trial duration as a
 random covariate, and there was no indication of an influence of
 prisms on time interval estimation ($F(1,4)= 0.79$,
-$\text{p}=0.4$). 
+$\text{p}=0.4$).
 
-For each participant and condition, a linear model 
+For each participant and condition, a linear model
 was computed in order to yield a measure of the relationship
 (slope) between time intervals and estimations. As can be seen in
 Figure \ref{fig_TE}, the relationship was not recti-linear (first
@@ -74,11 +80,11 @@ $=0.92$).  The worst case model was, nevertheless, still
 significant ($F(1,14)=12.4$, $\text{p}< 0.01$, $r^2=0.47$),
 indicating that despite their poor performance, patients'
 responses were, in fact, reliably influenced by the true trial
-intervals. 
+intervals.
 
-\begin{figure}[p] 
-\centering 
-\includegraphics{fig_TE.pdf.png} 
+\begin{figure}[p]
+\centering
+\includegraphics{fig_TE.pdf.png}
 \caption{Figure depicts both line-plots of reported interval vs.
 true interval (right), and barplots that depict performance change
 pre- and post-prisms, calculated as the slope of a linear model of
@@ -88,8 +94,8 @@ post-adaptation task, and both results are included here. Patient
 time of testing, can be seen to exhibit a slope of near 1 (left),
 indicating that estimated time intervals increase in proportion to
 actual intervals, and this can be seen at right, as a nearly
-diagonal line.} 
-\label{fig_TE} 
+diagonal line.}
+\label{fig_TE}
 \end{figure}
 
 
@@ -116,15 +122,15 @@ $\text{p} = 0.015$).  Patient 408 produced the largest average
 difference in bias, but was also highly variable, and as a result,
 did not demonstrate statistically significant change ($t(12)=1.9$,
 $\text{p} = 0.08$).  Patient 163 clearly did not show measurable
-change post-prisms ($t(10)=1.2$, $\text{p} = 0.3$). 
+change post-prisms ($t(10)=1.2$, $\text{p} = 0.3$).
 
-\begin{figure}[p] 
-\centering 
-\includegraphics{fig_LB_Prisms.pdf.png} 
+\begin{figure}[p]
+\centering
+\includegraphics{fig_LB_Prisms.pdf.png}
 \caption{Figure depicts each individual's average line bisection
 performance pre- and post-prisms. Bars indicate the direction of
 bias, with values encoded as percentage of line length.}
-\label{fig_LB_Prisms} 
+\label{fig_LB_Prisms}
 \end{figure}
 
 

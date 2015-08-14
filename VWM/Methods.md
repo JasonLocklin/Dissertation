@@ -1,10 +1,10 @@
 Method
 ------
 
-### Participants 
+### Participants
 
 Patients and controls performed a standard covert orienting
-task as a measure of spatial attention and a visual 
+task as a measure of spatial attention and a visual
 working memory task (both described below). The
 covert orienting task was performed by two groups, a group of
 eight neurological patients, recruited from the Neurological
@@ -24,7 +24,7 @@ respect to age ($t(12.5) = 1.8$, $\text{p} = 0.10$). The visual working
 memory task was performed by these same two groups plus an
 additional control group of 9 healthy young adults recruited from
 the University of Waterloo's Research Experience Group, and were
-compensated for participation with course credit 
+compensated for participation with course credit
 (6 Females, mean age of 20).
 
 Patients were also tested for signs of neglect using three
@@ -56,8 +56,8 @@ fixation, as used by @Emrich2012, the colour wheel was replaced
 with a vertical colour bar and all stimuli appeared to the right
 of centre in order to minimize the impact of spatial attention
 deficits on working memory performance (Figure \ref{fig_Ch1-task}).
- 
-A trial sequence for the visual working memory task was as follows: 
+
+A trial sequence for the visual working memory task was as follows:
 a fixation cross
 was presented for 500ms, followed by a memory sample which
 consisted of either 1, 2, or 3 squares of different colours
@@ -90,10 +90,24 @@ location (Figure \ref{fig_Ch1-task}).
 
 
 
-\begin{figure}[p] 
-\centering
-\includegraphics[width=\textwidth]{fig_Ch1-task.pdf.png}
-\caption{Figure depicts both visual working memory (above) and 
+\begin{figure}[p]
+\begin{sffamily}
+% \includegraphics[width=\textwidth]{fig_Ch1-task.pdf.png}
+	a) Visual Working Memory Task\\
+  \smallskip
+  \def\svgwidth{.8\textwidth}
+	\begin{center}
+    \small{ \subimport{VWM/}{VWM/fig_VWM-task.pdf_tex} }
+  \end{center}
+
+  \smallskip
+
+  b) Covert Orienting Task\\
+  \smallskip
+	\def\svgwidth{.8\textwidth}
+	\small{ \subimport{VWM/}{VWM/fig_COVAT-task.pdf_tex} }
+\end{sffamily}
+\caption{Figure depicts both visual working memory (above) and
 covert orienting (below) tasks.
 The three-square condition of visual working memory task is depicted.}
 \label{fig_Ch1-task}
@@ -102,7 +116,7 @@ The three-square condition of visual working memory task is depicted.}
 
 #### Covert Orienting of Attention Task
 
-The covert orienting task (@Posner1978; @Posner1980) was identical 
+The covert orienting task (@Posner1978; @Posner1980) was identical
 to that used by @Striemer2007 and was run on the same computer
 as the visual working memory task described above. It was
 programmed and run in Superlab (Cedrus Software). Participants
@@ -135,13 +149,13 @@ attempt at selecting the correct colour ($P_T$), one of the
 non-target colours ($P_{NT}$, in the two and three square
 conditions), or simply represented a random guess ($P_G$), was
 calculated with the probabilistic model described in @Emrich2012
-and @Bays2009 (Figure \ref{fig_Emrich2012}). 
+and @Bays2009 (Figure \ref{fig_Emrich2012}).
 
 For each trial, these measures were calculated based on the
 physical location of the participant's response relative to the
-true colour of the target square on the colour bar. 
+true colour of the target square on the colour bar.
 First, a probability that the
-participant indicated the correct target colour, $P_T$, 
+participant indicated the correct target colour, $P_T$,
 was made relative to the
 magnitude of the location on a Gaussian distribution centred
 around the exact target colour.  If the trial type included more
@@ -161,12 +175,19 @@ $P_{NT}$), providing a basic measure of perceptual-motor ability,
 relevant to the task.
 
 
-\begin{figure}[p] 
-\centering 
-\includegraphics{fig_Emrich2012.pdf.png} 
+\begin{figure}[p]
+\centering
+\begin{sffamily}
+\large Response Model Calculations\\
+
+\bigskip
+
+\includegraphics{fig_Emrich2012.pdf.png}
+\end{sffamily}
+
 \caption{Figure depicts the three probability distributions used
-to calculate the three values.} 
-\label{fig_Emrich2012} 
+  to calculate the three values.}
+\label{fig_Emrich2012}
 \end{figure}
 
 #### Covert Orienting of Attention Task
@@ -175,12 +196,12 @@ For the covert orienting task, response times were recorded and
 cue-effect sizes (CES) were calculated for each trial category to
 measure the effects of leftward and rightward re-orienting.
 Leftward cue-effect size, the measure of importance with regards
-to neglect, was calculated by subtracting reaction times (RTs) to 
+to neglect, was calculated by subtracting reaction times (RTs) to
 validly cued, right-sided targets
 from RTs to invalidly cued, left-sided targets, separately for each SOA.
 Both trial types involve right-sided cues, and the difference
 represents the increased latency required to re-orient attention
-leftward. 
+leftward.
 
 
 
@@ -190,6 +211,3 @@ specified, the Welch approximation of the degrees of freedom for
 unequal variance was used. Except where noted, all analysis was
 completed using R[@R], with various additional packages [@dplyr; @ez;
 @reshape2; @nparcomp; @ggplot2].
-
-
-

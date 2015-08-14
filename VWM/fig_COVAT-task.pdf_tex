@@ -50,12 +50,12 @@
   \makeatother%
   \begin{picture}(1,0.57225308)%
     \put(0,0){\includegraphics[width=\unitlength]{fig_COVAT-task.pdf}}%
-    \put(0.22892942,0.5457156){\makebox(0,0)[lb]{\smash{12}}}%
+    \put(0.22892943,0.54571559){\makebox(0,0)[lb]{\smash{12}}}%
     \put(0.26702863,0.55580068){\makebox(0,0)[lb]{\smash{◦}}}%
-    \put(0.54338295,0.10693829){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{40\%}}}%
-    \put(0.87985098,0.1058812){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{40\%}}}%
+    \put(0.54406848,0.10743803){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{40\%}}}%
+    \put(0.88464954,0.10743803){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{40\%}}}%
     \put(0.6640313,0.04798511){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{20\% no cue}}}%
-    \put(0.11014586,0.32629882){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1050 - 1550ms}}}%
-    \put(0.29934433,0.22073152){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{50 or 150ms}}}%
+    \put(0.11357337,0.33178282){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{1050 - 1550ms}}}%
+    \put(0.30345734,0.22347351){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{50 or 150ms}}}%
   \end{picture}%
 \endgroup%

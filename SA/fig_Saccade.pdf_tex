@@ -36,7 +36,7 @@
   }%
   \providecommand\rotatebox[2]{#2}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{522.62524771bp}%
+    \setlength{\unitlength}{498.1367871bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -48,18 +48,18 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.68364368)%
+  \begin{picture}(1,0.71725168)%
     \put(0,0){\includegraphics[width=\unitlength]{fig_Saccade.pdf}}%
-    \put(0.00542096,0.25258411){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{F}}}%
-    \put(0.0001805,0.46497731){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{T2}}}%
-    \put(0.00006727,0.09644041){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{T1}}}%
-    \put(0.00323419,0.34511146){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{P}}}%
-    \put(0.8522446,0.27855192){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Length of 
-first Saccade}}}%
-    \put(0.05954332,0.63663419){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Smoothed speed}}}%
-    \put(0.05981663,0.56829785){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Rolling max}}}%
-    \put(0.26942496,0.05773641){\color[rgb]{0,0,0}\rotatebox{-17.1045814}{\makebox(0,0)[lb]{\smash{Saccade start}}}}%
-    \put(0.35790878,0.05678397){\color[rgb]{0,0,0}\rotatebox{-14.46671832}{\makebox(0,0)[lb]{\smash{Saccade end}}}}%
-    \put(0.66782311,0.05514717){\color[rgb]{0,0,0}\rotatebox{-14.55358325}{\makebox(0,0)[lb]{\smash{Corrective saccade}}}}%
+    \put(0.00568745,0.26500117){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{F}}}%
+    \put(0.00018938,0.48783564){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{T2}}}%
+    \put(0.00007058,0.10118143){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{T1}}}%
+    \put(0.00339319,0.36207717){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{P}}}%
+    \put(0.06247047,0.6679312){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Smoothed speed}}}%
+    \put(0.06275722,0.59623544){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Rolling max}}}%
+    \put(0.28266992,0.06057474){\color[rgb]{0,0,0}\rotatebox{-17.1045814}{\makebox(0,0)[lb]{\smash{Saccade start}}}}%
+    \put(0.37550362,0.05957547){\color[rgb]{0,0,0}\rotatebox{-14.46671832}{\makebox(0,0)[lb]{\smash{Saccade end}}}}%
+    \put(0.70065337,0.05785821){\color[rgb]{0,0,0}\rotatebox{-14.55358325}{\makebox(0,0)[lb]{\smash{Corrective saccade}}}}%
+    \put(0.90614577,0.28787708){\color[rgb]{0,0,0}\rotatebox{-46.86804605}{\makebox(0,0)[lb]{\smash{Length of }}}}%
+    \put(0.88417045,0.26728993){\color[rgb]{0,0,0}\rotatebox{-46.86804605}{\makebox(0,0)[lb]{\smash{first Saccade}}}}%
   \end{picture}%
 \endgroup%
