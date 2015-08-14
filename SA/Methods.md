@@ -81,7 +81,7 @@ until a response was registered (Figure \ref{fig_Landmark}).
 
 \begin{figure}[p]
 \centering
-\includegraphics{fig_Landmark.pdf.png}
+\includegraphics{fig_Landmark.pdf}
 
 
 \caption{Figure depicts two trials of the landmark task. Initial
