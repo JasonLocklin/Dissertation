@@ -1,15 +1,15 @@
-General Introduction 
+General Introduction
 ======================
 
 
 Unilateral spatial neglect is a disorder commonly resulting from
 damage to the right inferior parietal or superior temporal cortex
 [@Vallar1986; @Karnath2001; @Karnath2012; @Mort2003; @Buxbaum2004;
-@Verdon2010]. Spatial neglect is characterized by a heterogeneous 
+@Verdon2010]. Spatial neglect is characterized by a heterogeneous
 collection of
 deficits, the most prominent of which is an inability to
 respond to information on the contralesional side of space
-[@Driver1998; @Halligan2003; @Heilman1993]. 
+[@Driver1998; @Halligan2003; @Heilman1993].
 People
 with the disorder are spatially biased away from contralesional
 space in their search behaviour [@Husain2001; @Wojciulik2001],
@@ -18,7 +18,7 @@ grooming and eating [@Halligan2003; @Kerkhoff2001], drawing
 spatial extent [@Dijkerman2003; @Striemer2010dpm].  The disorder
 is debilitating,
 and is associated with poor rehabilitative outcomes [@Cassidy1998;
-@Ringman2004].  Less than half of patents show improvements in the
+@Ringman2004].  Less than half of patients show improvements in the
 weeks after a neglect inducing stroke, and a small minority fully
 recover [@Farne2004].
 
@@ -93,7 +93,7 @@ last considerably longer than the adaptation period [@Farne2002;
 @Frassinetti2002; @Pisella2002; @Rossetti1998].  Judgment of
 straight-ahead and line bisection performance becomes closer to
 true centre, object cancellation, and figure copying improves
-[@Rossetti1998]. Beyond these clinical tests, exploratory eye 
+[@Rossetti1998]. Beyond these clinical tests, exploratory eye
 movements demonstrate a
 reduction in rightward bias [@Danckert2006; @Ferber2003], and even
 visual imagery [@Rode2001], and postural balance [@Tilikete2001] are
@@ -116,7 +116,7 @@ space, perceptual judgments can remain just as biased toward right
 space as before
 [@Dijkerman2003; @Ferber2003]. Taken together this research
 suggests there is a
-dissociation between occulomotor "looking" and perceptual
+dissociation between oculomotor "looking" and perceptual
 "seeing," with prisms restoring the former but not the latter
 [@Striemer2010tpd].
 
@@ -130,10 +130,10 @@ important for the visual guidance of action (the so-called dorsal
 ‘how’ pathway) and another that projects from V1 to inferotemporal
 cortex and is important for perceptual processing [the so-called
 ventral ‘what’ pathway; @Milner2006]. Prisms have been shown to
-primarily influence processing within the dorsal stream 
+primarily influence processing within the dorsal stream
 [@Luaute2006; @Danckert2008; @Corbetta2005; @Clower1996].
 In this framework,
-prisms will primarily influence behaviours supported by the 
+prisms will primarily influence behaviours supported by the
 superior parietal lobule and intraparietal sulcus, areas well
 within the dorsal stream that are typically undamaged in neglect.
 Instead, damage to the inferior parietal/superior temporal gyrus
@@ -141,13 +141,13 @@ leads not only to the neglect syndrome, but also severely reduces
 (or even eliminates) the brain's ability to integrate dorsal and
 ventral stream processing [@Striemer2010tpd]. Similarly, given that
 prisms operate primarily on the dorsal stream, this is likely to
-limit the influence the technique can have on functioning within 
+limit the influence the technique can have on functioning within
 the ventral system responsible for higher
 level perceptual judgments. This thesis outlines three experiments
 chosen to examine perceptual biases, as well as related working
 memory deficits, with the goal of providing insight into the
 greater breadth of cognitive deficits underlying neglect beyond
-spatial attention. 
+spatial attention.
 
 
 [Chapter overview] Experiment 1 explores the relationship between
@@ -163,7 +163,7 @@ domains of processing important for the construction of perceptual
 representations. Experiment 3 develops a procedure for using saccadic
 adaptation to explore the possibility that modifying eye position
 sense would lead to more generalized change in perceptual and
-motor biases. This preliminary 
+motor biases. This preliminary
 work was conducted in healthy individuals.
 
 [Conclude, summarize project] The evidence presented in this
@@ -174,7 +174,7 @@ Here, working memory and temporal perception are demonstrated to
 be impaired in patients with right brain damage, many of whom
 presented with symptoms of
 neglect, and these deficits do not appear to be strongly linked to
-performance on spatial attention tasks. 
+performance on spatial attention tasks.
 Specifically, working memory impairments,
 including memory of visual characteristics like colour or
 colour-location bindings, are degraded in the patients, and not in
@@ -189,4 +189,3 @@ future research directions involving saccadic adaptation, and more
 generally, the observed perceptual and working memory deficits, are
 discussed, with the focus on better understanding the breadth of
 underlying cognitive deficits in neglect.
-
