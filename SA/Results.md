@@ -35,7 +35,7 @@ variability. The 95% confidence interval for the magnitude of
 adaptation ranges from 23% to 330%, where 0% would represent no
 change and 100% would indicate eye movements directly to the
 perturbed location (i.e., complete adaptation). Thus, adaptation of
-330% would indicate severe overcompensation.
+330% would indicate severe overcompensation, or an outright error.
 To gain a more precise estimate
 of adaptation, the analysis was repeated with all trials.  In this
 case all four blocks demonstrated significant adaptation

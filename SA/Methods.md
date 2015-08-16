@@ -108,7 +108,8 @@ followed by a target in the left half of the screen (100ms,
 jittered by 50ms), then a target 16$^\circ$ ($\pm 1.6^\circ$) to
 the right of the previous one. When an eye-movement away from the
 first target and toward the
-second was detected (by passing a threshold of distance
+second was detected (by passing a threshold of approximately
+one third of the distance
 between the two), the target was perturbed back toward the first
 target by 30% (5.4$^\circ$), simulating an overshoot, and intended
 to reduce saccade amplitude over time (i.e., hypometria; see
@@ -221,7 +222,7 @@ Appendix \ref{app}).
 \bigskip
 
 	\def\svgwidth{\textwidth}
-	\tiny
+	\small
 	\subimport{SA/}{SA/fig_Saccade.pdf_tex}
 \end{sffamily}
 \caption{Figure depicts typical eye movements over a single trial.

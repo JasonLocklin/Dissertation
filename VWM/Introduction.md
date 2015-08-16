@@ -4,13 +4,13 @@ Exploring the relationship between visual working memory and attention in neglec
 As discussed earlier, most traditional models of neglect describe the
 disorder as a deficit of spatial attention. A disorder driven by a
 difficulty in disengaging attention away from stimuli and events
-in right-space 
+in right-space
 [@Posner1984], an attentional ‘stickiness’ that results from
 disruption to inferior parietal cortex --- a region known to be
 important for effective attentional disengagement and re-orienting
 [@Corbetta2002]. This characterization of neglect as an attentional
 disorder, however, does not fully capture the range of symptoms
-observed in neglect --- particularly on tasks that 
+observed in neglect --- particularly on tasks that
 are not direct measures of attention,
 and for which performance may be degraded for other reasons. For
 example, lateralized failures on object cancellation tasks (i.e.,
@@ -21,19 +21,19 @@ observed on the non-neglected, 'good' side of space [@Husain2001;
 @Parton2006], suggest something more nuanced is occurring. Even
 eliminating targets as they are cancelled, thereby removing their
 potential to re-capture attention, improves but does not fully
-remediate revisiting behaviour on the task [@Mark1988]. 
+remediate revisiting behaviour on the task [@Mark1988].
 
 In fact, a great deal of research over the past few decades has
 highlighted aspects of neglect that clearly go beyond spatially
 lateralized deficits of attention. For example, neglect patients
 tend to have difficulties with sustained attention
 [@Robertson1995], even when operating in a non-spatial modality
-[@Robertson1997]. For example, the attentional blink 
+[@Robertson1997]. For example, the attentional blink
 --- a measure of temporal,
 selective attention --- is exaggerated in neglect. When presented with
 a rapid series of stimuli with two embedded targets separated by
 varying temporal intervals, neglect patients require up to three
-times as much time, relative to controls, 
+times as much time, relative to controls,
 between targets in order to identify both
 correctly [@Husain1997]. In addition to these non-lateralized
 attention deficits, recent work has highlighted deficits of
@@ -89,7 +89,7 @@ and dorsal visual systems, respectively, although there is some
 functional overlap and mutual interaction [@Awh2001].
 Specifically, in healthy people, mechanisms of spatial attention
 provide a rehearsal-like function to maintain information held in
-working memory [@Awh2001]. 
+working memory [@Awh2001].
 
 This arguably creates three possible causes of the apparent
 spatial working memory problems in neglect; namely, that they may
@@ -101,7 +101,7 @@ function. In the first case, it is possible that the neurological
 architecture of working memory is healthy, but spatial attention
 deficits prevent patients from performing adequately on the tasks,
 producing the appearance of spatial working memory deficits.  This
-seems less-likely, as patients maintain the ability to orient to
+seems less likely, as patients maintain the ability to orient to
 rightward and central targets effectively. However, we can not
 rule out the possibility that subtle pathological orienting
 deficits exist for central and right space that, in turn, impact
@@ -111,27 +111,28 @@ in attention deficits, and this does not appear to be the case
 [@Striemer2010tpd; @Striemer2010dpm; @Ferber2003; @Sarri2006]. In
 the second case, of disrupted access to attention by working
 memory networks that would then prevent patients from utilizing
-spatial attention as a rehearsal mechanism. 
+spatial attention as a rehearsal mechanism.
 This could be due to a compromise of the dorsal and
 ventral stream connectivity, arising from the neglect-inducing
 lesion.  Unlike the case of direct causation described above, if
 disrupted communication between the two systems is the problem,
-improvement in spatial attention may not have any impact on 
+improvement in spatial attention may not have any impact on
 spatial working memory deficits.  The third possibility, where
 working memory deficits are fully independent of spatial attention
 deficits, would have this same property, and therefore, cannot be
 clearly differentiated from a problem of disconnection in the
-existing research. 
+existing research.
 
 To overcome this problem, a new version of the working memory
 task was created to minimize the possible reliance on spatial
 attention rehearsal mechanisms. Rather than asking participants to
 remember and recall strictly spatial information, memory for
-target colour (or a combination of colour *and* spatial location), 
+target colour (or a combination of colour *and* spatial location),
 was tested.  Placing the primary requirement of the
-task on colour processing reduces reliance on spatial attention
-and places any possible rehearsal mechanism requirements within
-the ventral stream, reducing the likelihood that measured
+task on colour, rather than spatial  
+processing, places possible rehearsal mechanism requirements within
+the ventral stream. Eliminating the utility of spatial attention 
+for rehursal, this reduces the likelihood that measured
 deficits would be the result of the hypothesized disrupted
 communication
 between the dorsal and ventral streams. If attention and working
@@ -140,4 +141,3 @@ of a similar degree of severity would be expected on this task as
 have been seen in past research employing a purely spatial WM
 task.  That is, WM deficits will be evident even when the
 involvement of spatial attention is low.
-

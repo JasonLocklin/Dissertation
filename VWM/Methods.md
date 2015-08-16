@@ -81,7 +81,7 @@ could make changes to their response an unlimited number of times
 until they were satisfied they had accurately indicated the
 colour.  Note that in the single square condition, there were no
 non-target squares, and there would only be one outline, so the
-task was essentially to remember the colour of a single stimuli
+task was essentially to remember the colour of a single stimulus
 without any need to remember locations.  In the two and three
 square conditions, only one of the two or three probes was
 highlighted, and the participant would be required to recall the
@@ -195,8 +195,8 @@ relevant to the task.
 For the covert orienting task, response times were recorded and
 cue-effect sizes (CES) were calculated for each trial category to
 measure the effects of leftward and rightward re-orienting.
-Leftward cue-effect size, the measure of importance with regards
-to neglect, was calculated by subtracting reaction times (RTs) to
+Leftward cue-effect size, the measure particularily senstive to the leftward re-orienting
+deficits in neglect [@Posner1984], was calculated by subtracting reaction times (RTs) to
 validly cued, right-sided targets
 from RTs to invalidly cued, left-sided targets, separately for each SOA.
 Both trial types involve right-sided cues, and the difference
