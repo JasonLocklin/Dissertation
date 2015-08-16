@@ -70,7 +70,7 @@ spatial attention [@Striemer2007; @Nijboer2008], researchers have
 begun to recognize an increasing number of neglect deficits that
 are not improved by prism adaptation [@Rousseaux2006;
 @Striemer2010tpd].  Many of these findings make use of perceptual
-tasks, such the perceptual judgment of spatial extent
+tasks, such as the perceptual judgment of spatial extent
 [@Dijkerman2003; @Striemer2010dpm], and chimeric faces
 tasks[@Ferber2003; @Sarri2006].  It may be the case then that
 prisms operate on neural systems important for the deployment of
@@ -131,7 +131,7 @@ target colour (or a combination of colour *and* spatial location),
 was tested.  Placing the primary requirement of the
 task on colour, rather than spatial  
 processing, places possible rehearsal mechanism requirements within
-the ventral stream. Eliminating the utility of spatial attention 
+the ventral stream. Eliminating the utility of spatial attention
 for rehursal, this reduces the likelihood that measured
 deficits would be the result of the hypothesized disrupted
 communication

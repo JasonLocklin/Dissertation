@@ -63,7 +63,8 @@ was presented for 500ms, followed by a memory sample which
 consisted of either 1, 2, or 3 squares of different colours
 presented, vertically aligned, to the right of fixation for 500ms.
 The coloured squares could appear in any one of 16 different
-locations in the vertical column.  Following the memory sample, a
+locations in the vertical column and were always different.  
+Following the memory sample, a
 blank delay, containing only the fixation cross, was displayed for
 1000ms.  Following the delay, a probe display was presented that consisted
 of the colour bar and black outlines of the previously presented
@@ -153,7 +154,9 @@ and @Bays2009 (Figure \ref{fig_Emrich2012}).
 
 For each trial, these measures were calculated based on the
 physical location of the participant's response relative to the
-true colour of the target square on the colour bar.
+true colour of the target square on the colour bar (the colorspace
+was as used in @Emrich2012 --- i.e., cyclical, so the extreme ends
+of the color bar were continouous in the analysis).
 First, a probability that the
 participant indicated the correct target colour, $P_T$,
 was made relative to the

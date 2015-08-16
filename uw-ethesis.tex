@@ -16,7 +16,8 @@
 \usepackage{textcomp}
 
 \usepackage{setspace} %Used for double spacing
-\usepackage{babel} %Language functions for references
+%\usepackage{babel} %Language functions for references
+\usepackage[american]{babel}
 \usepackage{csquotes}
 \usepackage{lineno} %line numbering (for drafts)
 \usepackage{array} %used for math mode in table aod
@@ -63,10 +64,19 @@
 %\usepackage[]{babel}% Recommended
 \usepackage{csquotes}% Recommended
 \usepackage[backend=biber,date=short,maxcitenames=2,style=apa,uniquename=false,apabackref=true]{biblatex}
-\DeclareLanguageMapping{british}{british-apa}
+
+\DeclareLanguageMapping{english}{american-apa}
 % \bibliography{<mybibfile>}% ONLY selects .bib file; syntax for version <= 1.1b
 \addbibresource{Dissertation.bib}% Syntax for version >= 1.2
 \addbibresource{misc.bib}
+
+% Suppress article month and day from bibliography
+\AtEveryBibitem{%
+  \clearfield{day}%
+  \clearfield{month}%
+  \clearfield{endday}%
+  \clearfield{endmonth}%
+}
 % Figure locations
 \graphicspath{ {Prisms/}{VWM/}{SA/} }
 

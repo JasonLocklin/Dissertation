@@ -139,10 +139,7 @@ new location.
 experiments.  The upper portion depicts the on-screen stimuli
 presented during an individual trial, while the lower portion
 depicts expected eye movement relative to target onset and
-perturbations. The case study (described later) utilized the same
-timing, but involved different initial target direction, saccade
-direction, and involved saccadic augmentation, rather than
-reduction.}
+perturbations.}
 \label{fig_SA}
 \end{figure}
 
@@ -205,7 +202,7 @@ identified saccades than fixations (eliminating trials with large
 drift during fixations).  They were also required to contain at
 least one and at most two saccades in the short window of a trial
 (3 or more saccades in a single trial usually indicated erratic
-eye movement recording --often due to partial pupil occlusion).
+eye movement recording --- often due to partial pupil occlusion).
 Trials with temporal gaps in samples, which occur during blinks or
 large head movements, were not included. This stringent criteria
 resulted in an inclusion rate of approximately half (56\%), but
@@ -241,6 +238,6 @@ third of the first block considered as a pseudo-baseline, to be
 compared with the final third of each of the subsequent blocks
 (i.e., $Effect_{N} = \overline{N}_b - \overline{1}_a$). For the
 first block, this is simply a measure of the change from the
-beginning to end of the block of adaptation, whereas for the third
-block, the difference represents the cumulative effect of three blocks of
+beginning to end of the block of adaptation, whereas for the fourth block,
+the difference represents the cumulative effect of four blocks of
 adaptation.
