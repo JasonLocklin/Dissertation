@@ -1,7 +1,7 @@
 Can saccadic adaptation improve both action and perception?
 ===========================================================
 
-The previous chapter failed to demonstrate the effectiveness of prism 
+The previous chapter failed to demonstrate the effectiveness of prism
 adaptation for improving both spatial working memory and temporal
 estimation. This can be explained by the dorsal-ventral
 disassociation, as these tasks were chosen because of their
@@ -27,13 +27,13 @@ perceptual, effects, and the degree to which each of these is
 present is contentious [@Redding2005; @Herlihey2012].
 
 [Saccadic adaptation as an alternative] Another visuomotor
-adaptation procedure, called saccadic adaptation, -- a task that
+adaptation procedure, called saccadic adaptation, --- a task that
 changes saccade length by jumping targets forward or backward as a
 saccade is initiated, inducing an artificial dysmetria
-[@McLaughlin1967] -- offers a potential alternative approach to
+[@McLaughlin1967] --- offers a potential alternative approach to
 overcome some of the shortcomings of prism adaptation. That is,
 saccadic adaptation exclusively influences visual reference
-frames, and as a result, may be more likely to induce changes to 
+frames, and as a result, may be more likely to induce changes to
 perceptual processes.
 In fact, saccades straddle the
 perceptual and motor systems in a highly unique way.  Saccadic
@@ -127,7 +127,7 @@ saccadic adaptation can influence perception.
 
 The current chapter sets out to examine the potential for saccadic
 adaptation as a tool for examining the types of perceptual bias
-observed in neglect, and as a first step toward assessing it as an 
+observed in neglect, and as a first step toward assessing it as an
 alternative to prism adaptation for the rehabilitation of the
 disorder. Despite it's relatively long history of use in
 psychophysics, the application of saccadic adaptation in clinical
@@ -140,10 +140,10 @@ performance on a serial visual search task in hemianopic patients
 [@Lvy-Bencheton2012]. It has also been successfully used to
 improve reading ability in an elderly patient with an acquired
 oculomotor apraxia and other degenerative disorders that caused
-gaze abnormalities [@Desestret2013]. 
+gaze abnormalities [@Desestret2013].
 
 Because of the dearth of research, the clinical application of
 saccadic adaptation on disorders like neglect is unknown. The
 current chapter examined the influence of
 saccadic adaptation on perception and action by using landmark and
-line bisection tasks. 
+line bisection tasks.

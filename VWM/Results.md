@@ -17,8 +17,8 @@ not reach significance
 ($F(2,22) = 3.19$, $\text{p} = 0.06$). The interaction between the
 two was also non-significant
 ($F(4,44) = 0.88$, $\text{p} = 0.4$). *Post hoc* multiple
-comparisons, using Tukey's HSD, indicated that the near-significant
-group effect was the result of a possible age effect between young
+comparisons, using Tukey's HSD, indicated that the above, near-significant,
+group effect was the driven by a possible age effect between young
 adults and patients
 ($\overline{M}_{\text{diff}} = 0.6$, $\text{p} = 0.05$). While
 the other age-related contrast was not significant
@@ -233,15 +233,16 @@ demonstrated deficits from the two tasks.
 Specifically, a logistic regression was computed based on
 predicting group with just CES in an initial model, and then
 sequentially adding the
-two visual working memory deficits ($P_{NT}$, and $P_G$ from the
-single target condition) in a second and third step. This order was
+two visual working memory deficits ($P_G$ from the
+single target condition, and $P_{NT}$) in a second and third step. This order was
 chosen in order to examine visual working memory as a predictor
 of the patient group beyond (i.e., partialled on) the attentional
 deficits measured with the covert orienting task. In order to
-model the complete data set of 8 patients, the patient CES data was
-"Winsorized," substituting values of 2 standard deviations greater
-than the group mean for the three patients who failed to orient
-leftward. This procedure emphasizes any contribution of CES, at the risk
+model the complete data set of 8 patients, values of 2 standard deviations
+greater than the group mean were substituted for the three patients who
+failed to orient leftward
+(i.e., the data was Winsorized).
+This procedure emphasizes any contribution of CES, at the risk
 of over-emphasizing it, and in doing so, makes later estimates of
 visual working memory contributions more conservative.
 

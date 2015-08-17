@@ -66,7 +66,8 @@ adaptation, because it is non-aversive, and because it has been
 shown to produce effects lasting much longer than the treatment
 duration [@Rossetti1998; @Farne2002; @Frassinetti2002].
 Unfortunately, while prism adaptation produces striking changes in
-spatial attention [@Striemer2007; @Nijboer2008], researchers have
+spatial attention, specifically, reducing in the disengagement deficit
+on covert orienting tasks [@Striemer2007; @Nijboer2008], researchers have
 begun to recognize an increasing number of neglect deficits that
 are not improved by prism adaptation [@Rousseaux2006;
 @Striemer2010tpd].  Many of these findings make use of perceptual
@@ -125,12 +126,14 @@ existing research.
 
 To overcome this problem, a new version of the working memory
 task was created to minimize the possible reliance on spatial
-attention rehearsal mechanisms. Rather than asking participants to
+attention being employed as a rehearsal mechanism.
+Rather than asking participants to
 remember and recall strictly spatial information, memory for
-target colour (or a combination of colour *and* spatial location),
-was tested.  Placing the primary requirement of the
+target colour (or a combination of colour *and* spatial arrangement),
+was tested.  While spatial attention is likely involved, in some way, with
+any visual task, placing the primary requirement of the
 task on colour, rather than spatial  
-processing, places possible rehearsal mechanism requirements within
+processing, places any possible rehearsal mechanism requirements within
 the ventral stream. Eliminating the utility of spatial attention
 for rehursal, this reduces the likelihood that measured
 deficits would be the result of the hypothesized disrupted

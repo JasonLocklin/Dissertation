@@ -7,9 +7,9 @@ Eight patients with right parietal damage who had shown clinical
 symptoms of neglect in previous testing were recruited from the
 Neurological Patient Database (funded through the Heart and Stroke
 Foundation of Ontario,
-<https://uwaterloo.ca/neurological-patient-database>). 
+<https://uwaterloo.ca/neurological-patient-database>).
 Two patients were unable to return for the second phase of the
-experiment because of extenuating circumstances. 
+experiment because of extenuating circumstances.
 As can be seen in Table \ref{tbl_Prisms}, the remaining six
 patients demonstrated a wide range of performance on the clinical
 tasks at time of testing, including two who were no longer
@@ -21,7 +21,7 @@ analysis.
 The study was approved by the University
 of Waterloo's Office of Research Ethics, and the Tri-Hospital
 Research Ethics board.  All patients were tested at least 19
-months post-stroke. 
+months post-stroke.
 
 \input{Prisms/tbl_Prisms.tex}
 
@@ -29,15 +29,15 @@ months post-stroke.
 
 Patients participated in at least two sessions. The two sessions
 were intended to differ only in the presence or absence of prism
-adaptation. 
+adaptation.
 During prism adaptation, patients alternately pointed to targets on a
 table-top to the left and right of body mid-line every 2--3 seconds
 for 5 minutes. Prism glasses were worn that shifted vision
 10$^\circ$ to the right and visibility of hand movement was not
 artificially occluded (concurrent visual feedback).
 
-As in the previous chapter, patients were tested for symptoms of
-neglect using four standard clinical measures. These were line
+Patients were tested for symptoms of
+neglect using four standard clinical measures, including line
 bisection, figure copying, and two cancellation tasks: "stars" and
 "bells" [@Wilson1987]. The four tasks were completed at the
 beginning of every session.  Line bisection was also performed
@@ -59,7 +59,7 @@ last chapter [@Ferber2006]. Patients were seated at a viewing
 distance of approximately 60 cm, with their head and body axis
 aligned (no chin-rest was used, optical angles presented below are
 therefore approximate). The task was programmed in Visual Basic
-Version 6.0 (Microsoft Inc.). 
+Version 6.0 (Microsoft Inc.).
 The task was the same as described in
 @Ferber2006. At the beginning of each trial, patients fixated a
 red central cross. Once fixated, the experimenter began the trial
@@ -70,7 +70,7 @@ could appear in any of 16 different locations, however, targets
 were always separated from one-another by at least 2$^\circ$.
 
 The targets remained on-screen for 2 seconds which was followed by
-a delay of 3 seconds. Following the delay a probe 
+a delay of 3 seconds. Following the delay a probe
 stimulus (a circle of the same size
 as the target squares) was presented at one of the 16 possible
 locations. The probe remained on the screen until a response was
@@ -82,17 +82,17 @@ previously occupied by a target. A total of 120 trials constituted
 a single session.  In 50% of trials, the circle appeared in the
 same position as one of the preceding squares.
 
-\begin{figure}[p] 
-\centering 
-\includegraphics[height=0.7\textheight]{fig_Prisms.pdf.png} 
+\begin{figure}[p]
+\centering
+\includegraphics[height=0.7\textheight]{fig_Prisms.pdf.png}
 \caption{Figure upper panel (a) depicts one trial of the temporal
 estimation task.  The numbers were randomly selected and displayed
 at random times (though, not at the very beginning or end of the
 trial).  The lower panel (b) depicts the spatial working memory
 task. The trial depicted is a valid trial, as the probe
 (circle) is in the same location as one of the initial three
-targets (squares).} 
-\label{fig_Prisms} 
+targets (squares).}
+\label{fig_Prisms}
 \end{figure}
 
 
@@ -100,11 +100,11 @@ targets (squares).}
 
 The temporal estimation task was displayed on the same
 computer as the spatial working memory task, but was programmed in E-Prime
-(Psychology Software Tools). As with the spatial working memory task, 
+(Psychology Software Tools). As with the spatial working memory task,
 patients gave
 verbal responses, and the experimenter entered those responses and
 controlled the task via the keyboard. The task was identical to
-that described in @Danckert2007. 
+that described in @Danckert2007.
 In order to provide a stimulus for the participant to attend to, an
 illusory motion stimulus was presented that consisted of eight
 open circles (each subtending 3.5$^\circ$), arranged in a larger circle
@@ -155,4 +155,4 @@ the patients reported. For each patient, a mean of reported times
 was calculated for each time interval, both for pre and post
 prisms data. Individual linear models were also computed to provide a
 measure of the relationship between true trial durations and
-reported durations. 
+reported durations.

@@ -2,11 +2,8 @@ Prism adaptation does not improve deficits in spatial working memory or temporal
 ============================================================================================
 
 The previous chapter demonstrated that the working memory deficits
-observed in neglect are not constrained strictly to the spatial
-domain, and are unlikely to be a direct effect of an
-inability to utilize spatial attention --- either due to spatial
-attention deficits specifically, or an inability to access those
-networks for spatial rehearsal [@Awh2001].
+observed in neglect are not constrained strictly to a an
+inability to utilize spatial attention [@Awh2001].
 This working memory deficit joins several perceptual
 deficits demonstrated in neglect that stand apart from the
 traditionally described deficits of spatial attention.
@@ -21,23 +18,29 @@ effectiveness may not extend to more integrated, perceptual tasks
 such as serial visual search [@Morris2004].
 
 Visual search involves successive steps that make use of
-several systems, including perceptual judgment of stimulus
-identity, and, spatial memory of searched locations.
+several systems, including both perception and working memory.
 While patients do not seem
 to have trouble discerning the stimulus types used in visual
 search, eye-tracking research has demonstrated that even young,
 healthy, individuals can occasionally fixate, or even interact
 with targets, but still fail to identify them [@Rich2008;
 @Solman2012], highlighting that reduced perceptual
-judgment can play a role in
-diminished search performance.  Diminished performance could
+judgment can play a role in search performance.  
+Diminished performance could
 also come from the search algorithm itself.  People do not search
 targets in a completely random order, necessitating a role for
-spatial working memory in directing search based on previously
-visited locations. The revisiting behaviour observed
-when neglect patients perform object cancellation tasks suggests
-a sub-optimal memory of those locations
-[@Wojciulik2001; @Husain2001].
+working memory in directing search based on previously
+visited locations. Patients with neglect often exhibit revisiting behaviors ---
+returning to previously checked items repeatedly. This may be the
+result of working memory deficits, where patients fail
+to maintain accurate representations of progress [@Wojciulik2001; @Husain2001].
+The visual search task is both a spatial task and one of serial behavior ---
+searching from one location to another over time ---
+and so both the spatial working memory deficits discussed earlier, as well as
+deficits impacting time perception [@Danckert2007] could account for the behavior.  
+
+
+
 
 [Prisms influence dorsal stream] The reliable effect of prisms on
 remediating spatial attention deficits, along with the simultaneous

@@ -15,7 +15,9 @@ handed, mean age of 66; Table \ref{tbl_VWM}), and
 a healthy older control group of eight individuals
 recruited from the University of
 Waterloo's Research on Aging Participant pool (3 male, handedness
-untested, mean age of 74).  All of the neurological patients were
+untested, mean age of 74).  The healthy older control group were all
+neurologically intact, and so were not asked to perform clinical measures
+of neglect. All of the neurological patients were
 at least 9 months post injury. The study was approved by the
 University of Waterloo's Office of Research Ethics, and the
 Tri-Hospital Research Ethics board.  The two groups were not
@@ -53,8 +55,9 @@ by @Emrich2012.  It was presented on a Dell Latitude D820 Laptop
 with Windows XP and executed by Matlab on the built-in 8.5x13"
 screen. Instead of squares and a colour wheel surrounding central
 fixation, as used by @Emrich2012, the colour wheel was replaced
-with a vertical colour bar and all stimuli appeared to the right
-of centre in order to minimize the impact of spatial attention
+with a vertical colour bar so that all stimuli appeared to the right
+of centre and at a relatively consistent eccentricity
+in order to minimize the impact of spatial attention
 deficits on working memory performance (Figure \ref{fig_Ch1-task}).
 
 A trial sequence for the visual working memory task was as follows:
