@@ -73,7 +73,7 @@ are not improved by prism adaptation [@Rousseaux2006;
 @Striemer2010tpd].  Many of these findings make use of perceptual
 tasks, such as the perceptual judgment of spatial extent
 [@Dijkerman2003; @Striemer2010dpm], and chimeric faces
-tasks[@Ferber2003; @Sarri2006].  It may be the case then that
+tasks [@Ferber2003; @Sarri2006].  It may be the case then that
 prisms operate on neural systems important for the deployment of
 attention, but have little to no effect on those mechanisms needed
 to form accurate perceptual representations.
@@ -110,8 +110,8 @@ upon spatial working memory. If this was the case, though, we
 might expect these deficits to improve as a result of improvement
 in attention deficits, and this does not appear to be the case
 [@Striemer2010tpd; @Striemer2010dpm; @Ferber2003; @Sarri2006]. In
-the second case, of disrupted access to attention by working
-memory networks that would then prevent patients from utilizing
+the second case, disrupted access to attention by working
+memory networks prevents patients from utilizing
 spatial attention as a rehearsal mechanism.
 This could be due to a compromise of the dorsal and
 ventral stream connectivity, arising from the neglect-inducing
@@ -134,8 +134,8 @@ was tested.  While spatial attention is likely involved, in some way, with
 any visual task, placing the primary requirement of the
 task on colour, rather than spatial  
 processing, places any possible rehearsal mechanism requirements within
-the ventral stream. Eliminating the utility of spatial attention
-for rehursal, this reduces the likelihood that measured
+the ventral stream. By eliminating the utility of spatial attention
+for rehearsal, this reduces the likelihood that measured
 deficits would be the result of the hypothesized disrupted
 communication
 between the dorsal and ventral streams. If attention and working
@@ -143,4 +143,4 @@ memory deficits are indeed independent in neglect, then deficits
 of a similar degree of severity would be expected on this task as
 have been seen in past research employing a purely spatial WM
 task.  That is, WM deficits will be evident even when the
-involvement of spatial attention is low.
+possible involvement of spatial attention is minimized.

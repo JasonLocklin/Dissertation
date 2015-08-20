@@ -181,8 +181,8 @@ and manually identifying the precise start and finish of each
 saccade, permitting accurate saccade length estimates.
 
 Speed data (unsigned horizontal velocity) was smoothed by
-convolution with a "hanning" window and then a "rolling maximum"
-of window size of 20ms.  A hanning window resembles a Gaussian
+convolution with a "Hanning" window and then a "rolling maximum"
+of window size of 20ms.  A Hanning window resembles a Gaussian
 distribution, but lacks long tails, so makes an effective
 smoothing filter, emphasizing local characteristics, $w(n) = 0.5\;
 \left(1 - \cos \left ( \frac{2 \pi n}{N-1} \right) \right)$). A

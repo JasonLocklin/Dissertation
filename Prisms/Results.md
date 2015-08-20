@@ -106,8 +106,8 @@ As a group, the neglecting patients showed a significant change in
 line bisection bias after prism adaptation in the direction
 traditionally seen in the research when a one-sided test was used
 (Patient 27 removed, $t(4)=2.6$, $\text{p} = 0.03$).  Individual
-t-tests on the sets of line bisections for each patient, with a bonferonni
-adjusted criterian ($\alpha = 0.008$), demonstrated
+t-tests on the sets of line bisections for each patient, with a Bonferonni
+adjusted criterion ($\alpha = 0.008$), demonstrated
 a relatively consistent effect across individuals. As can be seen
 in Figure \ref{fig_LB_Prisms}, the changes were nearly-universally
 leftward excepting Patient 27.
@@ -117,7 +117,7 @@ $\text{p} < 0.001$, $t(18)=3.2$, $\text{p} < 0.008$,
 respectively).  Patient 27 demonstrates a direction of change
 opposite to what is expected, and what the rest of the
 participants show, but this change is non-significant with the
-bonferonni adjusted criteria ($\alpha = 0.008$, $t(18)=-2.70$,
+Bonferonni adjusted criteria ($\alpha = 0.008$, $t(18)=-2.70$,
 $\text{p} = 0.015$).  Patient 10 produced the largest average
 difference in bias, but was also highly variable, and as a result,
 did not demonstrate statistically significant change ($t(12)=1.9$,

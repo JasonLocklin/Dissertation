@@ -120,7 +120,7 @@ The three-square condition of visual working memory task is depicted.}
 
 #### Covert Orienting of Attention Task
 
-The covert orienting task (@Posner1978; @Posner1980) was identical
+The covert orienting task [@Posner1978; @Posner1980] was identical
 to that used by @Striemer2007 and was run on the same computer
 as the visual working memory task described above. It was
 programmed and run in Superlab (Cedrus Software). Participants
@@ -147,37 +147,40 @@ encourage participants to maintain fixation.
 
 #### Visual Working Memory Task
 The visual working memory task recorded the exact colour value
-selected by the participant.  From this, several measures were
-calculated: the probability that the response represented an
+selected by the participant.  From this, the probabilistic model described in @Emrich2012
+and @Bays2009 (Figure \ref{fig_Emrich2012}) was used. The model 
+provides an optimal distribution with both amplitude and variance
+fit to the response data about the correct target colour (and
+again, for non-targets where appropriate). From these 
+distributions, three probabilities are computed for each
+trial: 
+the probability that the response represented an
 attempt at selecting the correct colour ($P_T$), one of the
 non-target colours ($P_{NT}$, in the two and three square
-conditions), or simply represented a random guess ($P_G$), was
-calculated with the probabilistic model described in @Emrich2012
-and @Bays2009 (Figure \ref{fig_Emrich2012}).
+conditions), or simply represented a random guess ($P_G$).
 
 For each trial, these measures were calculated based on the
-physical location of the participant's response relative to the
-true colour of the target square on the colour bar (the colorspace
+physical location of the participant's response relative to response
+distribution model centred on the
+true colour of the target square on the colour bar (the colour-space
 was as used in @Emrich2012 --- i.e., cyclical, so the extreme ends
-of the color bar were continouous in the analysis).
+of the colour bar were continuous in the analysis).
 First, a probability that the
 participant indicated the correct target colour, $P_T$,
-was made relative to the
-magnitude of the location on a Gaussian distribution centred
-around the exact target colour.  If the trial type included more
+was based on the
+correct response distribution model.  If the trial type included more
 than one initial box, then the probability that the response was
 made to a
 non-target, $P_{NT}$, was calculated in the same way but based on
-the colours of the non-target squares. Lastly, the
+the colours of the non-target squares. Finally, the
 probability that the patient guessed randomly is based on a flat
-distribution, however the above distributions were chosen so that this
+distribution, chosen so that this
 was effectively the remainder (i.e., $P_G = 1 - (P_T + P_{NT})$).
-To compute an estimate of the precision of target responses, the
+To provide an estimate of the precision of target responses, the
 $SD$ of the probability model used to compute the above three
 components was also recorded. This provides a measure of the
-spatial response precision of those trials where the patient
-successfully recalls and reports a viewed colour (i.e., $P_T$ and
-$P_{NT}$), providing a basic measure of perceptual-motor ability,
+spatial response precision of those trials,  
+providing a basic measure of perceptual-motor ability,
 relevant to the task.
 
 
@@ -201,7 +204,7 @@ relevant to the task.
 For the covert orienting task, response times were recorded and
 cue-effect sizes (CES) were calculated for each trial category to
 measure the effects of leftward and rightward re-orienting.
-Leftward cue-effect size, the measure particularily senstive to the leftward re-orienting
+Leftward cue-effect size, the measure particularly sensitive to the leftward re-orienting
 deficits in neglect [@Posner1984], was calculated by subtracting reaction times (RTs) to
 validly cued, right-sided targets
 from RTs to invalidly cued, left-sided targets, separately for each SOA.

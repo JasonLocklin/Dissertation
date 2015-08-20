@@ -183,8 +183,8 @@ two domains in neglect.
 Most rehabilitation techniques implemented in neglect focus on
 remediating impairments of attention. If attention deficits
 are indeed distinct from working memory impairments as suggested 
-here and elsewhere (e.g.; @Husain2001; @Danckert2006;
-@Striemer2013), then this rehabilitation strategy will fail to
+here and elsewhere [e.g.; @Husain2001; @Danckert2006;
+@Striemer2013], then this rehabilitation strategy will fail to
 address this domain, and may leave patients with untreated
 symptoms.  The next chapter addresses this question by examining
 the effects of a prominent rehabilitation technique on

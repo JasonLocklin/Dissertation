@@ -55,7 +55,7 @@ simultaneously with an ipsilesional stimulus --- the 'disengage
 deficit' describes a general attentional "stickiness" where-by
 rightward stimuli attract and capture attention to the exclusion
 of leftward stimuli [for a review, see @Losier2001].
-Posner and colleagues \citeyear{Posner1984}
+Posner and colleagues (\citeyear{Posner1984})
 used a covert orienting task in which participants must detect
 peripheral targets that can be validly or invalidly cued [i.e.,
 cue and target presented at the same or opposite locations
@@ -100,7 +100,7 @@ visual imagery [@Rode2001], and postural balance [@Tilikete2001] are
 improved by the technique.
 
 [Failures of prisms] Despite the long list of symptoms that prisms
-have been shown to ameliorate, more recent randomized controlled
+have been shown to ameliorate, more recent randomized control
 trials have failed to show prisms as an efficacious rehabilitation
 treatment [@Nys2008; @Turton2010]. Additionally, when an effort is
 made to examine attention and perception more directly, the
