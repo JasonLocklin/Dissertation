@@ -76,7 +76,8 @@ and would change in progressively smaller steps from trial to
 trial (i.e., a staircase procedure).  This allowed a precise
 estimation of the subjective point of equality via a staircase
 method using up to 20 trials (less if the staircase settled on a
-stable response earlier).  Again, the stimuli remained on screen
+stable response earlier, with 3 consecutive reversals).  
+Again, the stimuli remained on screen
 until a response was registered (Figure \ref{fig_Landmark}).
 
 \begin{figure}[p]
