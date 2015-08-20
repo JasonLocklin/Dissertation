@@ -34,7 +34,8 @@ response precision
 \includegraphics{fig_VWM_Precision.pdf}
 \caption{Figure depicts the precision of responses (coded as 1/SD
 of the response distribution, so higher values indicate better
-performance).  The groups do not statistically differ in their
+performance).  Error bars depict 1 standard eror above and below
+the mean. The groups do not statistically differ in their
 ability to manually indicate their response precisely.}
 \label{fig_VWM_Precision}
 \end{figure}
