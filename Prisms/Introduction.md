@@ -91,7 +91,8 @@ ability to maintain accurate perceptual representations of his or
 her environment. Both spatial working memory
 and temporal perception are
 likely to be supported by mechanisms primarily located in the
-ventral stream. As such, we expected to find neglect patients
+ventral stream [@Danckert2007]. 
+As such, we expected to find neglect patients
 would continue to demonstrate deficits in these two tasks even
 after prism adaptation. More precisely, we expect prisms
 would remediate dorsal stream tasks, such as the clinical

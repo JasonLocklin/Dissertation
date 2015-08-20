@@ -1,13 +1,3 @@
-Scrap Heaers/Cleaner theme
-Add Limitations/Future directions slide(s)
-Study probability model papers and practice discussing it.
-
-Finish with figures
-Add introductory slides
-Add discussion slides
-
-Reading.
-
 sudo apt-get install inotify-tools python-pyinotify
 wget https://bitbucket.org/denilsonsa/small_scripts/raw/542edd54d290d476603e939027ca654b25487d85/sleep_until_modified.sh
 while ./sleep_until_modified.sh slides.tex; do pdflatex slides.tex -halt-on-error && cp slides.pdf presentation.pdf; done
@@ -27,6 +17,3 @@ Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
                                             30 31                 
 
 Errata
-Line 1026 should have \citeauthor
-1036 'circ'
-1037 "threshold emperically determined..."
