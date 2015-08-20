@@ -134,14 +134,11 @@ new location.
 	\tiny
 	\subimport{SA/}{SA/fig_SA_b.pdf_tex}
 \end{sffamily}
-\caption{Figure depicts saccadic adaptation trials for both
-experiments.  The upper portion depicts the on-screen stimuli
+\caption{Figure depicts saccadic adaptation trials.
+The upper portion depicts the on-screen stimuli
 presented during an individual trial, while the lower portion
 depicts expected eye movement relative to target onset and
-perturbations. The case study (described later) utilized the same
-timing, but involved different initial target direction, saccade
-direction, and involved saccadic augmentation, rather than
-reduction.}
+perturbations.}
 \label{fig_SA}
 \end{figure}
 
@@ -176,7 +173,7 @@ corrective saccades to the perturbed location afterwards. Rather
 than rely on the real-time saccade detection algorithm executed by
 Eyelink's own program, saccades were detected by smoothing and
 velocity thresholding the data after the experiment was complete
-(Using SciPy [@Jones2001]).
+[Using SciPy; @Jones2001].
 This allowed parameters to be chosen that matched human
 performance when viewing the eye-position data graphically
 and manually identifying the precise start and finish of each
@@ -192,7 +189,8 @@ rolling maximum accentuates sudden bursts of speed, eliminating
 long rise times, therefore making saccade onset and duration
 detection easier and more consistent from saccade to saccade.
 Saccades were detected based on a speed threshold of
-57$^circ$/second faster than the median trial speed (empirically
+57$^circ$/second faster than the median trial 
+speed (threshold empirically
 determined by visual verification). The analysis of an example
 trial is presented graphically in Figure \ref{fig_Saccade}.
 

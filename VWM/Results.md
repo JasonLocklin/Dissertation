@@ -78,7 +78,7 @@ young adults and older controls ($\overline{M}_{\text{diff}}
 
 \bigskip
 
-\includegraphics{fig_VWM_1Target.pdf.png}
+\includegraphics{fig_VWM_1Target.pdf}
 \end{sffamily}
 \caption{Figure depicts the probability of correct
 selection for the single square condition (i.e., the inverse of
@@ -142,7 +142,7 @@ another ($t(8) = 0.54$, $\text{p} = 0.6$).
 
 \begin{figure}[p]
 \centering
-\includegraphics{fig_VWM_MTarget.pdf.png}
+\includegraphics{fig_VWM_MTarget.pdf}
 \caption{Figure depicts non-target probability means (right) and
 guessing probability means (left) for the multi-square conditions
 (i.e., 1 and 2 non-target distractors).
@@ -210,7 +210,7 @@ negative values indicate faster invalid trials).
 
 \bigskip
 
-\includegraphics{fig_COVAT.pdf.png}
+\includegraphics{fig_COVAT.pdf}
 \end{sffamily}
 \caption{Figure depicts left CES of each of the 5 patients that
 were able to perform the COVAT.  Larger values indicate difficulty
