@@ -56,11 +56,9 @@ effect size that has been found in the literature [@Hopp2004].
 
 \bigskip
 
-\def\svgwidth{.9\textwidth}
+\def\svgwidth{\textwidth}
 \small{ \subimport{SA/}{SA/fig_Adaptation.pdf_tex}}
 \end{sffamily}
-
-
 
 \caption{Figure depicts the mean degree of adaptation observed in
 each block. Panel (a) is based on only test trials (i.e., those

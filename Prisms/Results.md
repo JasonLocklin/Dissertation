@@ -117,8 +117,8 @@ $\text{p} < 0.001$, $t(18)=3.2$, $\text{p} < 0.008$,
 respectively).  Patient 27 demonstrates a direction of change
 opposite to what is expected, and what the rest of the
 participants show, but this change is non-significant with the
-bonferonni adjusted criterian ($\alpha = 0.008$, $t(18)=-2.70$,
-$\text{p} = 0.015$).  Patient 408 produced the largest average
+bonferonni adjusted criteria ($\alpha = 0.008$, $t(18)=-2.70$,
+$\text{p} = 0.015$).  Patient 10 produced the largest average
 difference in bias, but was also highly variable, and as a result,
 did not demonstrate statistically significant change ($t(12)=1.9$,
 $\text{p} = 0.08$).  Patient 163 clearly did not show measurable
@@ -126,7 +126,16 @@ change post-prisms ($t(10)=1.2$, $\text{p} = 0.3$).
 
 \begin{figure}[p]
 \centering
-\includegraphics{fig_LB_Prisms.pdf.png}
+\begin{sffamily}
+\large Line Bisection Bias\\
+Before and After Prism Adaptation
+
+\bigskip
+
+\def\svgwidth{.9\textwidth}
+\small{ \subimport{Prisms/}{Prisms/fig_LB_Prisms.pdf_tex}}
+\end{sffamily}
+
 \caption{Figure depicts each individual's average line bisection
 performance pre- and post-prisms. Bars indicate the direction of
 bias, with values encoded as percentage of line length.}
