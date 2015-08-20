@@ -49,10 +49,10 @@ consistent from block to block.
 Each trial of the line bisection task began with a black screen.
 The participant was asked to place their finger on the keyboard
 space-bar. While the key was depressed, after a jittered time
-interval (on average $0.5$ seconds), a horizontal $25^\circ$
-(20cm) by $0.3^\circ$ white bar appeared on the screen. The line
+interval (on average $0.5$ seconds), a horizontal $25^{\circ}$
+(20cm) by $0.3^{\circ}$ white bar appeared on the screen. The line
 was always centred, but was vertically jittered from trial to
-trial by up to $6.6^\circ$. When the line appeared, the
+trial by up to $6.6^{\circ}$. When the line appeared, the
 participant was instructed touch the bar where they perceived the
 centre-most point was, as "quickly as possible." However, the line
 remained on screen for 1700ms, or until a touch-response was
@@ -63,8 +63,8 @@ to return their finger to the space-bar in order to proceed to the
 next trial. A block of the line bisection task consisted of 10 trials.
 
 Each trial of the landmark task began with a red fixation mark
-1.3$^\circ$ tall by 0.3$^\circ$ that appeared near the centre of
-the screen (jittered vertically by 6.6$^\circ$ from trial to
+1.3$^{\circ}$ tall by 0.3$^{\circ}$ that appeared near the centre of
+the screen (jittered vertically by 6.6$^{\circ}$ from trial to
 trial).  After 0.5 seconds, a horizontal, white bar of the same
 dimensions as used with the line bisection task appeared behind
 the red mark and remained on-screen for 1700ms. The red mark was
@@ -97,7 +97,7 @@ guesses randomly.}
 #### Saccadic Adaptation
 
 To the participant, saccadic adaptation appeared to involve
-visually following a 0.1$^\circ$ black square as it appeared at various
+visually following a 0.1$^{\circ}$ black square as it appeared at various
 places around the grey screen for a period of time (black-on-grey
 was chosen instead of the white-on-black as used for the other two
 tasks because of the lingering phosphorescence of the CRT screen
@@ -105,12 +105,12 @@ when a white-on-black target disappears). Their instructions were
 simply to follow the dots with their eyes.  Underlying this,
 however, were 100 trials involving central fixation (250ms),
 followed by a target in the left half of the screen (100ms,
-jittered by 50ms), then a target 16$^\circ$ ($\pm 1.6^\circ$) to
+jittered by 50ms), then a target 16$^{\circ}$ ($\pm 1.6^{\circ}$) to
 the right of the previous one. When an eye-movement away from the
 first target and toward the
 second was detected (by passing a threshold of distance
 between the two), the target was perturbed back toward the first
-target by 30% (5.4$^\circ$), simulating an overshoot, and intended
+target by 30% (5.4$^{\circ}$), simulating an overshoot, and intended
 to reduce saccade amplitude over time (i.e., hypometria; see
 Figure \ref{fig_SA} for an overview).  One in five trials were "test
 trials," where the target was not perturbed, but simply
@@ -189,8 +189,7 @@ rolling maximum accentuates sudden bursts of speed, eliminating
 long rise times, therefore making saccade onset and duration
 detection easier and more consistent from saccade to saccade.
 Saccades were detected based on a speed threshold of
-57$^circ$/second faster than the median trial 
-speed (threshold empirically
+57$^{\circ}$/second faster than the median trial speed (threshold empirically
 determined by visual verification). The analysis of an example
 trial is presented graphically in Figure \ref{fig_Saccade}.
 

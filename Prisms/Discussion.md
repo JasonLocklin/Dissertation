@@ -21,20 +21,20 @@ confirming the prism-induced shift of visual-motor bias in the
 patients.
 
 [SWM not remediated] The spatial working memory task, despite
-being spatial in nature, is designed to primarily test for 
+being spatial in nature, is designed to primarily test for
 ventrally-oriented working memory deficits, and relies on stimuli
 in central and right space, rather than left space, where the spatial
-attention defects associated with neglect predominate. 
+attention defects associated with neglect predominate.
 The locations of the targets need
 to not only be perceived, but recalled again after a delay, and
 that delay putatively causes the task to rely heavily on ventral,
 working memory systems [@Ferber2006; @Milner2006].
 While the patients did show
-statistically significant improvement as a group on the spatial 
+statistically significant improvement as a group on the spatial
 working memory task after prism adaptation, the
-change left all four neglecting patients with apparent deficits. 
+change left all four neglecting patients with apparent deficits.
 Post prisms, three out of four
-performed well outside of what would be expected 
+performed well outside of what would be expected
 in a previously studied control population.
 
 [TE also not improved] Even more prominently than the spatial working memory results,
@@ -50,11 +50,11 @@ brain lesions, and which produces heterogeneous deficits that can
 range from mild to severe and can recover over time in less than
 predictable degrees. As a result, there are going to be
 limitations to what can be inferred from treatment-effect studies
-like this when sample sizes are necessarily small.  However, 
-this chapter demonstrated that prisms can produce significant and
-relatively reliable change the the line bisection performance,
-while at the same time, failing to meaningfully ameliorate
-performance on the other domains that putatively rely on, ventral
+like this when sample sizes are necessarily small.  However,
+this chapter demonstrated that prisms can
+change line bisection performance,
+while at the same time, fail to meaningfully ameliorate
+performance in other domains that putatively rely on ventral
 stream processing. This lack of
 meaningful improvement fits the prediction that prisms --- a
 treatment demonstrated in the past to influence primarily dorsal brain
