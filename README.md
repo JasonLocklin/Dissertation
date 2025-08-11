@@ -1,6 +1,10 @@
 PhD Project Overview
 ===================
 
+Note: This archive has been migrated to the following location and may be removed from Github in the future:
+  - https://codeberg.org/JasonLocklin/Dissertation
+
+
 This the repository for my Phd Dissertation. General Introduction
 and Discussion are in the "General" folder. Source for chapters 1,
 2, and 3 are in "VWM", "Prisms", and "SA", respectively. 
